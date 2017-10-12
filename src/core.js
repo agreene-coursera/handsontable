@@ -876,13 +876,8 @@ export default function Core(rootElement, userSettings, rootInstanceSymbol = fal
     return numericData;
   }
 
-  function validateChanges(changes, source, callback) {
-    const waitingForValidator = new ValidatorsQueue();
-    const isNumericData = (value) => value.length > 0 && /^-?[\d\s]*(\.|,)?\d*$/.test(value);
-
-    waitingForValidator.onQueueEmpty = resolve;
-
-    for (let i = changes.length - 1; i >= 0; i--) {
+  function formatChanges(changes) {
+    for (var i = changes.length - 1; i >= 0; i--) {
       if (changes[i] === null) {
         changes.splice(i, 1);
       } else {
@@ -893,28 +888,40 @@ export default function Core(rootElement, userSettings, rootInstanceSymbol = fal
         if (cellProperties.type === 'numeric' && typeof newValue === 'string' && isNumericData(newValue)) {
           changes[i][3] = getParsedNumber(newValue);
         }
-
-        /* eslint-disable no-loop-func */
-        if (instance.getCellValidator(cellProperties)) {
-          waitingForValidator.addValidatorToQueue();
-          instance.validateCell(changes[i][3], cellProperties, (function(i, cellProperties) {
-            return function(result) {
-              if (typeof result !== 'boolean') {
-                throw new Error('Validation error: result is not boolean');
-              }
-              if (result === false && cellProperties.allowInvalid === false) {
-                changes.splice(i, 1); // cancel the change
-                cellProperties.valid = true; // we cancelled the change, so cell value is still valid
-                const cell = instance.getCell(cellProperties.visualRow, cellProperties.visualCol);
-                removeClass(cell, instance.getSettings().invalidCellClassName);
-                --i;
-              }
-              waitingForValidator.removeValidatorFormQueue();
-            };
-          }(i, cellProperties)), source);
-        }
       }
     }
+  }
+
+  function validateChanges(changes, source, callback) {
+    var waitingForValidator = new ValidatorsQueue();
+    waitingForValidator.onQueueEmpty = resolve;
+
+    for (var i = changes.length - 1; i >= 0; i--) {
+      var row = changes[i][0];
+      var col = datamap.propToCol(changes[i][1]);
+
+      var cellProperties = instance.getCellMeta(row, col);
+      /* eslint-disable no-loop-func */
+      if (instance.getCellValidator(cellProperties)) {
+        waitingForValidator.addValidatorToQueue();
+        instance.validateCell(changes[i][3], cellProperties, (function(i, cellProperties) {
+          return function(result) {
+            if (typeof result !== 'boolean') {
+              throw new Error('Validation error: result is not boolean');
+            }
+            if (result === false && cellProperties.allowInvalid === false) {
+              changes.splice(i, 1); // cancel the change
+              cellProperties.valid = true; // we cancelled the change, so cell value is still valid
+              const cell = instance.getCell(cellProperties.visualRow, cellProperties.visualCol);
+              removeClass(cell, instance.getSettings().invalidCellClassName);
+              --i;
+            }
+            waitingForValidator.removeValidatorFormQueue();
+          };
+        }(i, cellProperties)), source);
+      }
+    }
+
     waitingForValidator.checkIfQueueIsEmpty();
 
     function resolve() {
@@ -1115,6 +1122,8 @@ export default function Core(rootElement, userSettings, rootInstanceSymbol = fal
       source = col;
     }
 
+    formatChanges(changes);
+
     instance.runHooks('afterSetDataAtCell', changes, source);
 
     validateChanges(changes, source, () => {
@@ -1153,6 +1162,8 @@ export default function Core(rootElement, userSettings, rootInstanceSymbol = fal
     if (!source && typeof row === 'object') {
       source = prop;
     }
+
+    formatChanges(changes);
 
     instance.runHooks('afterSetDataAtRowProp', changes, source);
 
