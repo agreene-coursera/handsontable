@@ -998,11 +998,13 @@ export default function Core(rootElement, userSettings, rootInstanceSymbol = fal
       datamap.set(changes[i][0], changes[i][1], changes[i][3]);
     }
 
+    const changedRows = arrayMap(changes, ([row]) => recordTranslator.toVisualRow(row));
+
     instance.forceFullRender = true; // used when data was changed
     grid.adjustRowsAndCols();
     instance.runHooks('beforeChangeRender', changes, source);
     editorManager.lockEditor();
-    instance._refreshBorders(null);
+    instance._renderChangedRows(changedRows);
     editorManager.unlockEditor();
     instance.view.wt.wtOverlays.adjustElementsSize();
     instance.runHooks('afterChange', changes, source || 'edit');
@@ -3518,6 +3520,20 @@ export default function Core(rootElement, userSettings, rootInstanceSymbol = fal
   this._clearTimeouts = function() {
     for (var i = 0, ilen = this.timeouts.length; i < ilen; i++) {
       clearTimeout(this.timeouts[i]);
+    }
+  };
+
+  /**
+   * Triggers a rendering of just changed rows
+   * @private
+   * @param {Array} Array of visualRowIndexs that map to the changedRows
+   */
+  this._renderChangedRows = function(changedRows) {
+    editorManager.destroyEditor(null);
+    instance.view.render(changedRows);
+
+    if (selection.isSelected()) {
+      editorManager.prepareEditor();
     }
   };
 
