@@ -24,7 +24,7 @@
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  * 
  * Version: 2.0.0
- * Release date: 11/04/2018 (built at 10/04/2018 11:38:33)
+ * Release date: 11/04/2018 (built at 07/05/2018 17:48:54)
  */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
@@ -155,7 +155,7 @@ exports.resetCssTransform = resetCssTransform;
 exports.isInput = isInput;
 exports.isOutsideInput = isOutsideInput;
 
-var _browser = __webpack_require__(27);
+var _browser = __webpack_require__(28);
 
 var _feature = __webpack_require__(40);
 
@@ -6024,6 +6024,16 @@ module.exports = function (KEY, exec) {
 
 /***/ }),
 /* 27 */
+/***/ (function(module, exports) {
+
+var hasOwnProperty = {}.hasOwnProperty;
+module.exports = function (it, key) {
+  return hasOwnProperty.call(it, key);
+};
+
+
+/***/ }),
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6069,7 +6079,7 @@ function isMobileBrowser(userAgent) {
 }
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6136,22 +6146,12 @@ exports.getRegisteredValidatorNames = getNames;
 exports.getRegisteredValidators = getValues;
 
 /***/ }),
-/* 29 */
-/***/ (function(module, exports) {
-
-var hasOwnProperty = {}.hasOwnProperty;
-module.exports = function (it, key) {
-  return hasOwnProperty.call(it, key);
-};
-
-
-/***/ }),
 /* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var global = __webpack_require__(14);
 var hide = __webpack_require__(31);
-var has = __webpack_require__(29);
+var has = __webpack_require__(27);
 var SRC = __webpack_require__(48)('src');
 var TO_STRING = 'toString';
 var $toString = Function[TO_STRING];
@@ -6239,7 +6239,7 @@ module.exports = function (it) {
 
 var META = __webpack_require__(48)('meta');
 var isObject = __webpack_require__(9);
-var has = __webpack_require__(29);
+var has = __webpack_require__(27);
 var setDesc = __webpack_require__(20).f;
 var id = 0;
 var isExtensible = Object.isExtensible || function () {
@@ -7346,7 +7346,7 @@ module.exports = function (it) {
 /* 44 */
 /***/ (function(module, exports) {
 
-var core = module.exports = { version: '2.5.5' };
+var core = module.exports = { version: '2.5.3' };
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -7561,7 +7561,7 @@ module.exports = {};
 /***/ (function(module, exports, __webpack_require__) {
 
 var def = __webpack_require__(20).f;
-var has = __webpack_require__(29);
+var has = __webpack_require__(27);
 var TAG = __webpack_require__(11)('toStringTag');
 
 module.exports = function (it, tag, stat) {
@@ -8748,7 +8748,7 @@ var pIE = __webpack_require__(52);
 var createDesc = __webpack_require__(49);
 var toIObject = __webpack_require__(24);
 var toPrimitive = __webpack_require__(73);
-var has = __webpack_require__(29);
+var has = __webpack_require__(27);
 var IE8_DOM_DEFINE = __webpack_require__(98);
 var gOPD = Object.getOwnPropertyDescriptor;
 
@@ -10028,7 +10028,7 @@ var _editors = __webpack_require__(17);
 
 var _renderers = __webpack_require__(13);
 
-var _validators = __webpack_require__(28);
+var _validators = __webpack_require__(29);
 
 var _autocompleteType = __webpack_require__(254);
 
@@ -10157,7 +10157,7 @@ var _console = __webpack_require__(56);
 
 var _mixed = __webpack_require__(16);
 
-var _browser = __webpack_require__(27);
+var _browser = __webpack_require__(28);
 
 var _dataMap = __webpack_require__(263);
 
@@ -10181,7 +10181,7 @@ var _plugins = __webpack_require__(8);
 
 var _renderers = __webpack_require__(13);
 
-var _validators = __webpack_require__(28);
+var _validators = __webpack_require__(29);
 
 var _string = __webpack_require__(36);
 
@@ -11114,14 +11114,7 @@ function Core(rootElement, userSettings) {
     return numericData;
   }
 
-  function validateChanges(changes, source, callback) {
-    var waitingForValidator = new ValidatorsQueue();
-    var isNumericData = function isNumericData(value) {
-      return value.length > 0 && /^-?[\d\s]*(\.|,)?\d*$/.test(value);
-    };
-
-    waitingForValidator.onQueueEmpty = resolve;
-
+  function formatChanges(changes) {
     for (var i = changes.length - 1; i >= 0; i--) {
       if (changes[i] === null) {
         changes.splice(i, 1);
@@ -11137,28 +11130,40 @@ function Core(rootElement, userSettings) {
         if (cellProperties.type === 'numeric' && typeof newValue === 'string' && isNumericData(newValue)) {
           changes[i][3] = getParsedNumber(newValue);
         }
-
-        /* eslint-disable no-loop-func */
-        if (instance.getCellValidator(cellProperties)) {
-          waitingForValidator.addValidatorToQueue();
-          instance.validateCell(changes[i][3], cellProperties, function (i, cellProperties) {
-            return function (result) {
-              if (typeof result !== 'boolean') {
-                throw new Error('Validation error: result is not boolean');
-              }
-              if (result === false && cellProperties.allowInvalid === false) {
-                changes.splice(i, 1); // cancel the change
-                cellProperties.valid = true; // we cancelled the change, so cell value is still valid
-                var cell = instance.getCell(cellProperties.visualRow, cellProperties.visualCol);
-                (0, _element.removeClass)(cell, instance.getSettings().invalidCellClassName);
-                --i;
-              }
-              waitingForValidator.removeValidatorFormQueue();
-            };
-          }(i, cellProperties), source);
-        }
       }
     }
+  }
+
+  function validateChanges(changes, source, callback) {
+    var waitingForValidator = new ValidatorsQueue();
+    waitingForValidator.onQueueEmpty = resolve;
+
+    for (var i = changes.length - 1; i >= 0; i--) {
+      var row = changes[i][0];
+      var col = datamap.propToCol(changes[i][1]);
+
+      var cellProperties = instance.getCellMeta(row, col);
+      /* eslint-disable no-loop-func */
+      if (instance.getCellValidator(cellProperties)) {
+        waitingForValidator.addValidatorToQueue();
+        instance.validateCell(changes[i][3], cellProperties, function (i, cellProperties) {
+          return function (result) {
+            if (typeof result !== 'boolean') {
+              throw new Error('Validation error: result is not boolean');
+            }
+            if (result === false && cellProperties.allowInvalid === false) {
+              changes.splice(i, 1); // cancel the change
+              cellProperties.valid = true; // we cancelled the change, so cell value is still valid
+              var cell = instance.getCell(cellProperties.visualRow, cellProperties.visualCol);
+              (0, _element.removeClass)(cell, instance.getSettings().invalidCellClassName);
+              --i;
+            }
+            waitingForValidator.removeValidatorFormQueue();
+          };
+        }(i, cellProperties), source);
+      }
+    }
+
     waitingForValidator.checkIfQueueIsEmpty();
 
     function resolve() {
@@ -11353,6 +11358,8 @@ function Core(rootElement, userSettings) {
       source = col;
     }
 
+    formatChanges(changes);
+
     instance.runHooks('afterSetDataAtCell', changes, source);
 
     validateChanges(changes, source, function () {
@@ -11386,6 +11393,8 @@ function Core(rootElement, userSettings) {
     if (!source && (typeof row === 'undefined' ? 'undefined' : _typeof(row)) === 'object') {
       source = prop;
     }
+
+    formatChanges(changes);
 
     instance.runHooks('afterSetDataAtRowProp', changes, source);
 
@@ -15606,7 +15615,7 @@ module.exports = !__webpack_require__(22) && !__webpack_require__(23)(function (
 /* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var has = __webpack_require__(29);
+var has = __webpack_require__(27);
 var toIObject = __webpack_require__(24);
 var arrayIndexOf = __webpack_require__(100)(false);
 var IE_PROTO = __webpack_require__(76)('IE_PROTO');
@@ -15747,6 +15756,7 @@ var LIBRARY = __webpack_require__(65);
 var $export = __webpack_require__(3);
 var redefine = __webpack_require__(30);
 var hide = __webpack_require__(31);
+var has = __webpack_require__(27);
 var Iterators = __webpack_require__(50);
 var $iterCreate = __webpack_require__(208);
 var setToStringTag = __webpack_require__(51);
@@ -15773,7 +15783,7 @@ module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCE
   var VALUES_BUG = false;
   var proto = Base.prototype;
   var $native = proto[ITERATOR] || proto[FF_ITERATOR] || DEFAULT && proto[DEFAULT];
-  var $default = $native || getMethod(DEFAULT);
+  var $default = (!BUGGY && $native) || getMethod(DEFAULT);
   var $entries = DEFAULT ? !DEF_VALUES ? $default : getMethod('entries') : undefined;
   var $anyNative = NAME == 'Array' ? proto.entries || $native : $native;
   var methods, key, IteratorPrototype;
@@ -15784,7 +15794,7 @@ module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCE
       // Set @@toStringTag to native iterators
       setToStringTag(IteratorPrototype, TAG, true);
       // fix for some old engines
-      if (!LIBRARY && typeof IteratorPrototype[ITERATOR] != 'function') hide(IteratorPrototype, ITERATOR, returnThis);
+      if (!LIBRARY && !has(IteratorPrototype, ITERATOR)) hide(IteratorPrototype, ITERATOR, returnThis);
     }
   }
   // fix Array#{values, @@iterator}.name in V8 / FF
@@ -15818,7 +15828,7 @@ module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCE
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
-var has = __webpack_require__(29);
+var has = __webpack_require__(27);
 var toObject = __webpack_require__(33);
 var IE_PROTO = __webpack_require__(76)('IE_PROTO');
 var ObjectProto = Object.prototype;
@@ -16044,7 +16054,7 @@ var isObject = __webpack_require__(9);
 var anInstance = __webpack_require__(63);
 var forOf = __webpack_require__(64);
 var createArrayMethod = __webpack_require__(68);
-var $has = __webpack_require__(29);
+var $has = __webpack_require__(27);
 var validate = __webpack_require__(45);
 var arrayFind = createArrayMethod(5);
 var arrayFindIndex = createArrayMethod(6);
@@ -16204,7 +16214,7 @@ var notify = function (promise, isReject) {
       var resolve = reaction.resolve;
       var reject = reaction.reject;
       var domain = reaction.domain;
-      var result, then, exited;
+      var result, then;
       try {
         if (handler) {
           if (!ok) {
@@ -16214,11 +16224,8 @@ var notify = function (promise, isReject) {
           if (handler === true) result = value;
           else {
             if (domain) domain.enter();
-            result = handler(value); // may throw
-            if (domain) {
-              domain.exit();
-              exited = true;
-            }
+            result = handler(value);
+            if (domain) domain.exit();
           }
           if (result === reaction.promise) {
             reject(TypeError('Promise-chain cycle'));
@@ -16227,7 +16234,6 @@ var notify = function (promise, isReject) {
           } else resolve(result);
         } else reject(value);
       } catch (e) {
-        if (domain && !exited) domain.exit();
         reject(e);
       }
     };
@@ -16461,7 +16467,7 @@ module.exports.f = function (C) {
 
 // ECMAScript 6 symbols shim
 var global = __webpack_require__(14);
-var has = __webpack_require__(29);
+var has = __webpack_require__(27);
 var DESCRIPTORS = __webpack_require__(22);
 var $export = __webpack_require__(3);
 var redefine = __webpack_require__(30);
@@ -18825,7 +18831,7 @@ var _element = __webpack_require__(0);
 
 var _function = __webpack_require__(42);
 
-var _browser = __webpack_require__(27);
+var _browser = __webpack_require__(28);
 
 var _eventManager = __webpack_require__(6);
 
@@ -19087,7 +19093,7 @@ var _array = __webpack_require__(1);
 
 var _unicode = __webpack_require__(21);
 
-var _browser = __webpack_require__(27);
+var _browser = __webpack_require__(28);
 
 var _eventManager = __webpack_require__(6);
 
@@ -22380,7 +22386,7 @@ var _event = __webpack_require__(12);
 
 var _object = __webpack_require__(2);
 
-var _browser = __webpack_require__(27);
+var _browser = __webpack_require__(28);
 
 var _eventManager = __webpack_require__(6);
 
@@ -28637,7 +28643,7 @@ var _editors = __webpack_require__(17);
 
 var _renderers = __webpack_require__(13);
 
-var _validators = __webpack_require__(28);
+var _validators = __webpack_require__(29);
 
 var _cellTypes = __webpack_require__(87);
 
@@ -28665,7 +28671,7 @@ var _array = __webpack_require__(1);
 
 var arrayHelpers = _interopRequireWildcard(_array);
 
-var _browser = __webpack_require__(27);
+var _browser = __webpack_require__(28);
 
 var browserHelpers = _interopRequireWildcard(_browser);
 
@@ -28756,7 +28762,7 @@ Handsontable.DefaultSettings = _defaultSettings2.default;
 Handsontable.EventManager = _eventManager2.default;
 Handsontable._getListenersCounter = _eventManager.getListenersCounter; // For MemoryLeak tests
 
-Handsontable.buildDate = '10/04/2018 11:38:33';
+Handsontable.buildDate = '07/05/2018 17:48:54';
 Handsontable.packageName = 'handsontable';
 Handsontable.version = '2.0.0';
 
@@ -32613,7 +32619,7 @@ var _editors = __webpack_require__(17);
 
 var _renderers = __webpack_require__(13);
 
-var _validators = __webpack_require__(28);
+var _validators = __webpack_require__(29);
 
 var CELL_TYPE = 'autocomplete';
 
@@ -32656,7 +32662,7 @@ var _editors = __webpack_require__(17);
 
 var _renderers = __webpack_require__(13);
 
-var _validators = __webpack_require__(28);
+var _validators = __webpack_require__(29);
 
 var CELL_TYPE = 'date';
 
@@ -32680,7 +32686,7 @@ var _editors = __webpack_require__(17);
 
 var _renderers = __webpack_require__(13);
 
-var _validators = __webpack_require__(28);
+var _validators = __webpack_require__(29);
 
 var CELL_TYPE = 'dropdown';
 
@@ -32725,7 +32731,7 @@ var _editors = __webpack_require__(17);
 
 var _renderers = __webpack_require__(13);
 
-var _validators = __webpack_require__(28);
+var _validators = __webpack_require__(29);
 
 var CELL_TYPE = 'numeric';
 
@@ -32749,7 +32755,7 @@ var _editors = __webpack_require__(17);
 
 var _renderers = __webpack_require__(13);
 
-var _validators = __webpack_require__(28);
+var _validators = __webpack_require__(29);
 
 var CELL_TYPE = 'password';
 
@@ -32768,7 +32774,7 @@ exports.default = {
 
 exports.__esModule = true;
 
-var _browser = __webpack_require__(27);
+var _browser = __webpack_require__(28);
 
 var _editors = __webpack_require__(17);
 
@@ -32794,7 +32800,7 @@ var _editors = __webpack_require__(17);
 
 var _renderers = __webpack_require__(13);
 
-var _validators = __webpack_require__(28);
+var _validators = __webpack_require__(29);
 
 var CELL_TYPE = 'time';
 
@@ -34400,7 +34406,7 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 
 var _element = __webpack_require__(0);
 
-var _browser = __webpack_require__(27);
+var _browser = __webpack_require__(28);
 
 var _eventManager = __webpack_require__(6);
 
@@ -53198,7 +53204,7 @@ var _pluginHooks2 = _interopRequireDefault(_pluginHooks);
 
 var _element = __webpack_require__(0);
 
-var _browser = __webpack_require__(27);
+var _browser = __webpack_require__(28);
 
 var _base = __webpack_require__(10);
 
