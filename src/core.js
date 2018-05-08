@@ -876,6 +876,10 @@ export default function Core(rootElement, userSettings, rootInstanceSymbol = fal
     return numericData;
   }
 
+  function isNumericData(value) {
+    return value.length > 0 && /^-?[\d\s]*(\.|,)?\d*$/.test(value);
+  };
+
   function formatChanges(changes) {
     for (var i = changes.length - 1; i >= 0; i--) {
       if (changes[i] === null) {
