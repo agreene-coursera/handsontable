@@ -27,6 +27,7 @@ module.exports.create = function create(envArgs) {
         externalCssFiles: [
           'lib/normalize.css',
           '../dist/handsontable.full.min.css',
+          'helpers/common.css',
         ],
         externalJsFiles: [
           '../test/lib/phantom-reporter.js',
@@ -36,6 +37,7 @@ module.exports.create = function create(envArgs) {
           'lib/backbone.js',
           '../dist/handsontable.full.min.js',
           '../dist/numbro/languages.js',
+          '../dist/languages/all.min.js',
         ],
       })
     );

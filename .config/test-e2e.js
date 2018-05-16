@@ -42,6 +42,7 @@ module.exports.create = function create(envArgs) {
         externalCssFiles: [
           'lib/normalize.css',
           '../dist/handsontable.css',
+          'helpers/common.css',
         ],
         externalJsFiles: [
           '../test/lib/phantom-reporter.js',
@@ -54,6 +55,7 @@ module.exports.create = function create(envArgs) {
           '../dist/moment/moment.js',
           '../dist/pikaday/pikaday.js',
           '../dist/handsontable.js',
+          '../dist/languages/all.js',
         ],
       })
     );
