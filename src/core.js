@@ -1000,7 +1000,6 @@ export default function Core(rootElement, userSettings, rootInstanceSymbol = fal
 
     const changedRows = arrayMap(changes, ([row]) => recordTranslator.toVisualRow(row));
 
-    instance.forceFullRender = true; // used when data was changed
     grid.adjustRowsAndCols();
     instance.runHooks('beforeChangeRender', changes, source);
     editorManager.lockEditor();
@@ -2331,6 +2330,7 @@ export default function Core(rootElement, userSettings, rootInstanceSymbol = fal
       priv.cellSettings[physicalRow][physicalColumn] = new priv.columnSettings[physicalColumn]();
     }
     priv.cellSettings[physicalRow][physicalColumn][key] = val;
+
     instance.runHooks('afterSetCellMeta', row, col, key, val);
   };
 
@@ -3530,7 +3530,7 @@ export default function Core(rootElement, userSettings, rootInstanceSymbol = fal
    */
   this._renderChangedRows = function(changedRows) {
     editorManager.destroyEditor(null);
-    instance.view.render(changedRows);
+    instance.view.selectiveRender(changedRows);
 
     if (selection.isSelected()) {
       editorManager.prepareEditor();

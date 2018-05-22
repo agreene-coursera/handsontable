@@ -40,11 +40,11 @@ class TableRenderer {
     this.columnHeaderCount = 0;
     this.fixedRowsTop = 0;
     this.fixedRowsBottom = 0;
+    this.firstRenderedSourceIndex = 0;
   }
 
   /**
-   * Renders table or specific rows if specified
-   * @param {Array} array of visualRowIndexs to specifically render
+   * Renders table
    */
   render(rowsToRender) {
     if (!this.wtTable.isWorkingOnClone()) {
@@ -70,6 +70,15 @@ class TableRenderer {
     let workspaceWidth;
     let adjusted = false;
 
+    if (rowsToRender && totalColumns >= 0) {
+      this.renderSpecificRows(rowsToRender, columnsToRender);
+      if (!this.wtTable.isWorkingOnClone()) {
+        this.wot.wtViewport.createVisibleCalculators();
+      }
+      this.wot.getSetting('onDraw', true);
+      return;
+    }
+
     if (Overlay.isOverlayTypeOf(this.wot.cloneOverlay, Overlay.CLONE_BOTTOM) ||
       Overlay.isOverlayTypeOf(this.wot.cloneOverlay, Overlay.CLONE_BOTTOM_LEFT_CORNER)) {
 
@@ -86,13 +95,8 @@ class TableRenderer {
       // adjust column widths according to user widths settings
       this.renderColumnHeaders();
 
-      // Render table rows
-      if (rowsToRender) {
-        this.renderSpecificRows(rowsToRender, columnsToRender);
-      } else {
-        this.renderRows(totalRows, defaultRowsToRender, columnsToRender);
-        this.removeRedundantRows(defaultRowsToRender);
-      }
+      this.renderRows(totalRows, defaultRowsToRender, columnsToRender);
+      this.removeRedundantRows(defaultRowsToRender);
 
       if (!this.wtTable.isWorkingOnClone()) {
         workspaceWidth = this.wot.wtViewport.getWorkspaceWidth();
@@ -162,6 +166,21 @@ class TableRenderer {
   }
 
   /**
+   * Renders specific rows in the table
+   * @param {Array} rowsToRender array of visualRowIndexs to specifically render
+   */
+  selectiveRender(rowsToRender) {
+    let columnsToRender = this.wtTable.getRenderedColumnsCount();
+    let totalColumns = this.wot.getSetting('totalColumns');
+
+    if (rowsToRender && totalColumns >= 0) {
+      this.renderSpecificRows(rowsToRender, columnsToRender);
+    }
+
+    this.wot.getSetting('onDraw', true);
+  }
+
+  /**
    * @param {Number} renderedRowsCount
    */
   removeRedundantRows(renderedRowsCount) {
@@ -179,9 +198,9 @@ class TableRenderer {
   renderSpecificRows(rowsToRender, columnsToRender) {
     let isWorkingOnClone = this.wtTable.isWorkingOnClone();
 
-    rowsToRender.forEach((visibleRowIndex) => {
-      const sourceRowIndex = this.rowFilter.renderedToSource(visibleRowIndex);
-      const TR = this.createAndReplaceTrForRow(visibleRowIndex);
+    rowsToRender.forEach((sourceRowIndex) => {
+      const renderedRowIndex = sourceRowIndex - this.wtTable.getFirstRenderedRowSourceIndex();
+      const TR = this.createAndReplaceTrForRow(renderedRowIndex);
 
       // Render row headers
       this.renderRowHeaders(sourceRowIndex, TR);
@@ -224,6 +243,9 @@ class TableRenderer {
     let visibleRowIndex = 0;
     let sourceRowIndex = this.rowFilter.renderedToSource(visibleRowIndex);
     let isWorkingOnClone = this.wtTable.isWorkingOnClone();
+    if (!isWorkingOnClone) {
+      this.wot.wtViewport.setFirstRenderedRowSourceIndex(sourceRowIndex);
+    }
 
     while (sourceRowIndex < totalRows && sourceRowIndex >= 0) {
       if (!performanceWarningAppeared && visibleRowIndex > 1000) {

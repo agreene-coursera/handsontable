@@ -190,7 +190,6 @@ class Table {
    * Redraws the table
    *
    * @param {Boolean} fastDraw If TRUE, will try to avoid full redraw and only update the border positions. If FALSE or UNDEFINED, will perform a full redraw
-   * @param {Array} array of visualRowIndexs to specifically render
    * @returns {Table}
    */
   draw(fastDraw, rowsToDraw = null) {
@@ -287,6 +286,16 @@ class Table {
     this.wot.drawn = true;
 
     return this;
+  }
+
+  /*
+   * Triggers rendering of just specific rows
+   * @param {Array} rowsToDraw array of visualRowIndexs to specifically render
+   */
+  selectiveDraw(rowsToDraw) {
+    const wtRenderer = new TableRenderer(this);
+
+    wtRenderer.selectiveRender(rowsToDraw);
   }
 
   _doDraw(rowsToDraw) {
@@ -478,6 +487,10 @@ class Table {
 
   getFirstRenderedRow() {
     return this.wot.wtViewport.rowsRenderCalculator.startRow;
+  }
+
+  getFirstRenderedRowSourceIndex() {
+    return this.wot.wtViewport.firstRenderedSourceIndex;
   }
 
   getFirstVisibleRow() {

@@ -488,6 +488,16 @@ TableView.prototype.render = function(rowsToRender = null) {
 };
 
 /**
+ * Renders specific rows in the table
+ *
+ * @param {Array} array of visual row indexs to render
+ */
+TableView.prototype.selectiveRender = function(rowsToRender) {
+  this.wt.selectiveDraw(rowsToRender);
+  this.instance.renderCall = false;
+};
+
+/**
  * Returns td object given coordinates
  *
  * @param {CellCoords} coords
