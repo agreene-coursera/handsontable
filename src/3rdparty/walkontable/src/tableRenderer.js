@@ -46,7 +46,7 @@ class TableRenderer {
   /**
    * Renders table
    */
-  render(rowsToRender) {
+  render() {
     if (!this.wtTable.isWorkingOnClone()) {
       const skipRender = {};
       this.wot.getSetting('beforeDraw', true, skipRender);
@@ -69,15 +69,6 @@ class TableRenderer {
     let totalRows = this.wot.getSetting('totalRows');
     let workspaceWidth;
     let adjusted = false;
-
-    if (rowsToRender && totalColumns >= 0) {
-      this.renderSpecificRows(rowsToRender, columnsToRender);
-      if (!this.wtTable.isWorkingOnClone()) {
-        this.wot.wtViewport.createVisibleCalculators();
-      }
-      this.wot.getSetting('onDraw', true);
-      return;
-    }
 
     if (Overlay.isOverlayTypeOf(this.wot.cloneOverlay, Overlay.CLONE_BOTTOM) ||
       Overlay.isOverlayTypeOf(this.wot.cloneOverlay, Overlay.CLONE_BOTTOM_LEFT_CORNER)) {
@@ -177,6 +168,15 @@ class TableRenderer {
       this.renderSpecificRows(rowsToRender, columnsToRender);
     }
 
+    if (!this.wtTable.isWorkingOnClone() || this.wot.isOverlayName(Overlay.CLONE_BOTTOM)) {
+      this.markOversizedRows();
+    }
+
+    if (!this.wtTable.isWorkingOnClone()) {
+      this.wot.wtOverlays.refresh(false);
+      this.wot.wtOverlays.applyToDOM();
+    }
+
     this.wot.getSetting('onDraw', true);
   }
 
@@ -196,6 +196,9 @@ class TableRenderer {
    * @param {Number} columnsToRender
    */
   renderSpecificRows(rowsToRender, columnsToRender) {
+    this.rowHeaders = this.wot.getSetting('rowHeaders');
+    this.rowHeaderCount = this.rowHeaders.length;
+
     let isWorkingOnClone = this.wtTable.isWorkingOnClone();
 
     rowsToRender.forEach((sourceRowIndex) => {
@@ -204,6 +207,7 @@ class TableRenderer {
 
       // Render row headers
       this.renderRowHeaders(sourceRowIndex, TR);
+
       // Add and/or remove TDs to TR to match the desired number
       this.adjustColumns(TR, columnsToRender + this.rowHeaderCount);
 
@@ -445,6 +449,9 @@ class TableRenderer {
       if (visibleColIndex === 0) {
         TD = TR.childNodes[this.columnFilter.sourceColumnToVisibleRowHeadedColumn(sourceColIndex)];
       } else {
+        if (!TD.nextSibling) {
+          debugger;
+        }
         TD = TD.nextSibling; // http://jsperf.com/nextsibling-vs-indexed-childnodes
       }
       // If the number of headers has been reduced, we need to replace excess TH with TD
