@@ -23,13 +23,8 @@
  * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  * 
-<<<<<<< HEAD
  * Version: 3.0.0
- * Release date: 16/05/2018 (built at 09/05/2018 15:18:34)
-=======
- * Version: 2.0.0
- * Release date: 11/04/2018 (built at 07/05/2018 17:48:54)
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+ * Release date: 16/05/2018 (built at 04/06/2018 17:02:51)
  */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
@@ -103,11 +98,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-<<<<<<< HEAD
-/******/ 	return __webpack_require__(__webpack_require__.s = 450);
-=======
 /******/ 	return __webpack_require__(__webpack_require__.s = 449);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -166,7 +157,7 @@ exports.isOutsideInput = isOutsideInput;
 
 var _browser = __webpack_require__(28);
 
-var _feature = __webpack_require__(41);
+var _feature = __webpack_require__(40);
 
 /**
  * Get the parent of the specified node in the DOM tree.
@@ -1792,13 +1783,8 @@ function hasOwnProperty(object, key) {
 /* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD
 var global = __webpack_require__(15);
-var core = __webpack_require__(39);
-=======
-var global = __webpack_require__(14);
 var core = __webpack_require__(44);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 var hide = __webpack_require__(31);
 var redefine = __webpack_require__(30);
 var ctx = __webpack_require__(32);
@@ -1852,17 +1838,19 @@ module.exports = $export;
 exports.__esModule = true;
 exports.Viewport = exports.TableRenderer = exports.Table = exports.Settings = exports.Selection = exports.Scroll = exports.Overlays = exports.Event = exports.Core = exports.default = exports.Border = exports.TopLeftCornerOverlay = exports.TopOverlay = exports.LeftOverlay = exports.DebugOverlay = exports.RowFilter = exports.ColumnFilter = exports.CellRange = exports.CellCoords = exports.ViewportRowsCalculator = exports.ViewportColumnsCalculator = undefined;
 
-__webpack_require__(98);
+__webpack_require__(97);
+
+__webpack_require__(112);
 
 __webpack_require__(113);
 
-__webpack_require__(114);
+__webpack_require__(117);
 
 __webpack_require__(118);
 
-__webpack_require__(119);
+__webpack_require__(120);
 
-__webpack_require__(121);
+__webpack_require__(123);
 
 __webpack_require__(124);
 
@@ -1898,9 +1886,9 @@ __webpack_require__(139);
 
 __webpack_require__(140);
 
-__webpack_require__(141);
+__webpack_require__(142);
 
-__webpack_require__(143);
+__webpack_require__(144);
 
 __webpack_require__(145);
 
@@ -1926,13 +1914,13 @@ __webpack_require__(155);
 
 __webpack_require__(156);
 
-__webpack_require__(157);
+__webpack_require__(85);
 
-__webpack_require__(86);
+__webpack_require__(157);
 
 __webpack_require__(158);
 
-__webpack_require__(159);
+__webpack_require__(160);
 
 __webpack_require__(161);
 
@@ -1946,13 +1934,11 @@ __webpack_require__(165);
 
 __webpack_require__(166);
 
-__webpack_require__(167);
+__webpack_require__(168);
 
 __webpack_require__(169);
 
 __webpack_require__(170);
-
-__webpack_require__(171);
 
 __webpack_require__(173);
 
@@ -1968,11 +1954,11 @@ var _viewportRows = __webpack_require__(177);
 
 var _viewportRows2 = _interopRequireDefault(_viewportRows);
 
-var _coords = __webpack_require__(56);
+var _coords = __webpack_require__(55);
 
 var _coords2 = _interopRequireDefault(_coords);
 
-var _range = __webpack_require__(87);
+var _range = __webpack_require__(86);
 
 var _range2 = _interopRequireDefault(_range);
 
@@ -1984,25 +1970,6 @@ var _row = __webpack_require__(179);
 
 var _row2 = _interopRequireDefault(_row);
 
-<<<<<<< HEAD
-var _debug = __webpack_require__(472);
-
-var _debug2 = _interopRequireDefault(_debug);
-
-var _left = __webpack_require__(474);
-
-var _left2 = _interopRequireDefault(_left);
-
-var _top = __webpack_require__(475);
-
-var _top2 = _interopRequireDefault(_top);
-
-var _topLeftCorner = __webpack_require__(476);
-
-var _topLeftCorner2 = _interopRequireDefault(_topLeftCorner);
-
-var _border = __webpack_require__(308);
-=======
 var _debug = __webpack_require__(471);
 
 var _debug2 = _interopRequireDefault(_debug);
@@ -2019,8 +1986,7 @@ var _topLeftCorner = __webpack_require__(475);
 
 var _topLeftCorner2 = _interopRequireDefault(_topLeftCorner);
 
-var _border = __webpack_require__(307);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _border = __webpack_require__(308);
 
 var _border2 = _interopRequireDefault(_border);
 
@@ -2028,7 +1994,6 @@ var _core = __webpack_require__(180);
 
 var _core2 = _interopRequireDefault(_core);
 
-<<<<<<< HEAD
 var _event = __webpack_require__(301);
 
 var _event2 = _interopRequireDefault(_event);
@@ -2041,7 +2006,7 @@ var _scroll = __webpack_require__(303);
 
 var _scroll2 = _interopRequireDefault(_scroll);
 
-var _selection = __webpack_require__(477);
+var _selection = __webpack_require__(476);
 
 var _selection2 = _interopRequireDefault(_selection);
 
@@ -2058,37 +2023,6 @@ var _tableRenderer = __webpack_require__(306);
 var _tableRenderer2 = _interopRequireDefault(_tableRenderer);
 
 var _viewport = __webpack_require__(307);
-=======
-var _event = __webpack_require__(300);
-
-var _event2 = _interopRequireDefault(_event);
-
-var _overlays = __webpack_require__(301);
-
-var _overlays2 = _interopRequireDefault(_overlays);
-
-var _scroll = __webpack_require__(302);
-
-var _scroll2 = _interopRequireDefault(_scroll);
-
-var _selection = __webpack_require__(476);
-
-var _selection2 = _interopRequireDefault(_selection);
-
-var _settings = __webpack_require__(303);
-
-var _settings2 = _interopRequireDefault(_settings);
-
-var _table = __webpack_require__(304);
-
-var _table2 = _interopRequireDefault(_table);
-
-var _tableRenderer = __webpack_require__(305);
-
-var _tableRenderer2 = _interopRequireDefault(_tableRenderer);
-
-var _viewport = __webpack_require__(306);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _viewport2 = _interopRequireDefault(_viewport);
 
@@ -2219,7 +2153,7 @@ var _element = __webpack_require__(0);
 
 var _object = __webpack_require__(2);
 
-var _feature = __webpack_require__(41);
+var _feature = __webpack_require__(40);
 
 var _event = __webpack_require__(13);
 
@@ -2751,11 +2685,7 @@ var _object = __webpack_require__(2);
 
 var _array = __webpack_require__(1);
 
-<<<<<<< HEAD
-var _recordTranslator = __webpack_require__(438);
-=======
-var _recordTranslator = __webpack_require__(436);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _recordTranslator = __webpack_require__(437);
 
 var _plugins = __webpack_require__(8);
 
@@ -3022,7 +2952,7 @@ var _moment = __webpack_require__(47);
 
 var _moment2 = _interopRequireDefault(_moment);
 
-var _templateLiteralTag = __webpack_require__(42);
+var _templateLiteralTag = __webpack_require__(41);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -3194,7 +3124,7 @@ function _checkKeySchema(v) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var store = __webpack_require__(77)('wks');
-var uid = __webpack_require__(50);
+var uid = __webpack_require__(49);
 var Symbol = __webpack_require__(15).Symbol;
 var USE_SYMBOL = typeof Symbol == 'function';
 
@@ -3317,37 +3247,10 @@ function isLeftClick(event) {
 exports.__esModule = true;
 exports.getRegisteredRenderers = exports.getRegisteredRendererNames = exports.hasRenderer = exports.getRenderer = exports.registerRenderer = undefined;
 
-var _staticRegister2 = __webpack_require__(40);
+var _staticRegister2 = __webpack_require__(39);
 
 var _staticRegister3 = _interopRequireDefault(_staticRegister2);
 
-<<<<<<< HEAD
-var _cellDecorator = __webpack_require__(489);
-
-var _cellDecorator2 = _interopRequireDefault(_cellDecorator);
-
-var _autocompleteRenderer = __webpack_require__(490);
-
-var _autocompleteRenderer2 = _interopRequireDefault(_autocompleteRenderer);
-
-var _checkboxRenderer = __webpack_require__(491);
-
-var _checkboxRenderer2 = _interopRequireDefault(_checkboxRenderer);
-
-var _htmlRenderer = __webpack_require__(492);
-
-var _htmlRenderer2 = _interopRequireDefault(_htmlRenderer);
-
-var _numericRenderer = __webpack_require__(493);
-
-var _numericRenderer2 = _interopRequireDefault(_numericRenderer);
-
-var _passwordRenderer = __webpack_require__(495);
-
-var _passwordRenderer2 = _interopRequireDefault(_passwordRenderer);
-
-var _textRenderer = __webpack_require__(496);
-=======
 var _cellDecorator = __webpack_require__(488);
 
 var _cellDecorator2 = _interopRequireDefault(_cellDecorator);
@@ -3373,7 +3276,6 @@ var _passwordRenderer = __webpack_require__(494);
 var _passwordRenderer2 = _interopRequireDefault(_passwordRenderer);
 
 var _textRenderer = __webpack_require__(495);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _textRenderer2 = _interopRequireDefault(_textRenderer);
 
@@ -5493,200 +5395,6 @@ var globalSingleton = new Hooks();
 exports.default = Hooks;
 
 /***/ }),
-<<<<<<< HEAD
-=======
-/* 16 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var _templateObject = _taggedTemplateLiteral(['\n          Your license key of Handsontable Pro has expired.\u200C\u200C\u200C\u200C \n          Renew your maintenance plan at https://handsontable.com or downgrade to the previous version of the software.\n          '], ['\n          Your license key of Handsontable Pro has expired.\u200C\u200C\u200C\u200C\\x20\n          Renew your maintenance plan at https://handsontable.com or downgrade to the previous version of the software.\n          ']);
-
-exports.stringify = stringify;
-exports.isDefined = isDefined;
-exports.isUndefined = isUndefined;
-exports.isEmpty = isEmpty;
-exports.isRegExp = isRegExp;
-exports._injectProductInfo = _injectProductInfo;
-
-var _moment = __webpack_require__(47);
-
-var _moment2 = _interopRequireDefault(_moment);
-
-var _templateLiteralTag = __webpack_require__(41);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
-/**
- * Converts any value to string.
- *
- * @param {*} value
- * @returns {String}
- */
-function stringify(value) {
-  var result = void 0;
-
-  switch (typeof value === 'undefined' ? 'undefined' : _typeof(value)) {
-    case 'string':
-    case 'number':
-      result = '' + value;
-      break;
-
-    case 'object':
-      result = value === null ? '' : value.toString();
-      break;
-    case 'undefined':
-      result = '';
-      break;
-    default:
-      result = value.toString();
-      break;
-  }
-
-  return result;
-}
-
-/**
- * Checks if given variable is defined.
- *
- * @param {*} variable Variable to check.
- * @returns {Boolean}
- */
-function isDefined(variable) {
-  return typeof variable !== 'undefined';
-}
-
-/**
- * Checks if given variable is undefined.
- *
- * @param {*} variable Variable to check.
- * @returns {Boolean}
- */
-function isUndefined(variable) {
-  return typeof variable === 'undefined';
-}
-
-/**
- * Check if given variable is null, empty string or undefined.
- *
- * @param {*} variable Variable to check.
- * @returns {Boolean}
- */
-function isEmpty(variable) {
-  return variable === null || variable === '' || isUndefined(variable);
-}
-
-/**
- * Check if given variable is a regular expression.
- *
- * @param {*} variable Variable to check.
- * @returns {Boolean}
- */
-function isRegExp(variable) {
-  return Object.prototype.toString.call(variable) === '[object RegExp]';
-}
-
-/* eslint-disable */
-var _m = '\x6C\x65\x6E\x67\x74\x68';
-var _hd = function _hd(v) {
-  return parseInt(v, 16);
-};
-var _pi = function _pi(v) {
-  return parseInt(v, 10);
-};
-var _ss = function _ss(v, s, l) {
-  return v['\x73\x75\x62\x73\x74\x72'](s, l);
-};
-var _cp = function _cp(v) {
-  return v['\x63\x6F\x64\x65\x50\x6F\x69\x6E\x74\x41\x74'](0) - 65;
-};
-var _norm = function _norm(v) {
-  return ('' + v).replace(/\-/g, '');
-};
-var _extractTime = function _extractTime(v) {
-  return _hd(_ss(_norm(v), _hd('12'), _cp('\x46'))) / (_hd(_ss(_norm(v), _cp('\x42'), ~~![][_m])) || 9);
-};
-var _ignored = function _ignored() {
-  return typeof location !== 'undefined' && /^([a-z0-9\-]+\.)?\x68\x61\x6E\x64\x73\x6F\x6E\x74\x61\x62\x6C\x65\x2E\x63\x6F\x6D$/i.test(location.host);
-};
-var _notified = false;
-
-function _injectProductInfo(key, element) {
-  key = _norm(key || '');
-
-  var warningMessage = '';
-  var showDomMessage = true;
-  var schemaValidity = _checkKeySchema(key);
-  var ignored = _ignored();
-  var trial = isEmpty(key) || key === 'trial';
-
-  if (trial || schemaValidity) {
-    if (schemaValidity) {
-      var releaseTime = Math.floor((0, _moment2.default)('11/04/2018', 'DD/MM/YYYY').toDate().getTime() / 8.64e7);
-      var keyGenTime = _extractTime(key);
-
-      if (keyGenTime > 45000 || keyGenTime !== parseInt(keyGenTime, 10)) {
-        warningMessage = 'The license key provided to Handsontable Pro is invalid. Make sure you pass it correctly.';
-      }
-
-      if (!warningMessage) {
-        if (releaseTime > keyGenTime + 1) {
-          warningMessage = (0, _templateLiteralTag.toSingleLine)(_templateObject);
-        }
-        showDomMessage = releaseTime > keyGenTime + 15;
-      }
-    } else {
-      warningMessage = 'Evaluation version of Handsontable Pro. Not licensed for use in a production environment.';
-    }
-  } else {
-    warningMessage = 'The license key provided to Handsontable Pro is invalid. Make sure you pass it correctly.';
-  }
-  if (ignored) {
-    warningMessage = false;
-    showDomMessage = false;
-  }
-
-  if (warningMessage && !_notified) {
-    console[trial ? 'info' : 'warn'](warningMessage);
-    _notified = true;
-  }
-  if (showDomMessage && element.parentNode) {
-    var message = document.createElement('div');
-
-    message.id = 'hot-display-license-info';
-    message.appendChild(document.createTextNode('Evaluation version of Handsontable Pro.'));
-    message.appendChild(document.createElement('br'));
-    message.appendChild(document.createTextNode('Not licensed for production use.'));
-
-    element.parentNode.insertBefore(message, element.nextSibling);
-  }
-}
-
-function _checkKeySchema(v) {
-  var z = [][_m];
-  var p = z;
-
-  if (v[_m] !== _cp('\x5A')) {
-    return false;
-  }
-
-  for (var c = '', i = '\x42\x3C\x48\x34\x50\x2B'.split(''), j = _cp(i.shift()); j; j = _cp(i.shift() || 'A')) {
-    --j < ''[_m] ? p = p | (_pi('' + _pi(_hd(c) + (_hd(_ss(v, Math.abs(j), 2)) + []).padStart(2, '0'))) % 97 || 2) >> 1 : c = _ss(v, j, !j ? 6 : i[_m] === 1 ? 9 : 8);
-  }
-
-  return p === z;
-}
-/* eslint-enable */
-
-/***/ }),
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5698,7 +5406,7 @@ exports.getRegisteredEditors = exports.getRegisteredEditorNames = exports.hasEdi
 exports.RegisteredEditor = RegisteredEditor;
 exports._getEditorInstance = _getEditorInstance;
 
-var _staticRegister2 = __webpack_require__(40);
+var _staticRegister2 = __webpack_require__(39);
 
 var _staticRegister3 = _interopRequireDefault(_staticRegister2);
 
@@ -5706,42 +5414,11 @@ var _pluginHooks = __webpack_require__(16);
 
 var _pluginHooks2 = _interopRequireDefault(_pluginHooks);
 
-var _baseEditor = __webpack_require__(55);
+var _baseEditor = __webpack_require__(54);
 
 var _baseEditor2 = _interopRequireDefault(_baseEditor);
 
-<<<<<<< HEAD
 var _autocompleteEditor = __webpack_require__(309);
-
-var _autocompleteEditor2 = _interopRequireDefault(_autocompleteEditor);
-
-var _checkboxEditor = __webpack_require__(479);
-
-var _checkboxEditor2 = _interopRequireDefault(_checkboxEditor);
-
-var _dateEditor = __webpack_require__(480);
-
-var _dateEditor2 = _interopRequireDefault(_dateEditor);
-
-var _dropdownEditor = __webpack_require__(485);
-
-var _dropdownEditor2 = _interopRequireDefault(_dropdownEditor);
-
-var _handsontableEditor = __webpack_require__(310);
-
-var _handsontableEditor2 = _interopRequireDefault(_handsontableEditor);
-
-var _numericEditor = __webpack_require__(486);
-
-var _numericEditor2 = _interopRequireDefault(_numericEditor);
-
-var _passwordEditor = __webpack_require__(487);
-
-var _passwordEditor2 = _interopRequireDefault(_passwordEditor);
-
-var _selectEditor = __webpack_require__(488);
-=======
-var _autocompleteEditor = __webpack_require__(308);
 
 var _autocompleteEditor2 = _interopRequireDefault(_autocompleteEditor);
 
@@ -5757,7 +5434,7 @@ var _dropdownEditor = __webpack_require__(484);
 
 var _dropdownEditor2 = _interopRequireDefault(_dropdownEditor);
 
-var _handsontableEditor = __webpack_require__(309);
+var _handsontableEditor = __webpack_require__(310);
 
 var _handsontableEditor2 = _interopRequireDefault(_handsontableEditor);
 
@@ -5770,11 +5447,10 @@ var _passwordEditor = __webpack_require__(486);
 var _passwordEditor2 = _interopRequireDefault(_passwordEditor);
 
 var _selectEditor = __webpack_require__(487);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _selectEditor2 = _interopRequireDefault(_selectEditor);
 
-var _textEditor = __webpack_require__(58);
+var _textEditor = __webpack_require__(57);
 
 var _textEditor2 = _interopRequireDefault(_textEditor);
 
@@ -5928,7 +5604,7 @@ var _number = __webpack_require__(5);
 
 var _element = __webpack_require__(0);
 
-var _separator = __webpack_require__(95);
+var _separator = __webpack_require__(94);
 
 function normalizeSelection(selRanges) {
   return (0, _array.arrayMap)(selRanges, function (range) {
@@ -6127,7 +5803,7 @@ function filterSeparators(items) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var anObject = __webpack_require__(18);
-var IE8_DOM_DEFINE = __webpack_require__(100);
+var IE8_DOM_DEFINE = __webpack_require__(99);
 var toPrimitive = __webpack_require__(73);
 var dP = Object.defineProperty;
 
@@ -6323,7 +5999,7 @@ module.exports = function (it) {
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.15 ToLength
-var toInteger = __webpack_require__(60);
+var toInteger = __webpack_require__(59);
 var min = Math.min;
 module.exports = function (it) {
   return it > 0 ? min(toInteger(it), 0x1fffffffffffff) : 0; // pow(2, 53) - 1 == 9007199254740991
@@ -6336,11 +6012,7 @@ module.exports = function (it) {
 
 // most Object methods by ES6 should accept primitives
 var $export = __webpack_require__(3);
-<<<<<<< HEAD
-var core = __webpack_require__(39);
-=======
 var core = __webpack_require__(44);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 var fails = __webpack_require__(23);
 module.exports = function (KEY, exec) {
   var fn = (core.Object || {})[KEY] || Object[KEY];
@@ -6416,25 +6088,10 @@ function isMobileBrowser(userAgent) {
 exports.__esModule = true;
 exports.getRegisteredValidators = exports.getRegisteredValidatorNames = exports.hasValidator = exports.getValidator = exports.registerValidator = undefined;
 
-var _staticRegister2 = __webpack_require__(40);
+var _staticRegister2 = __webpack_require__(39);
 
 var _staticRegister3 = _interopRequireDefault(_staticRegister2);
 
-<<<<<<< HEAD
-var _autocompleteValidator = __webpack_require__(497);
-
-var _autocompleteValidator2 = _interopRequireDefault(_autocompleteValidator);
-
-var _dateValidator = __webpack_require__(498);
-
-var _dateValidator2 = _interopRequireDefault(_dateValidator);
-
-var _numericValidator = __webpack_require__(499);
-
-var _numericValidator2 = _interopRequireDefault(_numericValidator);
-
-var _timeValidator = __webpack_require__(500);
-=======
 var _autocompleteValidator = __webpack_require__(496);
 
 var _autocompleteValidator2 = _interopRequireDefault(_autocompleteValidator);
@@ -6448,7 +6105,6 @@ var _numericValidator = __webpack_require__(498);
 var _numericValidator2 = _interopRequireDefault(_numericValidator);
 
 var _timeValidator = __webpack_require__(499);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _timeValidator2 = _interopRequireDefault(_timeValidator);
 
@@ -6495,22 +6151,13 @@ exports.getRegisteredValidators = getValues;
 
 var global = __webpack_require__(15);
 var hide = __webpack_require__(31);
-<<<<<<< HEAD
-var has = __webpack_require__(29);
-var SRC = __webpack_require__(50)('src');
-=======
 var has = __webpack_require__(27);
 var SRC = __webpack_require__(49)('src');
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 var TO_STRING = 'toString';
 var $toString = Function[TO_STRING];
 var TPL = ('' + $toString).split(TO_STRING);
 
-<<<<<<< HEAD
-__webpack_require__(39).inspectSource = function (it) {
-=======
 __webpack_require__(44).inspectSource = function (it) {
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
   return $toString.call(it);
 };
 
@@ -6540,7 +6187,7 @@ __webpack_require__(44).inspectSource = function (it) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var dP = __webpack_require__(20);
-var createDesc = __webpack_require__(51);
+var createDesc = __webpack_require__(50);
 module.exports = __webpack_require__(22) ? function (object, key, value) {
   return dP.f(object, key, createDesc(1, value));
 } : function (object, key, value) {
@@ -6554,7 +6201,7 @@ module.exports = __webpack_require__(22) ? function (object, key, value) {
 /***/ (function(module, exports, __webpack_require__) {
 
 // optional / simple context binding
-var aFunction = __webpack_require__(63);
+var aFunction = __webpack_require__(62);
 module.exports = function (fn, that, length) {
   aFunction(fn);
   if (that === undefined) return fn;
@@ -6590,7 +6237,7 @@ module.exports = function (it) {
 /* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var META = __webpack_require__(50)('meta');
+var META = __webpack_require__(49)('meta');
 var isObject = __webpack_require__(9);
 var has = __webpack_require__(27);
 var setDesc = __webpack_require__(20).f;
@@ -7119,7 +6766,7 @@ function stripTags(string) {
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.14 / 15.2.3.14 Object.keys(O)
-var $keys = __webpack_require__(101);
+var $keys = __webpack_require__(100);
 var enumBugKeys = __webpack_require__(78);
 
 module.exports = Object.keys || function keys(O) {
@@ -7140,14 +6787,6 @@ module.exports = function (it) {
 
 /***/ }),
 /* 39 */
-/***/ (function(module, exports) {
-
-var core = module.exports = { version: '2.5.6' };
-if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
-
-
-/***/ }),
-/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7226,7 +6865,7 @@ function staticRegister() {
 }
 
 /***/ }),
-/* 41 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7374,361 +7013,7 @@ function getComparisonFunction(language) {
 }
 
 /***/ }),
-/* 42 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.toSingleLine = toSingleLine;
-
-var _array = __webpack_require__(1);
-
-/**
- * Tags a multiline string and return new one without line break characters and following spaces.
- *
- * @param {Array} strings Parts of the entire string without expressions.
- * @param {...String} expressions Expressions converted to strings, which are added to the entire string.
- * @returns {String}
- */
-function toSingleLine(strings) {
-  for (var _len = arguments.length, expressions = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-    expressions[_key - 1] = arguments[_key];
-  }
-
-  var result = (0, _array.arrayReduce)(strings, function (previousValue, currentValue, index) {
-
-    var valueWithoutWhiteSpaces = currentValue.replace(/(?:\r?\n\s+)/g, '');
-    var expressionForIndex = expressions[index] ? expressions[index] : '';
-
-    return previousValue + valueWithoutWhiteSpaces + expressionForIndex;
-  }, '');
-
-  return result.trim();
-} /* eslint-disable import/prefer-default-export */
-
-/***/ }),
-/* 43 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.isFunction = isFunction;
-exports.throttle = throttle;
-exports.throttleAfterHits = throttleAfterHits;
-exports.debounce = debounce;
-exports.pipe = pipe;
-exports.partial = partial;
-exports.curry = curry;
-exports.curryRight = curryRight;
-
-var _array = __webpack_require__(1);
-
-/**
- * Checks if given variable is function.
- *
- * @param {*} func Variable to check.
- * @returns {Boolean}
- */
-function isFunction(func) {
-  return typeof func === 'function';
-}
-
-/**
- * Creates throttle function that enforces a maximum number of times a function (`func`) can be called over time (`wait`).
- *
- * @param {Function} func Function to invoke.
- * @param {Number} wait Delay in miliseconds.
- * @returns {Function}
- */
-function throttle(func) {
-  var wait = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 200;
-
-  var lastCalled = 0;
-  var result = {
-    lastCallThrottled: true
-  };
-  var lastTimer = null;
-
-  function _throttle() {
-    var _this = this;
-
-    var args = arguments;
-    var stamp = Date.now();
-    var needCall = false;
-
-    result.lastCallThrottled = true;
-
-    if (!lastCalled) {
-      lastCalled = stamp;
-      needCall = true;
-    }
-    var remaining = wait - (stamp - lastCalled);
-
-    if (needCall) {
-      result.lastCallThrottled = false;
-      func.apply(this, args);
-    } else {
-      if (lastTimer) {
-        clearTimeout(lastTimer);
-      }
-      lastTimer = setTimeout(function () {
-        result.lastCallThrottled = false;
-        func.apply(_this, args);
-        lastCalled = 0;
-        lastTimer = void 0;
-      }, remaining);
-    }
-
-    return result;
-  }
-
-  return _throttle;
-}
-
-/**
- * Creates throttle function that enforces a maximum number of times a function (`func`) can be called over
- * time (`wait`) after specified hits.
- *
- * @param {Function} func Function to invoke.
- * @param {Number} wait Delay in miliseconds.
- * @param {Number} hits Number of hits after throttling will be applied.
- * @returns {Function}
- */
-function throttleAfterHits(func) {
-  var wait = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 200;
-  var hits = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 10;
-
-  var funcThrottle = throttle(func, wait);
-  var remainHits = hits;
-
-  function _clearHits() {
-    remainHits = hits;
-  }
-  function _throttleAfterHits() {
-    if (remainHits) {
-      remainHits--;
-
-      return func.apply(this, arguments);
-    }
-
-    return funcThrottle.apply(this, arguments);
-  }
-  _throttleAfterHits.clearHits = _clearHits;
-
-  return _throttleAfterHits;
-}
-
-/**
- * Creates debounce function that enforces a function (`func`) not be called again until a certain amount of time (`wait`)
- * has passed without it being called.
- *
- * @param {Function} func Function to invoke.
- * @param {Number} wait Delay in milliseconds.
- * @returns {Function}
- */
-function debounce(func) {
-  var wait = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 200;
-
-  var lastTimer = null;
-  var result = void 0;
-
-  function _debounce() {
-    var _this2 = this;
-
-    var args = arguments;
-
-    if (lastTimer) {
-      clearTimeout(lastTimer);
-    }
-    lastTimer = setTimeout(function () {
-      result = func.apply(_this2, args);
-    }, wait);
-
-    return result;
-  }
-
-  return _debounce;
-}
-
-/**
- * Creates the function that returns the result of calling the given functions. Result of the first function is passed to
- * the second as an argument and so on. Only first function in the chain can handle multiple arguments.
- *
- * @param {Function} functions Functions to compose.
- * @returns {Function}
- */
-function pipe() {
-  for (var _len = arguments.length, functions = Array(_len), _key = 0; _key < _len; _key++) {
-    functions[_key] = arguments[_key];
-  }
-
-  var firstFunc = functions[0],
-      restFunc = functions.slice(1);
-
-
-  return function _pipe() {
-    return (0, _array.arrayReduce)(restFunc, function (acc, fn) {
-      return fn(acc);
-    }, firstFunc.apply(this, arguments));
-  };
-}
-
-/**
- * Creates the function that returns the function with cached arguments.
- *
- * @param {Function} func Function to partialization.
- * @param {Array} params Function arguments to cache.
- * @returns {Function}
- */
-function partial(func) {
-  for (var _len2 = arguments.length, params = Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {
-    params[_key2 - 1] = arguments[_key2];
-  }
-
-  return function _partial() {
-    for (var _len3 = arguments.length, restParams = Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {
-      restParams[_key3] = arguments[_key3];
-    }
-
-    return func.apply(this, params.concat(restParams));
-  };
-}
-
-/**
- * Creates the functions that returns the function with cached arguments. If count if passed arguments will be matched
- * to the arguments defined in `func` then function will be invoked.
- * Arguments are added to the stack in direction from the left to the right.
- *
- * @example
- * ```
- * var replace = curry(function(find, replace, string) {
- *   return string.replace(find, replace);
- * });
- *
- * // returns function with bounded first argument
- * var replace = replace('foo')
- *
- * // returns replaced string - all arguments was passed so function was invoked
- * replace('bar', 'Some test with foo...');
- *
- * ```
- *
- * @param {Function} func Function to currying.
- * @returns {Function}
- */
-function curry(func) {
-  var argsLength = func.length;
-
-  function given(argsSoFar) {
-    return function _curry() {
-      for (var _len4 = arguments.length, params = Array(_len4), _key4 = 0; _key4 < _len4; _key4++) {
-        params[_key4] = arguments[_key4];
-      }
-
-      var passedArgsSoFar = argsSoFar.concat(params);
-      var result = void 0;
-
-      if (passedArgsSoFar.length >= argsLength) {
-        result = func.apply(this, passedArgsSoFar);
-      } else {
-        result = given(passedArgsSoFar);
-      }
-
-      return result;
-    };
-  }
-
-  return given([]);
-}
-
-/**
- * Creates the functions that returns the function with cached arguments. If count if passed arguments will be matched
- * to the arguments defined in `func` then function will be invoked.
- * Arguments are added to the stack in direction from the right to the left.
- *
- * @example
- * ```
- * var replace = curry(function(find, replace, string) {
- *   return string.replace(find, replace);
- * });
- *
- * // returns function with bounded first argument
- * var replace = replace('Some test with foo...')
- *
- * // returns replaced string - all arguments was passed so function was invoked
- * replace('bar', 'foo');
- *
- * ```
- *
- * @param {Function} func Function to currying.
- * @returns {Function}
- */
-function curryRight(func) {
-  var argsLength = func.length;
-
-  function given(argsSoFar) {
-    return function _curry() {
-      for (var _len5 = arguments.length, params = Array(_len5), _key5 = 0; _key5 < _len5; _key5++) {
-        params[_key5] = arguments[_key5];
-      }
-
-      var passedArgsSoFar = argsSoFar.concat(params.reverse());
-      var result = void 0;
-
-      if (passedArgsSoFar.length >= argsLength) {
-        result = func.apply(this, passedArgsSoFar);
-      } else {
-        result = given(passedArgsSoFar);
-      }
-
-      return result;
-    };
-  }
-
-  return given([]);
-}
-
-/***/ }),
-/* 44 */
-/***/ (function(module, exports) {
-
-var toString = {}.toString;
-
-module.exports = function (it) {
-  return toString.call(it).slice(8, -1);
-};
-
-
-/***/ }),
-/* 45 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var isObject = __webpack_require__(9);
-module.exports = function (it, TYPE) {
-  if (!isObject(it) || it._t !== TYPE) throw TypeError('Incompatible receiver, ' + TYPE + ' required!');
-  return it;
-};
-
-
-/***/ }),
-/* 46 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 22.1.3.31 Array.prototype[@@unscopables]
-var UNSCOPABLES = __webpack_require__(12)('unscopables');
-var ArrayProto = Array.prototype;
-if (ArrayProto[UNSCOPABLES] == undefined) __webpack_require__(31)(ArrayProto, UNSCOPABLES, {});
-module.exports = function (key) {
-  ArrayProto[UNSCOPABLES][key] = true;
-};
-
-
-/***/ }),
-/* 47 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8081,7 +7366,7 @@ module.exports = function (it, TYPE) {
 /***/ (function(module, exports, __webpack_require__) {
 
 // 22.1.3.31 Array.prototype[@@unscopables]
-var UNSCOPABLES = __webpack_require__(11)('unscopables');
+var UNSCOPABLES = __webpack_require__(12)('unscopables');
 var ArrayProto = Array.prototype;
 if (ArrayProto[UNSCOPABLES] == undefined) __webpack_require__(31)(ArrayProto, UNSCOPABLES, {});
 module.exports = function (key) {
@@ -9937,11 +9222,7 @@ function loadLocale(name) {
         try {
             oldLocale = globalLocale._abbr;
             var aliasedRequire = require;
-<<<<<<< HEAD
-            __webpack_require__(473)("./" + name);
-=======
             __webpack_require__(472)("./" + name);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
             getSetGlobalLocale(oldLocale);
         } catch (e) {}
     }
@@ -12636,11 +11917,7 @@ return hooks;
 
 /*** EXPORTS FROM exports-to-window-loader ***/
 window['moment'] = __webpack_require__(47);
-<<<<<<< HEAD
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(181)(module)))
-=======
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(180)(module)))
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 /***/ }),
 /* 48 */
@@ -12796,13 +12073,6 @@ function markSelected(label) {
 /* 49 */
 /***/ (function(module, exports) {
 
-module.exports = false;
-
-
-/***/ }),
-/* 50 */
-/***/ (function(module, exports) {
-
 var id = 0;
 var px = Math.random();
 module.exports = function (key) {
@@ -12811,7 +12081,7 @@ module.exports = function (key) {
 
 
 /***/ }),
-/* 51 */
+/* 50 */
 /***/ (function(module, exports) {
 
 module.exports = function (bitmap, value) {
@@ -12825,24 +12095,19 @@ module.exports = function (bitmap, value) {
 
 
 /***/ }),
-/* 52 */
+/* 51 */
 /***/ (function(module, exports) {
 
 module.exports = {};
 
 
 /***/ }),
-/* 53 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var def = __webpack_require__(20).f;
-<<<<<<< HEAD
-var has = __webpack_require__(29);
-var TAG = __webpack_require__(12)('toStringTag');
-=======
 var has = __webpack_require__(27);
-var TAG = __webpack_require__(11)('toStringTag');
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var TAG = __webpack_require__(12)('toStringTag');
 
 module.exports = function (it, tag, stat) {
   if (it && !has(it = stat ? it : it.prototype, TAG)) def(it, TAG, { configurable: true, value: tag });
@@ -12850,14 +12115,14 @@ module.exports = function (it, tag, stat) {
 
 
 /***/ }),
-/* 54 */
+/* 53 */
 /***/ (function(module, exports) {
 
 exports.f = {}.propertyIsEnumerable;
 
 
 /***/ }),
-/* 55 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13124,7 +12389,7 @@ BaseEditor.prototype.checkEditorSection = function () {
 exports.default = BaseEditor;
 
 /***/ }),
-/* 56 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13273,7 +12538,7 @@ var CellCoords = function () {
 exports.default = CellCoords;
 
 /***/ }),
-/* 57 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13350,7 +12615,7 @@ function error() {
 };
 
 /***/ }),
-/* 58 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13360,15 +12625,11 @@ exports.__esModule = true;
 
 var _element = __webpack_require__(0);
 
-<<<<<<< HEAD
-var _autoResize = __webpack_require__(478);
-=======
 var _autoResize = __webpack_require__(477);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _autoResize2 = _interopRequireDefault(_autoResize);
 
-var _baseEditor = __webpack_require__(55);
+var _baseEditor = __webpack_require__(54);
 
 var _baseEditor2 = _interopRequireDefault(_baseEditor);
 
@@ -13756,7 +13017,7 @@ TextEditor.prototype.destroy = function () {
 exports.default = TextEditor;
 
 /***/ }),
-/* 59 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13832,7 +13093,7 @@ var localHooks = {
 exports.default = localHooks;
 
 /***/ }),
-/* 60 */
+/* 59 */
 /***/ (function(module, exports) {
 
 // 7.1.4 ToInteger
@@ -13844,10 +13105,10 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 61 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var toInteger = __webpack_require__(60);
+var toInteger = __webpack_require__(59);
 var max = Math.max;
 var min = Math.min;
 module.exports = function (index, length) {
@@ -13857,7 +13118,7 @@ module.exports = function (index, length) {
 
 
 /***/ }),
-/* 62 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var redefine = __webpack_require__(30);
@@ -13868,7 +13129,7 @@ module.exports = function (target, src, safe) {
 
 
 /***/ }),
-/* 63 */
+/* 62 */
 /***/ (function(module, exports) {
 
 module.exports = function (it) {
@@ -13878,7 +13139,7 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 64 */
+/* 63 */
 /***/ (function(module, exports) {
 
 module.exports = function (it, Constructor, name, forbiddenField) {
@@ -13889,15 +13150,15 @@ module.exports = function (it, Constructor, name, forbiddenField) {
 
 
 /***/ }),
-/* 65 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var ctx = __webpack_require__(32);
-var call = __webpack_require__(104);
-var isArrayIter = __webpack_require__(105);
+var call = __webpack_require__(103);
+var isArrayIter = __webpack_require__(104);
 var anObject = __webpack_require__(18);
 var toLength = __webpack_require__(25);
-var getIterFn = __webpack_require__(106);
+var getIterFn = __webpack_require__(105);
 var BREAK = {};
 var RETURN = {};
 var exports = module.exports = function (iterable, entries, fn, that, ITERATOR) {
@@ -13920,6 +13181,13 @@ exports.RETURN = RETURN;
 
 
 /***/ }),
+/* 65 */
+/***/ (function(module, exports) {
+
+module.exports = false;
+
+
+/***/ }),
 /* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13928,20 +13196,15 @@ exports.RETURN = RETURN;
 var global = __webpack_require__(15);
 var $export = __webpack_require__(3);
 var redefine = __webpack_require__(30);
-var redefineAll = __webpack_require__(62);
+var redefineAll = __webpack_require__(61);
 var meta = __webpack_require__(34);
-var forOf = __webpack_require__(65);
-var anInstance = __webpack_require__(64);
+var forOf = __webpack_require__(64);
+var anInstance = __webpack_require__(63);
 var isObject = __webpack_require__(9);
 var fails = __webpack_require__(23);
 var $iterDetect = __webpack_require__(79);
-<<<<<<< HEAD
-var setToStringTag = __webpack_require__(53);
-var inheritIfRequired = __webpack_require__(453);
-=======
 var setToStringTag = __webpack_require__(52);
 var inheritIfRequired = __webpack_require__(452);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 module.exports = function (NAME, wrapper, methods, common, IS_MAP, IS_WEAK) {
   var Base = global[NAME];
@@ -14020,17 +13283,12 @@ module.exports = function (NAME, wrapper, methods, common, IS_MAP, IS_WEAK) {
 /* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var pIE = __webpack_require__(54);
-var createDesc = __webpack_require__(51);
+var pIE = __webpack_require__(53);
+var createDesc = __webpack_require__(50);
 var toIObject = __webpack_require__(24);
 var toPrimitive = __webpack_require__(73);
-<<<<<<< HEAD
-var has = __webpack_require__(29);
-var IE8_DOM_DEFINE = __webpack_require__(100);
-=======
 var has = __webpack_require__(27);
-var IE8_DOM_DEFINE = __webpack_require__(98);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var IE8_DOM_DEFINE = __webpack_require__(99);
 var gOPD = Object.getOwnPropertyDescriptor;
 
 exports.f = __webpack_require__(22) ? gOPD : function getOwnPropertyDescriptor(O, P) {
@@ -14058,11 +13316,7 @@ var ctx = __webpack_require__(32);
 var IObject = __webpack_require__(75);
 var toObject = __webpack_require__(33);
 var toLength = __webpack_require__(25);
-<<<<<<< HEAD
-var asc = __webpack_require__(454);
-=======
 var asc = __webpack_require__(453);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 module.exports = function (TYPE, $create) {
   var IS_MAP = TYPE == 1;
   var IS_FILTER = TYPE == 2;
@@ -14151,21 +13405,13 @@ exports.DEFAULT_LANGUAGE_CODE = exports.getLanguagesDictionaries = exports.getDe
 
 var _object = __webpack_require__(2);
 
-<<<<<<< HEAD
-var _utils = __webpack_require__(442);
-=======
-var _utils = __webpack_require__(440);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _utils = __webpack_require__(441);
 
-var _staticRegister2 = __webpack_require__(40);
+var _staticRegister2 = __webpack_require__(39);
 
 var _staticRegister3 = _interopRequireDefault(_staticRegister2);
 
-<<<<<<< HEAD
-var _enUS = __webpack_require__(516);
-=======
 var _enUS = __webpack_require__(515);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _enUS2 = _interopRequireDefault(_enUS);
 
@@ -14309,11 +13555,7 @@ module.exports = function (it, S) {
 
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
 var anObject = __webpack_require__(18);
-<<<<<<< HEAD
-var dPs = __webpack_require__(451);
-=======
 var dPs = __webpack_require__(450);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 var enumBugKeys = __webpack_require__(78);
 var IE_PROTO = __webpack_require__(76)('IE_PROTO');
 var Empty = function () { /* empty */ };
@@ -14328,7 +13570,7 @@ var createDict = function () {
   var gt = '>';
   var iframeDocument;
   iframe.style.display = 'none';
-  __webpack_require__(103).appendChild(iframe);
+  __webpack_require__(102).appendChild(iframe);
   iframe.src = 'javascript:'; // eslint-disable-line no-script-url
   // createDict = iframe.contentWindow.Object;
   // html.removeChild(iframe);
@@ -14371,7 +13613,7 @@ module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var shared = __webpack_require__(77)('keys');
-var uid = __webpack_require__(50);
+var uid = __webpack_require__(49);
 module.exports = function (key) {
   return shared[key] || (shared[key] = uid(key));
 };
@@ -14381,18 +13623,12 @@ module.exports = function (key) {
 /* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var core = __webpack_require__(39);
 var global = __webpack_require__(15);
 var SHARED = '__core-js_shared__';
 var store = global[SHARED] || (global[SHARED] = {});
-
-(module.exports = function (key, value) {
-  return store[key] || (store[key] = value !== undefined ? value : {});
-})('versions', []).push({
-  version: core.version,
-  mode: __webpack_require__(49) ? 'pure' : 'global',
-  copyright: '© 2018 Denis Pushkarev (zloirock.ru)'
-});
+module.exports = function (key) {
+  return store[key] || (store[key] = {});
+};
 
 
 /***/ }),
@@ -14438,13 +13674,8 @@ module.exports = function (exec, skipClosing) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var ctx = __webpack_require__(32);
-<<<<<<< HEAD
-var invoke = __webpack_require__(457);
-var html = __webpack_require__(103);
-=======
 var invoke = __webpack_require__(456);
-var html = __webpack_require__(101);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var html = __webpack_require__(102);
 var cel = __webpack_require__(72);
 var global = __webpack_require__(15);
 var process = global.process;
@@ -14532,18 +13763,8 @@ module.exports = {
 /* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var global = __webpack_require__(15);
-var navigator = global.navigator;
-
-module.exports = navigator && navigator.userAgent || '';
-
-
-/***/ }),
-/* 82 */
-/***/ (function(module, exports, __webpack_require__) {
-
 // 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
-var $keys = __webpack_require__(101);
+var $keys = __webpack_require__(100);
 var hiddenKeys = __webpack_require__(78).concat('length', 'prototype');
 
 exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
@@ -14552,11 +13773,11 @@ exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
 
 
 /***/ }),
-/* 83 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // helper for String#{startsWith, endsWith, includes}
-var isRegExp = __webpack_require__(144);
+var isRegExp = __webpack_require__(143);
 var defined = __webpack_require__(38);
 
 module.exports = function (that, searchString, NAME) {
@@ -14566,7 +13787,7 @@ module.exports = function (that, searchString, NAME) {
 
 
 /***/ }),
-/* 84 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var MATCH = __webpack_require__(12)('match');
@@ -14584,13 +13805,13 @@ module.exports = function (KEY) {
 
 
 /***/ }),
-/* 85 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var $defineProperty = __webpack_require__(20);
-var createDesc = __webpack_require__(51);
+var createDesc = __webpack_require__(50);
 
 module.exports = function (object, index, value) {
   if (index in object) $defineProperty.f(object, index, createDesc(0, value));
@@ -14599,26 +13820,21 @@ module.exports = function (object, index, value) {
 
 
 /***/ }),
-/* 86 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var addToUnscopables = __webpack_require__(46);
-<<<<<<< HEAD
-var step = __webpack_require__(110);
-var Iterators = __webpack_require__(52);
-=======
-var step = __webpack_require__(108);
+var step = __webpack_require__(109);
 var Iterators = __webpack_require__(51);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 var toIObject = __webpack_require__(24);
 
 // 22.1.3.4 Array.prototype.entries()
 // 22.1.3.13 Array.prototype.keys()
 // 22.1.3.29 Array.prototype.values()
 // 22.1.3.30 Array.prototype[@@iterator]()
-module.exports = __webpack_require__(108)(Array, 'Array', function (iterated, kind) {
+module.exports = __webpack_require__(107)(Array, 'Array', function (iterated, kind) {
   this._t = toIObject(iterated); // target
   this._i = 0;                   // next index
   this._k = kind;                // kind
@@ -14645,7 +13861,7 @@ addToUnscopables('entries');
 
 
 /***/ }),
-/* 87 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14655,7 +13871,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _coords = __webpack_require__(56);
+var _coords = __webpack_require__(55);
 
 var _coords2 = _interopRequireDefault(_coords);
 
@@ -15334,7 +14550,7 @@ var CellRange = function () {
 exports.default = CellRange;
 
 /***/ }),
-/* 88 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15343,7 +14559,7 @@ exports.default = CellRange;
 exports.__esModule = true;
 exports.getRegisteredCellTypes = exports.getRegisteredCellTypeNames = exports.hasCellType = exports.getCellType = exports.registerCellType = undefined;
 
-var _staticRegister2 = __webpack_require__(40);
+var _staticRegister2 = __webpack_require__(39);
 
 var _staticRegister3 = _interopRequireDefault(_staticRegister2);
 
@@ -15353,41 +14569,6 @@ var _renderers = __webpack_require__(14);
 
 var _validators = __webpack_require__(29);
 
-<<<<<<< HEAD
-var _autocompleteType = __webpack_require__(501);
-
-var _autocompleteType2 = _interopRequireDefault(_autocompleteType);
-
-var _checkboxType = __webpack_require__(502);
-
-var _checkboxType2 = _interopRequireDefault(_checkboxType);
-
-var _dateType = __webpack_require__(503);
-
-var _dateType2 = _interopRequireDefault(_dateType);
-
-var _dropdownType = __webpack_require__(504);
-
-var _dropdownType2 = _interopRequireDefault(_dropdownType);
-
-var _handsontableType = __webpack_require__(505);
-
-var _handsontableType2 = _interopRequireDefault(_handsontableType);
-
-var _numericType = __webpack_require__(506);
-
-var _numericType2 = _interopRequireDefault(_numericType);
-
-var _passwordType = __webpack_require__(507);
-
-var _passwordType2 = _interopRequireDefault(_passwordType);
-
-var _textType = __webpack_require__(508);
-
-var _textType2 = _interopRequireDefault(_textType);
-
-var _timeType = __webpack_require__(509);
-=======
 var _autocompleteType = __webpack_require__(500);
 
 var _autocompleteType2 = _interopRequireDefault(_autocompleteType);
@@ -15421,7 +14602,6 @@ var _textType = __webpack_require__(507);
 var _textType2 = _interopRequireDefault(_textType);
 
 var _timeType = __webpack_require__(508);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _timeType2 = _interopRequireDefault(_timeType);
 
@@ -15490,7 +14670,7 @@ exports.getRegisteredCellTypeNames = getNames;
 exports.getRegisteredCellTypes = getValues;
 
 /***/ }),
-/* 89 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15508,29 +14688,21 @@ exports.default = Core;
 
 var _element = __webpack_require__(0);
 
-var _setting = __webpack_require__(90);
+var _setting = __webpack_require__(89);
 
 var _function = __webpack_require__(42);
 
-var _console = __webpack_require__(57);
+var _console = __webpack_require__(56);
 
 var _mixed = __webpack_require__(11);
 
 var _browser = __webpack_require__(28);
 
-<<<<<<< HEAD
-var _dataMap = __webpack_require__(510);
-
-var _dataMap2 = _interopRequireDefault(_dataMap);
-
-var _editorManager = __webpack_require__(513);
-=======
 var _dataMap = __webpack_require__(509);
 
 var _dataMap2 = _interopRequireDefault(_dataMap);
 
 var _editorManager = __webpack_require__(512);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _editorManager2 = _interopRequireDefault(_editorManager);
 
@@ -15554,33 +14726,19 @@ var _string = __webpack_require__(36);
 
 var _number = __webpack_require__(5);
 
-<<<<<<< HEAD
-var _tableView = __webpack_require__(514);
-
-var _tableView2 = _interopRequireDefault(_tableView);
-
-var _dataSource = __webpack_require__(515);
-=======
 var _tableView = __webpack_require__(513);
 
 var _tableView2 = _interopRequireDefault(_tableView);
 
 var _dataSource = __webpack_require__(514);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _dataSource2 = _interopRequireDefault(_dataSource);
 
-var _data = __webpack_require__(91);
+var _data = __webpack_require__(90);
 
-<<<<<<< HEAD
-var _recordTranslator = __webpack_require__(438);
+var _recordTranslator = __webpack_require__(437);
 
-var _rootInstance = __webpack_require__(439);
-=======
-var _recordTranslator = __webpack_require__(436);
-
-var _rootInstance = __webpack_require__(437);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _rootInstance = __webpack_require__(438);
 
 var _src = __webpack_require__(4);
 
@@ -15588,37 +14746,21 @@ var _pluginHooks = __webpack_require__(16);
 
 var _pluginHooks2 = _interopRequireDefault(_pluginHooks);
 
-<<<<<<< HEAD
-var _defaultSettings = __webpack_require__(440);
-=======
-var _defaultSettings = __webpack_require__(438);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _defaultSettings = __webpack_require__(439);
 
 var _defaultSettings2 = _interopRequireDefault(_defaultSettings);
 
-var _cellTypes = __webpack_require__(88);
+var _cellTypes = __webpack_require__(87);
 
-<<<<<<< HEAD
-var _i18n = __webpack_require__(441);
-
-var _dictionariesManager = __webpack_require__(71);
-
-var _utils = __webpack_require__(442);
-
-var _keyStateObserver = __webpack_require__(443);
-
-var _selection = __webpack_require__(519);
-=======
-var _i18n = __webpack_require__(439);
+var _i18n = __webpack_require__(440);
 
 var _dictionariesManager = __webpack_require__(71);
 
-var _utils = __webpack_require__(440);
+var _utils = __webpack_require__(441);
 
-var _keyStateObserver = __webpack_require__(441);
+var _keyStateObserver = __webpack_require__(442);
 
 var _selection = __webpack_require__(518);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -16511,6 +15653,10 @@ function Core(rootElement, userSettings) {
     return numericData;
   }
 
+  function isNumericData(value) {
+    return value.length > 0 && /^-?[\d\s]*(\.|,)?\d*$/.test(value);
+  };
+
   function formatChanges(changes) {
     for (var i = changes.length - 1; i >= 0; i--) {
       if (changes[i] === null) {
@@ -16633,11 +15779,17 @@ function Core(rootElement, userSettings) {
       datamap.set(changes[i][0], changes[i][1], changes[i][3]);
     }
 
-    instance.forceFullRender = true; // used when data was changed
+    var changedRows = (0, _array.arrayMap)(changes, function (_ref11) {
+      var _ref12 = _slicedToArray(_ref11, 1),
+          row = _ref12[0];
+
+      return recordTranslator.toVisualRow(row);
+    });
+
     grid.adjustRowsAndCols();
     instance.runHooks('beforeChangeRender', changes, source);
     editorManager.lockEditor();
-    instance._refreshBorders(null);
+    instance._renderChangedRows(changedRows);
     editorManager.unlockEditor();
     instance.view.wt.wtOverlays.adjustElementsSize();
     instance.runHooks('afterChange', changes, source || 'edit');
@@ -16960,9 +16112,9 @@ function Core(rootElement, userSettings) {
   this.getSelected = function () {
     // https://github.com/handsontable/handsontable/issues/44  //cjl
     if (selection.isSelected()) {
-      return (0, _array.arrayMap)(selection.getSelectedRange(), function (_ref11) {
-        var from = _ref11.from,
-            to = _ref11.to;
+      return (0, _array.arrayMap)(selection.getSelectedRange(), function (_ref13) {
+        var from = _ref13.from,
+            to = _ref13.to;
         return [from.row, from.col, to.row, to.col];
       });
     }
@@ -17974,6 +17126,7 @@ function Core(rootElement, userSettings) {
       priv.cellSettings[physicalRow][physicalColumn] = new priv.columnSettings[physicalColumn]();
     }
     priv.cellSettings[physicalRow][physicalColumn][key] = val;
+
     instance.runHooks('afterSetCellMeta', row, col, key, val);
   };
 
@@ -19177,6 +18330,20 @@ function Core(rootElement, userSettings) {
   };
 
   /**
+   * Triggers a rendering of just changed rows
+   * @private
+   * @param {Array} Array of visualRowIndexs that map to the changedRows
+   */
+  this._renderChangedRows = function (changedRows) {
+    editorManager.destroyEditor(null);
+    instance.view.selectiveRender(changedRows);
+
+    if (selection.isSelected()) {
+      editorManager.prepareEditor();
+    }
+  };
+
+  /**
    * Refresh selection borders. This is temporary method relic after selection rewrite.
    *
    * @private
@@ -19195,7 +18362,7 @@ function Core(rootElement, userSettings) {
 };
 
 /***/ }),
-/* 90 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19228,7 +18395,7 @@ function columnFactory(GridSettings, conflictList) {
 }
 
 /***/ }),
-/* 91 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19243,7 +18410,7 @@ exports.createEmptySpreadsheetData = createEmptySpreadsheetData;
 exports.translateRowsToColumns = translateRowsToColumns;
 exports.cellMethodLookupFactory = cellMethodLookupFactory;
 
-var _cellTypes = __webpack_require__(88);
+var _cellTypes = __webpack_require__(87);
 
 var _object = __webpack_require__(2);
 
@@ -19437,7 +18604,7 @@ function cellMethodLookupFactory(methodName, allowUndefined) {
 }
 
 /***/ }),
-/* 92 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19704,7 +18871,7 @@ function isValidCoord(coord) {
 };
 
 /***/ }),
-/* 93 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20245,7 +19412,7 @@ var GhostTable = function () {
 exports.default = GhostTable;
 
 /***/ }),
-/* 94 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20446,7 +19613,7 @@ var arrayMapper = {
 exports.default = arrayMapper;
 
 /***/ }),
-/* 95 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20463,7 +19630,7 @@ function separatorItem() {
 }
 
 /***/ }),
-/* 96 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20474,11 +19641,7 @@ exports.ITEMS = exports.UNDO = exports.SEPARATOR = exports.ROW_BELOW = exports.R
 
 var _predefinedItems2;
 
-<<<<<<< HEAD
-var _alignment = __webpack_require__(551);
-=======
-var _alignment = __webpack_require__(546);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _alignment = __webpack_require__(550);
 
 Object.defineProperty(exports, 'ALIGNMENT', {
   enumerable: true,
@@ -20487,11 +19650,7 @@ Object.defineProperty(exports, 'ALIGNMENT', {
   }
 });
 
-<<<<<<< HEAD
-var _clearColumn = __webpack_require__(552);
-=======
-var _clearColumn = __webpack_require__(547);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _clearColumn = __webpack_require__(551);
 
 Object.defineProperty(exports, 'CLEAR_COLUMN', {
   enumerable: true,
@@ -20500,11 +19659,7 @@ Object.defineProperty(exports, 'CLEAR_COLUMN', {
   }
 });
 
-<<<<<<< HEAD
-var _columnLeft = __webpack_require__(553);
-=======
-var _columnLeft = __webpack_require__(548);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _columnLeft = __webpack_require__(552);
 
 Object.defineProperty(exports, 'COLUMN_LEFT', {
   enumerable: true,
@@ -20513,11 +19668,7 @@ Object.defineProperty(exports, 'COLUMN_LEFT', {
   }
 });
 
-<<<<<<< HEAD
-var _columnRight = __webpack_require__(554);
-=======
-var _columnRight = __webpack_require__(549);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _columnRight = __webpack_require__(553);
 
 Object.defineProperty(exports, 'COLUMN_RIGHT', {
   enumerable: true,
@@ -20526,11 +19677,7 @@ Object.defineProperty(exports, 'COLUMN_RIGHT', {
   }
 });
 
-<<<<<<< HEAD
-var _readOnly = __webpack_require__(555);
-=======
-var _readOnly = __webpack_require__(550);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _readOnly = __webpack_require__(554);
 
 Object.defineProperty(exports, 'READ_ONLY', {
   enumerable: true,
@@ -20539,11 +19686,7 @@ Object.defineProperty(exports, 'READ_ONLY', {
   }
 });
 
-<<<<<<< HEAD
-var _redo = __webpack_require__(556);
-=======
-var _redo = __webpack_require__(551);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _redo = __webpack_require__(555);
 
 Object.defineProperty(exports, 'REDO', {
   enumerable: true,
@@ -20552,11 +19695,7 @@ Object.defineProperty(exports, 'REDO', {
   }
 });
 
-<<<<<<< HEAD
-var _removeColumn = __webpack_require__(557);
-=======
-var _removeColumn = __webpack_require__(552);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _removeColumn = __webpack_require__(556);
 
 Object.defineProperty(exports, 'REMOVE_COLUMN', {
   enumerable: true,
@@ -20565,11 +19704,7 @@ Object.defineProperty(exports, 'REMOVE_COLUMN', {
   }
 });
 
-<<<<<<< HEAD
-var _removeRow = __webpack_require__(558);
-=======
-var _removeRow = __webpack_require__(553);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _removeRow = __webpack_require__(557);
 
 Object.defineProperty(exports, 'REMOVE_ROW', {
   enumerable: true,
@@ -20578,11 +19713,7 @@ Object.defineProperty(exports, 'REMOVE_ROW', {
   }
 });
 
-<<<<<<< HEAD
-var _rowAbove = __webpack_require__(559);
-=======
-var _rowAbove = __webpack_require__(554);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _rowAbove = __webpack_require__(558);
 
 Object.defineProperty(exports, 'ROW_ABOVE', {
   enumerable: true,
@@ -20591,11 +19722,7 @@ Object.defineProperty(exports, 'ROW_ABOVE', {
   }
 });
 
-<<<<<<< HEAD
-var _rowBelow = __webpack_require__(560);
-=======
-var _rowBelow = __webpack_require__(555);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _rowBelow = __webpack_require__(559);
 
 Object.defineProperty(exports, 'ROW_BELOW', {
   enumerable: true,
@@ -20604,7 +19731,7 @@ Object.defineProperty(exports, 'ROW_BELOW', {
   }
 });
 
-var _separator = __webpack_require__(95);
+var _separator = __webpack_require__(94);
 
 Object.defineProperty(exports, 'SEPARATOR', {
   enumerable: true,
@@ -20613,11 +19740,7 @@ Object.defineProperty(exports, 'SEPARATOR', {
   }
 });
 
-<<<<<<< HEAD
-var _undo = __webpack_require__(561);
-=======
-var _undo = __webpack_require__(556);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _undo = __webpack_require__(560);
 
 Object.defineProperty(exports, 'UNDO', {
   enumerable: true,
@@ -20690,7 +19813,7 @@ function addItem(key, item) {
 }
 
 /***/ }),
-/* 97 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21068,16 +20191,12 @@ var MergedCellCoords = function () {
 exports.default = MergedCellCoords;
 
 /***/ }),
-/* 98 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-<<<<<<< HEAD
-var strong = __webpack_require__(99);
-=======
-var strong = __webpack_require__(97);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var strong = __webpack_require__(98);
 var validate = __webpack_require__(45);
 var MAP = 'Map';
 
@@ -21098,20 +20217,20 @@ module.exports = __webpack_require__(66)(MAP, function (get) {
 
 
 /***/ }),
-/* 99 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var dP = __webpack_require__(20).f;
 var create = __webpack_require__(74);
-var redefineAll = __webpack_require__(62);
+var redefineAll = __webpack_require__(61);
 var ctx = __webpack_require__(32);
-var anInstance = __webpack_require__(64);
-var forOf = __webpack_require__(65);
-var $iterDefine = __webpack_require__(108);
-var step = __webpack_require__(110);
-var setSpecies = __webpack_require__(111);
+var anInstance = __webpack_require__(63);
+var forOf = __webpack_require__(64);
+var $iterDefine = __webpack_require__(107);
+var step = __webpack_require__(109);
+var setSpecies = __webpack_require__(110);
 var DESCRIPTORS = __webpack_require__(22);
 var fastKey = __webpack_require__(34).fastKey;
 var validate = __webpack_require__(45);
@@ -21249,7 +20368,7 @@ module.exports = {
 
 
 /***/ }),
-/* 100 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = !__webpack_require__(22) && !__webpack_require__(23)(function () {
@@ -21258,12 +20377,12 @@ module.exports = !__webpack_require__(22) && !__webpack_require__(23)(function (
 
 
 /***/ }),
-/* 101 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var has = __webpack_require__(27);
 var toIObject = __webpack_require__(24);
-var arrayIndexOf = __webpack_require__(102)(false);
+var arrayIndexOf = __webpack_require__(101)(false);
 var IE_PROTO = __webpack_require__(76)('IE_PROTO');
 
 module.exports = function (object, names) {
@@ -21281,14 +20400,14 @@ module.exports = function (object, names) {
 
 
 /***/ }),
-/* 102 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // false -> Array#indexOf
 // true  -> Array#includes
 var toIObject = __webpack_require__(24);
 var toLength = __webpack_require__(25);
-var toAbsoluteIndex = __webpack_require__(61);
+var toAbsoluteIndex = __webpack_require__(60);
 module.exports = function (IS_INCLUDES) {
   return function ($this, el, fromIndex) {
     var O = toIObject($this);
@@ -21310,7 +20429,7 @@ module.exports = function (IS_INCLUDES) {
 
 
 /***/ }),
-/* 103 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var document = __webpack_require__(15).document;
@@ -21318,7 +20437,7 @@ module.exports = document && document.documentElement;
 
 
 /***/ }),
-/* 104 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // call something on iterator step with safe closing on error
@@ -21336,11 +20455,11 @@ module.exports = function (iterator, fn, value, entries) {
 
 
 /***/ }),
-/* 105 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // check on default Array iterator
-var Iterators = __webpack_require__(52);
+var Iterators = __webpack_require__(51);
 var ITERATOR = __webpack_require__(12)('iterator');
 var ArrayProto = Array.prototype;
 
@@ -21350,20 +20469,13 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 106 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD
-var classof = __webpack_require__(107);
+var classof = __webpack_require__(106);
 var ITERATOR = __webpack_require__(12)('iterator');
-var Iterators = __webpack_require__(52);
-module.exports = __webpack_require__(39).getIteratorMethod = function (it) {
-=======
-var classof = __webpack_require__(105);
-var ITERATOR = __webpack_require__(11)('iterator');
 var Iterators = __webpack_require__(51);
 module.exports = __webpack_require__(44).getIteratorMethod = function (it) {
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
   if (it != undefined) return it[ITERATOR]
     || it['@@iterator']
     || Iterators[classof(it)];
@@ -21371,17 +20483,12 @@ module.exports = __webpack_require__(44).getIteratorMethod = function (it) {
 
 
 /***/ }),
-/* 107 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // getting tag from 19.1.3.6 Object.prototype.toString()
-<<<<<<< HEAD
-var cof = __webpack_require__(44);
-var TAG = __webpack_require__(12)('toStringTag');
-=======
 var cof = __webpack_require__(43);
-var TAG = __webpack_require__(11)('toStringTag');
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var TAG = __webpack_require__(12)('toStringTag');
 // ES3 wrong here
 var ARG = cof(function () { return arguments; }()) == 'Arguments';
 
@@ -21405,29 +20512,21 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 108 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var LIBRARY = __webpack_require__(49);
+var LIBRARY = __webpack_require__(65);
 var $export = __webpack_require__(3);
 var redefine = __webpack_require__(30);
 var hide = __webpack_require__(31);
-<<<<<<< HEAD
-var Iterators = __webpack_require__(52);
-var $iterCreate = __webpack_require__(452);
-var setToStringTag = __webpack_require__(53);
-var getPrototypeOf = __webpack_require__(109);
-var ITERATOR = __webpack_require__(12)('iterator');
-=======
 var has = __webpack_require__(27);
 var Iterators = __webpack_require__(51);
 var $iterCreate = __webpack_require__(451);
 var setToStringTag = __webpack_require__(52);
-var getPrototypeOf = __webpack_require__(107);
-var ITERATOR = __webpack_require__(11)('iterator');
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var getPrototypeOf = __webpack_require__(108);
+var ITERATOR = __webpack_require__(12)('iterator');
 var BUGGY = !([].keys && 'next' in [].keys()); // Safari has buggy iterators w/o `next`
 var FF_ITERATOR = '@@iterator';
 var KEYS = 'keys';
@@ -21490,7 +20589,7 @@ module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCE
 
 
 /***/ }),
-/* 109 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
@@ -21509,7 +20608,7 @@ module.exports = Object.getPrototypeOf || function (O) {
 
 
 /***/ }),
-/* 110 */
+/* 109 */
 /***/ (function(module, exports) {
 
 module.exports = function (done, value) {
@@ -21518,7 +20617,7 @@ module.exports = function (done, value) {
 
 
 /***/ }),
-/* 111 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21538,7 +20637,7 @@ module.exports = function (KEY) {
 
 
 /***/ }),
-/* 112 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Works with __proto__ only. Old v8 can't work with null proto objects.
@@ -21569,16 +20668,12 @@ module.exports = {
 
 
 /***/ }),
-/* 113 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-<<<<<<< HEAD
-var strong = __webpack_require__(99);
-=======
-var strong = __webpack_require__(97);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var strong = __webpack_require__(98);
 var validate = __webpack_require__(45);
 var SET = 'Set';
 
@@ -21594,7 +20689,7 @@ module.exports = __webpack_require__(66)(SET, function (get) {
 
 
 /***/ }),
-/* 114 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21602,8 +20697,8 @@ module.exports = __webpack_require__(66)(SET, function (get) {
 var each = __webpack_require__(68)(0);
 var redefine = __webpack_require__(30);
 var meta = __webpack_require__(34);
-var assign = __webpack_require__(116);
-var weak = __webpack_require__(117);
+var assign = __webpack_require__(115);
+var weak = __webpack_require__(116);
 var isObject = __webpack_require__(9);
 var fails = __webpack_require__(23);
 var validate = __webpack_require__(45);
@@ -21660,7 +20755,7 @@ if (fails(function () { return new $WeakMap().set((Object.freeze || Object)(tmp)
 
 
 /***/ }),
-/* 115 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.2.2 IsArray(argument)
@@ -21671,7 +20766,7 @@ module.exports = Array.isArray || function isArray(arg) {
 
 
 /***/ }),
-/* 116 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21679,7 +20774,7 @@ module.exports = Array.isArray || function isArray(arg) {
 // 19.1.2.1 Object.assign(target, source, ...)
 var getKeys = __webpack_require__(37);
 var gOPS = __webpack_require__(69);
-var pIE = __webpack_require__(54);
+var pIE = __webpack_require__(53);
 var toObject = __webpack_require__(33);
 var IObject = __webpack_require__(75);
 var $assign = Object.assign;
@@ -21712,23 +20807,19 @@ module.exports = !$assign || __webpack_require__(23)(function () {
 
 
 /***/ }),
-/* 117 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var redefineAll = __webpack_require__(62);
+var redefineAll = __webpack_require__(61);
 var getWeak = __webpack_require__(34).getWeak;
 var anObject = __webpack_require__(18);
 var isObject = __webpack_require__(9);
-var anInstance = __webpack_require__(64);
-var forOf = __webpack_require__(65);
+var anInstance = __webpack_require__(63);
+var forOf = __webpack_require__(64);
 var createArrayMethod = __webpack_require__(68);
-<<<<<<< HEAD
-var $has = __webpack_require__(29);
-=======
 var $has = __webpack_require__(27);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 var validate = __webpack_require__(45);
 var arrayFind = createArrayMethod(5);
 var arrayFindIndex = createArrayMethod(6);
@@ -21808,16 +20899,12 @@ module.exports = {
 
 
 /***/ }),
-/* 118 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-<<<<<<< HEAD
-var weak = __webpack_require__(117);
-=======
-var weak = __webpack_require__(115);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var weak = __webpack_require__(116);
 var validate = __webpack_require__(45);
 var WEAK_SET = 'WeakSet';
 
@@ -21833,44 +20920,29 @@ __webpack_require__(66)(WEAK_SET, function (get) {
 
 
 /***/ }),
-/* 119 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var LIBRARY = __webpack_require__(49);
+var LIBRARY = __webpack_require__(65);
 var global = __webpack_require__(15);
 var ctx = __webpack_require__(32);
-var classof = __webpack_require__(107);
+var classof = __webpack_require__(106);
 var $export = __webpack_require__(3);
 var isObject = __webpack_require__(9);
-<<<<<<< HEAD
-var aFunction = __webpack_require__(63);
-var anInstance = __webpack_require__(64);
-var forOf = __webpack_require__(65);
-var speciesConstructor = __webpack_require__(456);
-var task = __webpack_require__(80).set;
-var microtask = __webpack_require__(458)();
-var newPromiseCapabilityModule = __webpack_require__(120);
-var perform = __webpack_require__(459);
-var userAgent = __webpack_require__(81);
-var promiseResolve = __webpack_require__(460);
-=======
 var aFunction = __webpack_require__(62);
 var anInstance = __webpack_require__(63);
 var forOf = __webpack_require__(64);
 var speciesConstructor = __webpack_require__(455);
 var task = __webpack_require__(80).set;
 var microtask = __webpack_require__(457)();
-var newPromiseCapabilityModule = __webpack_require__(118);
+var newPromiseCapabilityModule = __webpack_require__(119);
 var perform = __webpack_require__(458);
 var promiseResolve = __webpack_require__(459);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 var PROMISE = 'Promise';
 var TypeError = global.TypeError;
 var process = global.process;
-var versions = process && process.versions;
-var v8 = versions && versions.v8 || '';
 var $Promise = global[PROMISE];
 var isNode = classof(process) == 'process';
 var empty = function () { /* empty */ };
@@ -21885,13 +20957,7 @@ var USE_NATIVE = !!function () {
       exec(empty, empty);
     };
     // unhandled rejections tracking support, NodeJS Promise without it fails @@species test
-    return (isNode || typeof PromiseRejectionEvent == 'function')
-      && promise.then(empty) instanceof FakePromise
-      // v8 6.6 (Node 10 and Chrome 66) have a bug with resolving custom thenables
-      // https://bugs.chromium.org/p/chromium/issues/detail?id=830565
-      // we can't detect it synchronously, so just check versions
-      && v8.indexOf('6.6') !== 0
-      && userAgent.indexOf('Chrome/66') === -1;
+    return (isNode || typeof PromiseRejectionEvent == 'function') && promise.then(empty) instanceof FakePromise;
   } catch (e) { /* empty */ }
 }();
 
@@ -22036,7 +21102,7 @@ if (!USE_NATIVE) {
     this._h = 0;              // <- rejection state, 0 - default, 1 - handled, 2 - unhandled
     this._n = false;          // <- notify
   };
-  Internal.prototype = __webpack_require__(62)($Promise.prototype, {
+  Internal.prototype = __webpack_require__(61)($Promise.prototype, {
     // 25.4.5.3 Promise.prototype.then(onFulfilled, onRejected)
     then: function then(onFulfilled, onRejected) {
       var reaction = newPromiseCapability(speciesConstructor(this, $Promise));
@@ -22067,15 +21133,9 @@ if (!USE_NATIVE) {
 }
 
 $export($export.G + $export.W + $export.F * !USE_NATIVE, { Promise: $Promise });
-<<<<<<< HEAD
-__webpack_require__(53)($Promise, PROMISE);
-__webpack_require__(111)(PROMISE);
-Wrapper = __webpack_require__(39)[PROMISE];
-=======
 __webpack_require__(52)($Promise, PROMISE);
-__webpack_require__(109)(PROMISE);
+__webpack_require__(110)(PROMISE);
 Wrapper = __webpack_require__(44)[PROMISE];
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 // statics
 $export($export.S + $export.F * !USE_NATIVE, PROMISE, {
@@ -22140,13 +21200,13 @@ $export($export.S + $export.F * !(USE_NATIVE && __webpack_require__(79)(function
 
 
 /***/ }),
-/* 120 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 // 25.4.1.5 NewPromiseCapability(C)
-var aFunction = __webpack_require__(63);
+var aFunction = __webpack_require__(62);
 
 function PromiseCapability(C) {
   var resolve, reject;
@@ -22165,49 +21225,34 @@ module.exports.f = function (C) {
 
 
 /***/ }),
-/* 121 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 // ECMAScript 6 symbols shim
-<<<<<<< HEAD
 var global = __webpack_require__(15);
-var has = __webpack_require__(29);
-=======
-var global = __webpack_require__(14);
 var has = __webpack_require__(27);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 var DESCRIPTORS = __webpack_require__(22);
 var $export = __webpack_require__(3);
 var redefine = __webpack_require__(30);
 var META = __webpack_require__(34).KEY;
 var $fails = __webpack_require__(23);
 var shared = __webpack_require__(77);
-<<<<<<< HEAD
-var setToStringTag = __webpack_require__(53);
-var uid = __webpack_require__(50);
-var wks = __webpack_require__(12);
-var wksExt = __webpack_require__(122);
-var wksDefine = __webpack_require__(461);
-var enumKeys = __webpack_require__(462);
-var isArray = __webpack_require__(115);
-=======
 var setToStringTag = __webpack_require__(52);
 var uid = __webpack_require__(49);
-var wks = __webpack_require__(11);
-var wksExt = __webpack_require__(120);
+var wks = __webpack_require__(12);
+var wksExt = __webpack_require__(121);
 var wksDefine = __webpack_require__(460);
 var enumKeys = __webpack_require__(461);
-var isArray = __webpack_require__(113);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var isArray = __webpack_require__(114);
 var anObject = __webpack_require__(18);
 var isObject = __webpack_require__(9);
 var toIObject = __webpack_require__(24);
 var toPrimitive = __webpack_require__(73);
-var createDesc = __webpack_require__(51);
+var createDesc = __webpack_require__(50);
 var _create = __webpack_require__(74);
-var gOPNExt = __webpack_require__(123);
+var gOPNExt = __webpack_require__(122);
 var $GOPD = __webpack_require__(67);
 var $DP = __webpack_require__(20);
 var $keys = __webpack_require__(37);
@@ -22333,11 +21378,11 @@ if (!USE_NATIVE) {
 
   $GOPD.f = $getOwnPropertyDescriptor;
   $DP.f = $defineProperty;
-  __webpack_require__(82).f = gOPNExt.f = $getOwnPropertyNames;
-  __webpack_require__(54).f = $propertyIsEnumerable;
+  __webpack_require__(81).f = gOPNExt.f = $getOwnPropertyNames;
+  __webpack_require__(53).f = $propertyIsEnumerable;
   __webpack_require__(69).f = $getOwnPropertySymbols;
 
-  if (DESCRIPTORS && !__webpack_require__(49)) {
+  if (DESCRIPTORS && !__webpack_require__(65)) {
     redefine(ObjectProto, 'propertyIsEnumerable', $propertyIsEnumerable, true);
   }
 
@@ -22421,19 +21466,19 @@ setToStringTag(global.JSON, 'JSON', true);
 
 
 /***/ }),
-/* 122 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports.f = __webpack_require__(12);
 
 
 /***/ }),
-/* 123 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
 var toIObject = __webpack_require__(24);
-var gOPN = __webpack_require__(82).f;
+var gOPN = __webpack_require__(81).f;
 var toString = {}.toString;
 
 var windowNames = typeof window == 'object' && window && Object.getOwnPropertyNames
@@ -22453,7 +21498,7 @@ module.exports.f = function getOwnPropertyNames(it) {
 
 
 /***/ }),
-/* 124 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.5 Object.freeze(O)
@@ -22468,7 +21513,7 @@ __webpack_require__(26)('freeze', function ($freeze) {
 
 
 /***/ }),
-/* 125 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.17 Object.seal(O)
@@ -22483,7 +21528,7 @@ __webpack_require__(26)('seal', function ($seal) {
 
 
 /***/ }),
-/* 126 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.15 Object.preventExtensions(O)
@@ -22498,7 +21543,7 @@ __webpack_require__(26)('preventExtensions', function ($preventExtensions) {
 
 
 /***/ }),
-/* 127 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.12 Object.isFrozen(O)
@@ -22512,7 +21557,7 @@ __webpack_require__(26)('isFrozen', function ($isFrozen) {
 
 
 /***/ }),
-/* 128 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.13 Object.isSealed(O)
@@ -22526,7 +21571,7 @@ __webpack_require__(26)('isSealed', function ($isSealed) {
 
 
 /***/ }),
-/* 129 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.11 Object.isExtensible(O)
@@ -22540,7 +21585,7 @@ __webpack_require__(26)('isExtensible', function ($isExtensible) {
 
 
 /***/ }),
-/* 130 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.6 Object.getOwnPropertyDescriptor(O, P)
@@ -22555,12 +21600,12 @@ __webpack_require__(26)('getOwnPropertyDescriptor', function () {
 
 
 /***/ }),
-/* 131 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.9 Object.getPrototypeOf(O)
 var toObject = __webpack_require__(33);
-var $getPrototypeOf = __webpack_require__(109);
+var $getPrototypeOf = __webpack_require__(108);
 
 __webpack_require__(26)('getPrototypeOf', function () {
   return function getPrototypeOf(it) {
@@ -22570,7 +21615,7 @@ __webpack_require__(26)('getPrototypeOf', function () {
 
 
 /***/ }),
-/* 132 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.14 Object.keys(O)
@@ -22585,49 +21630,45 @@ __webpack_require__(26)('keys', function () {
 
 
 /***/ }),
-/* 133 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.7 Object.getOwnPropertyNames(O)
 __webpack_require__(26)('getOwnPropertyNames', function () {
-  return __webpack_require__(123).f;
+  return __webpack_require__(122).f;
 });
+
+
+/***/ }),
+/* 133 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.3.1 Object.assign(target, source)
+var $export = __webpack_require__(3);
+
+$export($export.S + $export.F, 'Object', { assign: __webpack_require__(115) });
 
 
 /***/ }),
 /* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
-// 19.1.3.1 Object.assign(target, source)
+// 19.1.3.10 Object.is(value1, value2)
 var $export = __webpack_require__(3);
-
-$export($export.S + $export.F, 'Object', { assign: __webpack_require__(116) });
+$export($export.S, 'Object', { is: __webpack_require__(462) });
 
 
 /***/ }),
 /* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
-// 19.1.3.10 Object.is(value1, value2)
+// 19.1.3.19 Object.setPrototypeOf(O, proto)
 var $export = __webpack_require__(3);
-<<<<<<< HEAD
-$export($export.S, 'Object', { is: __webpack_require__(463) });
-=======
-$export($export.S, 'Object', { is: __webpack_require__(462) });
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+$export($export.S, 'Object', { setPrototypeOf: __webpack_require__(111).set });
 
 
 /***/ }),
 /* 136 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 19.1.3.19 Object.setPrototypeOf(O, proto)
-var $export = __webpack_require__(3);
-$export($export.S, 'Object', { setPrototypeOf: __webpack_require__(112).set });
-
-
-/***/ }),
-/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var dP = __webpack_require__(20).f;
@@ -22649,7 +21690,7 @@ NAME in FProto || __webpack_require__(22) && dP(FProto, NAME, {
 
 
 /***/ }),
-/* 138 */
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var $export = __webpack_require__(3);
@@ -22673,11 +21714,11 @@ $export($export.S, 'String', {
 
 
 /***/ }),
-/* 139 */
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var $export = __webpack_require__(3);
-var toAbsoluteIndex = __webpack_require__(61);
+var toAbsoluteIndex = __webpack_require__(60);
 var fromCharCode = String.fromCharCode;
 var $fromCodePoint = String.fromCodePoint;
 
@@ -22702,17 +21743,13 @@ $export($export.S + $export.F * (!!$fromCodePoint && $fromCodePoint.length != 1)
 
 
 /***/ }),
-/* 140 */
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var $export = __webpack_require__(3);
-<<<<<<< HEAD
-var $at = __webpack_require__(464)(false);
-=======
 var $at = __webpack_require__(463)(false);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 $export($export.P, 'String', {
   // 21.1.3.3 String.prototype.codePointAt(pos)
   codePointAt: function codePointAt(pos) {
@@ -22722,24 +21759,24 @@ $export($export.P, 'String', {
 
 
 /***/ }),
-/* 141 */
+/* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var $export = __webpack_require__(3);
 
 $export($export.P, 'String', {
   // 21.1.3.13 String.prototype.repeat(count)
-  repeat: __webpack_require__(142)
+  repeat: __webpack_require__(141)
 });
 
 
 /***/ }),
-/* 142 */
+/* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var toInteger = __webpack_require__(60);
+var toInteger = __webpack_require__(59);
 var defined = __webpack_require__(38);
 
 module.exports = function repeat(count) {
@@ -22753,7 +21790,7 @@ module.exports = function repeat(count) {
 
 
 /***/ }),
-/* 143 */
+/* 142 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22761,11 +21798,11 @@ module.exports = function repeat(count) {
 
 var $export = __webpack_require__(3);
 var toLength = __webpack_require__(25);
-var context = __webpack_require__(83);
+var context = __webpack_require__(82);
 var STARTS_WITH = 'startsWith';
 var $startsWith = ''[STARTS_WITH];
 
-$export($export.P + $export.F * __webpack_require__(84)(STARTS_WITH), 'String', {
+$export($export.P + $export.F * __webpack_require__(83)(STARTS_WITH), 'String', {
   startsWith: function startsWith(searchString /* , position = 0 */) {
     var that = context(this, searchString, STARTS_WITH);
     var index = toLength(Math.min(arguments.length > 1 ? arguments[1] : undefined, that.length));
@@ -22778,18 +21815,13 @@ $export($export.P + $export.F * __webpack_require__(84)(STARTS_WITH), 'String', 
 
 
 /***/ }),
-/* 144 */
+/* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.2.8 IsRegExp(argument)
 var isObject = __webpack_require__(9);
-<<<<<<< HEAD
-var cof = __webpack_require__(44);
-var MATCH = __webpack_require__(12)('match');
-=======
 var cof = __webpack_require__(43);
-var MATCH = __webpack_require__(11)('match');
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var MATCH = __webpack_require__(12)('match');
 module.exports = function (it) {
   var isRegExp;
   return isObject(it) && ((isRegExp = it[MATCH]) !== undefined ? !!isRegExp : cof(it) == 'RegExp');
@@ -22797,7 +21829,7 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 145 */
+/* 144 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22805,11 +21837,11 @@ module.exports = function (it) {
 
 var $export = __webpack_require__(3);
 var toLength = __webpack_require__(25);
-var context = __webpack_require__(83);
+var context = __webpack_require__(82);
 var ENDS_WITH = 'endsWith';
 var $endsWith = ''[ENDS_WITH];
 
-$export($export.P + $export.F * __webpack_require__(84)(ENDS_WITH), 'String', {
+$export($export.P + $export.F * __webpack_require__(83)(ENDS_WITH), 'String', {
   endsWith: function endsWith(searchString /* , endPosition = @length */) {
     var that = context(this, searchString, ENDS_WITH);
     var endPosition = arguments.length > 1 ? arguments[1] : undefined;
@@ -22824,17 +21856,17 @@ $export($export.P + $export.F * __webpack_require__(84)(ENDS_WITH), 'String', {
 
 
 /***/ }),
-/* 146 */
+/* 145 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 // 21.1.3.7 String.prototype.includes(searchString, position = 0)
 
 var $export = __webpack_require__(3);
-var context = __webpack_require__(83);
+var context = __webpack_require__(82);
 var INCLUDES = 'includes';
 
-$export($export.P + $export.F * __webpack_require__(84)(INCLUDES), 'String', {
+$export($export.P + $export.F * __webpack_require__(83)(INCLUDES), 'String', {
   includes: function includes(searchString /* , position = 0 */) {
     return !!~context(this, searchString, INCLUDES)
       .indexOf(searchString, arguments.length > 1 ? arguments[1] : undefined);
@@ -22843,22 +21875,18 @@ $export($export.P + $export.F * __webpack_require__(84)(INCLUDES), 'String', {
 
 
 /***/ }),
-/* 147 */
+/* 146 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 21.2.5.3 get RegExp.prototype.flags()
 if (__webpack_require__(22) && /./g.flags != 'g') __webpack_require__(20).f(RegExp.prototype, 'flags', {
   configurable: true,
-<<<<<<< HEAD
-  get: __webpack_require__(465)
-=======
   get: __webpack_require__(464)
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 });
 
 
 /***/ }),
-/* 148 */
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // @@match logic
@@ -22874,7 +21902,7 @@ __webpack_require__(70)('match', 1, function (defined, MATCH, $match) {
 
 
 /***/ }),
-/* 149 */
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // @@replace logic
@@ -22892,13 +21920,13 @@ __webpack_require__(70)('replace', 2, function (defined, REPLACE, $replace) {
 
 
 /***/ }),
-/* 150 */
+/* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // @@split logic
 __webpack_require__(70)('split', 2, function (defined, SPLIT, $split) {
   'use strict';
-  var isRegExp = __webpack_require__(144);
+  var isRegExp = __webpack_require__(143);
   var _split = $split;
   var $push = [].push;
   var $SPLIT = 'split';
@@ -22969,7 +21997,7 @@ __webpack_require__(70)('split', 2, function (defined, SPLIT, $split) {
 
 
 /***/ }),
-/* 151 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // @@search logic
@@ -22985,7 +22013,7 @@ __webpack_require__(70)('search', 1, function (defined, SEARCH, $search) {
 
 
 /***/ }),
-/* 152 */
+/* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22993,11 +22021,11 @@ __webpack_require__(70)('search', 1, function (defined, SEARCH, $search) {
 var ctx = __webpack_require__(32);
 var $export = __webpack_require__(3);
 var toObject = __webpack_require__(33);
-var call = __webpack_require__(104);
-var isArrayIter = __webpack_require__(105);
+var call = __webpack_require__(103);
+var isArrayIter = __webpack_require__(104);
 var toLength = __webpack_require__(25);
-var createProperty = __webpack_require__(85);
-var getIterFn = __webpack_require__(106);
+var createProperty = __webpack_require__(84);
+var getIterFn = __webpack_require__(105);
 
 $export($export.S + $export.F * !__webpack_require__(79)(function (iter) { Array.from(iter); }), 'Array', {
   // 22.1.2.1 Array.from(arrayLike, mapfn = undefined, thisArg = undefined)
@@ -23029,13 +22057,13 @@ $export($export.S + $export.F * !__webpack_require__(79)(function (iter) { Array
 
 
 /***/ }),
-/* 153 */
+/* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var $export = __webpack_require__(3);
-var createProperty = __webpack_require__(85);
+var createProperty = __webpack_require__(84);
 
 // WebKit Array.of isn't generic
 $export($export.S + $export.F * __webpack_require__(23)(function () {
@@ -23055,23 +22083,19 @@ $export($export.S + $export.F * __webpack_require__(23)(function () {
 
 
 /***/ }),
-/* 154 */
+/* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 22.1.3.3 Array.prototype.copyWithin(target, start, end = this.length)
 var $export = __webpack_require__(3);
 
-<<<<<<< HEAD
-$export($export.P, 'Array', { copyWithin: __webpack_require__(466) });
-=======
 $export($export.P, 'Array', { copyWithin: __webpack_require__(465) });
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 __webpack_require__(46)('copyWithin');
 
 
 /***/ }),
-/* 155 */
+/* 154 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23092,7 +22116,7 @@ __webpack_require__(46)(KEY);
 
 
 /***/ }),
-/* 156 */
+/* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23113,23 +22137,19 @@ __webpack_require__(46)(KEY);
 
 
 /***/ }),
-/* 157 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 22.1.3.6 Array.prototype.fill(value, start = 0, end = this.length)
 var $export = __webpack_require__(3);
 
-<<<<<<< HEAD
-$export($export.P, 'Array', { fill: __webpack_require__(467) });
-=======
 $export($export.P, 'Array', { fill: __webpack_require__(466) });
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 __webpack_require__(46)('fill');
 
 
 /***/ }),
-/* 158 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 20.1.2.2 Number.isFinite(number)
@@ -23144,17 +22164,17 @@ $export($export.S, 'Number', {
 
 
 /***/ }),
-/* 159 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 20.1.2.3 Number.isInteger(number)
 var $export = __webpack_require__(3);
 
-$export($export.S, 'Number', { isInteger: __webpack_require__(160) });
+$export($export.S, 'Number', { isInteger: __webpack_require__(159) });
 
 
 /***/ }),
-/* 160 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 20.1.2.3 Number.isInteger(number)
@@ -23166,12 +22186,12 @@ module.exports = function isInteger(it) {
 
 
 /***/ }),
-/* 161 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 20.1.2.5 Number.isSafeInteger(number)
 var $export = __webpack_require__(3);
-var isInteger = __webpack_require__(160);
+var isInteger = __webpack_require__(159);
 var abs = Math.abs;
 
 $export($export.S, 'Number', {
@@ -23182,7 +22202,7 @@ $export($export.S, 'Number', {
 
 
 /***/ }),
-/* 162 */
+/* 161 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 20.1.2.4 Number.isNaN(number)
@@ -23197,7 +22217,7 @@ $export($export.S, 'Number', {
 
 
 /***/ }),
-/* 163 */
+/* 162 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 20.1.2.1 Number.EPSILON
@@ -23207,7 +22227,7 @@ $export($export.S, 'Number', { EPSILON: Math.pow(2, -52) });
 
 
 /***/ }),
-/* 164 */
+/* 163 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 20.1.2.10 Number.MIN_SAFE_INTEGER
@@ -23217,7 +22237,7 @@ $export($export.S, 'Number', { MIN_SAFE_INTEGER: -0x1fffffffffffff });
 
 
 /***/ }),
-/* 165 */
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 20.1.2.6 Number.MAX_SAFE_INTEGER
@@ -23227,14 +22247,14 @@ $export($export.S, 'Number', { MAX_SAFE_INTEGER: 0x1fffffffffffff });
 
 
 /***/ }),
-/* 166 */
+/* 165 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 // https://github.com/tc39/Array.prototype.includes
 var $export = __webpack_require__(3);
-var $includes = __webpack_require__(102)(true);
+var $includes = __webpack_require__(101)(true);
 
 $export($export.P, 'Array', {
   includes: function includes(el /* , fromIndex = 0 */) {
@@ -23246,12 +22266,12 @@ __webpack_require__(46)('includes');
 
 
 /***/ }),
-/* 167 */
+/* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // https://github.com/tc39/proposal-object-values-entries
 var $export = __webpack_require__(3);
-var $values = __webpack_require__(168)(false);
+var $values = __webpack_require__(167)(false);
 
 $export($export.S, 'Object', {
   values: function values(it) {
@@ -23261,12 +22281,12 @@ $export($export.S, 'Object', {
 
 
 /***/ }),
-/* 168 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var getKeys = __webpack_require__(37);
 var toIObject = __webpack_require__(24);
-var isEnum = __webpack_require__(54).f;
+var isEnum = __webpack_require__(53).f;
 module.exports = function (isEntries) {
   return function (it) {
     var O = toIObject(it);
@@ -23283,12 +22303,12 @@ module.exports = function (isEntries) {
 
 
 /***/ }),
-/* 169 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // https://github.com/tc39/proposal-object-values-entries
 var $export = __webpack_require__(3);
-var $entries = __webpack_require__(168)(true);
+var $entries = __webpack_require__(167)(true);
 
 $export($export.S, 'Object', {
   entries: function entries(it) {
@@ -23298,19 +22318,15 @@ $export($export.S, 'Object', {
 
 
 /***/ }),
-/* 170 */
+/* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // https://github.com/tc39/proposal-object-getownpropertydescriptors
 var $export = __webpack_require__(3);
-<<<<<<< HEAD
-var ownKeys = __webpack_require__(468);
-=======
 var ownKeys = __webpack_require__(467);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 var toIObject = __webpack_require__(24);
 var gOPD = __webpack_require__(67);
-var createProperty = __webpack_require__(85);
+var createProperty = __webpack_require__(84);
 
 $export($export.S, 'Object', {
   getOwnPropertyDescriptors: function getOwnPropertyDescriptors(object) {
@@ -23330,15 +22346,15 @@ $export($export.S, 'Object', {
 
 
 /***/ }),
-/* 171 */
+/* 170 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 // https://github.com/tc39/proposal-string-pad-start-end
 var $export = __webpack_require__(3);
-var $pad = __webpack_require__(172);
-var userAgent = __webpack_require__(81);
+var $pad = __webpack_require__(171);
+var userAgent = __webpack_require__(172);
 
 // https://github.com/zloirock/core-js/issues/280
 $export($export.P + $export.F * /Version\/10\.\d+(\.\d+)? Safari\//.test(userAgent), 'String', {
@@ -23349,12 +22365,12 @@ $export($export.P + $export.F * /Version\/10\.\d+(\.\d+)? Safari\//.test(userAge
 
 
 /***/ }),
-/* 172 */
+/* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // https://github.com/tc39/proposal-string-pad-start-end
 var toLength = __webpack_require__(25);
-var repeat = __webpack_require__(142);
+var repeat = __webpack_require__(141);
 var defined = __webpack_require__(38);
 
 module.exports = function (that, maxLength, fillString, left) {
@@ -23371,6 +22387,16 @@ module.exports = function (that, maxLength, fillString, left) {
 
 
 /***/ }),
+/* 172 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var global = __webpack_require__(15);
+var navigator = global.navigator;
+
+module.exports = navigator && navigator.userAgent || '';
+
+
+/***/ }),
 /* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23378,8 +22404,8 @@ module.exports = function (that, maxLength, fillString, left) {
 
 // https://github.com/tc39/proposal-string-pad-start-end
 var $export = __webpack_require__(3);
-var $pad = __webpack_require__(172);
-var userAgent = __webpack_require__(81);
+var $pad = __webpack_require__(171);
+var userAgent = __webpack_require__(172);
 
 // https://github.com/zloirock/core-js/issues/280
 $export($export.P + $export.F * /Version\/10\.\d+(\.\d+)? Safari\//.test(userAgent), 'String', {
@@ -23405,12 +22431,12 @@ $export($export.G + $export.B, {
 /* 175 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var $iterators = __webpack_require__(86);
+var $iterators = __webpack_require__(85);
 var getKeys = __webpack_require__(37);
 var redefine = __webpack_require__(30);
 var global = __webpack_require__(15);
 var hide = __webpack_require__(31);
-var Iterators = __webpack_require__(52);
+var Iterators = __webpack_require__(51);
 var wks = __webpack_require__(12);
 var ITERATOR = wks('iterator');
 var TO_STRING_TAG = wks('toStringTag');
@@ -24237,7 +23263,6 @@ var _object = __webpack_require__(2);
 
 var _string = __webpack_require__(36);
 
-<<<<<<< HEAD
 var _event = __webpack_require__(301);
 
 var _event2 = _interopRequireDefault(_event);
@@ -24259,29 +23284,6 @@ var _table = __webpack_require__(305);
 var _table2 = _interopRequireDefault(_table);
 
 var _viewport = __webpack_require__(307);
-=======
-var _event = __webpack_require__(300);
-
-var _event2 = _interopRequireDefault(_event);
-
-var _overlays = __webpack_require__(301);
-
-var _overlays2 = _interopRequireDefault(_overlays);
-
-var _scroll = __webpack_require__(302);
-
-var _scroll2 = _interopRequireDefault(_scroll);
-
-var _settings = __webpack_require__(303);
-
-var _settings2 = _interopRequireDefault(_settings);
-
-var _table = __webpack_require__(304);
-
-var _table2 = _interopRequireDefault(_table);
-
-var _viewport = __webpack_require__(306);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _viewport2 = _interopRequireDefault(_viewport);
 
@@ -24346,6 +23348,7 @@ var Walkontable = function () {
    * @param {Boolean} [fastDraw=false] When `true`, try to refresh only the positions of borders without rerendering
    *                                   the data. It will only work if Table.draw() does not force
    *                                   rendering anyway
+   * @param {Array} [rowsToDraw=null] array of visualRowIndexes to specifically render
    * @returns {Walkontable}
    */
 
@@ -24354,6 +23357,7 @@ var Walkontable = function () {
     key: 'draw',
     value: function draw() {
       var fastDraw = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
+      var rowsToDraw = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
 
       this.drawInterrupted = false;
 
@@ -24361,9 +23365,29 @@ var Walkontable = function () {
         // draw interrupted because TABLE is not visible
         this.drawInterrupted = true;
       } else {
-        this.wtTable.draw(fastDraw);
+        this.wtTable.draw(fastDraw, rowsToDraw);
       }
 
+      return this;
+    }
+
+    /**
+     * Force a portion of Walkontable's rows to rerender
+     *
+     * @param {Array} rowsToDraw array of visualRowIndexes to specifically render
+     * @returns {Walkontable}
+     */
+
+  }, {
+    key: 'selectiveDraw',
+    value: function selectiveDraw(rowsToDraw) {
+      this.drawInterrupted = false;
+      if (!(0, _element.isVisible)(this.wtTable.TABLE)) {
+        // draw interrupted because TABLE is not visible
+        this.drawInterrupted = true;
+      } else {
+        this.wtTable.selectiveDraw(rowsToDraw);
+      }
       return this;
     }
 
@@ -24582,37 +23606,6 @@ var Walkontable = function () {
 exports.default = Walkontable;
 
 /***/ }),
-<<<<<<< HEAD
-=======
-/* 180 */
-/***/ (function(module, exports) {
-
-module.exports = function(module) {
-	if(!module.webpackPolyfill) {
-		module.deprecate = function() {};
-		module.paths = [];
-		// module.parent = undefined by default
-		if(!module.children) module.children = [];
-		Object.defineProperty(module, "loaded", {
-			enumerable: true,
-			get: function() {
-				return module.l;
-			}
-		});
-		Object.defineProperty(module, "id", {
-			enumerable: true,
-			get: function() {
-				return module.i;
-			}
-		});
-		module.webpackPolyfill = 1;
-	}
-	return module;
-};
-
-
-/***/ }),
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /* 181 */
 /***/ (function(module, exports) {
 
@@ -25350,15 +24343,12 @@ module.exports = function(module) {
 
 /***/ }),
 /* 300 */
-<<<<<<< HEAD
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
 /* 301 */
-=======
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25616,11 +24606,7 @@ Event.prototype.parentCell = function (elem) {
 exports.default = Event;
 
 /***/ }),
-<<<<<<< HEAD
 /* 302 */
-=======
-/* 301 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26307,11 +25293,7 @@ var Overlays = function () {
 exports.default = Overlays;
 
 /***/ }),
-<<<<<<< HEAD
 /* 303 */
-=======
-/* 302 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26602,11 +25584,7 @@ var Scroll = function () {
 exports.default = Scroll;
 
 /***/ }),
-<<<<<<< HEAD
 /* 304 */
-=======
-/* 303 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26820,11 +25798,7 @@ var Settings = function () {
 exports.default = Settings;
 
 /***/ }),
-<<<<<<< HEAD
 /* 305 */
-=======
-/* 304 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26842,11 +25816,11 @@ var _element = __webpack_require__(0);
 
 var _function = __webpack_require__(42);
 
-var _coords = __webpack_require__(56);
+var _coords = __webpack_require__(55);
 
 var _coords2 = _interopRequireDefault(_coords);
 
-var _range = __webpack_require__(87);
+var _range = __webpack_require__(86);
 
 var _range2 = _interopRequireDefault(_range);
 
@@ -26858,11 +25832,7 @@ var _row = __webpack_require__(179);
 
 var _row2 = _interopRequireDefault(_row);
 
-<<<<<<< HEAD
 var _tableRenderer = __webpack_require__(306);
-=======
-var _tableRenderer = __webpack_require__(305);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _tableRenderer2 = _interopRequireDefault(_tableRenderer);
 
@@ -27076,6 +26046,7 @@ var Table = function () {
   }, {
     key: 'draw',
     value: function draw(fastDraw) {
+      var rowsToDraw = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
       var _wot = this.wot,
           wtOverlays = _wot.wtOverlays,
           wtViewport = _wot.wtViewport;
@@ -27139,7 +26110,7 @@ var Table = function () {
         this.columnFilter = new _column2.default(startColumn, this.wot.getSetting('totalColumns'), rowHeaders);
 
         this.alignOverlaysWithTrimmingContainer();
-        this._doDraw(); // creates calculator after draw
+        this._doDraw(rowsToDraw); // creates calculator after draw
       }
       this.refreshSelections(fastDraw);
 
@@ -27167,12 +26138,25 @@ var Table = function () {
 
       return this;
     }
+
+    /*
+     * Triggers rendering of just specific rows
+     * @param {Array} rowsToDraw array of visualRowIndexs to specifically render
+     */
+
   }, {
-    key: '_doDraw',
-    value: function _doDraw() {
+    key: 'selectiveDraw',
+    value: function selectiveDraw(rowsToDraw) {
       var wtRenderer = new _tableRenderer2.default(this);
 
-      wtRenderer.render();
+      wtRenderer.selectiveRender(rowsToDraw);
+    }
+  }, {
+    key: '_doDraw',
+    value: function _doDraw(rowsToDraw) {
+      var wtRenderer = new _tableRenderer2.default(this);
+
+      wtRenderer.render(rowsToDraw);
     }
   }, {
     key: 'removeClassFromCells',
@@ -27377,6 +26361,11 @@ var Table = function () {
     key: 'getFirstRenderedRow',
     value: function getFirstRenderedRow() {
       return this.wot.wtViewport.rowsRenderCalculator.startRow;
+    }
+  }, {
+    key: 'getFirstRenderedRowSourceIndex',
+    value: function getFirstRenderedRowSourceIndex() {
+      return this.wot.wtViewport.firstRenderedSourceIndex;
     }
   }, {
     key: 'getFirstVisibleRow',
@@ -27623,11 +26612,7 @@ var Table = function () {
 exports.default = Table;
 
 /***/ }),
-<<<<<<< HEAD
 /* 306 */
-=======
-/* 305 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27637,11 +26622,11 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _templateObject = _taggedTemplateLiteral(['Performance tip: Handsontable rendered more than 1000 visible rows. Consider limiting the number \n          of rendered rows by specifying the table height and/or turning off the "renderAllRows" option.'], ['Performance tip: Handsontable rendered more than 1000 visible rows. Consider limiting the number \n          of rendered rows by specifying the table height and/or turning off the "renderAllRows" option.']);
+var _templateObject = _taggedTemplateLiteral(['Performance tip: Handsontable rendered more than 1000 visible rows. Consider limiting the number\n          of rendered rows by specifying the table height and/or turning off the "renderAllRows" option.'], ['Performance tip: Handsontable rendered more than 1000 visible rows. Consider limiting the number\n          of rendered rows by specifying the table height and/or turning off the "renderAllRows" option.']);
 
 var _element = __webpack_require__(0);
 
-var _console = __webpack_require__(57);
+var _console = __webpack_require__(56);
 
 var _templateLiteralTag = __webpack_require__(41);
 
@@ -27688,10 +26673,11 @@ var TableRenderer = function () {
     this.columnHeaderCount = 0;
     this.fixedRowsTop = 0;
     this.fixedRowsBottom = 0;
+    this.firstRenderedSourceIndex = 0;
   }
 
   /**
-   *
+   * Renders table
    */
 
 
@@ -27715,7 +26701,7 @@ var TableRenderer = function () {
       this.columnHeaderCount = this.columnHeaders.length;
 
       var columnsToRender = this.wtTable.getRenderedColumnsCount();
-      var rowsToRender = this.wtTable.getRenderedRowsCount();
+      var defaultRowsToRender = this.wtTable.getRenderedRowsCount();
       var totalColumns = this.wot.getSetting('totalColumns');
       var totalRows = this.wot.getSetting('totalRows');
       var workspaceWidth = void 0;
@@ -27736,8 +26722,8 @@ var TableRenderer = function () {
         // adjust column widths according to user widths settings
         this.renderColumnHeaders();
 
-        // Render table rows
-        this.renderRows(totalRows, rowsToRender, columnsToRender);
+        this.renderRows(totalRows, defaultRowsToRender, columnsToRender);
+        this.removeRedundantRows(defaultRowsToRender);
 
         if (!this.wtTable.isWorkingOnClone()) {
           workspaceWidth = this.wot.wtViewport.getWorkspaceWidth();
@@ -27752,7 +26738,6 @@ var TableRenderer = function () {
       if (!adjusted) {
         this.adjustAvailableNodes();
       }
-      this.removeRedundantRows(rowsToRender);
 
       if (!this.wtTable.isWorkingOnClone() || this.wot.isOverlayName(_base2.default.CLONE_BOTTOM)) {
         this.markOversizedRows();
@@ -27807,6 +26792,33 @@ var TableRenderer = function () {
     }
 
     /**
+     * Renders specific rows in the table
+     * @param {Array} rowsToRender array of visualRowIndexs to specifically render
+     */
+
+  }, {
+    key: 'selectiveRender',
+    value: function selectiveRender(rowsToRender) {
+      var columnsToRender = this.wtTable.getRenderedColumnsCount();
+      var totalColumns = this.wot.getSetting('totalColumns');
+
+      if (rowsToRender && totalColumns >= 0) {
+        this.renderSpecificRows(rowsToRender, columnsToRender);
+      }
+
+      if (!this.wtTable.isWorkingOnClone() || this.wot.isOverlayName(_base2.default.CLONE_BOTTOM)) {
+        this.markOversizedRows();
+      }
+
+      if (!this.wtTable.isWorkingOnClone()) {
+        this.wot.wtOverlays.refresh(false);
+        this.wot.wtOverlays.applyToDOM();
+      }
+
+      this.wot.getSetting('onDraw', true);
+    }
+
+    /**
      * @param {Number} renderedRowsCount
      */
 
@@ -27826,6 +26838,57 @@ var TableRenderer = function () {
      */
 
   }, {
+    key: 'renderSpecificRows',
+    value: function renderSpecificRows(rowsToRender, columnsToRender) {
+      var _this = this;
+
+      this.rowHeaders = this.wot.getSetting('rowHeaders');
+      this.rowHeaderCount = this.rowHeaders.length;
+
+      var isWorkingOnClone = this.wtTable.isWorkingOnClone();
+
+      rowsToRender.forEach(function (sourceRowIndex) {
+        var renderedRowIndex = sourceRowIndex - _this.wtTable.getFirstRenderedRowSourceIndex();
+        var TR = _this.createAndReplaceTrForRow(renderedRowIndex);
+
+        // Render row headers
+        _this.renderRowHeaders(sourceRowIndex, TR);
+
+        // Add and/or remove TDs to TR to match the desired number
+        _this.adjustColumns(TR, columnsToRender + _this.rowHeaderCount);
+
+        _this.renderCells(sourceRowIndex, TR, columnsToRender);
+
+        if (!isWorkingOnClone ||
+        // Necessary to refresh oversized row heights after editing cell in overlays
+        _this.wot.isOverlayName(_base2.default.CLONE_BOTTOM)) {
+          // Reset the oversized row cache for this row
+          _this.resetOversizedRow(sourceRowIndex);
+        }
+
+        if (TR.firstChild) {
+          // if I have 2 fixed columns with one-line content and the 3rd column has a multiline content, this is
+          // the way to make sure that the overlay will has same row height
+          var height = _this.wot.wtTable.getRowHeight(sourceRowIndex);
+
+          if (height) {
+            // Decrease height. 1 pixel will be "replaced" by 1px border top
+            height--;
+            TR.firstChild.style.height = height + 'px';
+          } else {
+            TR.firstChild.style.height = '';
+          }
+        }
+      });
+    }
+
+    /**
+     * @param {Number} totalRows
+     * @param {Number} rowsToRender
+     * @param {Number} columnsToRender
+     */
+
+  }, {
     key: 'renderRows',
     value: function renderRows(totalRows, rowsToRender, columnsToRender) {
       var lastTD = void 0;
@@ -27833,6 +26896,9 @@ var TableRenderer = function () {
       var visibleRowIndex = 0;
       var sourceRowIndex = this.rowFilter.renderedToSource(visibleRowIndex);
       var isWorkingOnClone = this.wtTable.isWorkingOnClone();
+      if (!isWorkingOnClone) {
+        this.wot.wtViewport.setFirstRenderedRowSourceIndex(sourceRowIndex);
+      }
 
       while (sourceRowIndex < totalRows && sourceRowIndex >= 0) {
         if (!performanceWarningAppeared && visibleRowIndex > 1000) {
@@ -28047,6 +27113,9 @@ var TableRenderer = function () {
         if (visibleColIndex === 0) {
           TD = TR.childNodes[this.columnFilter.sourceColumnToVisibleRowHeadedColumn(sourceColIndex)];
         } else {
+          if (!TD.nextSibling) {
+            debugger;
+          }
           TD = TD.nextSibling; // http://jsperf.com/nextsibling-vs-indexed-childnodes
         }
         // If the number of headers has been reduced, we need to replace excess TH with TD
@@ -28131,6 +27200,32 @@ var TableRenderer = function () {
         // http://jsperf.com/nextsibling-vs-indexed-childnodes
         TR = currentTr.nextSibling;
       }
+      if (TR.className) {
+        TR.removeAttribute('class');
+      }
+
+      return TR;
+    }
+
+    /**
+     * @param {Number} rowIndex
+     * @param {HTMLTableRowElement} currentTr
+     * @returns {HTMLTableCellElement}
+     */
+
+  }, {
+    key: 'createAndReplaceTrForRow',
+    value: function createAndReplaceTrForRow(rowIndex) {
+      var TR = void 0;
+
+      TR = this.createRow();
+      var toReplace = this.TBODY.childNodes[rowIndex];
+      if (toReplace) {
+        this.TBODY.replaceChild(TR, toReplace);
+      } else {
+        this.appendToTbody(TR);
+      }
+
       if (TR.className) {
         TR.removeAttribute('class');
       }
@@ -28376,11 +27471,7 @@ function replaceThWithTd(TH, TR) {
 exports.default = TableRenderer;
 
 /***/ }),
-<<<<<<< HEAD
 /* 307 */
-=======
-/* 306 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28434,6 +27525,7 @@ var Viewport = function () {
     this.rowHeaderWidth = NaN;
     this.rowsVisibleCalculator = null;
     this.columnsVisibleCalculator = null;
+    this.firstRenderedSourceIndex = 0;
 
     this.eventManager = new _eventManager2.default(this.wot);
     this.eventManager.addEventListener(window, 'resize', function () {
@@ -28869,6 +27961,17 @@ var Viewport = function () {
     }
 
     /**
+     * Saves off the first rendered row's source index so when replacing rows we can know the sourceIndex of the first tr in TBODY
+     * @param {number} sourceIndex of the first rendered row
+     */
+
+  }, {
+    key: 'setFirstRenderedRowSourceIndex',
+    value: function setFirstRenderedRowSourceIndex(sourceIndex) {
+      this.firstRenderedSourceIndex = sourceIndex;
+    }
+
+    /**
      * Returns information whether proposedRowsVisibleCalculator viewport
      * is contained inside rows rendered in previous draw (cached in rowsRenderCalculator)
      *
@@ -28935,11 +28038,7 @@ var Viewport = function () {
 exports.default = Viewport;
 
 /***/ }),
-<<<<<<< HEAD
 /* 308 */
-=======
-/* 307 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28963,7 +28062,7 @@ var _eventManager = __webpack_require__(6);
 
 var _eventManager2 = _interopRequireDefault(_eventManager);
 
-var _coords = __webpack_require__(56);
+var _coords = __webpack_require__(55);
 
 var _coords2 = _interopRequireDefault(_coords);
 
@@ -29642,11 +28741,7 @@ var Border = function () {
 exports.default = Border;
 
 /***/ }),
-<<<<<<< HEAD
 /* 309 */
-=======
-/* 308 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29664,11 +28759,7 @@ var _array = __webpack_require__(1);
 
 var _element = __webpack_require__(0);
 
-<<<<<<< HEAD
 var _handsontableEditor = __webpack_require__(310);
-=======
-var _handsontableEditor = __webpack_require__(309);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _handsontableEditor2 = _interopRequireDefault(_handsontableEditor);
 
@@ -30110,11 +29201,7 @@ AutocompleteEditor.prototype.discardEditor = function (result) {
 exports.default = AutocompleteEditor;
 
 /***/ }),
-<<<<<<< HEAD
 /* 310 */
-=======
-/* 309 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30130,7 +29217,7 @@ var _element = __webpack_require__(0);
 
 var _event = __webpack_require__(13);
 
-var _textEditor = __webpack_require__(58);
+var _textEditor = __webpack_require__(57);
 
 var _textEditor2 = _interopRequireDefault(_textEditor);
 
@@ -30316,177 +29403,108 @@ HandsontableEditor.prototype.assignHooks = function () {
 exports.default = HandsontableEditor;
 
 /***/ }),
-<<<<<<< HEAD
 /* 311 */
-=======
-/* 310 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 312 */
-=======
-/* 311 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 313 */
-=======
-/* 312 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 314 */
-=======
-/* 313 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 315 */
-=======
-/* 314 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 316 */
-=======
-/* 315 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 317 */
-=======
-/* 316 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 318 */
-=======
-/* 317 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 319 */
-=======
-/* 318 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 320 */
-=======
-/* 319 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 321 */
-=======
-/* 320 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 322 */
-=======
-/* 321 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 323 */
-=======
-/* 322 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 324 */
-=======
-/* 323 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 325 */
-=======
-/* 324 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 326 */
-=======
-/* 325 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 327 */
-=======
-/* 326 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 328 */
 /***/ (function(module, exports) {
 
@@ -30644,931 +29662,467 @@ exports.default = HandsontableEditor;
 
 /***/ }),
 /* 354 */
-=======
-/* 327 */
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-/* 328 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 329 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 330 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 331 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 332 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 333 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 334 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 335 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 336 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 337 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 338 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 339 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 340 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 341 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 342 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 343 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 344 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 345 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 346 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 347 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 348 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 349 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 350 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 351 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 352 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 353 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-<<<<<<< HEAD
 /* 355 */
-=======
-/* 354 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 356 */
-=======
-/* 355 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 357 */
-=======
-/* 356 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 358 */
-=======
-/* 357 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 359 */
-=======
-/* 358 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 360 */
-=======
-/* 359 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 361 */
-=======
-/* 360 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 362 */
-=======
-/* 361 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 363 */
-=======
-/* 362 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 364 */
-=======
-/* 363 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 365 */
-=======
-/* 364 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 366 */
-=======
-/* 365 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 367 */
-=======
-/* 366 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 368 */
-=======
-/* 367 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 369 */
-=======
-/* 368 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 370 */
-=======
-/* 369 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 371 */
-=======
-/* 370 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 372 */
-=======
-/* 371 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 373 */
-=======
-/* 372 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 374 */
-=======
-/* 373 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 375 */
-=======
-/* 374 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 376 */
-=======
-/* 375 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 377 */
-=======
-/* 376 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 378 */
-=======
-/* 377 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 379 */
-=======
-/* 378 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 380 */
-=======
-/* 379 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 381 */
-=======
-/* 380 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 382 */
-=======
-/* 381 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 383 */
-=======
-/* 382 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 384 */
-=======
-/* 383 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 385 */
-=======
-/* 384 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 386 */
-=======
-/* 385 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 387 */
-=======
-/* 386 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 388 */
-=======
-/* 387 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 389 */
-=======
-/* 388 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 390 */
-=======
-/* 389 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 391 */
-=======
-/* 390 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 392 */
-=======
-/* 391 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 393 */
-=======
-/* 392 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 394 */
-=======
-/* 393 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 395 */
-=======
-/* 394 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 396 */
-=======
-/* 395 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 397 */
-=======
-/* 396 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 398 */
-=======
-/* 397 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 399 */
-=======
-/* 398 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 400 */
-=======
-/* 399 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 401 */
-=======
-/* 400 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 402 */
-=======
-/* 401 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 403 */
-=======
-/* 402 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 404 */
-=======
-/* 403 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 405 */
-=======
-/* 404 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 406 */
-=======
-/* 405 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 407 */
-=======
-/* 406 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 408 */
-=======
-/* 407 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 409 */
-=======
-/* 408 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 410 */
-=======
-/* 409 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 411 */
-=======
-/* 410 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 412 */
-=======
-/* 411 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 413 */
-=======
-/* 412 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 414 */
-=======
-/* 413 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 415 */
-=======
-/* 414 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 416 */
-=======
-/* 415 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 417 */
-=======
-/* 416 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 418 */
-=======
-/* 417 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 419 */
-=======
-/* 418 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 420 */
-=======
-/* 419 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 421 */
-=======
-/* 420 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 422 */
-=======
-/* 421 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 423 */
-=======
-/* 422 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 424 */
-=======
-/* 423 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 425 */
-=======
-/* 424 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 426 */
-=======
-/* 425 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 427 */
-=======
-/* 426 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 428 */
-=======
-/* 427 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 429 */
-=======
-/* 428 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 430 */
-=======
-/* 429 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
 /* 431 */
 /***/ (function(module, exports) {
 
@@ -31582,760 +30136,6 @@ exports.default = HandsontableEditor;
 
 /***/ }),
 /* 433 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 434 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
- * numbro.js
- * version : 1.11.0
- * author : Företagsplatsen AB
- * license : MIT
- * http://www.foretagsplatsen.se
- */
-
-(function () {
-    'use strict';
-
-    /************************************
-        Constants
-    ************************************/
-
-    var numbro,
-        VERSION = '1.11.0',
-        binarySuffixes = ['B', 'KiB', 'MiB', 'GiB', 'TiB', 'PiB', 'EiB', 'ZiB', 'YiB'],
-        decimalSuffixes = ['B', 'KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'],
-        bytes = {
-            general: { scale: 1024, suffixes: decimalSuffixes, marker: 'bd' },
-            binary:  { scale: 1024, suffixes: binarySuffixes, marker: 'b' },
-            decimal: { scale: 1000, suffixes: decimalSuffixes, marker: 'd' }
-        },
-        // general must be before the others because it reuses their characters!
-        byteFormatOrder = [ bytes.general, bytes.binary, bytes.decimal ],
-    // internal storage for culture config files
-        cultures = {},
-    // Todo: Remove in 2.0.0
-        languages = cultures,
-        currentCulture = 'en-US',
-        zeroFormat = null,
-        defaultFormat = '0,0',
-        defaultCurrencyFormat = '0$',
-        // check for nodeJS
-        hasModule = (typeof module !== 'undefined' && module.exports),
-    // default culture
-        enUS = {
-            delimiters: {
-                thousands: ',',
-                decimal: '.'
-            },
-            abbreviations: {
-                thousand: 'k',
-                million: 'm',
-                billion: 'b',
-                trillion: 't'
-            },
-            ordinal: function(number) {
-                var b = number % 10;
-                return (~~(number % 100 / 10) === 1) ? 'th' :
-                    (b === 1) ? 'st' :
-                        (b === 2) ? 'nd' :
-                            (b === 3) ? 'rd' : 'th';
-            },
-            currency: {
-                symbol: '$',
-                position: 'prefix'
-            },
-            defaults: {
-                currencyFormat: ',0000 a'
-            },
-            formats: {
-                fourDigits: '0000 a',
-                fullWithTwoDecimals: '$ ,0.00',
-                fullWithTwoDecimalsNoCurrency: ',0.00'
-            }
-        };
-
-    /************************************
-        Constructors
-    ************************************/
-
-
-    // Numbro prototype object
-    function Numbro(number) {
-        this._value = number;
-    }
-
-    function numberLength(number) {
-        if (number === 0) { return 1; }
-        return Math.floor(Math.log(Math.abs(number)) / Math.LN10) + 1;
-    }
-
-    function zeroes(count) {
-        var i, ret = '';
-
-        for (i = 0; i < count; i++) {
-            ret += '0';
-        }
-
-        return ret;
-    }
-    /**
-     * Implementation of toFixed() for numbers with exponents
-     * This function may return negative representations for zero values e.g. "-0.0"
-     */
-    function toFixedLargeSmall(value, precision) {
-        var mantissa,
-            beforeDec,
-            afterDec,
-            exponent,
-            prefix,
-            endStr,
-            zerosStr,
-            str;
-
-        str = value.toString();
-
-        mantissa = str.split('e')[0];
-        exponent = str.split('e')[1];
-
-        beforeDec = mantissa.split('.')[0];
-        afterDec = mantissa.split('.')[1] || '';
-
-        if (+exponent > 0) {
-            // exponent is positive - add zeros after the numbers
-            str = beforeDec + afterDec + zeroes(exponent - afterDec.length);
-        } else {
-            // exponent is negative
-
-            if (+beforeDec < 0) {
-                prefix = '-0';
-            } else {
-                prefix = '0';
-            }
-
-            // tack on the decimal point if needed
-            if (precision > 0) {
-                prefix += '.';
-            }
-
-            zerosStr = zeroes((-1 * exponent) - 1);
-            // substring off the end to satisfy the precision
-            endStr = (zerosStr + Math.abs(beforeDec) + afterDec).substr(0, precision);
-            str = prefix + endStr;
-        }
-
-        // only add percision 0's if the exponent is positive
-        if (+exponent > 0 && precision > 0) {
-            str += '.' + zeroes(precision);
-        }
-
-        return str;
-    }
-
-    /**
-     * Implementation of toFixed() that treats floats more like decimals
-     *
-     * Fixes binary rounding issues (eg. (0.615).toFixed(2) === '0.61') that present
-     * problems for accounting- and finance-related software.
-     *
-     * Also removes negative signs for zero-formatted numbers. e.g. -0.01 w/ precision 1 -> 0.0
-     */
-    function toFixed(value, precision, roundingFunction, optionals) {
-        var power = Math.pow(10, precision),
-            optionalsRegExp,
-            output;
-
-        if (value.toString().indexOf('e') > -1) {
-            // toFixed returns scientific notation for numbers above 1e21 and below 1e-7
-            output = toFixedLargeSmall(value, precision);
-            // remove the leading negative sign if it exists and should not be present (e.g. -0.00)
-            if (output.charAt(0) === '-' && +output >= 0) {
-                output = output.substr(1); // chop off the '-'
-            }
-        }
-        else {
-            // Multiply up by precision, round accurately, then divide and use native toFixed():
-            output = (roundingFunction(value + 'e+' + precision) / power).toFixed(precision);
-        }
-
-        if (optionals) {
-            optionalsRegExp = new RegExp('0{1,' + optionals + '}$');
-            output = output.replace(optionalsRegExp, '');
-        }
-
-        return output;
-    }
-
-    /************************************
-        Formatting
-    ************************************/
-
-    // determine what type of formatting we need to do
-    function formatNumbro(n, format, roundingFunction) {
-        var output,
-            escapedFormat = format.replace(/\{[^\{\}]*\}/g, '');
-
-        // figure out what kind of format we are dealing with
-        if (escapedFormat.indexOf('$') > -1) { // currency!!!!!
-            output = formatCurrency(n, cultures[currentCulture].currency.symbol, format, roundingFunction);
-        } else if (escapedFormat.indexOf('%') > -1) { // percentage
-            output = formatPercentage(n, format, roundingFunction);
-        } else if (escapedFormat.indexOf(':') > -1) { // time
-            output = formatTime(n, format);
-        } else { // plain ol' numbers or bytes
-            output = formatNumber(n._value, format, roundingFunction);
-        }
-
-        // return string
-        return output;
-    }
-
-    // revert to number
-    function unformatNumbro(n, string) {
-        var stringOriginal = string,
-            thousandRegExp,
-            millionRegExp,
-            billionRegExp,
-            trillionRegExp,
-            bytesMultiplier = false,
-            power;
-
-        if (string.indexOf(':') > -1) {
-            n._value = unformatTime(string);
-        } else {
-            if (string === zeroFormat) {
-                n._value = 0;
-            } else {
-                if (cultures[currentCulture].delimiters.decimal !== '.') {
-                    string = string.replace(/\./g, '').replace(cultures[currentCulture].delimiters.decimal, '.');
-                }
-
-                // see if abbreviations are there so that we can multiply to the correct number
-                thousandRegExp = new RegExp('[^a-zA-Z]' + cultures[currentCulture].abbreviations.thousand +
-                    '(?:\\)|(\\' + cultures[currentCulture].currency.symbol + ')?(?:\\))?)?$');
-                millionRegExp = new RegExp('[^a-zA-Z]' + cultures[currentCulture].abbreviations.million +
-                    '(?:\\)|(\\' + cultures[currentCulture].currency.symbol + ')?(?:\\))?)?$');
-                billionRegExp = new RegExp('[^a-zA-Z]' + cultures[currentCulture].abbreviations.billion +
-                    '(?:\\)|(\\' + cultures[currentCulture].currency.symbol + ')?(?:\\))?)?$');
-                trillionRegExp = new RegExp('[^a-zA-Z]' + cultures[currentCulture].abbreviations.trillion +
-                    '(?:\\)|(\\' + cultures[currentCulture].currency.symbol + ')?(?:\\))?)?$');
-
-                // see if bytes are there so that we can multiply to the correct number
-                for (power = 1; power < binarySuffixes.length && !bytesMultiplier; ++power) {
-                    if (string.indexOf(binarySuffixes[power]) > -1) {
-                        bytesMultiplier = Math.pow(1024, power);
-                    } else if (string.indexOf(decimalSuffixes[power]) > -1) {
-                        bytesMultiplier = Math.pow(1000, power);
-                    }
-                }
-
-                var str = string.replace(/[^0-9\.]+/g, '');
-                if (str === '') {
-                    // An empty string is not a number.
-                    n._value = NaN;
-
-                } else {
-                    // do some math to create our number
-                    n._value = ((bytesMultiplier) ? bytesMultiplier : 1) *
-                        ((stringOriginal.match(thousandRegExp)) ? Math.pow(10, 3) : 1) *
-                        ((stringOriginal.match(millionRegExp)) ? Math.pow(10, 6) : 1) *
-                        ((stringOriginal.match(billionRegExp)) ? Math.pow(10, 9) : 1) *
-                        ((stringOriginal.match(trillionRegExp)) ? Math.pow(10, 12) : 1) *
-                        ((string.indexOf('%') > -1) ? 0.01 : 1) *
-                        (((string.split('-').length +
-                            Math.min(string.split('(').length - 1, string.split(')').length - 1)) % 2) ? 1 : -1) *
-                        Number(str);
-
-                    // round if we are talking about bytes
-                    n._value = (bytesMultiplier) ? Math.ceil(n._value) : n._value;
-                }
-            }
-        }
-        return n._value;
-    }
-
-    function formatCurrency(n, currencySymbol, originalFormat, roundingFunction) {
-        var format = originalFormat,
-            symbolIndex = format.indexOf('$'),
-            openParenIndex = format.indexOf('('),
-            plusSignIndex = format.indexOf('+'),
-            minusSignIndex = format.indexOf('-'),
-            space = '',
-            decimalSeparator = '',
-            spliceIndex,
-            output;
-
-        if(format.indexOf('$') === -1){
-            // Use defaults instead of the format provided
-            if (cultures[currentCulture].currency.position === 'infix') {
-                decimalSeparator = currencySymbol;
-                if (cultures[currentCulture].currency.spaceSeparated) {
-                    decimalSeparator = ' ' + decimalSeparator + ' ';
-                }
-            } else if (cultures[currentCulture].currency.spaceSeparated) {
-                space = ' ';
-            }
-        } else {
-            // check for space before or after currency
-            if (format.indexOf(' $') > -1) {
-                space = ' ';
-                format = format.replace(' $', '');
-            } else if (format.indexOf('$ ') > -1) {
-                space = ' ';
-                format = format.replace('$ ', '');
-            } else {
-                format = format.replace('$', '');
-            }
-        }
-
-        // Format The Number
-        output = formatNumber(n._value, format, roundingFunction, decimalSeparator);
-
-        if (originalFormat.indexOf('$') === -1) {
-            // Use defaults instead of the format provided
-            switch (cultures[currentCulture].currency.position) {
-                case 'postfix':
-                    if (output.indexOf(')') > -1) {
-                        output = output.split('');
-                        output.splice(-1, 0, space + currencySymbol);
-                        output = output.join('');
-                    } else {
-                        output = output + space + currencySymbol;
-                    }
-                    break;
-                case 'infix':
-                    break;
-                case 'prefix':
-                    if (output.indexOf('(') > -1 || output.indexOf('-') > -1) {
-                        output = output.split('');
-                        spliceIndex = Math.max(openParenIndex, minusSignIndex) + 1;
-
-                        output.splice(spliceIndex, 0, currencySymbol + space);
-                        output = output.join('');
-                    } else {
-                        output = currencySymbol + space + output;
-                    }
-                    break;
-                default:
-                    throw Error('Currency position should be among ["prefix", "infix", "postfix"]');
-            }
-        } else {
-            // position the symbol
-            if (symbolIndex <= 1) {
-                if (output.indexOf('(') > -1 || output.indexOf('+') > -1 || output.indexOf('-') > -1) {
-                    output = output.split('');
-                    spliceIndex = 1;
-                    if (symbolIndex < openParenIndex || symbolIndex < plusSignIndex || symbolIndex < minusSignIndex) {
-                        // the symbol appears before the "(", "+" or "-"
-                        spliceIndex = 0;
-                    }
-                    output.splice(spliceIndex, 0, currencySymbol + space);
-                    output = output.join('');
-                } else {
-                    output = currencySymbol + space + output;
-                }
-            } else {
-                if (output.indexOf(')') > -1) {
-                    output = output.split('');
-                    output.splice(-1, 0, space + currencySymbol);
-                    output = output.join('');
-                } else {
-                    output = output + space + currencySymbol;
-                }
-            }
-        }
-
-        return output;
-    }
-
-    function formatForeignCurrency(n, foreignCurrencySymbol, originalFormat, roundingFunction) {
-        return formatCurrency(n, foreignCurrencySymbol, originalFormat, roundingFunction);
-    }
-
-    function formatPercentage(n, format, roundingFunction) {
-        var space = '',
-            output,
-            value = n._value * 100;
-
-        // check for space before %
-        if (format.indexOf(' %') > -1) {
-            space = ' ';
-            format = format.replace(' %', '');
-        } else {
-            format = format.replace('%', '');
-        }
-
-        output = formatNumber(value, format, roundingFunction);
-
-        if (output.indexOf(')') > -1) {
-            output = output.split('');
-            output.splice(-1, 0, space + '%');
-            output = output.join('');
-        } else {
-            output = output + space + '%';
-        }
-
-        return output;
-    }
-
-    function formatTime(n) {
-        var hours = Math.floor(n._value / 60 / 60),
-            minutes = Math.floor((n._value - (hours * 60 * 60)) / 60),
-            seconds = Math.round(n._value - (hours * 60 * 60) - (minutes * 60));
-        return hours + ':' +
-            ((minutes < 10) ? '0' + minutes : minutes) + ':' +
-            ((seconds < 10) ? '0' + seconds : seconds);
-    }
-
-    function unformatTime(string) {
-        var timeArray = string.split(':'),
-            seconds = 0;
-        // turn hours and minutes into seconds and add them all up
-        if (timeArray.length === 3) {
-            // hours
-            seconds = seconds + (Number(timeArray[0]) * 60 * 60);
-            // minutes
-            seconds = seconds + (Number(timeArray[1]) * 60);
-            // seconds
-            seconds = seconds + Number(timeArray[2]);
-        } else if (timeArray.length === 2) {
-            // minutes
-            seconds = seconds + (Number(timeArray[0]) * 60);
-            // seconds
-            seconds = seconds + Number(timeArray[1]);
-        }
-        return Number(seconds);
-    }
-
-    function formatByteUnits (value, suffixes, scale) {
-        var suffix = suffixes[0],
-            power,
-            min,
-            max,
-            abs = Math.abs(value);
-
-        if (abs >= scale) {
-            for (power = 1; power < suffixes.length; ++power) {
-                min = Math.pow(scale, power);
-                max = Math.pow(scale, power + 1);
-
-                if (abs >= min && abs < max) {
-                    suffix = suffixes[power];
-                    value = value / min;
-                    break;
-                }
-            }
-
-            // values greater than or equal to [scale] YB never set the suffix
-            if (suffix === suffixes[0]) {
-                value = value / Math.pow(scale, suffixes.length - 1);
-                suffix = suffixes[suffixes.length - 1];
-            }
-        }
-
-        return { value: value, suffix: suffix };
-    }
-
-    function formatNumber (value, format, roundingFunction, sep) {
-        var negP = false,
-            signed = false,
-            optDec = false,
-            abbr = '',
-            abbrK = false, // force abbreviation to thousands
-            abbrM = false, // force abbreviation to millions
-            abbrB = false, // force abbreviation to billions
-            abbrT = false, // force abbreviation to trillions
-            abbrForce = false, // force abbreviation
-            bytes = '',
-            byteFormat,
-            units,
-            ord = '',
-            abs = Math.abs(value),
-            totalLength,
-            length,
-            minimumPrecision,
-            pow,
-            w,
-            intPrecision,
-            precision,
-            prefix,
-            postfix,
-            thousands,
-            d = '',
-            forcedNeg = false,
-            neg = false,
-            indexOpenP,
-            indexMinus,
-            paren = '',
-            minlen,
-            i;
-
-        // check if number is zero and a custom zero format has been set
-        if (value === 0 && zeroFormat !== null) {
-            return zeroFormat;
-        }
-
-        if (!isFinite(value)) {
-            return '' + value;
-        }
-
-        if (format.indexOf('{') === 0) {
-            var end = format.indexOf('}');
-            if (end === -1) {
-                throw Error('Format should also contain a "}"');
-            }
-            prefix = format.slice(1, end);
-            format = format.slice(end + 1);
-        } else {
-            prefix = '';
-        }
-
-        if (format.indexOf('}') === format.length - 1 && format.length) {
-            var start = format.indexOf('{');
-            if (start === -1) {
-                throw Error('Format should also contain a "{"');
-            }
-            postfix = format.slice(start + 1, -1);
-            format = format.slice(0, start + 1);
-        } else {
-            postfix = '';
-        }
-
-        // check for min length
-        var info;
-        if (format.indexOf('.') === -1) {
-            info = format.match(/([0-9]+).*/);
-        } else {
-            info = format.match(/([0-9]+)\..*/);
-        }
-        minlen = info === null ? -1 : info[1].length;
-
-        // see if we should use parentheses for negative number or if we should prefix with a sign
-        // if both are present we default to parentheses
-        if (format.indexOf('-') !== -1) {
-            forcedNeg = true;
-        }
-        if (format.indexOf('(') > -1) {
-            negP = true;
-            format = format.slice(1, -1);
-        } else if (format.indexOf('+') > -1) {
-            signed = true;
-            format = format.replace(/\+/g, '');
-        }
-
-        // see if abbreviation is wanted
-        if (format.indexOf('a') > -1) {
-            intPrecision = format.split('.')[0].match(/[0-9]+/g) || ['0'];
-            intPrecision = parseInt(intPrecision[0], 10);
-
-            // check if abbreviation is specified
-            abbrK = format.indexOf('aK') >= 0;
-            abbrM = format.indexOf('aM') >= 0;
-            abbrB = format.indexOf('aB') >= 0;
-            abbrT = format.indexOf('aT') >= 0;
-            abbrForce = abbrK || abbrM || abbrB || abbrT;
-
-            // check for space before abbreviation
-            if (format.indexOf(' a') > -1) {
-                abbr = ' ';
-                format = format.replace(' a', '');
-            } else {
-                format = format.replace('a', '');
-            }
-
-            totalLength = numberLength(value);
-            minimumPrecision = totalLength % 3;
-            minimumPrecision = minimumPrecision === 0 ? 3 : minimumPrecision;
-
-            if (intPrecision && abs !== 0) {
-                pow = 3 * ~~((Math.min(intPrecision, totalLength) - minimumPrecision) / 3);
-                abs = abs / Math.pow(10, pow);
-            }
-
-            if (totalLength !== intPrecision) {
-                if (abs >= Math.pow(10, 12) && !abbrForce || abbrT) {
-                    // trillion
-                    abbr = abbr + cultures[currentCulture].abbreviations.trillion;
-                    value = value / Math.pow(10, 12);
-                } else if (abs < Math.pow(10, 12) && abs >= Math.pow(10, 9) && !abbrForce || abbrB) {
-                    // billion
-                    abbr = abbr + cultures[currentCulture].abbreviations.billion;
-                    value = value / Math.pow(10, 9);
-                } else if (abs < Math.pow(10, 9) && abs >= Math.pow(10, 6) && !abbrForce || abbrM) {
-                    // million
-                    abbr = abbr + cultures[currentCulture].abbreviations.million;
-                    value = value / Math.pow(10, 6);
-                } else if (abs < Math.pow(10, 6) && abs >= Math.pow(10, 3) && !abbrForce || abbrK) {
-                    // thousand
-                    abbr = abbr + cultures[currentCulture].abbreviations.thousand;
-                    value = value / Math.pow(10, 3);
-                }
-            }
-
-            length = numberLength(value);
-            if (intPrecision && length < intPrecision && format.indexOf('.') === -1) {
-                format += '[.]';
-                format += zeroes(intPrecision - length);
-            }
-        }
-
-        // see if we are formatting
-        //   binary-decimal bytes (1024 MB), binary bytes (1024 MiB), or decimal bytes (1000 MB)
-        for (i = 0; i < byteFormatOrder.length; ++i) {
-            byteFormat = byteFormatOrder[i];
-
-            if (format.indexOf(byteFormat.marker) > -1) {
-                // check for space before
-                if (format.indexOf(' ' + byteFormat.marker) >-1) {
-                    bytes = ' ';
-                }
-
-                // remove the marker (with the space if it had one)
-                format = format.replace(bytes + byteFormat.marker, '');
-
-                units = formatByteUnits(value, byteFormat.suffixes, byteFormat.scale);
-
-                value = units.value;
-                bytes = bytes + units.suffix;
-
-                break;
-            }
-        }
-
-        // see if ordinal is wanted
-        if (format.indexOf('o') > -1) {
-            // check for space before
-            if (format.indexOf(' o') > -1) {
-                ord = ' ';
-                format = format.replace(' o', '');
-            } else {
-                format = format.replace('o', '');
-            }
-
-            if (cultures[currentCulture].ordinal) {
-                ord = ord + cultures[currentCulture].ordinal(value);
-            }
-        }
-
-        if (format.indexOf('[.]') > -1) {
-            optDec = true;
-            format = format.replace('[.]', '.');
-        }
-
-        precision = format.split('.')[1];
-        thousands = format.indexOf(',');
-
-        if (precision) {
-            var dSplit = [];
-
-            if (precision.indexOf('*') !== -1) {
-                d = value.toString();
-                dSplit = d.split('.');
-                if (dSplit.length > 1) {
-                    d = toFixed(value, dSplit[1].length, roundingFunction);
-                }
-            } else {
-                if (precision.indexOf('[') > -1) {
-                    precision = precision.replace(']', '');
-                    precision = precision.split('[');
-                    d = toFixed(value, (precision[0].length + precision[1].length), roundingFunction,
-                        precision[1].length);
-                } else {
-                    d = toFixed(value, precision.length, roundingFunction);
-                }
-            }
-
-            dSplit = d.split('.');
-            w = dSplit[0];
-
-            if (dSplit.length > 1 && dSplit[1].length) {
-                var p = sep ? abbr + sep : cultures[currentCulture].delimiters.decimal;
-                d = p + dSplit[1];
-            } else {
-                d = '';
-            }
-
-            if (optDec && Number(d.slice(1)) === 0) {
-                d = '';
-            }
-        } else {
-            w = toFixed(value, 0, roundingFunction);
-        }
-
-        // format number
-        if (w.indexOf('-') > -1) {
-            w = w.slice(1);
-            neg = true;
-        }
-
-        if (w.length < minlen) {
-            w = zeroes(minlen - w.length) + w;
-        }
-
-        if (thousands > -1) {
-            w = w.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1' +
-                cultures[currentCulture].delimiters.thousands);
-        }
-
-        if (format.indexOf('.') === 0) {
-            w = '';
-        }
-
-        indexOpenP = format.indexOf('(');
-        indexMinus = format.indexOf('-');
-
-        if (indexOpenP < indexMinus) {
-            paren = ((negP && neg) ? '(' : '') + (((forcedNeg && neg) || (!negP && neg)) ? '-' : '');
-        } else {
-            paren = (((forcedNeg && neg) || (!negP && neg)) ? '-' : '') + ((negP && neg) ? '(' : '');
-        }
-
-        return prefix +
-            paren + ((!neg && signed && value !== 0) ? '+' : '') +
-            w + d +
-            ((ord) ? ord : '') +
-            ((abbr && !sep) ? abbr : '') +
-            ((bytes) ? bytes : '') +
-            ((negP && neg) ? ')' : '') +
-            postfix;
-    }
-
-    /************************************
-        Top Level Functions
-    ************************************/
-
-    numbro = function(input) {
-        if (numbro.isNumbro(input)) {
-            input = input.value();
-        } else if (typeof input === 'string' || typeof input === 'number') {
-            input = numbro.fn.unformat(input);
-        } else {
-            input = NaN;
-        }
-
-        return new Numbro(Number(input));
-    };
-
-    // version number
-    numbro.version = VERSION;
-=======
-/* 430 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 431 */
-/***/ (function(module, exports) {
-
-
-
-/***/ }),
-/* 432 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -33635,39 +31435,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 
 /*** EXPORTS FROM exports-to-window-loader ***/
-window['numbro'] = __webpack_require__(432);
-
-/***/ }),
-/* 433 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.getNormalizedDate = getNormalizedDate;
-/* eslint-disable import/prefer-default-export */
-
-/**
- * Get normalized Date object for the ISO formatted date strings.
- * Natively, the date object parsed from a ISO 8601 string will be offsetted by the timezone difference, which may result in returning a wrong date.
- * See: Github issue #3338.
- *
- * @param {String} dateString String representing the date.
- * @returns {Date} The proper Date object.
- */
-function getNormalizedDate(dateString) {
-  var nativeDate = new Date(dateString);
-
-  // NaN if dateString is not in ISO format
-  if (!isNaN(new Date(dateString + "T00:00").getDate())) {
-
-    // Compensate timezone offset
-    return new Date(nativeDate.getTime() + nativeDate.getTimezoneOffset() * 60000);
-  }
-
-  return nativeDate;
-}
+window['numbro'] = __webpack_require__(433);
 
 /***/ }),
 /* 434 */
@@ -33676,7502 +31444,6 @@ function getNormalizedDate(dateString) {
 "use strict";
 
 
-/**
- * SheetClip - Spreadsheet Clipboard Parser
- * version 0.2
- *
- * This tiny library transforms JavaScript arrays to strings that are pasteable by LibreOffice, OpenOffice,
- * Google Docs and Microsoft Excel.
- *
- * Copyright 2012, Marcin Warpechowski
- * Licensed under the MIT license.
- * http://github.com/warpech/sheetclip/
- */
-/*jslint white: true*/
-(function (global) {
-  "use strict";
-
-  function countQuotes(str) {
-    return str.split('"').length - 1;
-  }
-
-  var SheetClip = {
-    /**
-     * Decode spreadsheet string into array
-     *
-     * @param {String} str
-     * @returns {Array}
-     */
-    parse: function parse(str) {
-      var r,
-          rLen,
-          rows,
-          arr = [],
-          a = 0,
-          c,
-          cLen,
-          multiline,
-          last;
-
-      rows = str.split('\n');
-
-      if (rows.length > 1 && rows[rows.length - 1] === '') {
-        rows.pop();
-      }
-      for (r = 0, rLen = rows.length; r < rLen; r += 1) {
-        rows[r] = rows[r].split('\t');
-
-        for (c = 0, cLen = rows[r].length; c < cLen; c += 1) {
-          if (!arr[a]) {
-            arr[a] = [];
-          }
-          if (multiline && c === 0) {
-            last = arr[a].length - 1;
-            arr[a][last] = arr[a][last] + '\n' + rows[r][0];
-
-            if (multiline && countQuotes(rows[r][0]) & 1) {
-              //& 1 is a bitwise way of performing mod 2
-              multiline = false;
-              arr[a][last] = arr[a][last].substring(0, arr[a][last].length - 1).replace(/""/g, '"');
-            }
-          } else {
-            if (c === cLen - 1 && rows[r][c].indexOf('"') === 0 && countQuotes(rows[r][c]) & 1) {
-              arr[a].push(rows[r][c].substring(1).replace(/""/g, '"'));
-              multiline = true;
-            } else {
-              arr[a].push(rows[r][c].replace(/""/g, '"'));
-              multiline = false;
-            }
-          }
-        }
-        if (!multiline) {
-          a += 1;
-        }
-      }
-
-      return arr;
-    },
-
-    /**
-     * Encode array into valid spreadsheet string
-     *
-     * @param arr
-     * @returns {String}
-     */
-    stringify: function stringify(arr) {
-      var r,
-          rLen,
-          c,
-          cLen,
-          str = '',
-          val;
-
-      for (r = 0, rLen = arr.length; r < rLen; r += 1) {
-        cLen = arr[r].length;
-
-        for (c = 0; c < cLen; c += 1) {
-          if (c > 0) {
-            str += '\t';
-          }
-          val = arr[r][c];
-
-          if (typeof val === 'string') {
-            if (val.indexOf('\n') > -1) {
-              str += '"' + val.replace(/"/g, '""') + '"';
-            } else {
-              str += val;
-            }
-          } else if (val === null || val === void 0) {
-            // void 0 resolves to undefined
-            str += '';
-          } else {
-            str += val;
-          }
-        }
-
-        if (r !== rLen - 1) {
-          str += '\n';
-        }
-      }
-
-      return str;
-    }
-  };
-
-  if (true) {
-    exports.parse = SheetClip.parse;
-    exports.stringify = SheetClip.stringify;
-  } else {
-    global.SheetClip = SheetClip;
-  }
-})(window);
-
-/***/ }),
-/* 435 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.mouseDown = mouseDown;
-exports.mouseOver = mouseOver;
-exports.handleMouseEvent = handleMouseEvent;
-
-var _event = __webpack_require__(12);
-
-var _src = __webpack_require__(4);
-
-/**
- * MouseDown handler.
- *
- * @param {Object} options
- * @param {Boolean} options.isShiftKey The flag which indicates if the shift key is pressed.
- * @param {Boolean} options.isLeftClick The flag which indicates if the left mouse button is pressed.
- * @param {Boolean} options.isRightClick The flag which indicates if the right mouse button is pressed.
- * @param {CellRange} options.coords The CellCoords object with defined visual coordinates.
- * @param {Selection} options.selection The Selection class instance.
- * @param {Object} options.controller An object with keys `row`, `column`, `cell` which indicate what
- *                                    operation will be performed in later selection stages.
- */
-function mouseDown(_ref) {
-  var isShiftKey = _ref.isShiftKey,
-      isLeftClick = _ref.isLeftClick,
-      isRightClick = _ref.isRightClick,
-      coords = _ref.coords,
-      selection = _ref.selection,
-      controller = _ref.controller;
-
-  var currentSelection = selection.isSelected() ? selection.getSelectedRange().current() : null;
-  var selectedCorner = selection.isSelectedByCorner();
-  var selectedRow = selection.isSelectedByRowHeader();
-  var selectedColumn = selection.isSelectedByColumnHeader();
-
-  if (isShiftKey && currentSelection) {
-    if (coords.row >= 0 && coords.col >= 0 && !controller.cells) {
-      selection.setRangeEnd(coords);
-    } else if ((selectedCorner || selectedRow) && coords.row >= 0 && coords.col >= 0 && !controller.cells) {
-      selection.setRangeEnd(new _src.CellCoords(coords.row, coords.col));
-    } else if (selectedCorner && coords.row < 0 && !controller.column) {
-      selection.setRangeEnd(new _src.CellCoords(currentSelection.to.row, coords.col));
-    } else if (selectedRow && coords.col < 0 && !controller.row) {
-      selection.setRangeEnd(new _src.CellCoords(coords.row, currentSelection.to.col));
-    } else if ((!selectedCorner && !selectedRow && coords.col < 0 || selectedCorner && coords.col < 0) && !controller.row) {
-      selection.selectRows(currentSelection.from.row, coords.row);
-    } else if ((!selectedCorner && !selectedRow && coords.row < 0 || selectedRow && coords.row < 0) && !controller.column) {
-      selection.selectColumns(currentSelection.from.col, coords.col);
-    }
-  } else {
-    var newCoord = new _src.CellCoords(coords.row, coords.col);
-
-    if (newCoord.row < 0) {
-      newCoord.row = 0;
-    }
-    if (newCoord.col < 0) {
-      newCoord.col = 0;
-    }
-
-    var allowRightClickSelection = !selection.inInSelection(newCoord);
-    var performSelection = isLeftClick || isRightClick && allowRightClickSelection;
-
-    // clicked row header and when some column was selected
-    if (coords.row < 0 && coords.col >= 0 && !controller.column) {
-      if (performSelection) {
-        selection.selectColumns(coords.col);
-      }
-
-      // clicked column header and when some row was selected
-    } else if (coords.col < 0 && coords.row >= 0 && !controller.row) {
-      if (performSelection) {
-        selection.selectRows(coords.row);
-      }
-    } else if (coords.col >= 0 && coords.row >= 0 && !controller.cells) {
-      if (performSelection) {
-        selection.setRangeStart(coords);
-      }
-    } else if (coords.col < 0 && coords.row < 0) {
-      selection.setRangeStart(coords);
-    }
-  }
-}
-
-/**
- * MouseOver handler.
- *
- * @param {Object} options
- * @param {Boolean} options.isLeftClick
- * @param {CellRange} options.coords The CellCoords object with defined visual coordinates.
- * @param {Selection} options.selection The Selection class instance.
- * @param {Object} options.controller An object with keys `row`, `column`, `cell` which indicate what
- *                                    operation will be performed in later selection stages.
- */
-function mouseOver(_ref2) {
-  var isLeftClick = _ref2.isLeftClick,
-      coords = _ref2.coords,
-      selection = _ref2.selection,
-      controller = _ref2.controller;
-
-  if (!isLeftClick) {
-    return;
-  }
-
-  var selectedRow = selection.isSelectedByRowHeader();
-  var selectedColumn = selection.isSelectedByColumnHeader();
-  var countCols = selection.tableProps.countCols();
-  var countRows = selection.tableProps.countRows();
-
-  if (selectedColumn && !controller.column) {
-    selection.setRangeEnd(new _src.CellCoords(countRows - 1, coords.col));
-  } else if (selectedRow && !controller.row) {
-    selection.setRangeEnd(new _src.CellCoords(coords.row, countCols - 1));
-  } else if (!controller.cell) {
-    selection.setRangeEnd(coords);
-  }
-}
-
-var handlers = new Map([['mousedown', mouseDown], ['mouseover', mouseOver], ['touchstart', mouseDown]]);
-
-/**
- * Mouse handler for selection functionality.
- *
- * @param {Event} event An native event to handle.
- * @param {Object} options
- * @param {CellRange} options.coords The CellCoords object with defined visual coordinates.
- * @param {Selection} options.selection The Selection class instance.
- * @param {Object} options.controller An object with keys `row`, `column`, `cell` which indicate what
- *                                    operation will be performed in later selection stages.
- */
-function handleMouseEvent(event, _ref3) {
-  var coords = _ref3.coords,
-      selection = _ref3.selection,
-      controller = _ref3.controller;
-
-  handlers.get(event.type)({
-    coords: coords,
-    selection: selection,
-    controller: controller,
-    isShiftKey: event.shiftKey,
-    isLeftClick: (0, _event.isLeftClick)(event) || event.type === 'touchstart',
-    isRightClick: (0, _event.isRightClick)(event)
-  });
-}
-
-/***/ }),
-/* 436 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.RecordTranslator = undefined;
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-exports.registerIdentity = registerIdentity;
-exports.getTranslator = getTranslator;
-
-var _core = __webpack_require__(88);
-
-var _core2 = _interopRequireDefault(_core);
-
-var _object = __webpack_require__(2);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-/**
- * @class RecordTranslator
- * @util
- */
-var RecordTranslator = function () {
-  function RecordTranslator(hot) {
-    _classCallCheck(this, RecordTranslator);
-
-    this.hot = hot;
-  }
-
-  /**
-   * Translate physical row index into visual.
-   *
-   * @param {Number} row Physical row index.
-   * @returns {Number} Returns visual row index.
-   */
-
-
-  _createClass(RecordTranslator, [{
-    key: 'toVisualRow',
-    value: function toVisualRow(row) {
-      return this.hot.runHooks('unmodifyRow', row);
-    }
-
-    /**
-     * Translate physical column index into visual.
-     *
-     * @param {Number} column Physical column index.
-     * @returns {Number} Returns visual column index.
-     */
-
-  }, {
-    key: 'toVisualColumn',
-    value: function toVisualColumn(column) {
-      return this.hot.runHooks('unmodifyCol', column);
-    }
-
-    /**
-     * Translate physical coordinates into visual. Can be passed as separate 2 arguments (row, column) or as an object in first
-     * argument with `row` and `column` keys.
-     *
-     * @param {Number|Object} row Physical coordinates or row index.
-     * @param {Number} [column] Physical column index.
-     * @returns {Object|Array} Returns an object with visual records or an array if coordinates passed as separate arguments.
-     */
-
-  }, {
-    key: 'toVisual',
-    value: function toVisual(row, column) {
-      var result = void 0;
-
-      if ((0, _object.isObject)(row)) {
-        result = {
-          row: this.toVisualRow(row.row),
-          column: this.toVisualColumn(row.column)
-        };
-      } else {
-        result = [this.toVisualRow(row), this.toVisualColumn(column)];
-      }
-
-      return result;
-    }
-
-    /**
-     * Translate visual row index into physical.
-     *
-     * @param {Number} row Visual row index.
-     * @returns {Number} Returns physical row index.
-     */
-
-  }, {
-    key: 'toPhysicalRow',
-    value: function toPhysicalRow(row) {
-      return this.hot.runHooks('modifyRow', row);
-    }
-
-    /**
-     * Translate visual column index into physical.
-     *
-     * @param {Number} column Visual column index.
-     * @returns {Number} Returns physical column index.
-     */
-
-  }, {
-    key: 'toPhysicalColumn',
-    value: function toPhysicalColumn(column) {
-      return this.hot.runHooks('modifyCol', column);
-    }
-
-    /**
-     * Translate visual coordinates into physical. Can be passed as separate 2 arguments (row, column) or as an object in first
-     * argument with `row` and `column` keys.
-     *
-     * @param {Number|Object} row Visual coordinates or row index.
-     * @param {Number} [column] Visual column index.
-     * @returns {Object|Array} Returns an object with physical records or an array if coordinates passed as separate arguments.
-     */
-
-  }, {
-    key: 'toPhysical',
-    value: function toPhysical(row, column) {
-      var result = void 0;
-
-      if ((0, _object.isObject)(row)) {
-        result = {
-          row: this.toPhysicalRow(row.row),
-          column: this.toPhysicalColumn(row.column)
-        };
-      } else {
-        result = [this.toPhysicalRow(row), this.toPhysicalColumn(column)];
-      }
-
-      return result;
-    }
-  }]);
-
-  return RecordTranslator;
-}();
-
-exports.RecordTranslator = RecordTranslator;
-
-
-var identities = new WeakMap();
-var translatorSingletons = new WeakMap();
-
-function registerIdentity(identity, hot) {
-  identities.set(identity, hot);
-}
-
-function getTranslator(identity) {
-  var singleton = void 0;
-
-  if (!(identity instanceof _core2.default)) {
-    if (!identities.has(identity)) {
-      throw Error('Record translator was not registered for this object identity');
-    }
-    identity = identities.get(identity);
-  }
-  if (translatorSingletons.has(identity)) {
-    singleton = translatorSingletons.get(identity);
-  } else {
-    singleton = new RecordTranslator(identity);
-    translatorSingletons.set(identity, singleton);
-  }
-
-  return singleton;
-}
-
-/***/ }),
-/* 437 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.registerAsRootInstance = registerAsRootInstance;
-exports.hasValidParameter = hasValidParameter;
-exports.isRootInstance = isRootInstance;
-var holder = exports.holder = new WeakMap();
-
-var rootInstanceSymbol = exports.rootInstanceSymbol = Symbol('rootInstance');
-
-/**
- * Register an object as a root instance.
- *
- * @param  {Object} object An object to associate with root instance flag.
- */
-function registerAsRootInstance(object) {
-  holder.set(object, true);
-}
-
-/**
- * Check if the source of the root indication call is valid.
- *
- * @param  {Symbol} rootSymbol A symbol as a source of truth.
- * @return {Boolean}
- */
-function hasValidParameter(rootSymbol) {
-  return rootSymbol === rootInstanceSymbol;
-}
-
-/**
- * Check if passed an object was flagged as a root instance.
- *
- * @param  {Object} object An object to check.
- * @return {Boolean}
- */
-function isRootInstance(object) {
-  return holder.has(object);
-}
-
-/***/ }),
-/* 438 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var _mixed = __webpack_require__(16);
-
-var _object = __webpack_require__(2);
-
-/**
- * @alias Options
- * @constructor
- * @description
-
- * ## Constructor options
- *
- * Constructor options are applied using an object literal passed as a second argument to the Handsontable constructor.
- *
- * ```js
- * var hot = new Handsontable(document.getElementById('example1'), {
- *   data: myArray,
- *   width: 400,
- *   height: 300
- * });
- * ```
- *
- * ---
- * ## Cascading configuration
- *
- * Handsontable 0.9 and newer is using *Cascading Configuration*, which is a fast way to provide configuration options
- * for the entire table, including its columns and particular cells.
- *
- * Consider the following example:
- * ```js
- * var hot = new Handsontable(document.getElementById('example'), {
- *   readOnly: true,
- *   columns: [
- *     {readOnly: false},
- *     {},
- *     {}
- *   ],
- *   cells: function (row, col, prop) {
- *     var cellProperties = {};
- *
- *     if (row === 0 && col === 0) {
- *       cellProperties.readOnly = true;
- *     }
- *
- *     return cellProperties;
- *   }
- * });
- * ```
- *
- * The above notation will result in all TDs being *read only*, except for first column TDs which will be *editable*, except for the TD in top left corner which will still be *read only*.
- *
- * ### The Cascading Configuration model
- *
- * ##### 1. Constructor
- *
- * Configuration options that are provided using first-level `handsontable(container, {option: "value"})` and `updateSettings` method.
- *
- * ##### 2. Columns
- *
- * Configuration options that are provided using second-level object `handsontable(container, {columns: {option: "value"}]})`
- *
- * ##### 3. Cells
- *
- * Configuration options that are provided using third-level function `handsontable(container, {cells: function: (row, col, prop){ }})`
- *
- * ---
- * ## Architecture performance
- *
- * The Cascading Configuration model is based on prototypical inheritance. It is much faster and memory efficient compared
- * to the previous model that used jQuery extend. See: [http://jsperf.com/extending-settings](http://jsperf.com/extending-settings).
- *
- * ---
- * __Important notice:__ In order for the data separation to work properly, make sure that each instance of Handsontable has a unique `id`.
- */
-function DefaultSettings() {};
-
-DefaultSettings.prototype = {
-  /**
-   * License key for commercial version of Handsontable.
-   *
-   * @pro
-   * @type {String}
-   * @default 'trial'
-   */
-  licenseKey: 'trial',
-
-  /**
-   * @description
-   * Initial data source that will be bound to the data grid __by reference__ (editing data grid alters the data source).
-   * Can be declared as an Array of Arrays, Array of Objects or a Function.
-   *
-   * See [Understanding binding as reference](http://docs.handsontable.com/tutorial-data-binding.html#page-reference).
-   *
-   * @type {Array|Function}
-   * @default undefined
-   */
-  data: void 0,
-
-  /**
-   * @description
-   * Defines the structure of a new row when data source is an array of objects.
-   *
-   * See [data-schema](http://docs.handsontable.com/tutorial-data-sources.html#page-data-schema) for examples.
-   *
-   * @type {Object}
-   * @default undefined
-   */
-  dataSchema: void 0,
-
-  /**
-   * Width of the grid. Can be a value or a function that returns a value.
-   *
-   * @type {Number|Function}
-   * @default undefined
-   */
-  width: void 0,
-
-  /**
-   * Height of the grid. Can be a number or a function that returns a number.
-   *
-   * @type {Number|Function}
-   * @default undefined
-   */
-  height: void 0,
-
-  /**
-   * @description
-   * Initial number of rows.
-   *
-   * __Notice:__ This option only has effect in Handsontable constructor and only if `data` option is not provided
-   *
-   * @type {Number}
-   * @default 5
-   */
-  startRows: 5,
-
-  /**
-   * @description
-   * Initial number of columns.
-   *
-   * __Notice:__ This option only has effect in Handsontable constructor and only if `data` option is not provided
-   *
-   * @type {Number}
-   * @default 5
-   */
-  startCols: 5,
-
-  /**
-   * Setting `true` or `false` will enable or disable the default row headers (1, 2, 3).
-   * You can also define an array `['One', 'Two', 'Three', ...]` or a function to define the headers.
-   * If a function is set the index of the row is passed as a parameter.
-   *
-   * @type {Boolean|Array|Function}
-   * @default null
-   * @example
-   * ```js
-   * ...
-   * // as boolean
-   * rowHeaders: true,
-   * ...
-   *
-   * ...
-   * // as array
-   * rowHeaders: [1, 2, 3],
-   * ...
-   *
-   * ...
-   * // as function
-   * rowHeaders: function(index) {
-   *   return index + ': AB';
-   * },
-   * ...
-   * ```
-   */
-  rowHeaders: void 0,
-
-  /**
-   * Setting `true` or `false` will enable or disable the default column headers (A, B, C).
-   * You can also define an array `['One', 'Two', 'Three', ...]` or a function to define the headers.
-   * If a function is set, then the index of the column is passed as a parameter.
-   *
-   * @type {Boolean|Array|Function}
-   * @default null
-   * @example
-   * ```js
-   * ...
-   * // as boolean
-   * colHeaders: true,
-   * ...
-   *
-   * ...
-   * // as array
-   * colHeaders: ['A', 'B', 'C'],
-   * ...
-   *
-   * ...
-   * // as function
-   * colHeaders: function(index) {
-   *   return index + ': AB';
-   * },
-   * ...
-   * ```
-   */
-  colHeaders: null,
-
-  /**
-   * Defines column widths in pixels. Accepts number, string (that will be converted to a number),
-   * array of numbers (if you want to define column width separately for each column) or a
-   * function (if you want to set column width dynamically on each render).
-   *
-   * @type {Array|Function|Number|String}
-   * @default undefined
-   * @example
-   * ```js
-   * ...
-   * // as numeric, for each column.
-   * colWidths: 100,
-   * ...
-   *
-   * * ...
-   * // as string, for each column.
-   * colWidths: '100px',
-   * ...
-   *
-   * ...
-   * // as array, based on visual indexes. The rest of the columns have a default width.
-   * colWidths: [100, 120, 90],
-   * ...
-   *
-   * ...
-   * // as function, based on visual indexes.
-   * colWidths: function(index) {
-   *   return index * 10;
-   * },
-   * ...
-   * ```
-   */
-  colWidths: void 0,
-
-  /**
-   * Defines row heights in pixels. Accepts numbers, strings (that will be converted into a number),
-   * array of numbers (if you want to define row height separately for each row) or a
-   * function (if you want to set row height dynamically on each render).
-   * If the ManualRowResize or AutoRowSize plugins are enabled, this is also the minimum height that can be set
-   * via either of those two plugins.
-   * Height should be equal or greater than 23px. Table is rendered incorrectly if height is less than 23px.
-   *
-   * @type {Array|Function|Number|String}
-   * @default undefined
-   * @example
-   * ```js
-   * ...
-   * // as numeric, for each row.
-   * rowHeights: 100,
-   * ...
-   *
-   * * ...
-   * // as string, for each row.
-   * rowHeights: '100px',
-   * ...
-   *
-   * ...
-   * // as array, based on visual indexes. The rest of the rows have a default height.
-   * rowHeights: [100, 120, 90],
-   * ...
-   *
-   * ...
-   * // as function, based on visual indexes.
-   * rowHeights: function(index) {
-   *   return index * 10;
-   * },
-   * ...
-   * ```
-   */
-  rowHeights: void 0,
-
-  /**
-   * @description
-   * Defines the cell properties and data binding for certain columns.
-   *
-   * __Notice:__ Using this option sets a fixed number of columns (options `startCols`, `minCols`, `maxCols` will be ignored).
-   *
-   * See [documentation -> datasources.html](http://docs.handsontable.com/tutorial-data-sources.html#page-nested) for examples.
-   *
-   * @type {Array|Function}
-   * @default undefined
-   * @example
-   * ```js
-   * ...
-   * // as an array of objects. Order of the objects in array is representation of physical indexes.
-   * columns: [
-   *   {
-   *     // column options for the first column
-   *     type: 'numeric',
-   *     numericFormat: {
-   *       pattern: '0,0.00 $'
-   *     }
-   *   },
-   *   {
-   *     // column options for the second column
-   *     type: 'text',
-   *     readOnly: true
-   *   }
-   * ],
-   * ...
-   *
-   * // or as function, based on physical indexes
-   * ...
-   * columns: function(index) {
-  *    return {
-  *      type: index > 0 ? 'numeric' : 'text',
-  *      readOnly: index < 1
-  *    }
-   * }
-   * ...
-   * ```
-   */
-  columns: void 0,
-
-  /**
-   * @description
-   * Defines the cell properties for given `row`, `col`, `prop` coordinates.
-   * Any constructor or column option may be overwritten for a particular cell (row/column combination)
-   * using the `cells` property in the Handsontable constructor.
-   *
-   * __Note:__ Parameters `row` and `col` always represent __physical indexes__. Example below show how to execute
-   * operations based on the __visual__ representation of Handsontable.
-   *
-   * Possible values of `prop`:
-   * - property name for column's data source object, when dataset is an [array of objects](/tutorial-data-sources.html#page-object)
-   * - the same number as `col`, when dataset is an [array of arrays](/tutorial-data-sources.html#page-array)
-   *
-   * @type {Function}
-   * @default undefined
-   * @example
-   * ```js
-   * ...
-   * cells: function (row, col, prop) {
-   *   var cellProperties = {};
-   *   var visualRowIndex = this.instance.toVisualRow(row);
-   *   var visualColIndex = this.instance.toVisualColumn(col);
-   *
-   *   if (visualRowIndex === 0 && visualColIndex === 0) {
-   *     cellProperties.readOnly = true;
-   *   }
-   *
-   *   return cellProperties;
-   * },
-   * ...
-   * ```
-   */
-  cells: void 0,
-
-  /**
-   * Any constructor or column option may be overwritten for a particular cell (row/column combination), using `cell`
-   * array passed to the Handsontable constructor.
-   *
-   * @type {Array}
-   * @default []
-   * @example
-   * ```js
-   * ...
-   * cell: [
-   *   {row: 0, col: 0, readOnly: true}
-   * ],
-   * ...
-   * ```
-   */
-  cell: [],
-
-  /**
-   * @description
-   * If `true`, enables the {@link Comments} plugin, which enables an option to apply cell comments through the context menu
-   * (configurable with context menu keys `commentsAddEdit`, `commentsRemove`).
-   *
-   * To initialize Handsontable with predefined comments, provide cell coordinates and comment text values in a form of an array.
-   *
-   * See [Comments](http://docs.handsontable.com/demo-comments_.html) demo for examples.
-   *
-   * @since 0.11.0
-   * @type {Boolean|Array}
-   * @default false
-   * @example
-   * ```js
-   * ...
-   * comments: [{row: 1, col: 1, comment: {value: "Test comment"}}],
-   * ...
-   * ```
-   */
-  comments: false,
-
-  /**
-   * @description
-   * If `true`, enables the Custom Borders plugin, which enables an option to apply custom borders through the context menu (configurable with context menu key `borders`).
-   *
-   * To initialize Handsontable with predefined custom borders, provide cell coordinates and border styles in a form of an array.
-   *
-   * See [Custom Borders](http://docs.handsontable.com/demo-custom-borders.html) demo for examples.
-   *
-   * @since 0.11.0
-   * @type {Boolean|Array}
-   * @default false
-   * @example
-   * ```js
-   * ...
-   * customBorders: [
-   *   {range: {
-   *     from: {row: 1, col: 1},
-   *     to: {row: 3, col: 4}},
-   *     left: {},
-   *     right: {},
-   *     top: {},
-   *     bottom: {}
-   *   }
-   * ],
-   * ...
-   *
-   * // or
-   * ...
-   * customBorders: [
-   *   {row: 2, col: 2, left: {width: 2, color: 'red'},
-   *     right: {width: 1, color: 'green'}, top: '', bottom: ''}
-   * ],
-   * ...
-   * ```
-   */
-  customBorders: false,
-
-  /**
-   * Minimum number of rows. At least that number of rows will be created during initialization.
-   *
-   * @type {Number}
-   * @default 0
-   */
-  minRows: 0,
-
-  /**
-   * Minimum number of columns. At least that number of columns will be created during initialization.
-   *
-   * @type {Number}
-   * @default 0
-   */
-  minCols: 0,
-
-  /**
-   * Maximum number of rows. If set to a value lower than the initial row count, the data will be trimmed to the provided value as the number of rows.
-   *
-   * @type {Number}
-   * @default Infinity
-   */
-  maxRows: Infinity,
-
-  /**
-   * Maximum number of cols. If set to a value lower than the initial col count, the data will be trimmed to the provided value as the number of cols.
-   *
-   * @type {Number}
-   * @default Infinity
-   */
-  maxCols: Infinity,
-
-  /**
-   * When set to 1 (or more), Handsontable will add a new row at the end of grid if there are no more empty rows.
-   * (unless the number of rows exceeds the one set in the `maxRows` property)
-   *
-   * @type {Number}
-   * @default 0
-   */
-  minSpareRows: 0,
-
-  /**
-   * When set to 1 (or more), Handsontable will add a new column at the end of grid if there are no more empty columns.
-   * (unless the number of rows exceeds the one set in the `maxCols` property)
-   *
-   * @type {Number}
-   * @default 0
-   */
-  minSpareCols: 0,
-
-  /**
-   * If set to `false`, there won't be an option to insert new rows in the Context Menu.
-   *
-   * @type {Boolean}
-   * @default true
-   */
-  allowInsertRow: true,
-
-  /**
-   * If set to `false`, there won't be an option to insert new columns in the Context Menu.
-   *
-   * @type {Boolean}
-   * @default true
-   */
-  allowInsertColumn: true,
-
-  /**
-   * If set to `false`, there won't be an option to remove rows in the Context Menu.
-   *
-   * @type {Boolean}
-   * @default true
-   */
-  allowRemoveRow: true,
-
-  /**
-   * If set to `false`, there won't be an option to remove columns in the Context Menu.
-   *
-   * @type {Boolean}
-   * @default true
-   */
-  allowRemoveColumn: true,
-
-  /**
-   * @description
-   * Defines how the table selection reacts. The selection support three different behaviors defined as:
-   *  * `'single'` Only a single cell can be selected.
-   *  * `'range'` Multiple cells within a single range can be selected.
-   *  * `'multiple'` Multiple ranges of cells can be selected.
-   *
-   * To see how to interact with selection by getting selected data or change styles of the selected cells go to
-   * [https://docs.handsontable.com/demo-selecting-ranges.html](https://docs.handsontable.com/demo-selecting-ranges.html).
-   *
-   * @since 0.36.0
-   * @type {String}
-   * @default 'multiple'
-   */
-  selectionMode: 'multiple',
-
-  /**
-   * Enables the fill handle (drag-down and copy-down) functionality, which shows a small rectangle in bottom
-   * right corner of the selected area, that let's you expand values to the adjacent cells.
-   *
-   * Possible values: `true` (to enable in all directions), `'vertical'` or `'horizontal'` (to enable in one direction),
-   * `false` (to disable completely). Setting to `true` enables the fillHandle plugin.
-   *
-   * Since 0.23.0 you can pass object to plugin which allows you to add more options for this functionality. If `autoInsertRow`
-   * option is `true`, fill-handler will create new rows till it reaches the last row. It is enabled by default.
-   *
-   * @example
-   * ```js
-   * ...
-   * fillHandle: true // enable plugin in all directions and with autoInsertRow as true
-   * ...
-   * // or
-   * ...
-   * fillHandle: 'vertical' // enable plugin in vertical direction and with autoInsertRow as true
-   * ...
-   * // or
-   * ...
-   * fillHandle: { // enable plugin in both directions and with autoInsertRow as false
-   *   autoInsertRow: false,
-   * }
-   * // or
-   * ...
-   * fillHandle: { // enable plugin in vertical direction and with autoInsertRow as false
-   *   autoInsertRow: false,
-   *   direction: 'vertical' // 'vertical' or 'horizontal'
-   * }
-   * ```
-   *
-   * @type {Boolean|String|Object}
-   * @default true
-   */
-  fillHandle: true,
-
-  /**
-   * Allows to specify the number of fixed (or *frozen*) rows at the top of the table.
-   *
-   * @type {Number}
-   * @default 0
-   * @example
-   * ```js
-   * fixedRowsTop: 3 // This would freeze the top 3 rows of the table.
-   * ```
-   */
-  fixedRowsTop: 0,
-
-  /**
-   * Allows to specify the number of fixed (or *frozen*) rows at the bottom of the table.
-   *
-   * @pro
-   * @type {Number}
-   * @default 0
-   * @example
-   * ```js
-   * fixedRowsBottom: 3 // This would freeze the top 3 rows of the table.
-   * ```
-   */
-  fixedRowsBottom: 0,
-
-  /**
-   * Allows to specify the number of fixed (or *frozen*) columns on the left of the table.
-   *
-   * @type {Number}
-   * @default 0
-   * @example
-   * ```js
-   * fixedColumnsLeft: 3 // This would freeze the top 3 rows of the table.
-   * ```
-   */
-  fixedColumnsLeft: 0,
-
-  /**
-   * If `true`, mouse click outside the grid will deselect the current selection.
-   * Can be a function that takes the click event target and returns a boolean.
-   *
-   * @type {Boolean|Function}
-   * @default true
-   */
-  outsideClickDeselects: true,
-
-  /**
-   * If `true`, <kbd>ENTER</kbd> begins editing mode (like in Google Docs). If `false`, <kbd>ENTER</kbd> moves to next
-   * row (like Excel) and adds a new row if necessary. <kbd>TAB</kbd> adds new column if necessary.
-   *
-   * @type {Boolean}
-   * @default true
-   */
-  enterBeginsEditing: true,
-
-  /**
-   * Defines the cursor movement after <kbd>ENTER</kbd> was pressed (<kbd>SHIFT</kbd> + <kbd>ENTER</kbd> uses a negative vector).
-   * Can be an object or a function that returns an object. The event argument passed to the function
-   * is a DOM Event object received after the <kbd>ENTER</kbd> key has been pressed. This event object can be used to check
-   * whether user pressed <kbd>ENTER</kbd> or <kbd>SHIFT</kbd> + <kbd>ENTER</kbd>.
-   *
-   * @type {Object|Function}
-   * @default {row: 1, col: 0}
-   */
-  enterMoves: { row: 1, col: 0 },
-
-  /**
-   * Defines the cursor movement after <kbd>TAB</kbd> is pressed (<kbd>SHIFT</kbd> + <kbd>TAB</kbd> uses a negative vector).
-   * Can be an object or a function that returns an object. The event argument passed to the function
-   * is a DOM Event object received after the <kbd>TAB</kbd> key has been pressed. This event object can be used to check
-   * whether user pressed <kbd>TAB</kbd> or <kbd>SHIFT</kbd> + <kbd>TAB</kbd>.
-   *
-   * @type {Object}
-   * @default {row: 0, col: 1}
-   */
-  tabMoves: { row: 0, col: 1 },
-
-  /**
-   * If `true`, pressing <kbd>TAB</kbd> or right arrow in the last column will move to first column in next row.
-   *
-   * @type {Boolean}
-   * @default false
-   */
-  autoWrapRow: false,
-
-  /**
-   * If `true`, pressing <kbd>ENTER</kbd> or down arrow in the last row will move to the first row in the next column.
-   *
-   * @type {Boolean}
-   * @default false
-   */
-  autoWrapCol: false,
-
-  /**
-   * @description
-   * Turns on saving the state of column sorting, column positions and column sizes in local storage.
-   *
-   * You can save any sort of data in local storage to preserve table state between page reloads.
-   * In order to enable data storage mechanism, `persistentState` option must be set to `true` (you can set it
-   * either during Handsontable initialization or using the `updateSettings` method). When `persistentState` is enabled it exposes 3 hooks:
-   *
-   * __persistentStateSave__ (key: String, value: Mixed)
-   *
-   *   * Saves value under given key in browser local storage.
-   *
-   * __persistentStateLoad__ (key: String, valuePlaceholder: Object)
-   *
-   *   * Loads `value`, saved under given key, form browser local storage. The loaded `value` will be saved in `valuePlaceholder.value`
-   *     (this is due to specific behaviour of `Hooks.run()` method). If no value have been saved under key `valuePlaceholder.value`
-   *     will be `undefined`.
-   *
-   * __persistentStateReset__ (key: String)
-   *
-   *   * Clears the value saved under `key`. If no `key` is given, all values associated with table will be cleared.
-   *
-   * __Note:__ The main reason behind using `persistentState` hooks rather than regular LocalStorage API is that it
-   * ensures separation of data stored by multiple Handsontable instances. In other words, if you have two (or more)
-   * instances of Handsontable on one page, data saved by one instance won't be accessible by the second instance.
-   * Those two instances can store data under the same key and no data would be overwritten.
-   *
-   * __Important:__ In order for the data separation to work properly, make sure that each instance of Handsontable has a unique `id`.
-   *
-   * @type {Boolean}
-   * @default false
-   */
-  persistentState: void 0,
-
-  /**
-   * Class name for all visible rows in the current selection.
-   *
-   * @type {String}
-   * @default undefined
-   * @example
-   * ```js
-   * currentRowClassName: 'currentRow' // This will add a 'currentRow' class name to appropriate table cells.
-   * ```
-   */
-  currentRowClassName: void 0,
-
-  /**
-   * Class name for all visible columns in the current selection.
-   *
-   * @type {String}
-   * @default undefined
-   * @example
-   * ```js
-   * currentColClassName: 'currentColumn' // This will add a 'currentColumn' class name to appropriate table cells.
-   * ```
-   */
-  currentColClassName: void 0,
-
-  /**
-   * Class name for all visible headers in current selection.
-   *
-   * @type {String}
-   * @since 0.27.0
-   * @default 'ht__highlight'
-   * @example
-   * ```js
-   * currentHeaderClassName: 'ht__highlight' // This will add a 'ht__highlight' class name to appropriate table headers.
-   * ```
-   */
-  currentHeaderClassName: 'ht__highlight',
-
-  /**
-   * Class name for all active headers in selections. The header will be marked with this class name
-   * only when a whole column or row will be selected.
-   *
-   * @type {String}
-   * @since 0.38.2
-   * @default 'ht__active_highlight'
-   * @example
-   * ```js
-   * activeHeaderClassName: 'ht__active_highlight' // This will add a 'ht__active_highlight' class name to appropriate table headers.
-   * ```
-   */
-  activeHeaderClassName: 'ht__active_highlight',
-
-  /**
-   * Class name for the Handsontable container element.
-   *
-   * @type {String|Array}
-   * @default undefined
-   */
-  className: void 0,
-
-  /**
-   * Class name for all tables inside container element.
-   *
-   * @since 0.17.0
-   * @type {String|Array}
-   * @default undefined
-   */
-  tableClassName: void 0,
-
-  /**
-   * @description
-   * Defines how the columns react, when the declared table width is different than the calculated sum of all column widths.
-   * [See more](http://docs.handsontable.com/demo-stretching.html) mode. Possible values:
-   *  * `'none'` Disable stretching
-   *  * `'last'` Stretch only the last column
-   *  * `'all'` Stretch all the columns evenly
-   *
-   * @type {String}
-   * @default 'none'
-   */
-  stretchH: 'none',
-
-  /**
-   * Lets you overwrite the default `isEmptyRow` method, which checks if row at the provided index is empty.
-   *
-   * @type {Function}
-   * @param {Number} row Visual row index.
-   * @returns {Boolean}
-   */
-  isEmptyRow: function isEmptyRow(row) {
-    var col, colLen, value, meta;
-
-    for (col = 0, colLen = this.countCols(); col < colLen; col++) {
-      value = this.getDataAtCell(row, col);
-
-      if (value !== '' && value !== null && (0, _mixed.isDefined)(value)) {
-        if ((typeof value === 'undefined' ? 'undefined' : _typeof(value)) === 'object') {
-          meta = this.getCellMeta(row, col);
-
-          return (0, _object.isObjectEqual)(this.getSchema()[meta.prop], value);
-        }
-        return false;
-      }
-    }
-
-    return true;
-  },
-
-
-  /**
-   * Lets you overwrite the default `isEmptyCol` method, which checks if column at the provided index is empty.
-   *
-   * @type {Function}
-   * @param {Number} col Visual column index
-   * @returns {Boolean}
-   */
-  isEmptyCol: function isEmptyCol(col) {
-    var row, rowLen, value;
-
-    for (row = 0, rowLen = this.countRows(); row < rowLen; row++) {
-      value = this.getDataAtCell(row, col);
-
-      if (value !== '' && value !== null && (0, _mixed.isDefined)(value)) {
-        return false;
-      }
-    }
-
-    return true;
-  },
-
-
-  /**
-   * When set to `true`, the table is re-rendered when it is detected that it was made visible in DOM.
-   *
-   * @type {Boolean}
-   * @default true
-   */
-  observeDOMVisibility: true,
-
-  /**
-   * If set to `true`, Handsontable will accept values that were marked as invalid by the cell `validator`.
-   * It will result with *invalid* cells being treated as *valid* (will save the *invalid* value into the Handsontable data source).
-   * If set to `false`, Handsontable will *not* accept the invalid values and won't allow the user to close the editor.
-   * This option will be particularly useful when used with the Autocomplete's `strict` mode.
-   *
-   * @type {Boolean}
-   * @default true
-   * @since 0.9.5
-   */
-  allowInvalid: true,
-
-  /**
-   * If set to `true`, Handsontable will accept values that are empty (`null`, `undefined` or `''`).
-   * If set to `false`, Handsontable will *not* accept the empty values and mark cell as invalid.
-   *
-   * @example
-   * ```js
-   * ...
-   * allowEmpty: true // allow empty values for all cells (whole table)
-   * ...
-   * // or
-   * ...
-   * columns: [
-   *   // allow empty values only for 'date' column
-   *   {data: 'date', dateFormat: 'DD/MM/YYYY', allowEmpty: true}
-   * ]
-   * ...
-   * ```
-   *
-   * @type {Boolean}
-   * @default true
-   * @since 0.23.0
-   */
-  allowEmpty: true,
-
-  /**
-   * CSS class name for cells that did not pass validation.
-   *
-   * @type {String}
-   * @default 'htInvalid'
-   */
-  invalidCellClassName: 'htInvalid',
-
-  /**
-   * When set to an non-empty string, displayed as the cell content for empty cells. If a value of a different type is provided,
-   * it will be stringified and applied as a string.
-   *
-   * @type {Mixed}
-   * @default false
-   */
-  placeholder: false,
-
-  /**
-   * CSS class name for cells that have a placeholder in use.
-   *
-   * @type {String}
-   * @default 'htPlaceholder'
-   */
-  placeholderCellClassName: 'htPlaceholder',
-
-  /**
-   * CSS class name for read-only cells.
-   *
-   * @type {String}
-   * @default 'htDimmed'
-   */
-  readOnlyCellClassName: 'htDimmed',
-
-  /**
-   * @description
-   * If a string is provided, it may be one of the following predefined values:
-   * * `autocomplete`,
-   * * `checkbox`,
-   * * `html`,
-   * * `numeric`,
-   * * `password`.
-   * * `text`.
-   *
-   * Or you can [register](http://docs.handsontable.com/demo-custom-renderers.html) the custom renderer under specified name and use
-   * its name as an alias in your configuration.
-   *
-   * If a function is provided, it will receive the following arguments:
-   * ```js
-   * function(instance, TD, row, col, prop, value, cellProperties) {}
-   * ```
-   *
-   * You can read more about custom renderes [in the documentation](http://docs.handsontable.com/demo-custom-renderers.html).
-   *
-   * @example
-   * ```js
-   * ...
-   * Handsontable.renderers.registerRenderer('my.renderer', function(instance, TD, row, col, prop, value, cellProperties) {
-   *   TD.innerHTML = value;
-   * });
-   * ...
-   * columns: [
-   *   {
-   *     editor: 'select',
-   *     renderer: 'autocomplete' // as string
-   *   },
-   *   {
-   *     renderer: 'my.renderer' // custom renderer as an alias
-   *   },
-   *   {
-   *     // renderer as custom function
-   *     renderer: function(hotInstance, TD, row, col, prop, value, cellProperties) {
-   *       TD.style.color = 'blue';
-   *       TD.innerHTML = value;
-   *     }
-   *   }
-   * ]
-   * ...
-   * ```
-   *
-   * @type {String|Function}
-   * @default undefined
-   */
-  renderer: void 0,
-
-  /**
-   * CSS class name added to the commented cells.
-   *
-   * @type {String}
-   * @default 'htCommentCell'
-   */
-  commentedCellClassName: 'htCommentCell',
-
-  /**
-   * If set to `true`, it enables the browser's native selection of a fragment of the text within a single cell, between adjacent cells or in a whole table.
-   * If set to `'cell'`, it enables the possibility of selecting a fragment of the text within a single cell's body.
-   *
-   * @type {Boolean|String}
-   * @default false
-   */
-  fragmentSelection: false,
-
-  /**
-   * @description
-   * Make cell [read only](http://docs.handsontable.com/demo-read-only.html).
-   *
-   * @type {Boolean}
-   * @default false
-   */
-  readOnly: false,
-
-  /**
-   * @description
-   * When added to a `column` property, it skips the column on paste and pastes the data on the next column to the right.
-   *
-   * @type {Boolean}
-   * @default false
-   */
-  skipColumnOnPaste: false,
-
-  /**
-   * @description
-   * Setting to true enables the search plugin (see [demo](http://docs.handsontable.com/demo-search-for-values.html)).
-   *
-   * @type {Boolean}
-   * @default false
-   */
-  search: false,
-
-  /**
-   * @description
-   * Shortcut to define the combination of the cell renderer, editor and validator for the column, cell or whole table.
-   *
-   * Possible values:
-   *  * [autocomplete](http://docs.handsontable.com/demo-autocomplete.html)
-   *  * [checkbox](http://docs.handsontable.com/demo-checkbox.html)
-   *  * [date](http://docs.handsontable.com/demo-date.html)
-   *  * [dropdown](http://docs.handsontable.com/demo-dropdown.html)
-   *  * [handsontable](http://docs.handsontable.com/demo-handsontable.html)
-   *  * [numeric](http://docs.handsontable.com/demo-numeric.html)
-   *  * [password](http://docs.handsontable.com/demo-password.html)
-   *  * text
-   *  * [time](http://docs.handsontable.com/demo-time.html)
-   *
-   * Or you can register the custom cell type under specified name and use
-   * its name as an alias in your configuration.
-   *
-   * @example
-   * ```js
-   * ...
-   * Handsontable.cellTypes.registerCellType('my.type', {
-   *   editor: MyEditorClass,
-   *   renderer: function(hot, td, row, col, prop, value, cellProperties) {
-   *     td.innerHTML = value;
-   *   },
-   *   validator: function(value, callback) {
-   *     callback(value === 'foo' ? true : false);
-   *   }
-   * });
-   * ...
-   * columns: [
-   *   {
-   *     type: 'text'
-   *   },
-   *   {
-   *     type: 'my.type' // an alias to custom type
-   *   },
-   *   {
-   *     type: 'checkbox'
-   *   }
-   * ]
-   * ...
-   * ```
-   *
-   * @type {String}
-   * @default 'text'
-   */
-  type: 'text',
-
-  /**
-   * @description
-   * Make cell copyable (pressing <kbd>CTRL</kbd> + <kbd>C</kbd> on your keyboard moves its value to system clipboard).
-   *
-   * __Note:__ this setting is `false` by default for cells with type `password`.
-   *
-   * @type {Boolean}
-   * @default true
-   * @since 0.10.2
-   */
-  copyable: true,
-
-  /**
-   * Defines the editor for the table/column/cell.
-   *
-   * If a string is provided, it may be one of the following predefined values:
-   *  * [autocomplete](http://docs.handsontable.com/demo-autocomplete.html)
-   *  * [checkbox](http://docs.handsontable.com/demo-checkbox.html)
-   *  * [date](http://docs.handsontable.com/demo-date.html)
-   *  * [dropdown](http://docs.handsontable.com/demo-dropdown.html)
-   *  * [handsontable](http://docs.handsontable.com/demo-handsontable.html)
-   *  * [mobile](http://docs.handsontable.com/demo-mobiles-and-tablets.html)
-   *  * [password](http://docs.handsontable.com/demo-password.html)
-   *  * [select](http://docs.handsontable.com/demo-select.html)
-   *  * text
-   *
-   * Or you can [register](http://docs.handsontable.com/tutorial-cell-editor.html#registering-an-editor) the custom editor under specified name and use
-   * its name as an alias in your configuration.
-   *
-   * To disable cell editing completely set `editor` property to `false`.
-   *
-   * @example
-   * ```js
-   * ...
-   * columns: [
-   *   {
-   *     editor: 'select'
-   *   },
-   *   {
-   *     editor: false
-   *   }
-   * ]
-   * ...
-   * ```
-   *
-   * @type {String|Function|Boolean}
-   * @default 'text'
-   */
-  editor: void 0,
-
-  /**
-   * @description
-   * Autocomplete definitions. See [autocomplete demo](http://docs.handsontable.com/demo-autocomplete.html) for examples and definitions.
-   *
-   * @type {Array}
-   * @default undefined
-   */
-  autoComplete: void 0,
-
-  /**
-   * Control number of choices for the autocomplete (or dropdown) typed cells. After exceeding it, a scrollbar for the dropdown list of choices will appear.
-   *
-   * @since 0.18.0
-   * @type {Number}
-   * @default 10
-   */
-  visibleRows: 10,
-
-  /**
-   * Makes autocomplete or dropdown width the same as the edited cell width. If `false` then editor will be scaled
-   * according to its content.
-   *
-   * @since 0.17.0
-   * @type {Boolean}
-   * @default true
-   */
-  trimDropdown: true,
-
-  /**
-   * Setting to true enables the debug mode, currently used to test the correctness of the row and column
-   * header fixed positioning on a layer above the master table.
-   *
-   * @type {Boolean}
-   * @default false
-   */
-  debug: false,
-
-  /**
-   * When set to `true`, the text of the cell content is wrapped if it does not fit in the fixed column width.
-   *
-   * @type {Boolean}
-   * @default true
-   * @since 0.11.0
-   */
-  wordWrap: true,
-
-  /**
-   * CSS class name added to cells with cell meta `wordWrap: false`.
-   *
-   * @type {String}
-   * @default 'htNoWrap'
-   * @since 0.11.0
-   */
-  noWordWrapClassName: 'htNoWrap',
-
-  /**
-   * @description
-   * Defines if the right-click context menu should be enabled. Context menu allows to create new row or
-   * column at any place in the grid among [other features](http://docs.handsontable.com/demo-context-menu.html).
-   * Possible values:
-   * * `true` (to enable default options),
-   * * `false` (to disable completely)
-   * * an array of [predefined options](https://docs.handsontable.com/demo-context-menu.html#page-specific),
-   * * an object [with defined structure](http://docs.handsontable.com/demo-context-menu.html#page-custom)
-   *
-   * See [the context menu demo](http://docs.handsontable.com/demo-context-menu.html) for examples.
-   *
-   * @example
-   * ```js
-   * ...
-   * // as a boolean
-   * contextMenu: true
-   * ...
-   * // as an array
-   * contextMenu: ['row_above', 'row_below', '--------', 'undo', 'redo']
-   * ...
-   * ```
-   * ...
-   * // as an object (`name` attribute is required in the custom keys)
-   * contextMenu: {
-   *   items: {
-   *     "option1": {
-   *       name: "option1"
-   *     },
-   *     "option2": {
-   *       name: "option2",
-   *       submenu: {
-   *         items: [
-   *           {
-   *             key: "option2:suboption1",
-   *             name: "option2:suboption1",
-   *             callback: function(key, options) {
-   *               ...
-   *             }
-   *           },
-   *           ...
-   *         ]
-   *       }
-   *     }
-   *   }
-   * }
-   * ...
-   * ```
-   * @type {Boolean|Array|Object}
-   * @default undefined
-   */
-  contextMenu: void 0,
-
-  /**
-   * @description
-   * Disable or enable the copy/paste functionality.
-   *
-   * @example
-   * ```js
-   * ...
-   * copyPaste: false,
-   * ...
-   * ```
-   *
-   * @type {Boolean}
-   * @default true
-   */
-  copyPaste: true,
-
-  /**
-   * If `true`, undo/redo functionality is enabled.
-   *
-   * @type {Boolean}
-   * @default undefined
-   */
-  undo: void 0,
-
-  /**
-   * @description
-   * Turns on [Column sorting](http://docs.handsontable.com/demo-sorting-data.html).
-   * Can be either a boolean (true/false) or an object with a declared sorting options. See the below example:
-   *
-   * @example
-   * ```js
-   * ...
-   * // as boolean
-   * columnSorting: true
-   * ...
-   * // as a object with initial order (sort ascending column at index 2)
-   * columnSorting: {
-   *   column: 2,
-   *   sortOrder: true, // true = ascending, false = descending, undefined = original order
-   *   sortEmptyCells: true // true = the table sorts empty cells, false = the table moves all empty cells to the end of the table
-   * }
-   * ...
-   * ```
-   *
-   * @type {Boolean|Object}
-   * @default undefined
-   */
-  columnSorting: void 0,
-
-  /**
-   * @description
-   * Turns on [Manual column move](http://docs.handsontable.com/demo-moving-rows-and-columns.html), if set to a boolean or define initial
-   * column order, if set to an array of column indexes.
-   *
-   * @example
-   * ```js
-   * ...
-   * // as boolean
-   * manualColumnMove: true
-   * ...
-   * // as a array with initial order (move column index at 0 to 1 and move column index at 1 to 4)
-   * manualColumnMove: [1, 4]
-   * ...
-   * ```
-   *
-   * @type {Boolean|Array}
-   * @default undefined
-   */
-  manualColumnMove: void 0,
-
-  /**
-   * @description
-   * Turns on [Manual column resize](http://docs.handsontable.com/demo-resizing.html), if set to a boolean or define initial
-   * column resized widths, if set to an array of numbers.
-   *
-   * @example
-   * ```js
-   * ...
-   * // as boolean
-   * manualColumnResize: true
-   * ...
-   * // as a array with initial widths (column at 0 index has 40px and column at 1 index has 50px)
-   * manualColumnResize: [40, 50]
-   * ...
-   * ```
-   *
-   * @type {Boolean|Array}
-   * @default undefined
-   */
-  manualColumnResize: void 0,
-
-  /**
-   * @description
-   * Turns on [Manual row move](http://docs.handsontable.com/demo-moving-rows-and-columns.html), if set to a boolean or define initial
-   * row order, if set to an array of row indexes.
-   *
-   * @example
-   * ```js
-   * ...
-   * // as boolean
-   * manualRowMove: true
-   * ...
-   * // as a array with initial order (move row index at 0 to 1 and move row index at 1 to 4)
-   * manualRowMove: [1, 4]
-   * ...
-   * ```
-   *
-   * @type {Boolean|Array}
-   * @default undefined
-   * @since 0.11.0
-   */
-  manualRowMove: void 0,
-
-  /**
-   * @description
-   * Turns on [Manual row resize](http://docs.handsontable.com/demo-resizing.html), if set to a boolean or define initial
-   * row resized heights, if set to an array of numbers.
-   *
-   * @example
-   * ```js
-   * ...
-   * // as boolean
-   * manualRowResize: true
-   * ...
-   * // as a array with initial heights (row at 0 index has 40px and row at 1 index has 50px)
-   * manualRowResize: [40, 50]
-   * ...
-   * ```
-   *
-   * @type {Boolean|Array}
-   * @default undefined
-   * @since 0.11.0
-   */
-  manualRowResize: void 0,
-
-  /**
-   * @description
-   * If set to `true`, it enables a possibility to merge cells. If set to an array of objects, it merges the cells provided in the objects (see the example below).
-   * [More information on the demo page.](http://docs.handsontable.com/demo-merge-cells.html)
-   *
-   * @example
-   * ```js
-   * // enables the mergeCells plugin:
-   * margeCells: true
-   * ...
-   * // declares a list of merged sections:
-   * mergeCells: [
-   *   {row: 1, col: 1, rowspan: 3, colspan: 3}, // rowspan and colspan properties declare the width and height of a merged section in cells
-   *   {row: 3, col: 4, rowspan: 2, colspan: 2},
-   *   {row: 5, col: 6, rowspan: 3, colspan: 3}
-   * ]
-   * ```
-   * @type {Boolean|Array}
-   * @default false
-   */
-  mergeCells: false,
-
-  /**
-   * Number of rows to be rendered outside of the visible part of the table.
-   * By default, it's set to `'auto'`, which makes Handsontable to attempt to calculate the best offset performance-wise.
-   *
-   * You may test out different values to find the best one that works for your specific implementation.
-   *
-   * @type {Number|String}
-   * @default 'auto'
-   */
-  viewportRowRenderingOffset: 'auto',
-
-  /**
-   * Number of columns to be rendered outside of the visible part of the table.
-   * By default, it's set to `'auto'`, which makes Handsontable try calculating the best offset performance-wise.
-   *
-   * You may experiment with the value to find the one that works best for your specific implementation.
-   *
-   * @type {Number|String}
-   * @default 'auto'
-   */
-  viewportColumnRenderingOffset: 'auto',
-
-  /**
-   * A function, regular expression or a string, which will be used in the process of cell validation.
-   * If a function is used, be sure to execute the callback argument with either `true` (`callback(true)`) if the validation passed
-   * or with `false` (`callback(false)`), if the validation failed.
-   * Note, that `this` in the function points to the `cellProperties` object.
-   *
-   * If a string is provided, it may be one of the following predefined values:
-   * * `autocomplete`,
-   * * `date`,
-   * * `numeric`,
-   * * `time`.
-   *
-   * Or you can [register](http://docs.handsontable.com/demo-data-validation.html) the validator function under specified name and use
-   * its name as an alias in your configuration.
-   *
-   * See more [in the demo](http://docs.handsontable.com/demo-data-validation.html).
-   *
-   * @example
-   * ```js
-   * // as a function
-   * columns: [
-   *    {
-   *      validator: function(value, callback) { // validation rules }
-   *    }
-   * ]
-   * ...
-   * // as a regexp
-   * columns: [
-   *    {
-   *      validator: /^[0-9]$/ // regular expression
-   *    }
-   * ]
-   * // as a string
-   * columns: [
-   *    {
-   *      validator: 'numeric'
-   *    }
-   * ]
-   * ```
-   * @type {Function|RegExp|String}
-   * @default undefined
-   * @since 0.9.5
-   */
-  validator: void 0,
-
-  /**
-   * @description
-   * Disable visual cells selection.
-   *
-   * Possible values:
-   *  * `true` - Disables any type of visual selection (current and area selection),
-   *  * `false` - Enables any type of visual selection. This is default value.
-   *  * `'current'` - Disables the selection of a currently selected cell, the area selection is still present.
-   *  * `'area'` - Disables the area selection, the currently selected cell selection is still present.
-   *  * `'header'` - Disables the headers selection, the currently selected cell selection is still present (available since 0.36.0).
-   *
-   * @type {Boolean|String|Array}
-   * @default false
-   * @since 0.13.2
-   * @example
-   * ```js
-   * ...
-   * // as boolean
-   * disableVisualSelection: true,
-   * ...
-   *
-   * ...
-   * // as string ('current', 'area' or 'header')
-   * disableVisualSelection: 'current',
-   * ...
-   *
-   * ...
-   * // as array
-   * disableVisualSelection: ['current', 'area'],
-   * ...
-   * ```
-   */
-  disableVisualSelection: false,
-
-  /**
-   * @description
-   * Set whether to display the current sorting order indicator (a triangle icon in the column header, specifying the sorting order).
-   *
-   * @type {Boolean}
-   * @default false
-   * @since 0.15.0-beta3
-   */
-  sortIndicator: void 0,
-
-  /**
-   * Disable or enable ManualColumnFreeze plugin.
-   *
-   * @type {Boolean}
-   * @default false
-   */
-  manualColumnFreeze: void 0,
-
-  /**
-   * @description
-   * Defines whether Handsontable should trim the whitespace at the beginning and the end of the cell contents.
-   *
-   * @type {Boolean}
-   * @default true
-   */
-  trimWhitespace: true,
-
-  settings: void 0,
-
-  /**
-   * @description
-   * Defines data source for Autocomplete or Dropdown cell types.
-   *
-   * @example
-   * ```js
-   * ...
-   * // source as a array
-   * columns: [{
-   *   type: 'autocomplete',
-   *   source: ['A', 'B', 'C', 'D']
-   * }]
-   * ...
-   * // source as a function
-   * columns: [{
-   *   type: 'autocomplete',
-   *   source: function(query, callback) {
-   *     fetch('http://example.com/query?q=' + query, function(response) {
-   *       callback(response.items);
-   *     })
-   *   }
-   * }]
-   * ...
-   * ```
-   *
-   * @type {Array|Function}
-   * @default undefined
-   */
-  source: void 0,
-
-  /**
-   * @description
-   * Defines the column header name.
-   *
-   * @example
-   * ```js
-   * ...
-   * columns: [{
-   *     title: 'First name',
-   *     type: 'text',
-   *   },
-   *   {
-   *     title: 'Last name',
-   *     type: 'text',
-   *   }]
-   * ...
-   * ```
-   *
-   * @type {String}
-   * @default undefined
-   */
-  title: void 0,
-
-  /**
-   * Data template for `'checkbox'` type when checkbox is checked.
-   *
-   * @example
-   * ```js
-   * checkedTemplate: 'good'
-   *
-   * // if a checkbox-typed cell is checked, then getDataAtCell(x,y), where x and y are the coordinates of the cell
-   * // will return 'good'.
-   * ```
-   * @type {Boolean|String}
-   * @default true
-   */
-  checkedTemplate: void 0,
-
-  /**
-   * Data template for `'checkbox'` type when checkbox is unchecked.
-   *
-   * @example
-   * ```js
-   * uncheckedTemplate: 'bad'
-   *
-   * // if a checkbox-typed cell is not checked, then getDataAtCell(x,y), where x and y are the coordinates of the cell
-   * // will return 'bad'.
-   * ```
-   * @type {Boolean|String}
-   * @default false
-   */
-  uncheckedTemplate: void 0,
-
-  /**
-   * @description
-   * Object which describes if renderer should create checkbox element with label element as a parent. Option desired for
-   * [checkbox](http://docs.handsontable.com/demo-checkbox.html)-typed cells.
-   *
-   * By default the [checkbox](http://docs.handsontable.com/demo-checkbox.html) renderer renders the checkbox without a label.
-   *
-   * Possible object properties:
-   *  * `property` - Defines the property name of the data object, which will to be used as a label.
-   *  (eg. `label: {property: 'name.last'}`). This option works only if data was passed as an array of objects.
-   *  * `position` - String which describes where to place the label text (before or after checkbox element).
-   * Valid values are `'before'` and '`after`' (defaults to `'after'`).
-   *  * `value` - String or a Function which will be used as label text.
-   *
-   * @example
-   * ```js
-   * ...
-   * columns: [{
-   *   type: 'checkbox',
-   *   label: {position: 'after', value: 'My label: '}
-   * }]
-   * ...
-   * ```
-   *
-   * @since 0.19.0
-   * @type {Object}
-   * @default undefined
-   */
-  label: void 0,
-
-  /**
-   * Display format. This option is desired for [numeric-typed](http://docs.handsontable.com/demo-numeric.html) cells. Format is described by two properties:
-   *
-   * - pattern, which is handled by `numbro` for purpose of formatting numbers to desired pattern. List of supported patterns can be found [here](http://numbrojs.com/format.html#numbers).
-   * - culture, which is handled by `numbro` for purpose of formatting currencies. Examples showing how it works can be found [here](http://numbrojs.com/format.html#currency). List of supported cultures can be found [here](http://numbrojs.com/languages.html#supported-languages).
-   *
-   * __Note:__ Please keep in mind that this option is used only to format the displayed output! It has no effect on the input data provided for the cell. The numeric data can be entered to the table only as floats (separated by a dot or a comma) or integers, and are stored in the source dataset as JavaScript numbers.
-   *
-   * Since 0.26.0 Handsontable uses [numbro](http://numbrojs.com/) as a main library for numbers formatting.
-   *
-   * @example
-   * ```js
-   * ...
-   * columns: [{
-   *   type: 'numeric',
-   *   numericFormat: {
-   *     pattern: '0,00',
-   *     culture: 'en-US'
-   *   }
-   * }]
-   * ...
-   * ```
-   *
-   * @since 0.35.0
-   * @type {Object}
-   */
-  numericFormat: void 0,
-
-  /**
-   * Language for Handsontable translation. Possible language codes are: `en-US`, `pl-PL`.
-   *
-   * @type {String}
-   * @default 'en-US'
-   */
-  language: void 0,
-
-  /**
-   * @description
-   * Data source for [select](http://docs.handsontable.com/demo-select.html)-typed cells.
-   *
-   * @example
-   * ```js
-   * ...
-   * columns: [{
-   *   editor: 'select',
-   *   selectOptions: ['A', 'B', 'C'],
-   * }]
-   * ...
-   * ```
-   *
-   * @type {Array}
-   */
-  selectOptions: void 0,
-
-  /**
-   * Enables or disables the autoColumnSize plugin. Default value is `undefined`, which has the same effect as `true`.
-   * Disabling this plugin can increase performance, as no size-related calculations would be done.
-   *
-   * Column width calculations are divided into sync and async part. Each of this parts has their own advantages and
-   * disadvantages. Synchronous calculations are faster but they block the browser UI, while the slower asynchronous operations don't
-   * block the browser UI.
-   *
-   * To configure the sync/async distribution, you can pass an absolute value (number of columns) or a percentage value.
-   * `syncLimit` option is available since 0.16.0.
-   *
-   * You can also use the `useHeaders` option to take the column headers with into calculation.
-   *
-   * @example
-   * ```js
-   * ...
-   * // as a number (300 columns in sync, rest async)
-   * autoColumnSize: {syncLimit: 300},
-   * ...
-   *
-   * ...
-   * // as a string (percent)
-   * autoColumnSize: {syncLimit: '40%'},
-   * ...
-   *
-   * ...
-   * // use headers width while calculation the column width
-   * autoColumnSize: {useHeaders: true},
-   * ...
-   *
-   * ```
-   *
-   * @type {Object|Boolean}
-   * @default {syncLimit: 50}
-   */
-  autoColumnSize: void 0,
-
-  /**
-   * Enables or disables autoRowSize plugin. Default value is `undefined`, which has the same effect as `false` (disabled).
-   * Enabling this plugin can decrease performance, as size-related calculations would be performed.
-   *
-   * Row height calculations are divided into sync and async stages. Each of these stages has their own advantages and
-   * disadvantages. Synchronous calculations are faster but they block the browser UI, while the slower asynchronous operations don't
-   * block the browser UI.
-   *
-   * To configure the sync/async distribution, you can pass an absolute value (number of columns) or a percentage value.
-   * `syncLimit` options is available since 0.16.0.
-   *
-   * @example
-   * ```js
-   * ...
-   * // as number (300 columns in sync, rest async)
-   * autoRowSize: {syncLimit: 300},
-   * ...
-   *
-   * ...
-   * // as string (percent)
-   * autoRowSize: {syncLimit: '40%'},
-   * ...
-   * ```
-   * @type {Object|Boolean}
-   * @default {syncLimit: 1000}
-   */
-  autoRowSize: void 0,
-
-  /**
-   * Date validation format.
-   *
-   * Option desired for `'date'` - typed cells.
-   *
-   * @example
-   * ```js
-   * ...
-   * columns: [{
-   *   type: 'date',
-   *   dateFormat: 'MM/DD/YYYY'
-   * }]
-   * ...
-   * ```
-   *
-   * @type {String}
-   * @default 'DD/MM/YYYY'
-   */
-  dateFormat: void 0,
-
-  /**
-   * If `true` then dates will be automatically formatted to match the desired format.
-   *
-   * Option desired for `'date'`-typed typed cells.
-   *
-   * @example
-   * ```js
-   * ...
-   * columns: [{
-   *   type: 'date',
-   *   dateFormat: 'YYYY-MM-DD',
-   *   correctFormat: true
-   * }]
-   * ...
-   * ```
-   *
-   * @type {Boolean}
-   * @default false
-   */
-  correctFormat: false,
-
-  /**
-   * Definition of default value which will fill the empty cells.
-   *
-   * Option desired for `'date'`-typed cells.
-   *
-   * @example
-   * ```js
-   * ...
-   * columns: [{
-   *   type: 'date',
-   *   defaultData: '2015-02-02'
-   * }]
-   * ...
-   * ```
-   *
-   * @type {String}
-   */
-  defaultDate: void 0,
-
-  /**
-   * If set to `true`, the value entered into the cell must match (case-sensitive) the autocomplete source. Otherwise, cell won't pass the validation.
-   * When filtering the autocomplete source list, the editor will be working in case-insensitive mode.
-   *
-   * Option desired for `autocomplete`-typed cells.
-   *
-   * @example
-   * ```js
-   * ...
-   * columns: [{
-   *   type: 'autocomplete',
-   *   source: ['A', 'B', 'C'],
-   *   strict: true
-   * }]
-   * ...
-   * ```
-   *
-   * @type {Boolean}
-   */
-  strict: void 0,
-
-  /**
-   * @description
-   * If typed `true`, data defined in `source` of the autocomplete or dropdown cell will be treated as HTML.
-   *
-   * __Warning:__ Enabling this option can cause serious XSS vulnerabilities.
-   *
-   * Option desired for `'autocomplete'`-typed cells.
-   * @example
-   * ```js
-   * ...
-   * columns: [{
-   *   type: 'autocomplete',
-   *   allowHtml: true,
-   *   source: ['<b>foo</b>', '<b>bar</b>']
-   * }]
-   * ...
-   * ```
-   * @type {Boolean}
-   * @default false
-   */
-  allowHtml: false,
-
-  /**
-   * If typed `true` then virtual rendering mechanism for handsontable will be disabled.
-   *
-   * @type {Boolean}
-   */
-  renderAllRows: void 0,
-
-  /**
-   * Prevents table to overlap outside the parent element. If `'horizontal'` option is chosen then table will appear horizontal
-   * scrollbar in case where parent's width is narrower then table's width.
-   *
-   * Possible values:
-   *  * `false` - Disables functionality (Default option).
-   *  * `horizontal` - Prevents horizontal overflow table.
-   *  * `vertical` - Prevents vertical overflow table (Not implemented yet).
-   *
-   * @since 0.20.3
-   * @example
-   * ```js
-   * ...
-   * preventOverflow: 'horizontal'
-   * ...
-   * ```
-   *
-   * @type {String|Boolean}
-   */
-  preventOverflow: false,
-
-  /**
-   * @description
-   * Plugin allowing binding the table rows with their headers.
-   * If the plugin is enabled, the table row headers will "stick" to the rows, when they are hidden/moved. Basically, if at the initialization
-   * row 0 has a header titled "A", it will have it no matter what you do with the table.
-   *
-   * @pro
-   * @since 1.0.0-beta1
-   * @type {Boolean|String}
-   * @example
-   *
-   * ```js
-   * ...
-   * var hot = new Handsontable(document.getElementById('example'), {
-   *   date: getData(),
-   *   bindRowsWithHeaders: true
-   * });
-   * ...
-   * ```
-   *
-   */
-  bindRowsWithHeaders: void 0,
-
-  /**
-   * @description
-   * The CollapsibleColumns plugin allows collapsing of columns, covered by a header with the `colspan` property defined.
-   *
-   * Clicking the "collapse/expand" button collapses (or expands) all "child" headers except the first one.
-   *
-   * Setting the `collapsibleColumns` property to `true` will display a "collapse/expand" button in every header with a defined
-   * `colspan` property.
-   *
-   * To limit this functionality to a smaller group of headers, define the `collapsibleColumns` property as an array of objects, as in
-   * the example below.
-   *
-   * @pro
-   * @since 1.0.0-beta1
-   * @type {Boolean|Array}
-   * @example
-   * ```js
-   * ...
-   *  collapsibleColumns: [
-   *    {row: -4, col: 1, collapsible: true},
-   *    {row: -3, col: 5, collapsible: true}
-   *  ]
-   * ...
-   * // or
-   * ...
-   *  collapsibleColumns: true
-   * ...
-   * ```
-   */
-  collapsibleColumns: void 0,
-
-  /**
-   * @description
-   * Allows making pre-defined calculations on the cell values and display the results within Handsontable.
-   * See the demo for more information.
-   *
-   * @pro
-   * @since 1.0.0-beta1
-   * @type {Object}
-   */
-  columnSummary: void 0,
-
-  /**
-   * This plugin allows adding a configurable dropdown menu to the table's column headers.
-   * The dropdown menu acts like the Context Menu, but is triggered by clicking the button in the header.
-   *
-   * @pro
-   * @since 1.0.0-beta1
-   * @type {Boolean|Object|Array}
-   */
-  dropdownMenu: void 0,
-
-  /**
-   * The filters plugin.
-   * It allows filtering the table data either by the built-in component or with the API.
-   *
-   * @pro
-   * @since 1.0.0-beta1
-   * @type {Boolean}
-   */
-  filters: void 0,
-
-  /**
-   * It allows Handsontable to process formula expressions defined in the provided data.
-   *
-   * @pro
-   * @since 1.7.0
-   * @type {Boolean}
-   */
-  formulas: void 0,
-
-  /**
-   * @description
-   * GanttChart plugin enables a possibility to create a Gantt chart using a Handsontable instance.
-   * In this case, the whole table becomes read-only.
-   *
-   * @pro
-   * @since 1.0.0-beta1
-   * @type {Object}
-   */
-  ganttChart: void 0,
-
-  /**
-   * @description
-   * Allows adding a tooltip to the table headers.
-   *
-   * Available options:
-   * * the `rows` property defines if tooltips should be added to row headers,
-   * * the `columns` property defines if tooltips should be added to column headers,
-   * * the `onlyTrimmed` property defines if tooltips should be added only to headers, which content is trimmed by the header itself (the content being wider then the header).
-   *
-   * @pro
-   * @since 1.0.0-beta1
-   * @type {Boolean|Object}
-   */
-  headerTooltips: void 0,
-
-  /**
-   * Plugin allowing hiding of certain columns.
-   *
-   * @pro
-   * @since 1.0.0-beta1
-   * @type {Boolean|Object}
-   */
-  hiddenColumns: void 0,
-
-  /**
-   * @description
-   * Plugin allowing hiding of certain rows.
-   *
-   * @pro
-   * @since 1.0.0-beta1
-   * @type {Boolean|Object}
-   */
-  hiddenRows: void 0,
-
-  /**
-   * @description
-   * Allows creating a nested header structure, using the HTML's colspan attribute.
-   *
-   * @pro
-   * @since 1.0.0-beta1
-   * @type {Array}
-   */
-  nestedHeaders: void 0,
-
-  /**
-   * @description
-   * Plugin allowing hiding of certain rows.
-   *
-   * @pro
-   * @since 1.0.0-beta1
-   * @type {Boolean|Array}
-   */
-  trimRows: void 0,
-
-  /**
-   * @description
-   * Allows setting a custom width of the row headers. You can provide a number or an array of widths, if many row header levels are defined.
-   *
-   * @since 0.22.0
-   * @type {Number|Array}
-   */
-  rowHeaderWidth: void 0,
-
-  /**
-   * @description
-   * Allows setting a custom height of the column headers. You can provide a number or an array of heights, if many column header levels are defined.
-   *
-   * @since 0.22.0
-   * @type {Number|Array}
-   */
-  columnHeaderHeight: void 0,
-
-  /**
-   * @description
-   * Enabling this plugin switches table into one-way data binding where changes are applied into data source (from outside table)
-   * will be automatically reflected in the table.
-   *
-   * For every data change [afterChangesObserved](Hooks.html#event:afterChangesObserved) hook will be fired.
-   *
-   * @type {Boolean}
-   * @default false
-   */
-  observeChanges: void 0,
-
-  /**
-   * @description
-   * When passed to the `column` property, allows specifying a custom sorting function for the desired column.
-   *
-   * @since 0.24.0
-   * @type {Function}
-   * @example
-   * ```js
-   * columns: [
-   *   {
-   *     sortFunction: function(sortOrder) {
-   *        return function(a, b) {
-   *          // sorting function body.
-   *          //
-   *          // Function parameters:
-   *          // sortOrder: If true, the order is ascending, if false - descending. undefined = original order
-   *          // a, b: Two compared elements. These are 2-element arrays, with the first element being the row index, the second - cell value.
-   *        }
-   *     }
-   *   }
-   * ]
-   * ```
-   */
-  sortFunction: void 0,
-
-  /**
-   * If defined as 'true', the Autocomplete's suggestion list would be sorted by relevance (the closer to the left the match is, the higher the suggestion).
-   *
-   * Option desired for cells of the `'autocomplete'` type.
-   *
-   * @type {Boolean}
-   * @default true
-   */
-  sortByRelevance: true,
-
-  /**
-   * If defined as 'true', when the user types into the input area the Autocomplete's suggestion list is updated to only
-   * include those choices starting with what has been typed; if defined as 'false' all suggestions remain shown, with
-   * those matching what has been typed marked in bold.
-   *
-   * @type {Boolean}
-   * @default true
-   */
-  filter: true,
-
-  /**
-   * If defined as 'true', filtering in the Autocomplete Editor will be case-sensitive.
-   *
-   * @type {Boolean}
-   * @default: false
-   */
-  filteringCaseSensitive: false,
-
-  /**
-   * @description
-   * Disable or enable the drag to scroll functionality.
-   *
-   * @example
-   * ```js
-   * ...
-   * dragToScroll: false,
-   * ...
-   * ```
-   *
-   * @type {Boolean}
-   * @default true
-   */
-  dragToScroll: true
-};
-
-exports.default = DefaultSettings;
-
-/***/ }),
-/* 439 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.getTranslatedPhrase = getTranslatedPhrase;
-
-var _array = __webpack_require__(1);
-
-var _dictionariesManager = __webpack_require__(71);
-
-var _phraseFormatters = __webpack_require__(516);
-
-var _mixed = __webpack_require__(16);
-
-/**
- * Get phrase for specified dictionary key.
- *
- * @param {String} languageCode Language code for specific language i.e. 'en-US', 'pt-BR', 'de-DE'.
- * @param {String} dictionaryKey Constant which is dictionary key.
- * @param {*} argumentsForFormatters Arguments which will be handled by formatters.
- *
- * @returns {String}
- */
-// eslint-disable-next-line import/prefer-default-export
-function getTranslatedPhrase(languageCode, dictionaryKey, argumentsForFormatters) {
-  var languageDictionary = (0, _dictionariesManager.getLanguageDictionary)(languageCode);
-
-  if (languageDictionary === null) {
-    return null;
-  }
-
-  var phrasePropositions = languageDictionary[dictionaryKey];
-
-  if ((0, _mixed.isUndefined)(phrasePropositions)) {
-    return null;
-  }
-
-  var formattedPhrase = getFormattedPhrase(phrasePropositions, argumentsForFormatters);
-
-  if (Array.isArray(formattedPhrase)) {
-    return formattedPhrase[0];
-  }
-
-  return formattedPhrase;
-}
-
-/**
- * Get formatted phrase from phrases propositions for specified dictionary key.
- *
- * @private
- * @param {Array|string} phrasePropositions List of phrase propositions.
- * @param {*} argumentsForFormatters Arguments which will be handled by formatters.
- *
- * @returns {Array|string}
- */
-function getFormattedPhrase(phrasePropositions, argumentsForFormatters) {
-  var formattedPhrasePropositions = phrasePropositions;
-
-  (0, _array.arrayEach)((0, _phraseFormatters.getPhraseFormatters)(), function (formatter) {
-    formattedPhrasePropositions = formatter(phrasePropositions, argumentsForFormatters);
-  });
-
-  return formattedPhrasePropositions;
-}
-
-/***/ }),
-/* 440 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _templateObject = _taggedTemplateLiteral(['Language with code "', '" was not found. You should register particular language \n    before using it. Read more about this issue at: https://docs.handsontable.com/i18n/missing-language-code.'], ['Language with code "', '" was not found. You should register particular language \n    before using it. Read more about this issue at: https://docs.handsontable.com/i18n/missing-language-code.']);
-
-exports.extendNotExistingKeys = extendNotExistingKeys;
-exports.createCellHeadersRange = createCellHeadersRange;
-exports.normalizeLanguageCode = normalizeLanguageCode;
-exports.applyLanguageSetting = applyLanguageSetting;
-exports.warnUserAboutLanguageRegistration = warnUserAboutLanguageRegistration;
-
-var _mixed = __webpack_require__(16);
-
-var _object = __webpack_require__(2);
-
-var _console = __webpack_require__(56);
-
-var _templateLiteralTag = __webpack_require__(41);
-
-var _dictionariesManager = __webpack_require__(71);
-
-function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
-
-/**
- * Perform shallow extend of a target object with only this extension's properties which doesn't exist in the target.
- *
- * @param {Object} target An object that will receive the new properties.
- * @param {Object} extension An object containing additional properties to merge into the target.
- */
-// TODO: Maybe it should be moved to global helpers? It's changed `extend` function.
-function extendNotExistingKeys(target, extension) {
-  (0, _object.objectEach)(extension, function (value, key) {
-    if ((0, _mixed.isUndefined)(target[key])) {
-      target[key] = value;
-    }
-  });
-
-  return target;
-}
-
-/**
- * Create range of values basing on cell indexes. For example, it will create below ranges for specified function arguments:
- *
- * createCellHeadersRange(2, 7) => `2-7`
- * createCellHeadersRange(7, 2) => `2-7`
- * createCellHeadersRange(0, 4, 'A', 'D') => `A-D`
- * createCellHeadersRange(4, 0, 'D', 'A') => `A-D`
- *
- * @param {number} firstRowIndex Index of "first" cell
- * @param {number} nextRowIndex Index of "next" cell
- * @param {*} fromValue Value which will represent "first" cell
- * @param {*} toValue Value which will represent "next" cell
- * @returns {String} Value representing range i.e. A-Z, 11-15.
- */
-function createCellHeadersRange(firstRowIndex, nextRowIndex) {
-  var fromValue = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : firstRowIndex;
-  var toValue = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : nextRowIndex;
-
-  // Will swap `fromValue` with `toValue` if it's necessary.
-  if (firstRowIndex > nextRowIndex) {
-    var _ref = [toValue, fromValue];
-    fromValue = _ref[0];
-    toValue = _ref[1];
-  }
-
-  return fromValue + '-' + toValue;
-}
-
-/**
- * Normalize language code. It takes handled languageCode proposition and change it to proper languageCode.
- * For example, when it takes `eN-us` as parameter it return `en-US`
- *
- * @param {String} languageCode Language code for specific language i.e. 'en-US', 'pt-BR', 'de-DE'.
- * @returns {String}
- */
-function normalizeLanguageCode(languageCode) {
-  var languageCodePattern = /^([a-zA-Z]{2})-([a-zA-Z]{2})$/;
-  var partsOfLanguageCode = languageCodePattern.exec(languageCode);
-
-  if (partsOfLanguageCode) {
-    return partsOfLanguageCode[1].toLowerCase() + '-' + partsOfLanguageCode[2].toUpperCase();
-  }
-
-  return languageCode;
-}
-
-/**
- * Set proper start language code. User may set language code which is not proper.
- *
- * @param {Object} settings Settings object.
- * @param {String} languageCode Language code for specific language i.e. 'en-US', 'pt-BR', 'de-DE'.
- * @returns {String}
- */
-function applyLanguageSetting(settings, languageCode) {
-  var normalizedLanguageCode = normalizeLanguageCode(languageCode);
-
-  if ((0, _dictionariesManager.hasLanguageDictionary)(normalizedLanguageCode)) {
-    settings.language = normalizedLanguageCode;
-  } else {
-    settings.language = _dictionariesManager.DEFAULT_LANGUAGE_CODE;
-
-    warnUserAboutLanguageRegistration(languageCode);
-  }
-}
-
-/**
- *
- * Warn user if there is no registered language.
- *
- * @param {String} languageCode Language code for specific language i.e. 'en-US', 'pt-BR', 'de-DE'.
- */
-function warnUserAboutLanguageRegistration(languageCode) {
-  if ((0, _mixed.isDefined)(languageCode)) {
-    (0, _console.error)((0, _templateLiteralTag.toSingleLine)(_templateObject, languageCode));
-  }
-}
-
-/***/ }),
-/* 441 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.stopObserving = exports.startObserving = exports.isPressedCtrlKey = exports.isPressed = exports._resetState = exports._getRefCount = undefined;
-
-var _eventManager = __webpack_require__(6);
-
-var _eventManager2 = _interopRequireDefault(_eventManager);
-
-var _unicode = __webpack_require__(21);
-
-var _array = __webpack_require__(1);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var eventManager = new _eventManager2.default();
-var pressedKeys = new Set();
-var refCount = 0;
-
-/**
- * Begins observing keyboard keys states.
- */
-function startObserving() {
-  if (refCount === 0) {
-    eventManager.addEventListener(document, 'keydown', function (event) {
-      if (!pressedKeys.has(event.keyCode)) {
-        pressedKeys.add(event.keyCode);
-      }
-    });
-    eventManager.addEventListener(document, 'keyup', function (event) {
-      if (pressedKeys.has(event.keyCode)) {
-        pressedKeys.delete(event.keyCode);
-      }
-    });
-    eventManager.addEventListener(document, 'visibilitychange', function () {
-      if (document.hidden) {
-        pressedKeys.clear();
-      }
-    });
-  }
-
-  refCount += 1;
-}
-
-/**
- * Stops observing keyboard keys states and clear all previously saved states.
- */
-function stopObserving() {
-  if (refCount > 0) {
-    refCount -= 1;
-  }
-
-  if (refCount === 0) {
-    _resetState();
-  }
-}
-
-/**
- * Remove all listeners attached to the DOM and clear all previously saved states.
- */
-function _resetState() {
-  eventManager.clearEvents();
-  pressedKeys.clear();
-  refCount = 0;
-}
-
-/**
- * Checks if provided keyCode or keyCodes are pressed.
- *
- * @param {String} keyCodes The key codes passed as a string defined in helpers/unicode.js file delimited with '|'.
- * @return {Boolean}
- */
-function isPressed(keyCodes) {
-  return Array.from(pressedKeys.values()).some(function (_keyCode) {
-    return (0, _unicode.isKey)(_keyCode, keyCodes);
-  });
-}
-
-/**
- * Checks if ctrl keys are pressed.
- *
- * @return {Boolean}
- */
-function isPressedCtrlKey() {
-  return Array.from(pressedKeys.values()).some(function (_keyCode) {
-    return (0, _unicode.isCtrlMetaKey)(_keyCode);
-  });
-}
-
-/**
- * Returns reference count. Useful for debugging and testing purposes.
- *
- * @return {Number}
- */
-function _getRefCount() {
-  return refCount;
-}
-
-exports._getRefCount = _getRefCount;
-exports._resetState = _resetState;
-exports.isPressed = isPressed;
-exports.isPressedCtrlKey = isPressedCtrlKey;
-exports.startObserving = startObserving;
-exports.stopObserving = stopObserving;
-
-/***/ }),
-/* 442 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.HEADER_TYPE = exports.FILL_TYPE = exports.CELL_TYPE = exports.AREA_TYPE = exports.ACTIVE_HEADER_TYPE = undefined;
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _types = __webpack_require__(519);
-
-var _array = __webpack_require__(1);
-
-function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var ACTIVE_HEADER_TYPE = exports.ACTIVE_HEADER_TYPE = 'active-header';
-var AREA_TYPE = exports.AREA_TYPE = 'area';
-var CELL_TYPE = exports.CELL_TYPE = 'cell';
-var FILL_TYPE = exports.FILL_TYPE = 'fill';
-var HEADER_TYPE = exports.HEADER_TYPE = 'header';
-
-/**
- * Highlight class responsible for managing Walkontable Selection classes.
- *
- * With Highlight object you can manipulate four different highlight types:
- *  - `cell` can be added only to a single cell at a time and it defines currently selected cell;
- *  - `fill` can occur only once and its highlight defines selection of autofill functionality (managed by the plugin with the same name);
- *  - `areas` can be added to multiple cells at a time. This type highlights selected cell or multiple cells.
- *    The multiple cells have to be defined as an uninterrupted order (regular shape). Otherwise, the new layer of
- *    that type should be created to manage not-consecutive selection;
- *  - `header` can occur multiple times. This type is designed to highlight only headers. Like `area` type it
- *    can appear with multiple highlights (accessed under different level layers).
- *
- * @class Highlight
- * @util
- */
-
-var Highlight = function () {
-  function Highlight(options) {
-    _classCallCheck(this, Highlight);
-
-    /**
-     * Options consumed by Highlight class and Walkontable Selection classes.
-     *
-     * @type {Object}
-     */
-    this.options = options;
-    /**
-     * The property which describes which layer level of the visual selection will be modified.
-     * This option is valid only for `area` and `header` highlight types which occurs multiple times on
-     * the table (as a non-consecutive selection).
-     *
-     * An order of the layers is the same as the order of added new non-consecutive selections.
-     *
-     * @type {Number}
-     * @default 0
-     */
-    this.layerLevel = 0;
-    /**
-     * `cell` highlight object which describes attributes for the currently selected cell.
-     * It can only occur only once on the table.
-     *
-     * @type {Selection}
-     */
-    this.cell = (0, _types.createHighlight)(CELL_TYPE, options);
-    /**
-     * `fill` highlight object which describes attributes for the borders for autofill functionality.
-     * It can only occur only once on the table.
-     *
-     * @type {Selection}
-     */
-    this.fill = (0, _types.createHighlight)(FILL_TYPE, options);
-    /**
-     * Collection of the `area` highlights. That objects describes attributes for the borders and selection of
-     * the multiple selected cells. It can occur multiple times on the table.
-     *
-     * @type {Map.<number, Selection>}
-     */
-    this.areas = new Map();
-    /**
-     * Collection of the `header` highlights. That objects describes attributes for the selection of
-     * the multiple selected rows and columns in the table header. It can occur multiple times on the table.
-     *
-     * @type {Map.<number, Selection>}
-     */
-    this.headers = new Map();
-    /**
-     * Collection of the `active-header` highlights. That objects describes attributes for the selection of
-     * the multiple selected rows and columns in the table header. The table headers which have selected all items in
-     * a row will be marked as `active-header`.
-     *
-     * @type {Map.<number, Selection>}
-     */
-    this.activeHeaders = new Map();
-    /**
-     * The temporary property, holder for borders added through CustomBorders plugin.
-     *
-     * @type {Selection[]}
-     */
-    this.borders = [];
-  }
-
-  /**
-   * Check if highlight cell rendering is disabled for specyfied highlight type.
-   *
-   * @param {String} highlightType Highlight type. Possible values are: `cell`, `area`, `fill` or `header`.
-   * @return {Boolean}
-   */
-
-
-  _createClass(Highlight, [{
-    key: 'isEnabledFor',
-    value: function isEnabledFor(highlightType) {
-      var disableHighlight = this.options.disableHighlight;
-
-      // Legacy compatibility.
-      if (highlightType === 'current') {
-        highlightType = CELL_TYPE;
-      }
-
-      if (typeof disableHighlight === 'string') {
-        disableHighlight = [disableHighlight];
-      }
-
-      return disableHighlight === false || Array.isArray(disableHighlight) && !disableHighlight.includes(highlightType);
-    }
-
-    /**
-     * Set a new layer level to make access to the desire `area` and `header` highlights.
-     *
-     * @param {Number} [level=0] Layer level to use.
-     * @returns {Highlight}
-     */
-
-  }, {
-    key: 'useLayerLevel',
-    value: function useLayerLevel() {
-      var level = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
-
-      this.layerLevel = level;
-
-      return this;
-    }
-
-    /**
-     * Get Walkontable Selection instance created for controlling highlight of the currently selected/edited cell.
-     *
-     * @return {Selection}
-     */
-
-  }, {
-    key: 'getCell',
-    value: function getCell() {
-      return this.cell;
-    }
-
-    /**
-     * Get Walkontable Selection instance created for controlling highlight of the autofill functionality.
-     *
-     * @return {Selection}
-     */
-
-  }, {
-    key: 'getFill',
-    value: function getFill() {
-      return this.fill;
-    }
-
-    /**
-     * Get or create (if not exist in the cache) Walkontable Selection instance created for controlling highlight
-     * of the multiple selected cells.
-     *
-     * @return {Selection}
-     */
-
-  }, {
-    key: 'createOrGetArea',
-    value: function createOrGetArea() {
-      var layerLevel = this.layerLevel;
-      var area = void 0;
-
-      if (this.areas.has(layerLevel)) {
-        area = this.areas.get(layerLevel);
-      } else {
-        area = (0, _types.createHighlight)(AREA_TYPE, Object.assign({ layerLevel: layerLevel }, this.options));
-
-        this.areas.set(layerLevel, area);
-      }
-
-      return area;
-    }
-
-    /**
-     * Get all Walkontable Selection instances which describes the state of the visual highlight of the cells.
-     *
-     * @return {Selection[]}
-     */
-
-  }, {
-    key: 'getAreas',
-    value: function getAreas() {
-      return [].concat(_toConsumableArray(this.areas.values()));
-    }
-
-    /**
-     * Get or create (if not exist in the cache) Walkontable Selection instance created for controlling highlight
-     * of the multiple selected header cells.
-     *
-     * @return {Selection}
-     */
-
-  }, {
-    key: 'createOrGetHeader',
-    value: function createOrGetHeader() {
-      var layerLevel = this.layerLevel;
-      var header = void 0;
-
-      if (this.headers.has(layerLevel)) {
-        header = this.headers.get(layerLevel);
-      } else {
-        header = (0, _types.createHighlight)(HEADER_TYPE, Object.assign({}, this.options));
-
-        this.headers.set(layerLevel, header);
-      }
-
-      return header;
-    }
-
-    /**
-     * Get all Walkontable Selection instances which describes the state of the visual highlight of the headers.
-     *
-     * @return {Selection[]}
-     */
-
-  }, {
-    key: 'getHeaders',
-    value: function getHeaders() {
-      return [].concat(_toConsumableArray(this.headers.values()));
-    }
-
-    /**
-     * Get or create (if not exist in the cache) Walkontable Selection instance created for controlling highlight
-     * of the multiple selected active header cells.
-     *
-     * @return {Selection}
-     */
-
-  }, {
-    key: 'createOrGetActiveHeader',
-    value: function createOrGetActiveHeader() {
-      var layerLevel = this.layerLevel;
-      var header = void 0;
-
-      if (this.activeHeaders.has(layerLevel)) {
-        header = this.activeHeaders.get(layerLevel);
-      } else {
-        header = (0, _types.createHighlight)(ACTIVE_HEADER_TYPE, Object.assign({}, this.options));
-
-        this.activeHeaders.set(layerLevel, header);
-      }
-
-      return header;
-    }
-
-    /**
-     * Get all Walkontable Selection instances which describes the state of the visual highlight of the active headers.
-     *
-     * @return {Selection[]}
-     */
-
-  }, {
-    key: 'getActiveHeaders',
-    value: function getActiveHeaders() {
-      return [].concat(_toConsumableArray(this.activeHeaders.values()));
-    }
-
-    /**
-     * Perform cleaning visual highlights for the whole table.
-     */
-
-  }, {
-    key: 'clear',
-    value: function clear() {
-      this.cell.clear();
-      this.fill.clear();
-
-      (0, _array.arrayEach)(this.areas.values(), function (highlight) {
-        return void highlight.clear();
-      });
-      (0, _array.arrayEach)(this.headers.values(), function (highlight) {
-        return void highlight.clear();
-      });
-      (0, _array.arrayEach)(this.activeHeaders.values(), function (highlight) {
-        return void highlight.clear();
-      });
-    }
-
-    /**
-     * This object can be iterate over using `for of` syntax or using internal `arrayEach` helper.
-     */
-
-  }, {
-    key: Symbol.iterator,
-    value: function value() {
-      return [this.cell, this.fill].concat(_toConsumableArray(this.areas.values()), _toConsumableArray(this.headers.values()), _toConsumableArray(this.activeHeaders.values()), _toConsumableArray(this.borders))[Symbol.iterator]();
-    }
-  }]);
-
-  return Highlight;
-}();
-
-exports.default = Highlight;
-
-/***/ }),
-/* 443 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _object = __webpack_require__(2);
-
-var _number = __webpack_require__(5);
-
-var _mixed = __webpack_require__(16);
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-/**
- * @class SamplesGenerator
- * @util
- */
-var SamplesGenerator = function () {
-  _createClass(SamplesGenerator, null, [{
-    key: 'SAMPLE_COUNT',
-
-    /**
-     * Number of samples to take of each value length.
-     *
-     * @type {Number}
-     */
-    get: function get() {
-      return 3;
-    }
-  }]);
-
-  function SamplesGenerator(dataFactory) {
-    _classCallCheck(this, SamplesGenerator);
-
-    /**
-     * Samples prepared for calculations.
-     *
-     * @type {Map}
-     * @default {null}
-     */
-    this.samples = null;
-    /**
-     * Function which give the data to collect samples.
-     *
-     * @type {Function}
-     */
-    this.dataFactory = dataFactory;
-    /**
-     * Custom number of samples to take of each value length.
-     *
-     * @type {Number}
-     * @default {null}
-     */
-    this.customSampleCount = null;
-    /**
-     * `true` if duplicate samples collection should be allowed, `false` otherwise.
-     *
-     * @type {Boolean}
-     * @default {false}
-     */
-    this.allowDuplicates = false;
-  }
-
-  /**
-   * Get the sample count for this instance.
-   *
-   * @returns {Number}
-   */
-
-
-  _createClass(SamplesGenerator, [{
-    key: 'getSampleCount',
-    value: function getSampleCount() {
-      if (this.customSampleCount) {
-        return this.customSampleCount;
-      }
-      return SamplesGenerator.SAMPLE_COUNT;
-    }
-  }, {
-    key: 'setSampleCount',
-
-
-    /**
-     * Set the sample count.
-     *
-     * @param {Number} sampleCount Number of samples to be collected.
-     */
-    value: function setSampleCount(sampleCount) {
-      this.customSampleCount = sampleCount;
-    }
-
-    /**
-     * Set if the generator should accept duplicate values.
-     *
-     * @param {Boolean} allowDuplicates `true` to allow duplicate values.
-     */
-
-  }, {
-    key: 'setAllowDuplicates',
-    value: function setAllowDuplicates(allowDuplicates) {
-      this.allowDuplicates = allowDuplicates;
-    }
-
-    /**
-     * Generate samples for row. You can control which area should be sampled by passing `rowRange` object and `colRange` object.
-     *
-     * @param {Object|Number} rowRange
-     * @param {Object} colRange
-     * @returns {Object}
-     */
-
-  }, {
-    key: 'generateRowSamples',
-    value: function generateRowSamples(rowRange, colRange) {
-      return this.generateSamples('row', colRange, rowRange);
-    }
-
-    /**
-     * Generate samples for column. You can control which area should be sampled by passing `colRange` object and `rowRange` object.
-     *
-     * @param {Object} colRange Column index.
-     * @param {Object} rowRange Column index.
-     * @returns {Object}
-     */
-
-  }, {
-    key: 'generateColumnSamples',
-    value: function generateColumnSamples(colRange, rowRange) {
-      return this.generateSamples('col', rowRange, colRange);
-    }
-
-    /**
-     * Generate collection of samples.
-     *
-     * @param {String} type Type to generate. Can be `col` or `row`.
-     * @param {Object} range
-     * @param {Object|Number} specifierRange
-     * @returns {Map}
-     */
-
-  }, {
-    key: 'generateSamples',
-    value: function generateSamples(type, range, specifierRange) {
-      var _this = this;
-
-      var samples = new Map();
-
-      if (typeof specifierRange === 'number') {
-        specifierRange = { from: specifierRange, to: specifierRange };
-      }
-      (0, _number.rangeEach)(specifierRange.from, specifierRange.to, function (index) {
-        var sample = _this.generateSample(type, range, index);
-
-        samples.set(index, sample);
-      });
-
-      return samples;
-    }
-
-    /**
-     * Generate sample for specified type (`row` or `col`).
-     *
-     * @param {String} type Samples type `row` or `col`.
-     * @param {Object} range
-     * @param {Number} specifierValue
-     * @returns {Map}
-     */
-
-  }, {
-    key: 'generateSample',
-    value: function generateSample(type, range, specifierValue) {
-      var _this2 = this;
-
-      var samples = new Map();
-      var sampledValues = [];
-      var length = void 0;
-
-      (0, _number.rangeEach)(range.from, range.to, function (index) {
-        var value = void 0;
-
-        if (type === 'row') {
-          value = _this2.dataFactory(specifierValue, index);
-        } else if (type === 'col') {
-          value = _this2.dataFactory(index, specifierValue);
-        } else {
-          throw new Error('Unsupported sample type');
-        }
-
-        if ((0, _object.isObject)(value)) {
-          length = Object.keys(value).length;
-        } else if (Array.isArray(value)) {
-          length = value.length;
-        } else {
-          length = (0, _mixed.stringify)(value).length;
-        }
-
-        if (!samples.has(length)) {
-          samples.set(length, {
-            needed: _this2.getSampleCount(),
-            strings: []
-          });
-        }
-        var sample = samples.get(length);
-
-        if (sample.needed) {
-          var duplicate = sampledValues.indexOf(value) > -1;
-
-          if (!duplicate || _this2.allowDuplicates) {
-            var computedKey = type === 'row' ? 'col' : 'row';
-
-            sample.strings.push(_defineProperty({ value: value }, computedKey, index));
-            sampledValues.push(value);
-            sample.needed--;
-          }
-        }
-      });
-
-      return samples;
-    }
-  }]);
-
-  return SamplesGenerator;
-}();
-
-exports.default = SamplesGenerator;
-
-/***/ }),
-/* 444 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _array = __webpack_require__(1);
-
-var _object = __webpack_require__(2);
-
-var _number = __webpack_require__(5);
-
-function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
-
-var MIXIN_NAME = 'arrayMapper';
-
-/**
- * @type {Object}
- */
-var arrayMapper = {
-  _arrayMap: [],
-
-  /**
-   * Get translated index by its physical index.
-   *
-   * @param {Number} physicalIndex Physical index.
-   * @return {Number|null} Returns translated index mapped by passed physical index.
-   */
-  getValueByIndex: function getValueByIndex(physicalIndex) {
-    var length = this._arrayMap.length;
-    var translatedIndex = null;
-
-    if (physicalIndex < length) {
-      translatedIndex = this._arrayMap[physicalIndex];
-    }
-
-    return translatedIndex;
-  },
-
-
-  /**
-   * Get physical index by its translated index.
-   *
-   * @param {*} translatedIndex Value to search.
-   * @returns {Number|null} Returns a physical index of the array mapper.
-   */
-  getIndexByValue: function getIndexByValue(translatedIndex) {
-    var physicalIndex = void 0;
-
-    // eslint-disable-next-line no-cond-assign, no-return-assign
-    return (physicalIndex = this._arrayMap.indexOf(translatedIndex)) === -1 ? null : physicalIndex;
-  },
-
-
-  /**
-   * Insert new items to array mapper starting at passed index. New entries will be a continuation of last value in the array.
-   *
-   * @param {Number} physicalIndex Array index.
-   * @param {Number} [amount=1] Defines how many items will be created to an array.
-   * @returns {Array} Returns added items.
-   */
-  insertItems: function insertItems(physicalIndex) {
-    var _this = this;
-
-    var amount = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
-
-    var newIndex = (0, _array.arrayMax)(this._arrayMap) + 1;
-    var addedItems = [];
-
-    (0, _number.rangeEach)(amount - 1, function (count) {
-      addedItems.push(_this._arrayMap.splice(physicalIndex + count, 0, newIndex + count));
-    });
-
-    return addedItems;
-  },
-
-
-  /**
-   * Remove items from array mapper.
-   *
-   * @param {Number} physicalIndex Array index.
-   * @param {Number} [amount=1] Defines how many items will be created to an array.
-   * @returns {Array} Returns removed items.
-   */
-  removeItems: function removeItems(physicalIndex) {
-    var _this2 = this;
-
-    var amount = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
-
-    var removedItems = [];
-
-    if (Array.isArray(physicalIndex)) {
-      var mapCopy = [].concat(this._arrayMap);
-
-      // Sort descending
-      physicalIndex.sort(function (a, b) {
-        return b - a;
-      });
-
-      removedItems = (0, _array.arrayReduce)(physicalIndex, function (acc, item) {
-        _this2._arrayMap.splice(item, 1);
-
-        return acc.concat(mapCopy.slice(item, item + 1));
-      }, []);
-    } else {
-      removedItems = this._arrayMap.splice(physicalIndex, amount);
-    }
-
-    return removedItems;
-  },
-
-
-  /**
-   * Unshift items (remove and shift chunk of array to the left).
-   *
-   * @param {Number|Array} physicalIndex Array index or Array of indexes to unshift.
-   * @param {Number} [amount=1] Defines how many items will be removed from an array (when index is passed as number).
-   */
-  unshiftItems: function unshiftItems(physicalIndex) {
-    var amount = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
-
-    var removedItems = this.removeItems(physicalIndex, amount);
-
-    function countRowShift(logicalRow) {
-      // Todo: compare perf between reduce vs sort->each->brake
-      return (0, _array.arrayReduce)(removedItems, function (count, removedLogicalRow) {
-        if (logicalRow > removedLogicalRow) {
-          count++;
-        }
-
-        return count;
-      }, 0);
-    }
-
-    this._arrayMap = (0, _array.arrayMap)(this._arrayMap, function (logicalRow, physicalRow) {
-      var rowShift = countRowShift(logicalRow);
-
-      if (rowShift) {
-        logicalRow -= rowShift;
-      }
-
-      return logicalRow;
-    });
-  },
-
-
-  /**
-   * Shift (right shifting) items starting at passed index.
-   *
-   * @param {Number} physicalIndex Array index.
-   * @param {Number} [amount=1] Defines how many items will be created to an array.
-   */
-  shiftItems: function shiftItems(physicalIndex) {
-    var _this3 = this;
-
-    var amount = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
-
-    this._arrayMap = (0, _array.arrayMap)(this._arrayMap, function (row) {
-      if (row >= physicalIndex) {
-        row += amount;
-      }
-      return row;
-    });
-
-    (0, _number.rangeEach)(amount - 1, function (count) {
-      _this3._arrayMap.splice(physicalIndex + count, 0, physicalIndex + count);
-    });
-  },
-
-
-  /**
-   * Swap indexes in arrayMapper.
-   *
-   * @param {Number} physicalIndexFrom index to move.
-   * @param {Number} physicalIndexTo index to.
-   */
-  swapIndexes: function swapIndexes(physicalIndexFrom, physicalIndexTo) {
-    var _arrayMap;
-
-    (_arrayMap = this._arrayMap).splice.apply(_arrayMap, [physicalIndexTo, 0].concat(_toConsumableArray(this._arrayMap.splice(physicalIndexFrom, 1))));
-  },
-
-
-  /**
-   * Clear all stored index<->value information from an array.
-   */
-  clearMap: function clearMap() {
-    this._arrayMap.length = 0;
-  }
-};
-
-(0, _object.defineGetter)(arrayMapper, 'MIXIN_NAME', MIXIN_NAME, {
-  writable: false,
-  enumerable: false
-});
-
-exports.default = arrayMapper;
-
-/***/ }),
-/* 445 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _number = __webpack_require__(5);
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var STATE_INITIALIZED = 0;
-var STATE_BUILT = 1;
-var STATE_APPENDED = 2;
-var UNIT = 'px';
-
-/**
- * @class
- * @private
- */
-
-var BaseUI = function () {
-  function BaseUI(hotInstance) {
-    _classCallCheck(this, BaseUI);
-
-    /**
-     * Instance of Handsontable.
-     *
-     * @type {Core}
-     */
-    this.hot = hotInstance;
-    /**
-     * DOM element representing the ui element.
-     *
-     * @type {HTMLElement}
-     * @private
-     */
-    this._element = null;
-    /**
-     * Flag which determines build state of element.
-     *
-     * @type {Boolean}
-     */
-    this.state = STATE_INITIALIZED;
-  }
-
-  /**
-   * Add created UI elements to table.
-   *
-   * @param {HTMLElement} wrapper Element which are parent for our UI element.
-   */
-
-
-  _createClass(BaseUI, [{
-    key: 'appendTo',
-    value: function appendTo(wrapper) {
-      wrapper.appendChild(this._element);
-
-      this.state = STATE_APPENDED;
-    }
-
-    /**
-     * Method for create UI element. Only create, without append to table.
-     */
-
-  }, {
-    key: 'build',
-    value: function build() {
-      this._element = document.createElement('div');
-      this.state = STATE_BUILT;
-    }
-
-    /**
-     * Method for remove UI element.
-     */
-
-  }, {
-    key: 'destroy',
-    value: function destroy() {
-      if (this.isAppended()) {
-        this._element.parentElement.removeChild(this._element);
-      }
-
-      this._element = null;
-      this.state = STATE_INITIALIZED;
-    }
-
-    /**
-     * Check if UI element are appended.
-     *
-     * @returns {Boolean}
-     */
-
-  }, {
-    key: 'isAppended',
-    value: function isAppended() {
-      return this.state === STATE_APPENDED;
-    }
-
-    /**
-     * Check if UI element are built.
-     *
-     * @returns {Boolean}
-     */
-
-  }, {
-    key: 'isBuilt',
-    value: function isBuilt() {
-      return this.state >= STATE_BUILT;
-    }
-
-    /**
-     * Setter for position.
-     *
-     * @param {Number} top New top position of the element.
-     * @param {Number} left New left position of the element.
-     */
-
-  }, {
-    key: 'setPosition',
-    value: function setPosition(top, left) {
-      if ((0, _number.isNumeric)(top)) {
-        this._element.style.top = top + UNIT;
-      }
-      if ((0, _number.isNumeric)(left)) {
-        this._element.style.left = left + UNIT;
-      }
-    }
-
-    /**
-     * Getter for the element position.
-     *
-     * @returns {Object} Object contains left and top position of the element.
-     */
-
-  }, {
-    key: 'getPosition',
-    value: function getPosition() {
-      return {
-        top: this._element.style.top ? parseInt(this._element.style.top, 10) : 0,
-        left: this._element.style.left ? parseInt(this._element.style.left, 10) : 0
-      };
-    }
-
-    /**
-     * Setter for the element size.
-     *
-     * @param {Number} width New width of the element.
-     * @param {Number} height New height of the element.
-     */
-
-  }, {
-    key: 'setSize',
-    value: function setSize(width, height) {
-      if ((0, _number.isNumeric)(width)) {
-        this._element.style.width = width + UNIT;
-      }
-      if ((0, _number.isNumeric)(height)) {
-        this._element.style.height = height + UNIT;
-      }
-    }
-
-    /**
-     * Getter for the element position.
-     *
-     * @returns {Object} Object contains height and width of the element.
-     */
-
-  }, {
-    key: 'getSize',
-    value: function getSize() {
-      return {
-        width: this._element.style.width ? parseInt(this._element.style.width, 10) : 0,
-        height: this._element.style.height ? parseInt(this._element.style.height, 10) : 0
-      };
-    }
-
-    /**
-     * Setter for the element offset. Offset means marginTop and marginLeft of the element.
-     *
-     * @param {Number} top New margin top of the element.
-     * @param {Number} left New margin left of the element.
-     */
-
-  }, {
-    key: 'setOffset',
-    value: function setOffset(top, left) {
-      if ((0, _number.isNumeric)(top)) {
-        this._element.style.marginTop = top + UNIT;
-      }
-      if ((0, _number.isNumeric)(left)) {
-        this._element.style.marginLeft = left + UNIT;
-      }
-    }
-
-    /**
-     * Getter for the element offset.
-     *
-     * @returns {Object} Object contains top and left offset of the element.
-     */
-
-  }, {
-    key: 'getOffset',
-    value: function getOffset() {
-      return {
-        top: this._element.style.marginTop ? parseInt(this._element.style.marginTop, 10) : 0,
-        left: this._element.style.marginLeft ? parseInt(this._element.style.marginLeft, 10) : 0
-      };
-    }
-  }]);
-
-  return BaseUI;
-}();
-
-exports.default = BaseUI;
-
-/***/ }),
-/* 446 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-var STATE_INITIALIZED = 0;
-var STATE_BUILT = 1;
-var STATE_APPENDED = 2;
-var UNIT = 'px';
-
-/**
- * @class
- * @private
- */
-
-var BaseUI = function () {
-  function BaseUI(hotInstance) {
-    _classCallCheck(this, BaseUI);
-
-    /**
-     * Instance of Handsontable.
-     *
-     * @type {Core}
-     */
-    this.hot = hotInstance;
-    /**
-     * DOM element representing the ui element.
-     *
-     * @type {HTMLElement}
-     * @private
-     */
-    this._element = null;
-    /**
-     * Flag which determines build state of element.
-     *
-     * @type {Boolean}
-     */
-    this.state = STATE_INITIALIZED;
-  }
-
-  /**
-   * Add created UI elements to table.
-   *
-   * @param {HTMLElement} wrapper Element which are parent for our UI element.
-   */
-
-
-  _createClass(BaseUI, [{
-    key: 'appendTo',
-    value: function appendTo(wrapper) {
-      wrapper.appendChild(this._element);
-
-      this.state = STATE_APPENDED;
-    }
-
-    /**
-     * Method for create UI element. Only create, without append to table.
-     */
-
-  }, {
-    key: 'build',
-    value: function build() {
-      this._element = document.createElement('div');
-      this.state = STATE_BUILT;
-    }
-
-    /**
-     * Method for remove UI element.
-     */
-
-  }, {
-    key: 'destroy',
-    value: function destroy() {
-      if (this.isAppended()) {
-        this._element.parentElement.removeChild(this._element);
-      }
-
-      this._element = null;
-      this.state = STATE_INITIALIZED;
-    }
-
-    /**
-     * Check if UI element are appended.
-     *
-     * @returns {Boolean}
-     */
-
-  }, {
-    key: 'isAppended',
-    value: function isAppended() {
-      return this.state === STATE_APPENDED;
-    }
-
-    /**
-     * Check if UI element are built.
-     *
-     * @returns {Boolean}
-     */
-
-  }, {
-    key: 'isBuilt',
-    value: function isBuilt() {
-      return this.state >= STATE_BUILT;
-    }
-
-    /**
-     * Setter for position.
-     *
-     * @param {Number} top New top position of the element.
-     * @param {Number} left New left position of the element.
-     */
-
-  }, {
-    key: 'setPosition',
-    value: function setPosition(top, left) {
-      if (top !== void 0) {
-        this._element.style.top = top + UNIT;
-      }
-      if (left !== void 0) {
-        this._element.style.left = left + UNIT;
-      }
-    }
-
-    /**
-     * Getter for the element position.
-     *
-     * @returns {Object} Object contains left and top position of the element.
-     */
-
-  }, {
-    key: 'getPosition',
-    value: function getPosition() {
-      return {
-        top: this._element.style.top ? parseInt(this._element.style.top, 10) : 0,
-        left: this._element.style.left ? parseInt(this._element.style.left, 10) : 0
-      };
-    }
-
-    /**
-     * Setter for the element size.
-     *
-     * @param {Number} width New width of the element.
-     * @param {Number} height New height of the element.
-     */
-
-  }, {
-    key: 'setSize',
-    value: function setSize(width, height) {
-      if (width) {
-        this._element.style.width = width + UNIT;
-      }
-      if (height) {
-        this._element.style.height = height + UNIT;
-      }
-    }
-
-    /**
-     * Getter for the element position.
-     *
-     * @returns {Object} Object contains height and width of the element.
-     */
-
-  }, {
-    key: 'getSize',
-    value: function getSize() {
-      return {
-        width: this._element.style.width ? parseInt(this._element.style.width, 10) : 0,
-        height: this._element.style.height ? parseInt(this._element.style.height, 10) : 0
-      };
-    }
-
-    /**
-     * Setter for the element offset. Offset means marginTop and marginLeft of the element.
-     *
-     * @param {Number} top New margin top of the element.
-     * @param {Number} left New margin left of the element.
-     */
-
-  }, {
-    key: 'setOffset',
-    value: function setOffset(top, left) {
-      if (top) {
-        this._element.style.marginTop = top + UNIT;
-      }
-      if (left) {
-        this._element.style.marginLeft = left + UNIT;
-      }
-    }
-
-    /**
-     * Getter for the element offset.
-     *
-     * @returns {Object} Object contains top and left offset of the element.
-     */
-
-  }, {
-    key: 'getOffset',
-    value: function getOffset() {
-      return {
-        top: this._element.style.marginTop ? parseInt(this._element.style.marginTop, 10) : 0,
-        left: this._element.style.marginLeft ? parseInt(this._element.style.marginLeft, 10) : 0
-      };
-    }
-  }]);
-
-  return BaseUI;
-}();
-
-exports.default = BaseUI;
-
-/***/ }),
-/* 447 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-exports.applySpanProperties = applySpanProperties;
-/**
- * Apply the `colspan`/`rowspan` properties.
- *
- * @param {HTMLElement} TD The soon-to-be-modified cell.
- * @param {MergedCellCoords} merged cellInfo The merged cell in question.
- * @param {Number} row Row index.
- * @param {Number} col Column index.
- */
-// eslint-disable-next-line import/prefer-default-export
-function applySpanProperties(TD, mergedCellInfo, row, col) {
-  if (mergedCellInfo) {
-    if (mergedCellInfo.row === row && mergedCellInfo.col === col) {
-      TD.setAttribute('rowspan', mergedCellInfo.rowspan.toString());
-      TD.setAttribute('colspan', mergedCellInfo.colspan.toString());
-    } else {
-      TD.removeAttribute('rowspan');
-      TD.removeAttribute('colspan');
-
-      TD.style.display = 'none';
-    }
-  } else {
-    TD.removeAttribute('rowspan');
-    TD.removeAttribute('colspan');
-
-    TD.style.display = '';
-  }
-}
-
-/***/ }),
-/* 448 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-/*!
- * https://github.com/Starcounter-Jack/JSON-Patch
- * json-patch-duplex.js version: 0.5.7
- * (c) 2013 Joachim Wester
- * MIT license
- */
-var __extends = undefined && undefined.__extends || function (d, b) {
-    for (var p in b) {
-        if (b.hasOwnProperty(p)) d[p] = b[p];
-    }function __() {
-        this.constructor = d;
-    }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
-var OriginalError = Error;
-var jsonpatch;
-(function (jsonpatch) {
-    var _objectKeys = function _objectKeys(obj) {
-        if (_isArray(obj)) {
-            var keys = new Array(obj.length);
-            for (var k = 0; k < keys.length; k++) {
-                keys[k] = "" + k;
-            }
-            return keys;
-        }
-        if (Object.keys) {
-            return Object.keys(obj);
-        }
-        var keys = [];
-        for (var i in obj) {
-            if (obj.hasOwnProperty(i)) {
-                keys.push(i);
-            }
-        }
-        return keys;
-    };
-    function _equals(a, b) {
-        switch (typeof a === 'undefined' ? 'undefined' : _typeof(a)) {
-            case 'undefined': //backward compatibility, but really I think we should return false
-            case 'boolean':
-            case 'string':
-            case 'number':
-                return a === b;
-            case 'object':
-                if (a === null) return b === null;
-                if (_isArray(a)) {
-                    if (!_isArray(b) || a.length !== b.length) return false;
-                    for (var i = 0, l = a.length; i < l; i++) {
-                        if (!_equals(a[i], b[i])) return false;
-                    }return true;
-                }
-                var bKeys = _objectKeys(b);
-                var bLength = bKeys.length;
-                if (_objectKeys(a).length !== bLength) return false;
-                for (var i = 0; i < bLength; i++) {
-                    if (!_equals(a[i], b[i])) return false;
-                }return true;
-            default:
-                return false;
-        }
-    }
-    /* We use a Javascript hash to store each
-     function. Each hash entry (property) uses
-     the operation identifiers specified in rfc6902.
-     In this way, we can map each patch operation
-     to its dedicated function in efficient way.
-     */
-    /* The operations applicable to an object */
-    var objOps = {
-        add: function add(obj, key) {
-            obj[key] = this.value;
-            return true;
-        },
-        remove: function remove(obj, key) {
-            delete obj[key];
-            return true;
-        },
-        replace: function replace(obj, key) {
-            obj[key] = this.value;
-            return true;
-        },
-        move: function move(obj, key, tree) {
-            var temp = { op: "_get", path: this.from };
-            apply(tree, [temp]);
-            apply(tree, [{ op: "remove", path: this.from }]);
-            apply(tree, [{ op: "add", path: this.path, value: temp.value }]);
-            return true;
-        },
-        copy: function copy(obj, key, tree) {
-            var temp = { op: "_get", path: this.from };
-            apply(tree, [temp]);
-            apply(tree, [{ op: "add", path: this.path, value: temp.value }]);
-            return true;
-        },
-        test: function test(obj, key) {
-            return _equals(obj[key], this.value);
-        },
-        _get: function _get(obj, key) {
-            this.value = obj[key];
-        }
-    };
-    /* The operations applicable to an array. Many are the same as for the object */
-    var arrOps = {
-        add: function add(arr, i) {
-            arr.splice(i, 0, this.value);
-            return true;
-        },
-        remove: function remove(arr, i) {
-            arr.splice(i, 1);
-            return true;
-        },
-        replace: function replace(arr, i) {
-            arr[i] = this.value;
-            return true;
-        },
-        move: objOps.move,
-        copy: objOps.copy,
-        test: objOps.test,
-        _get: objOps._get
-    };
-    /* The operations applicable to object root. Many are the same as for the object */
-    var rootOps = {
-        add: function add(obj) {
-            rootOps.remove.call(this, obj);
-            for (var key in this.value) {
-                if (this.value.hasOwnProperty(key)) {
-                    obj[key] = this.value[key];
-                }
-            }
-            return true;
-        },
-        remove: function remove(obj) {
-            for (var key in obj) {
-                if (obj.hasOwnProperty(key)) {
-                    objOps.remove.call(this, obj, key);
-                }
-            }
-            return true;
-        },
-        replace: function replace(obj) {
-            apply(obj, [{ op: "remove", path: this.path }]);
-            apply(obj, [{ op: "add", path: this.path, value: this.value }]);
-            return true;
-        },
-        move: objOps.move,
-        copy: objOps.copy,
-        test: function test(obj) {
-            return JSON.stringify(obj) === JSON.stringify(this.value);
-        },
-        _get: function _get(obj) {
-            this.value = obj;
-        }
-    };
-    var observeOps = {
-        add: function add(patches, path) {
-            var patch = {
-                op: "add",
-                path: path + escapePathComponent(this.name),
-                value: this.object[this.name] };
-            patches.push(patch);
-        },
-        'delete': function _delete(patches, path) {
-            var patch = {
-                op: "remove",
-                path: path + escapePathComponent(this.name)
-            };
-            patches.push(patch);
-        },
-        update: function update(patches, path) {
-            var patch = {
-                op: "replace",
-                path: path + escapePathComponent(this.name),
-                value: this.object[this.name]
-            };
-            patches.push(patch);
-        }
-    };
-    function escapePathComponent(str) {
-        if (str.indexOf('/') === -1 && str.indexOf('~') === -1) return str;
-        return str.replace(/~/g, '~0').replace(/\//g, '~1');
-    }
-    function _getPathRecursive(root, obj) {
-        var found;
-        for (var key in root) {
-            if (root.hasOwnProperty(key)) {
-                if (root[key] === obj) {
-                    return escapePathComponent(key) + '/';
-                } else if (_typeof(root[key]) === 'object') {
-                    found = _getPathRecursive(root[key], obj);
-                    if (found != '') {
-                        return escapePathComponent(key) + '/' + found;
-                    }
-                }
-            }
-        }
-        return '';
-    }
-    function getPath(root, obj) {
-        if (root === obj) {
-            return '/';
-        }
-        var path = _getPathRecursive(root, obj);
-        if (path === '') {
-            throw new OriginalError("Object not found in root");
-        }
-        return '/' + path;
-    }
-    var beforeDict = [];
-    var Mirror = function () {
-        function Mirror(obj) {
-            this.observers = [];
-            this.obj = obj;
-        }
-        return Mirror;
-    }();
-    var ObserverInfo = function () {
-        function ObserverInfo(callback, observer) {
-            this.callback = callback;
-            this.observer = observer;
-        }
-        return ObserverInfo;
-    }();
-    function getMirror(obj) {
-        for (var i = 0, ilen = beforeDict.length; i < ilen; i++) {
-            if (beforeDict[i].obj === obj) {
-                return beforeDict[i];
-            }
-        }
-    }
-    function getObserverFromMirror(mirror, callback) {
-        for (var j = 0, jlen = mirror.observers.length; j < jlen; j++) {
-            if (mirror.observers[j].callback === callback) {
-                return mirror.observers[j].observer;
-            }
-        }
-    }
-    function removeObserverFromMirror(mirror, observer) {
-        for (var j = 0, jlen = mirror.observers.length; j < jlen; j++) {
-            if (mirror.observers[j].observer === observer) {
-                mirror.observers.splice(j, 1);
-                return;
-            }
-        }
-    }
-    function unobserve(root, observer) {
-        observer.unobserve();
-    }
-    jsonpatch.unobserve = unobserve;
-    function deepClone(obj) {
-        if ((typeof obj === 'undefined' ? 'undefined' : _typeof(obj)) === "object") {
-            return JSON.parse(JSON.stringify(obj)); //Faster than ES5 clone - http://jsperf.com/deep-cloning-of-objects/5
-        } else {
-            return obj; //no need to clone primitives
-        }
-    }
-    function observe(obj, callback) {
-        var patches = [];
-        var root = obj;
-        var observer;
-        var mirror = getMirror(obj);
-        if (!mirror) {
-            mirror = new Mirror(obj);
-            beforeDict.push(mirror);
-        } else {
-            observer = getObserverFromMirror(mirror, callback);
-        }
-        if (observer) {
-            return observer;
-        }
-        observer = {};
-        mirror.value = deepClone(obj);
-        if (callback) {
-            observer.callback = callback;
-            observer.next = null;
-            var intervals = this.intervals || [100, 1000, 10000, 60000];
-            if (intervals.push === void 0) {
-                throw new OriginalError("jsonpatch.intervals must be an array");
-            }
-            var currentInterval = 0;
-            var dirtyCheck = function dirtyCheck() {
-                generate(observer);
-            };
-            var fastCheck = function fastCheck() {
-                clearTimeout(observer.next);
-                observer.next = setTimeout(function () {
-                    dirtyCheck();
-                    currentInterval = 0;
-                    observer.next = setTimeout(slowCheck, intervals[currentInterval++]);
-                }, 0);
-            };
-            var slowCheck = function slowCheck() {
-                dirtyCheck();
-                if (currentInterval == intervals.length) currentInterval = intervals.length - 1;
-                observer.next = setTimeout(slowCheck, intervals[currentInterval++]);
-            };
-            if (typeof window !== 'undefined') {
-                if (window.addEventListener) {
-                    window.addEventListener('mousedown', fastCheck);
-                    window.addEventListener('mouseup', fastCheck);
-                    window.addEventListener('keydown', fastCheck);
-                } else {
-                    document.documentElement.attachEvent('onmousedown', fastCheck);
-                    document.documentElement.attachEvent('onmouseup', fastCheck);
-                    document.documentElement.attachEvent('onkeydown', fastCheck);
-                }
-            }
-            observer.next = setTimeout(slowCheck, intervals[currentInterval++]);
-        }
-        observer.patches = patches;
-        observer.object = obj;
-        observer.unobserve = function () {
-            generate(observer);
-            clearTimeout(observer.next);
-            removeObserverFromMirror(mirror, observer);
-            if (typeof window !== 'undefined') {
-                if (window.removeEventListener) {
-                    window.removeEventListener('mousedown', fastCheck);
-                    window.removeEventListener('mouseup', fastCheck);
-                    window.removeEventListener('keydown', fastCheck);
-                } else {
-                    document.documentElement.detachEvent('onmousedown', fastCheck);
-                    document.documentElement.detachEvent('onmouseup', fastCheck);
-                    document.documentElement.detachEvent('onkeydown', fastCheck);
-                }
-            }
-        };
-        mirror.observers.push(new ObserverInfo(callback, observer));
-        return observer;
-    }
-    jsonpatch.observe = observe;
-    function generate(observer) {
-        var mirror;
-        for (var i = 0, ilen = beforeDict.length; i < ilen; i++) {
-            if (beforeDict[i].obj === observer.object) {
-                mirror = beforeDict[i];
-                break;
-            }
-        }
-        _generate(mirror.value, observer.object, observer.patches, "");
-        if (observer.patches.length) {
-            apply(mirror.value, observer.patches);
-        }
-        var temp = observer.patches;
-        if (temp.length > 0) {
-            observer.patches = [];
-            if (observer.callback) {
-                observer.callback(temp);
-            }
-        }
-        return temp;
-    }
-    jsonpatch.generate = generate;
-    // Dirty check if obj is different from mirror, generate patches and update mirror
-    function _generate(mirror, obj, patches, path) {
-        var newKeys = _objectKeys(obj);
-        var oldKeys = _objectKeys(mirror);
-        var changed = false;
-        var deleted = false;
-        //if ever "move" operation is implemented here, make sure this test runs OK: "should not generate the same patch twice (move)"
-        for (var t = oldKeys.length - 1; t >= 0; t--) {
-            var key = oldKeys[t];
-            var oldVal = mirror[key];
-            if (obj.hasOwnProperty(key)) {
-                var newVal = obj[key];
-                if ((typeof oldVal === 'undefined' ? 'undefined' : _typeof(oldVal)) == "object" && oldVal != null && (typeof newVal === 'undefined' ? 'undefined' : _typeof(newVal)) == "object" && newVal != null) {
-                    _generate(oldVal, newVal, patches, path + "/" + escapePathComponent(key));
-                } else {
-                    if (oldVal != newVal) {
-                        changed = true;
-                        patches.push({ op: "replace", path: path + "/" + escapePathComponent(key), value: deepClone(newVal) });
-                    }
-                }
-            } else {
-                patches.push({ op: "remove", path: path + "/" + escapePathComponent(key) });
-                deleted = true; // property has been deleted
-            }
-        }
-        if (!deleted && newKeys.length == oldKeys.length) {
-            return;
-        }
-        for (var t = 0; t < newKeys.length; t++) {
-            var key = newKeys[t];
-            if (!mirror.hasOwnProperty(key)) {
-                patches.push({ op: "add", path: path + "/" + escapePathComponent(key), value: deepClone(obj[key]) });
-            }
-        }
-    }
-    var _isArray;
-    if (Array.isArray) {
-        _isArray = Array.isArray;
-    } else {
-        _isArray = function _isArray(obj) {
-            return obj.push && typeof obj.length === 'number';
-        };
-    }
-    //3x faster than cached /^\d+$/.test(str)
-    function isInteger(str) {
-        var i = 0;
-        var len = str.length;
-        var charCode;
-        while (i < len) {
-            charCode = str.charCodeAt(i);
-            if (charCode >= 48 && charCode <= 57) {
-                i++;
-                continue;
-            }
-            return false;
-        }
-        return true;
-    }
-    /// Apply a json-patch operation on an object tree
-    function apply(tree, patches, validate) {
-        var result = false,
-            p = 0,
-            plen = patches.length,
-            patch,
-            key;
-        while (p < plen) {
-            patch = patches[p];
-            p++;
-            // Find the object
-            var path = patch.path || "";
-            var keys = path.split('/');
-            var obj = tree;
-            var t = 1; //skip empty element - http://jsperf.com/to-shift-or-not-to-shift
-            var len = keys.length;
-            var existingPathFragment = undefined;
-            while (true) {
-                key = keys[t];
-                if (validate) {
-                    if (existingPathFragment === undefined) {
-                        if (obj[key] === undefined) {
-                            existingPathFragment = keys.slice(0, t).join('/');
-                        } else if (t == len - 1) {
-                            existingPathFragment = patch.path;
-                        }
-                        if (existingPathFragment !== undefined) {
-                            this.validator(patch, p - 1, tree, existingPathFragment);
-                        }
-                    }
-                }
-                t++;
-                if (key === undefined) {
-                    if (t >= len) {
-                        result = rootOps[patch.op].call(patch, obj, key, tree); // Apply patch
-                        break;
-                    }
-                }
-                if (_isArray(obj)) {
-                    if (key === '-') {
-                        key = obj.length;
-                    } else {
-                        if (validate && !isInteger(key)) {
-                            throw new JsonPatchError("Expected an unsigned base-10 integer value, making the new referenced value the array element with the zero-based index", "OPERATION_PATH_ILLEGAL_ARRAY_INDEX", p - 1, patch.path, patch);
-                        }
-                        key = parseInt(key, 10);
-                    }
-                    if (t >= len) {
-                        if (validate && patch.op === "add" && key > obj.length) {
-                            throw new JsonPatchError("The specified index MUST NOT be greater than the number of elements in the array", "OPERATION_VALUE_OUT_OF_BOUNDS", p - 1, patch.path, patch);
-                        }
-                        result = arrOps[patch.op].call(patch, obj, key, tree); // Apply patch
-                        break;
-                    }
-                } else {
-                    if (key && key.indexOf('~') != -1) key = key.replace(/~1/g, '/').replace(/~0/g, '~'); // escape chars
-                    if (t >= len) {
-                        result = objOps[patch.op].call(patch, obj, key, tree); // Apply patch
-                        break;
-                    }
-                }
-                obj = obj[key];
-            }
-        }
-        return result;
-    }
-    jsonpatch.apply = apply;
-    function compare(tree1, tree2) {
-        var patches = [];
-        _generate(tree1, tree2, patches, '');
-        return patches;
-    }
-    jsonpatch.compare = compare;
-    var JsonPatchError = function (_super) {
-        __extends(JsonPatchError, _super);
-        function JsonPatchError(message, name, index, operation, tree) {
-            _super.call(this, message);
-            this.message = message;
-            this.name = name;
-            this.index = index;
-            this.operation = operation;
-            this.tree = tree;
-        }
-        return JsonPatchError;
-    }(OriginalError);
-    jsonpatch.JsonPatchError = JsonPatchError;
-    jsonpatch.Error = JsonPatchError;
-    /**
-     * Recursively checks whether an object has any undefined values inside.
-     */
-    function hasUndefined(obj) {
-        if (obj === undefined) {
-            return true;
-        }
-        if (typeof obj == "array" || (typeof obj === 'undefined' ? 'undefined' : _typeof(obj)) == "object") {
-            for (var i in obj) {
-                if (hasUndefined(obj[i])) {
-                    return true;
-                }
-            }
-        }
-        return false;
-    }
-    /**
-     * Validates a single operation. Called from `jsonpatch.validate`. Throws `JsonPatchError` in case of an error.
-     * @param {object} operation - operation object (patch)
-     * @param {number} index - index of operation in the sequence
-     * @param {object} [tree] - object where the operation is supposed to be applied
-     * @param {string} [existingPathFragment] - comes along with `tree`
-     */
-    function validator(operation, index, tree, existingPathFragment) {
-        if ((typeof operation === 'undefined' ? 'undefined' : _typeof(operation)) !== 'object' || operation === null || _isArray(operation)) {
-            throw new JsonPatchError('Operation is not an object', 'OPERATION_NOT_AN_OBJECT', index, operation, tree);
-        } else if (!objOps[operation.op]) {
-            throw new JsonPatchError('Operation `op` property is not one of operations defined in RFC-6902', 'OPERATION_OP_INVALID', index, operation, tree);
-        } else if (typeof operation.path !== 'string') {
-            throw new JsonPatchError('Operation `path` property is not a string', 'OPERATION_PATH_INVALID', index, operation, tree);
-        } else if ((operation.op === 'move' || operation.op === 'copy') && typeof operation.from !== 'string') {
-            throw new JsonPatchError('Operation `from` property is not present (applicable in `move` and `copy` operations)', 'OPERATION_FROM_REQUIRED', index, operation, tree);
-        } else if ((operation.op === 'add' || operation.op === 'replace' || operation.op === 'test') && operation.value === undefined) {
-            throw new JsonPatchError('Operation `value` property is not present (applicable in `add`, `replace` and `test` operations)', 'OPERATION_VALUE_REQUIRED', index, operation, tree);
-        } else if ((operation.op === 'add' || operation.op === 'replace' || operation.op === 'test') && hasUndefined(operation.value)) {
-            throw new JsonPatchError('Operation `value` property is not present (applicable in `add`, `replace` and `test` operations)', 'OPERATION_VALUE_CANNOT_CONTAIN_UNDEFINED', index, operation, tree);
-        } else if (tree) {
-            if (operation.op == "add") {
-                var pathLen = operation.path.split("/").length;
-                var existingPathLen = existingPathFragment.split("/").length;
-                if (pathLen !== existingPathLen + 1 && pathLen !== existingPathLen) {
-                    throw new JsonPatchError('Cannot perform an `add` operation at the desired path', 'OPERATION_PATH_CANNOT_ADD', index, operation, tree);
-                }
-            } else if (operation.op === 'replace' || operation.op === 'remove' || operation.op === '_get') {
-                if (operation.path !== existingPathFragment) {
-                    throw new JsonPatchError('Cannot perform the operation at a path that does not exist', 'OPERATION_PATH_UNRESOLVABLE', index, operation, tree);
-                }
-            } else if (operation.op === 'move' || operation.op === 'copy') {
-                var existingValue = { op: "_get", path: operation.from, value: undefined };
-                var error = jsonpatch.validate([existingValue], tree);
-                if (error && error.name === 'OPERATION_PATH_UNRESOLVABLE') {
-                    throw new JsonPatchError('Cannot perform the operation from a path that does not exist', 'OPERATION_FROM_UNRESOLVABLE', index, operation, tree);
-                }
-            }
-        }
-    }
-    jsonpatch.validator = validator;
-    /**
-     * Validates a sequence of operations. If `tree` parameter is provided, the sequence is additionally validated against the object tree.
-     * If error is encountered, returns a JsonPatchError object
-     * @param sequence
-     * @param tree
-     * @returns {JsonPatchError|undefined}
-     */
-    function validate(sequence, tree) {
-        try {
-            if (!_isArray(sequence)) {
-                throw new JsonPatchError('Patch sequence must be an array', 'SEQUENCE_NOT_AN_ARRAY');
-            }
-            if (tree) {
-                tree = JSON.parse(JSON.stringify(tree)); //clone tree so that we can safely try applying operations
-                apply.call(this, tree, sequence, true);
-            } else {
-                for (var i = 0; i < sequence.length; i++) {
-                    this.validator(sequence[i], i);
-                }
-            }
-        } catch (e) {
-            if (e instanceof JsonPatchError) {
-                return e;
-            } else {
-                throw e;
-            }
-        }
-    }
-    jsonpatch.validate = validate;
-})(jsonpatch || (jsonpatch = {}));
-if (true) {
-    exports.apply = jsonpatch.apply;
-    exports.observe = jsonpatch.observe;
-    exports.unobserve = jsonpatch.unobserve;
-    exports.generate = jsonpatch.generate;
-    exports.compare = jsonpatch.compare;
-    exports.validate = jsonpatch.validate;
-    exports.validator = jsonpatch.validator;
-    exports.JsonPatchError = jsonpatch.JsonPatchError;
-    exports.Error = jsonpatch.Error;
-}
-
-/***/ }),
-/* 449 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-__webpack_require__(96);
-
-__webpack_require__(111);
-
-__webpack_require__(112);
-
-__webpack_require__(116);
-
-__webpack_require__(117);
-
-__webpack_require__(119);
-
-__webpack_require__(122);
-
-__webpack_require__(123);
-
-__webpack_require__(124);
-
-__webpack_require__(125);
-
-__webpack_require__(126);
-
-__webpack_require__(127);
-
-__webpack_require__(128);
-
-__webpack_require__(129);
-
-__webpack_require__(130);
-
-__webpack_require__(131);
-
-__webpack_require__(132);
-
-__webpack_require__(133);
-
-__webpack_require__(134);
-
-__webpack_require__(135);
-
-__webpack_require__(136);
-
-__webpack_require__(137);
-
-__webpack_require__(138);
-
-__webpack_require__(139);
-
-__webpack_require__(141);
-
-__webpack_require__(143);
-
-__webpack_require__(144);
-
-__webpack_require__(145);
-
-__webpack_require__(146);
-
-__webpack_require__(147);
-
-__webpack_require__(148);
-
-__webpack_require__(149);
-
-__webpack_require__(150);
-
-__webpack_require__(151);
-
-__webpack_require__(152);
-
-__webpack_require__(153);
-
-__webpack_require__(154);
-
-__webpack_require__(155);
-
-__webpack_require__(85);
-
-__webpack_require__(156);
-
-__webpack_require__(157);
-
-__webpack_require__(159);
-
-__webpack_require__(160);
-
-__webpack_require__(161);
-
-__webpack_require__(162);
-
-__webpack_require__(163);
-
-__webpack_require__(164);
-
-__webpack_require__(165);
-
-__webpack_require__(167);
-
-__webpack_require__(168);
-
-__webpack_require__(169);
-
-__webpack_require__(172);
-
-__webpack_require__(173);
-
-__webpack_require__(174);
-
-__webpack_require__(468);
-
-__webpack_require__(469);
-
-__webpack_require__(470);
-
-var _editors = __webpack_require__(17);
-
-var _renderers = __webpack_require__(13);
-
-var _validators = __webpack_require__(29);
-
-var _cellTypes = __webpack_require__(87);
-
-var _core = __webpack_require__(88);
-
-var _core2 = _interopRequireDefault(_core);
-
-var _jquery = __webpack_require__(528);
-
-var _jquery2 = _interopRequireDefault(_jquery);
-
-var _eventManager = __webpack_require__(6);
-
-var _eventManager2 = _interopRequireDefault(_eventManager);
-
-var _pluginHooks = __webpack_require__(15);
-
-var _pluginHooks2 = _interopRequireDefault(_pluginHooks);
-
-var _ghostTable = __webpack_require__(92);
-
-var _ghostTable2 = _interopRequireDefault(_ghostTable);
-
-var _array = __webpack_require__(1);
-
-var arrayHelpers = _interopRequireWildcard(_array);
-
-var _browser = __webpack_require__(28);
-
-var browserHelpers = _interopRequireWildcard(_browser);
-
-var _data = __webpack_require__(90);
-
-var dataHelpers = _interopRequireWildcard(_data);
-
-var _date = __webpack_require__(433);
-
-var dateHelpers = _interopRequireWildcard(_date);
-
-var _feature = __webpack_require__(40);
-
-var featureHelpers = _interopRequireWildcard(_feature);
-
-var _function = __webpack_require__(42);
-
-var functionHelpers = _interopRequireWildcard(_function);
-
-var _mixed = __webpack_require__(16);
-
-var mixedHelpers = _interopRequireWildcard(_mixed);
-
-var _number = __webpack_require__(5);
-
-var numberHelpers = _interopRequireWildcard(_number);
-
-var _object = __webpack_require__(2);
-
-var objectHelpers = _interopRequireWildcard(_object);
-
-var _setting = __webpack_require__(89);
-
-var settingHelpers = _interopRequireWildcard(_setting);
-
-var _string = __webpack_require__(36);
-
-var stringHelpers = _interopRequireWildcard(_string);
-
-var _unicode = __webpack_require__(21);
-
-var unicodeHelpers = _interopRequireWildcard(_unicode);
-
-var _element = __webpack_require__(0);
-
-var domHelpers = _interopRequireWildcard(_element);
-
-var _event = __webpack_require__(12);
-
-var domEventHelpers = _interopRequireWildcard(_event);
-
-var _index = __webpack_require__(529);
-
-var plugins = _interopRequireWildcard(_index);
-
-var _plugins = __webpack_require__(8);
-
-var _defaultSettings = __webpack_require__(438);
-
-var _defaultSettings2 = _interopRequireDefault(_defaultSettings);
-
-var _rootInstance = __webpack_require__(437);
-
-var _i18n = __webpack_require__(439);
-
-var _constants = __webpack_require__(7);
-
-var constants = _interopRequireWildcard(_constants);
-
-var _dictionariesManager = __webpack_require__(71);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Handsontable(rootElement, userSettings) {
-  var instance = new _core2.default(rootElement, userSettings || {}, _rootInstance.rootInstanceSymbol);
-
-  instance.init();
-
-  return instance;
-}
-
-(0, _jquery2.default)(Handsontable);
-
-Handsontable.Core = _core2.default;
-Handsontable.DefaultSettings = _defaultSettings2.default;
-Handsontable.EventManager = _eventManager2.default;
-Handsontable._getListenersCounter = _eventManager.getListenersCounter; // For MemoryLeak tests
-
-Handsontable.buildDate = '07/05/2018 17:48:54';
-Handsontable.packageName = 'handsontable';
-Handsontable.version = '2.0.0';
-
-var baseVersion = '';
-
-if (baseVersion) {
-  Handsontable.baseVersion = baseVersion;
-}
-
-// Export Hooks singleton
-Handsontable.hooks = _pluginHooks2.default.getSingleton();
-
-// TODO: Remove this exports after rewrite tests about this module
-Handsontable.__GhostTable = _ghostTable2.default;
-//
-
-// Export all helpers to the Handsontable object
-var HELPERS = [arrayHelpers, browserHelpers, dataHelpers, dateHelpers, featureHelpers, functionHelpers, mixedHelpers, numberHelpers, objectHelpers, settingHelpers, stringHelpers, unicodeHelpers];
-var DOM = [domHelpers, domEventHelpers];
-
-Handsontable.helper = {};
-Handsontable.dom = {};
-
-// Fill general helpers.
-arrayHelpers.arrayEach(HELPERS, function (helper) {
-  arrayHelpers.arrayEach(Object.getOwnPropertyNames(helper), function (key) {
-    if (key.charAt(0) !== '_') {
-      Handsontable.helper[key] = helper[key];
-    }
-  });
-});
-
-// Fill DOM helpers.
-arrayHelpers.arrayEach(DOM, function (helper) {
-  arrayHelpers.arrayEach(Object.getOwnPropertyNames(helper), function (key) {
-    if (key.charAt(0) !== '_') {
-      Handsontable.dom[key] = helper[key];
-    }
-  });
-});
-
-// Export cell types.
-Handsontable.cellTypes = {};
-
-arrayHelpers.arrayEach((0, _cellTypes.getRegisteredCellTypeNames)(), function (cellTypeName) {
-  Handsontable.cellTypes[cellTypeName] = (0, _cellTypes.getCellType)(cellTypeName);
-});
-
-Handsontable.cellTypes.registerCellType = _cellTypes.registerCellType;
-Handsontable.cellTypes.getCellType = _cellTypes.getCellType;
-
-// Export all registered editors from the Handsontable.
-Handsontable.editors = {};
-
-arrayHelpers.arrayEach((0, _editors.getRegisteredEditorNames)(), function (editorName) {
-  Handsontable.editors[stringHelpers.toUpperCaseFirst(editorName) + 'Editor'] = (0, _editors.getEditor)(editorName);
-});
-
-Handsontable.editors.registerEditor = _editors.registerEditor;
-Handsontable.editors.getEditor = _editors.getEditor;
-
-// Export all registered renderers from the Handsontable.
-Handsontable.renderers = {};
-
-arrayHelpers.arrayEach((0, _renderers.getRegisteredRendererNames)(), function (rendererName) {
-  var renderer = (0, _renderers.getRenderer)(rendererName);
-
-  if (rendererName === 'base') {
-    Handsontable.renderers.cellDecorator = renderer;
-  }
-  Handsontable.renderers[stringHelpers.toUpperCaseFirst(rendererName) + 'Renderer'] = renderer;
-});
-
-Handsontable.renderers.registerRenderer = _renderers.registerRenderer;
-Handsontable.renderers.getRenderer = _renderers.getRenderer;
-
-// Export all registered validators from the Handsontable.
-Handsontable.validators = {};
-
-arrayHelpers.arrayEach((0, _validators.getRegisteredValidatorNames)(), function (validatorName) {
-  Handsontable.validators[stringHelpers.toUpperCaseFirst(validatorName) + 'Validator'] = (0, _validators.getValidator)(validatorName);
-});
-
-Handsontable.validators.registerValidator = _validators.registerValidator;
-Handsontable.validators.getValidator = _validators.getValidator;
-
-// Export all registered plugins from the Handsontable.
-Handsontable.plugins = {};
-
-arrayHelpers.arrayEach(Object.getOwnPropertyNames(plugins), function (pluginName) {
-  var plugin = plugins[pluginName];
-
-  if (pluginName === 'Base') {
-    Handsontable.plugins[pluginName + 'Plugin'] = plugin;
-  } else {
-    Handsontable.plugins[pluginName] = plugin;
-  }
-});
-
-Handsontable.plugins.registerPlugin = _plugins.registerPlugin;
-
-Handsontable.languages = {};
-Handsontable.languages.dictionaryKeys = constants;
-Handsontable.languages.getLanguageDictionary = _dictionariesManager.getLanguageDictionary;
-Handsontable.languages.getLanguagesDictionaries = _dictionariesManager.getLanguagesDictionaries;
-Handsontable.languages.registerLanguageDictionary = _dictionariesManager.registerLanguageDictionary;
-
-// Alias to `getTranslatedPhrase` function, for more information check it API.
-Handsontable.languages.getTranslatedPhrase = function () {
-  return _i18n.getTranslatedPhrase.apply(undefined, arguments);
-};
-
-exports.default = Handsontable;
-
-/***/ }),
-/* 450 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var dP = __webpack_require__(20);
-var anObject = __webpack_require__(18);
-var getKeys = __webpack_require__(37);
-
-module.exports = __webpack_require__(22) ? Object.defineProperties : function defineProperties(O, Properties) {
-  anObject(O);
-  var keys = getKeys(Properties);
-  var length = keys.length;
-  var i = 0;
-  var P;
-  while (length > i) dP.f(O, P = keys[i++], Properties[P]);
-  return O;
-};
-
-
-/***/ }),
-/* 451 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var create = __webpack_require__(74);
-var descriptor = __webpack_require__(50);
-var setToStringTag = __webpack_require__(52);
-var IteratorPrototype = {};
-
-// 25.1.2.1.1 %IteratorPrototype%[@@iterator]()
-__webpack_require__(31)(IteratorPrototype, __webpack_require__(11)('iterator'), function () { return this; });
-
-module.exports = function (Constructor, NAME, next) {
-  Constructor.prototype = create(IteratorPrototype, { next: descriptor(1, next) });
-  setToStringTag(Constructor, NAME + ' Iterator');
-};
-
-
-/***/ }),
-/* 452 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var isObject = __webpack_require__(9);
-var setPrototypeOf = __webpack_require__(110).set;
-module.exports = function (that, target, C) {
-  var S = target.constructor;
-  var P;
-  if (S !== C && typeof S == 'function' && (P = S.prototype) !== C.prototype && isObject(P) && setPrototypeOf) {
-    setPrototypeOf(that, P);
-  } return that;
-};
-
-
-/***/ }),
-/* 453 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 9.4.2.3 ArraySpeciesCreate(originalArray, length)
-var speciesConstructor = __webpack_require__(454);
-
-module.exports = function (original, length) {
-  return new (speciesConstructor(original))(length);
-};
-
-
-/***/ }),
-/* 454 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var isObject = __webpack_require__(9);
-var isArray = __webpack_require__(113);
-var SPECIES = __webpack_require__(11)('species');
-
-module.exports = function (original) {
-  var C;
-  if (isArray(original)) {
-    C = original.constructor;
-    // cross-realm fallback
-    if (typeof C == 'function' && (C === Array || isArray(C.prototype))) C = undefined;
-    if (isObject(C)) {
-      C = C[SPECIES];
-      if (C === null) C = undefined;
-    }
-  } return C === undefined ? Array : C;
-};
-
-
-/***/ }),
-/* 455 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 7.3.20 SpeciesConstructor(O, defaultConstructor)
-var anObject = __webpack_require__(18);
-var aFunction = __webpack_require__(62);
-var SPECIES = __webpack_require__(11)('species');
-module.exports = function (O, D) {
-  var C = anObject(O).constructor;
-  var S;
-  return C === undefined || (S = anObject(C)[SPECIES]) == undefined ? D : aFunction(S);
-};
-
-
-/***/ }),
-/* 456 */
-/***/ (function(module, exports) {
-
-// fast apply, http://jsperf.lnkit.com/fast-apply/5
-module.exports = function (fn, args, that) {
-  var un = that === undefined;
-  switch (args.length) {
-    case 0: return un ? fn()
-                      : fn.call(that);
-    case 1: return un ? fn(args[0])
-                      : fn.call(that, args[0]);
-    case 2: return un ? fn(args[0], args[1])
-                      : fn.call(that, args[0], args[1]);
-    case 3: return un ? fn(args[0], args[1], args[2])
-                      : fn.call(that, args[0], args[1], args[2]);
-    case 4: return un ? fn(args[0], args[1], args[2], args[3])
-                      : fn.call(that, args[0], args[1], args[2], args[3]);
-  } return fn.apply(that, args);
-};
-
-
-/***/ }),
-/* 457 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var global = __webpack_require__(14);
-var macrotask = __webpack_require__(80).set;
-var Observer = global.MutationObserver || global.WebKitMutationObserver;
-var process = global.process;
-var Promise = global.Promise;
-var isNode = __webpack_require__(43)(process) == 'process';
-
-module.exports = function () {
-  var head, last, notify;
-
-  var flush = function () {
-    var parent, fn;
-    if (isNode && (parent = process.domain)) parent.exit();
-    while (head) {
-      fn = head.fn;
-      head = head.next;
-      try {
-        fn();
-      } catch (e) {
-        if (head) notify();
-        else last = undefined;
-        throw e;
-      }
-    } last = undefined;
-    if (parent) parent.enter();
-  };
-
-  // Node.js
-  if (isNode) {
-    notify = function () {
-      process.nextTick(flush);
-    };
-  // browsers with MutationObserver, except iOS Safari - https://github.com/zloirock/core-js/issues/339
-  } else if (Observer && !(global.navigator && global.navigator.standalone)) {
-    var toggle = true;
-    var node = document.createTextNode('');
-    new Observer(flush).observe(node, { characterData: true }); // eslint-disable-line no-new
-    notify = function () {
-      node.data = toggle = !toggle;
-    };
-  // environments with maybe non-completely correct, but existent Promise
-  } else if (Promise && Promise.resolve) {
-    var promise = Promise.resolve();
-    notify = function () {
-      promise.then(flush);
-    };
-  // for other environments - macrotask based on:
-  // - setImmediate
-  // - MessageChannel
-  // - window.postMessag
-  // - onreadystatechange
-  // - setTimeout
-  } else {
-    notify = function () {
-      // strange IE + webpack dev server bug - use .call(global)
-      macrotask.call(global, flush);
-    };
-  }
-
-  return function (fn) {
-    var task = { fn: fn, next: undefined };
-    if (last) last.next = task;
-    if (!head) {
-      head = task;
-      notify();
-    } last = task;
-  };
-};
-
-
-/***/ }),
-/* 458 */
-/***/ (function(module, exports) {
-
-module.exports = function (exec) {
-  try {
-    return { e: false, v: exec() };
-  } catch (e) {
-    return { e: true, v: e };
-  }
-};
-
-
-/***/ }),
-/* 459 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var anObject = __webpack_require__(18);
-var isObject = __webpack_require__(9);
-var newPromiseCapability = __webpack_require__(118);
-
-module.exports = function (C, x) {
-  anObject(C);
-  if (isObject(x) && x.constructor === C) return x;
-  var promiseCapability = newPromiseCapability.f(C);
-  var resolve = promiseCapability.resolve;
-  resolve(x);
-  return promiseCapability.promise;
-};
-
-
-/***/ }),
-/* 460 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var global = __webpack_require__(14);
-var core = __webpack_require__(44);
-var LIBRARY = __webpack_require__(65);
-var wksExt = __webpack_require__(120);
-var defineProperty = __webpack_require__(20).f;
-module.exports = function (name) {
-  var $Symbol = core.Symbol || (core.Symbol = LIBRARY ? {} : global.Symbol || {});
-  if (name.charAt(0) != '_' && !(name in $Symbol)) defineProperty($Symbol, name, { value: wksExt.f(name) });
-};
-
-
-/***/ }),
-/* 461 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// all enumerable object keys, includes symbols
-var getKeys = __webpack_require__(37);
-var gOPS = __webpack_require__(69);
-var pIE = __webpack_require__(53);
-module.exports = function (it) {
-  var result = getKeys(it);
-  var getSymbols = gOPS.f;
-  if (getSymbols) {
-    var symbols = getSymbols(it);
-    var isEnum = pIE.f;
-    var i = 0;
-    var key;
-    while (symbols.length > i) if (isEnum.call(it, key = symbols[i++])) result.push(key);
-  } return result;
-};
-
-
-/***/ }),
-/* 462 */
-/***/ (function(module, exports) {
-
-// 7.2.9 SameValue(x, y)
-module.exports = Object.is || function is(x, y) {
-  // eslint-disable-next-line no-self-compare
-  return x === y ? x !== 0 || 1 / x === 1 / y : x != x && y != y;
-};
-
-
-/***/ }),
-/* 463 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var toInteger = __webpack_require__(59);
-var defined = __webpack_require__(38);
-// true  -> String#at
-// false -> String#codePointAt
-module.exports = function (TO_STRING) {
-  return function (that, pos) {
-    var s = String(defined(that));
-    var i = toInteger(pos);
-    var l = s.length;
-    var a, b;
-    if (i < 0 || i >= l) return TO_STRING ? '' : undefined;
-    a = s.charCodeAt(i);
-    return a < 0xd800 || a > 0xdbff || i + 1 === l || (b = s.charCodeAt(i + 1)) < 0xdc00 || b > 0xdfff
-      ? TO_STRING ? s.charAt(i) : a
-      : TO_STRING ? s.slice(i, i + 2) : (a - 0xd800 << 10) + (b - 0xdc00) + 0x10000;
-  };
-};
-
-
-/***/ }),
-/* 464 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-// 21.2.5.3 get RegExp.prototype.flags
-var anObject = __webpack_require__(18);
-module.exports = function () {
-  var that = anObject(this);
-  var result = '';
-  if (that.global) result += 'g';
-  if (that.ignoreCase) result += 'i';
-  if (that.multiline) result += 'm';
-  if (that.unicode) result += 'u';
-  if (that.sticky) result += 'y';
-  return result;
-};
-
-
-/***/ }),
-/* 465 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-// 22.1.3.3 Array.prototype.copyWithin(target, start, end = this.length)
-
-var toObject = __webpack_require__(33);
-var toAbsoluteIndex = __webpack_require__(60);
-var toLength = __webpack_require__(25);
-
-module.exports = [].copyWithin || function copyWithin(target /* = 0 */, start /* = 0, end = @length */) {
-  var O = toObject(this);
-  var len = toLength(O.length);
-  var to = toAbsoluteIndex(target, len);
-  var from = toAbsoluteIndex(start, len);
-  var end = arguments.length > 2 ? arguments[2] : undefined;
-  var count = Math.min((end === undefined ? len : toAbsoluteIndex(end, len)) - from, len - to);
-  var inc = 1;
-  if (from < to && to < from + count) {
-    inc = -1;
-    from += count - 1;
-    to += count - 1;
-  }
-  while (count-- > 0) {
-    if (from in O) O[to] = O[from];
-    else delete O[to];
-    to += inc;
-    from += inc;
-  } return O;
-};
-
-
-/***/ }),
-/* 466 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-// 22.1.3.6 Array.prototype.fill(value, start = 0, end = this.length)
-
-var toObject = __webpack_require__(33);
-var toAbsoluteIndex = __webpack_require__(60);
-var toLength = __webpack_require__(25);
-module.exports = function fill(value /* , start = 0, end = @length */) {
-  var O = toObject(this);
-  var length = toLength(O.length);
-  var aLen = arguments.length;
-  var index = toAbsoluteIndex(aLen > 1 ? arguments[1] : undefined, length);
-  var end = aLen > 2 ? arguments[2] : undefined;
-  var endPos = end === undefined ? length : toAbsoluteIndex(end, length);
-  while (endPos > index) O[index++] = value;
-  return O;
-};
-
-
-/***/ }),
-/* 467 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// all object keys, includes non-enumerable and symbols
-var gOPN = __webpack_require__(81);
-var gOPS = __webpack_require__(69);
-var anObject = __webpack_require__(18);
-var Reflect = __webpack_require__(14).Reflect;
-module.exports = Reflect && Reflect.ownKeys || function ownKeys(it) {
-  var keys = gOPN.f(anObject(it));
-  var getSymbols = gOPS.f;
-  return getSymbols ? keys.concat(getSymbols(it)) : keys;
-};
-
-
-/***/ }),
-/* 468 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 469 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 470 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 471 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _element = __webpack_require__(0);
-
-var _base = __webpack_require__(35);
-
-var _base2 = _interopRequireDefault(_base);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-/**
- * A overlay that renders ALL available rows & columns positioned on top of the original Walkontable instance and all other overlays.
- * Used for debugging purposes to see if the other overlays (that render only part of the rows & columns) are positioned correctly
- *
- * @class DebugOverlay
- */
-var DebugOverlay = function (_Overlay) {
-  _inherits(DebugOverlay, _Overlay);
-
-  /**
-   * @param {Walkontable} wotInstance
-   */
-  function DebugOverlay(wotInstance) {
-    _classCallCheck(this, DebugOverlay);
-
-    var _this = _possibleConstructorReturn(this, (DebugOverlay.__proto__ || Object.getPrototypeOf(DebugOverlay)).call(this, wotInstance));
-
-    _this.clone = _this.makeClone(_base2.default.CLONE_DEBUG);
-    _this.clone.wtTable.holder.style.opacity = 0.4;
-    _this.clone.wtTable.holder.style.textShadow = '0 0 2px #ff0000';
-
-    (0, _element.addClass)(_this.clone.wtTable.holder.parentNode, 'wtDebugVisible');
-    return _this;
-  }
-
-  return DebugOverlay;
-}(_base2.default);
-
-_base2.default.registerOverlay(_base2.default.CLONE_DEBUG, DebugOverlay);
-
-exports.default = DebugOverlay;
-
-/***/ }),
-/* 472 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var map = {
-	"./af": 181,
-	"./af.js": 181,
-	"./ar": 182,
-	"./ar-dz": 183,
-	"./ar-dz.js": 183,
-	"./ar-kw": 184,
-	"./ar-kw.js": 184,
-	"./ar-ly": 185,
-	"./ar-ly.js": 185,
-	"./ar-ma": 186,
-	"./ar-ma.js": 186,
-	"./ar-sa": 187,
-	"./ar-sa.js": 187,
-	"./ar-tn": 188,
-	"./ar-tn.js": 188,
-	"./ar.js": 182,
-	"./az": 189,
-	"./az.js": 189,
-	"./be": 190,
-	"./be.js": 190,
-	"./bg": 191,
-	"./bg.js": 191,
-	"./bm": 192,
-	"./bm.js": 192,
-	"./bn": 193,
-	"./bn.js": 193,
-	"./bo": 194,
-	"./bo.js": 194,
-	"./br": 195,
-	"./br.js": 195,
-	"./bs": 196,
-	"./bs.js": 196,
-	"./ca": 197,
-	"./ca.js": 197,
-	"./cs": 198,
-	"./cs.js": 198,
-	"./cv": 199,
-	"./cv.js": 199,
-	"./cy": 200,
-	"./cy.js": 200,
-	"./da": 201,
-	"./da.js": 201,
-	"./de": 202,
-	"./de-at": 203,
-	"./de-at.js": 203,
-	"./de-ch": 204,
-	"./de-ch.js": 204,
-	"./de.js": 202,
-	"./dv": 205,
-	"./dv.js": 205,
-	"./el": 206,
-	"./el.js": 206,
-	"./en-au": 207,
-	"./en-au.js": 207,
-	"./en-ca": 208,
-	"./en-ca.js": 208,
-	"./en-gb": 209,
-	"./en-gb.js": 209,
-	"./en-ie": 210,
-	"./en-ie.js": 210,
-	"./en-nz": 211,
-	"./en-nz.js": 211,
-	"./eo": 212,
-	"./eo.js": 212,
-	"./es": 213,
-	"./es-do": 214,
-	"./es-do.js": 214,
-	"./es-us": 215,
-	"./es-us.js": 215,
-	"./es.js": 213,
-	"./et": 216,
-	"./et.js": 216,
-	"./eu": 217,
-	"./eu.js": 217,
-	"./fa": 218,
-	"./fa.js": 218,
-	"./fi": 219,
-	"./fi.js": 219,
-	"./fo": 220,
-	"./fo.js": 220,
-	"./fr": 221,
-	"./fr-ca": 222,
-	"./fr-ca.js": 222,
-	"./fr-ch": 223,
-	"./fr-ch.js": 223,
-	"./fr.js": 221,
-	"./fy": 224,
-	"./fy.js": 224,
-	"./gd": 225,
-	"./gd.js": 225,
-	"./gl": 226,
-	"./gl.js": 226,
-	"./gom-latn": 227,
-	"./gom-latn.js": 227,
-	"./gu": 228,
-	"./gu.js": 228,
-	"./he": 229,
-	"./he.js": 229,
-	"./hi": 230,
-	"./hi.js": 230,
-	"./hr": 231,
-	"./hr.js": 231,
-	"./hu": 232,
-	"./hu.js": 232,
-	"./hy-am": 233,
-	"./hy-am.js": 233,
-	"./id": 234,
-	"./id.js": 234,
-	"./is": 235,
-	"./is.js": 235,
-	"./it": 236,
-	"./it.js": 236,
-	"./ja": 237,
-	"./ja.js": 237,
-	"./jv": 238,
-	"./jv.js": 238,
-	"./ka": 239,
-	"./ka.js": 239,
-	"./kk": 240,
-	"./kk.js": 240,
-	"./km": 241,
-	"./km.js": 241,
-	"./kn": 242,
-	"./kn.js": 242,
-	"./ko": 243,
-	"./ko.js": 243,
-	"./ky": 244,
-	"./ky.js": 244,
-	"./lb": 245,
-	"./lb.js": 245,
-	"./lo": 246,
-	"./lo.js": 246,
-	"./lt": 247,
-	"./lt.js": 247,
-	"./lv": 248,
-	"./lv.js": 248,
-	"./me": 249,
-	"./me.js": 249,
-	"./mi": 250,
-	"./mi.js": 250,
-	"./mk": 251,
-	"./mk.js": 251,
-	"./ml": 252,
-	"./ml.js": 252,
-	"./mr": 253,
-	"./mr.js": 253,
-	"./ms": 254,
-	"./ms-my": 255,
-	"./ms-my.js": 255,
-	"./ms.js": 254,
-	"./mt": 256,
-	"./mt.js": 256,
-	"./my": 257,
-	"./my.js": 257,
-	"./nb": 258,
-	"./nb.js": 258,
-	"./ne": 259,
-	"./ne.js": 259,
-	"./nl": 260,
-	"./nl-be": 261,
-	"./nl-be.js": 261,
-	"./nl.js": 260,
-	"./nn": 262,
-	"./nn.js": 262,
-	"./pa-in": 263,
-	"./pa-in.js": 263,
-	"./pl": 264,
-	"./pl.js": 264,
-	"./pt": 265,
-	"./pt-br": 266,
-	"./pt-br.js": 266,
-	"./pt.js": 265,
-	"./ro": 267,
-	"./ro.js": 267,
-	"./ru": 268,
-	"./ru.js": 268,
-	"./sd": 269,
-	"./sd.js": 269,
-	"./se": 270,
-	"./se.js": 270,
-	"./si": 271,
-	"./si.js": 271,
-	"./sk": 272,
-	"./sk.js": 272,
-	"./sl": 273,
-	"./sl.js": 273,
-	"./sq": 274,
-	"./sq.js": 274,
-	"./sr": 275,
-	"./sr-cyrl": 276,
-	"./sr-cyrl.js": 276,
-	"./sr.js": 275,
-	"./ss": 277,
-	"./ss.js": 277,
-	"./sv": 278,
-	"./sv.js": 278,
-	"./sw": 279,
-	"./sw.js": 279,
-	"./ta": 280,
-	"./ta.js": 280,
-	"./te": 281,
-	"./te.js": 281,
-	"./tet": 282,
-	"./tet.js": 282,
-	"./th": 283,
-	"./th.js": 283,
-	"./tl-ph": 284,
-	"./tl-ph.js": 284,
-	"./tlh": 285,
-	"./tlh.js": 285,
-	"./tr": 286,
-	"./tr.js": 286,
-	"./tzl": 287,
-	"./tzl.js": 287,
-	"./tzm": 288,
-	"./tzm-latn": 289,
-	"./tzm-latn.js": 289,
-	"./tzm.js": 288,
-	"./uk": 290,
-	"./uk.js": 290,
-	"./ur": 291,
-	"./ur.js": 291,
-	"./uz": 292,
-	"./uz-latn": 293,
-	"./uz-latn.js": 293,
-	"./uz.js": 292,
-	"./vi": 294,
-	"./vi.js": 294,
-	"./x-pseudo": 295,
-	"./x-pseudo.js": 295,
-	"./yo": 296,
-	"./yo.js": 296,
-	"./zh-cn": 297,
-	"./zh-cn.js": 297,
-	"./zh-hk": 298,
-	"./zh-hk.js": 298,
-	"./zh-tw": 299,
-	"./zh-tw.js": 299
-};
-function webpackContext(req) {
-	return __webpack_require__(webpackContextResolve(req));
-};
-function webpackContextResolve(req) {
-	var id = map[req];
-	if(!(id + 1)) // check for number or string
-		throw new Error("Cannot find module '" + req + "'.");
-	return id;
-};
-webpackContext.keys = function webpackContextKeys() {
-	return Object.keys(map);
-};
-webpackContext.resolve = webpackContextResolve;
-module.exports = webpackContext;
-webpackContext.id = 472;
-
-/***/ }),
-/* 473 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _element = __webpack_require__(0);
-
-var _base = __webpack_require__(35);
-
-var _base2 = _interopRequireDefault(_base);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-/**
- * @class LeftOverlay
- */
-var LeftOverlay = function (_Overlay) {
-  _inherits(LeftOverlay, _Overlay);
-
-  /**
-   * @param {Walkontable} wotInstance
-   */
-  function LeftOverlay(wotInstance) {
-    _classCallCheck(this, LeftOverlay);
-
-    var _this = _possibleConstructorReturn(this, (LeftOverlay.__proto__ || Object.getPrototypeOf(LeftOverlay)).call(this, wotInstance));
-
-    _this.clone = _this.makeClone(_base2.default.CLONE_LEFT);
-    return _this;
-  }
-
-  /**
-   * Checks if overlay should be fully rendered
-   *
-   * @returns {Boolean}
-   */
-
-
-  _createClass(LeftOverlay, [{
-    key: 'shouldBeRendered',
-    value: function shouldBeRendered() {
-      return !!(this.wot.getSetting('fixedColumnsLeft') || this.wot.getSetting('rowHeaders').length);
-    }
-
-    /**
-     * Updates the left overlay position
-     */
-
-  }, {
-    key: 'resetFixedPosition',
-    value: function resetFixedPosition() {
-      if (!this.needFullRender || !this.wot.wtTable.holder.parentNode) {
-        // removed from DOM
-        return;
-      }
-      var overlayRoot = this.clone.wtTable.holder.parentNode;
-      var headerPosition = 0;
-      var preventOverflow = this.wot.getSetting('preventOverflow');
-
-      if (this.trimmingContainer === window && (!preventOverflow || preventOverflow !== 'horizontal')) {
-        var box = this.wot.wtTable.hider.getBoundingClientRect();
-        var left = Math.ceil(box.left);
-        var right = Math.ceil(box.right);
-        var finalLeft = void 0;
-        var finalTop = void 0;
-
-        finalTop = this.wot.wtTable.hider.style.top;
-        finalTop = finalTop === '' ? 0 : finalTop;
-
-        if (left < 0 && right - overlayRoot.offsetWidth > 0) {
-          finalLeft = -left;
-        } else {
-          finalLeft = 0;
-        }
-        headerPosition = finalLeft;
-        finalLeft += 'px';
-
-        (0, _element.setOverlayPosition)(overlayRoot, finalLeft, finalTop);
-      } else {
-        headerPosition = this.getScrollPosition();
-        (0, _element.resetCssTransform)(overlayRoot);
-      }
-      this.adjustHeaderBordersPosition(headerPosition);
-
-      this.adjustElementsSize();
-    }
-
-    /**
-     * Sets the main overlay's horizontal scroll position
-     *
-     * @param {Number} pos
-     */
-
-  }, {
-    key: 'setScrollPosition',
-    value: function setScrollPosition(pos) {
-      if (this.mainTableScrollableElement === window) {
-        window.scrollTo(pos, (0, _element.getWindowScrollTop)());
-      } else {
-        this.mainTableScrollableElement.scrollLeft = pos;
-      }
-    }
-
-    /**
-     * Triggers onScroll hook callback
-     */
-
-  }, {
-    key: 'onScroll',
-    value: function onScroll() {
-      this.wot.getSetting('onScrollVertically');
-    }
-
-    /**
-     * Calculates total sum cells width
-     *
-     * @param {Number} from Column index which calculates started from
-     * @param {Number} to Column index where calculation is finished
-     * @returns {Number} Width sum
-     */
-
-  }, {
-    key: 'sumCellSizes',
-    value: function sumCellSizes(from, to) {
-      var sum = 0;
-      var defaultColumnWidth = this.wot.wtSettings.defaultColumnWidth;
-
-      while (from < to) {
-        sum += this.wot.wtTable.getStretchedColumnWidth(from) || defaultColumnWidth;
-        from++;
-      }
-
-      return sum;
-    }
-
-    /**
-     * Adjust overlay root element, childs and master table element sizes (width, height).
-     *
-     * @param {Boolean} [force=false]
-     */
-
-  }, {
-    key: 'adjustElementsSize',
-    value: function adjustElementsSize() {
-      var force = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
-
-      this.updateTrimmingContainer();
-
-      if (this.needFullRender || force) {
-        this.adjustRootElementSize();
-        this.adjustRootChildrenSize();
-
-        if (!force) {
-          this.areElementSizesAdjusted = true;
-        }
-      }
-    }
-
-    /**
-     * Adjust overlay root element size (width and height).
-     */
-
-  }, {
-    key: 'adjustRootElementSize',
-    value: function adjustRootElementSize() {
-      var masterHolder = this.wot.wtTable.holder;
-      var scrollbarHeight = masterHolder.clientHeight === masterHolder.offsetHeight ? 0 : (0, _element.getScrollbarWidth)();
-      var overlayRoot = this.clone.wtTable.holder.parentNode;
-      var overlayRootStyle = overlayRoot.style;
-      var preventOverflow = this.wot.getSetting('preventOverflow');
-      var tableWidth = void 0;
-
-      if (this.trimmingContainer !== window || preventOverflow === 'vertical') {
-        var height = this.wot.wtViewport.getWorkspaceHeight() - scrollbarHeight;
-
-        height = Math.min(height, (0, _element.innerHeight)(this.wot.wtTable.wtRootElement));
-
-        overlayRootStyle.height = height + 'px';
-      } else {
-        overlayRootStyle.height = '';
-      }
-
-      this.clone.wtTable.holder.style.height = overlayRootStyle.height;
-
-      tableWidth = (0, _element.outerWidth)(this.clone.wtTable.TABLE);
-      overlayRootStyle.width = (tableWidth === 0 ? tableWidth : tableWidth + 4) + 'px';
-    }
-
-    /**
-     * Adjust overlay root childs size
-     */
-
-  }, {
-    key: 'adjustRootChildrenSize',
-    value: function adjustRootChildrenSize() {
-      var scrollbarWidth = (0, _element.getScrollbarWidth)();
-
-      this.clone.wtTable.hider.style.height = this.hider.style.height;
-      this.clone.wtTable.holder.style.height = this.clone.wtTable.holder.parentNode.style.height;
-
-      if (scrollbarWidth === 0) {
-        scrollbarWidth = 30;
-      }
-      this.clone.wtTable.holder.style.width = parseInt(this.clone.wtTable.holder.parentNode.style.width, 10) + scrollbarWidth + 'px';
-    }
-
-    /**
-     * Adjust the overlay dimensions and position
-     */
-
-  }, {
-    key: 'applyToDOM',
-    value: function applyToDOM() {
-      var total = this.wot.getSetting('totalColumns');
-
-      if (!this.areElementSizesAdjusted) {
-        this.adjustElementsSize();
-      }
-      if (typeof this.wot.wtViewport.columnsRenderCalculator.startPosition === 'number') {
-        this.spreader.style.left = this.wot.wtViewport.columnsRenderCalculator.startPosition + 'px';
-      } else if (total === 0) {
-        this.spreader.style.left = '0';
-      } else {
-        throw new Error('Incorrect value of the columnsRenderCalculator');
-      }
-      this.spreader.style.right = '';
-
-      if (this.needFullRender) {
-        this.syncOverlayOffset();
-      }
-    }
-
-    /**
-     * Synchronize calculated top position to an element
-     */
-
-  }, {
-    key: 'syncOverlayOffset',
-    value: function syncOverlayOffset() {
-      if (typeof this.wot.wtViewport.rowsRenderCalculator.startPosition === 'number') {
-        this.clone.wtTable.spreader.style.top = this.wot.wtViewport.rowsRenderCalculator.startPosition + 'px';
-      } else {
-        this.clone.wtTable.spreader.style.top = '';
-      }
-    }
-
-    /**
-     * Scrolls horizontally to a column at the left edge of the viewport
-     *
-     * @param sourceCol {Number} Column index which you want to scroll to
-     * @param [beyondRendered=false] {Boolean} if `true`, scrolls according to the bottom edge (top edge is by default)
-     */
-
-  }, {
-    key: 'scrollTo',
-    value: function scrollTo(sourceCol, beyondRendered) {
-      var newX = this.getTableParentOffset();
-      var sourceInstance = this.wot.cloneSource ? this.wot.cloneSource : this.wot;
-      var mainHolder = sourceInstance.wtTable.holder;
-      var scrollbarCompensation = 0;
-
-      if (beyondRendered && mainHolder.offsetWidth !== mainHolder.clientWidth) {
-        scrollbarCompensation = (0, _element.getScrollbarWidth)();
-      }
-      if (beyondRendered) {
-        newX += this.sumCellSizes(0, sourceCol + 1);
-        newX -= this.wot.wtViewport.getViewportWidth();
-      } else {
-        newX += this.sumCellSizes(this.wot.getSetting('fixedColumnsLeft'), sourceCol);
-      }
-      newX += scrollbarCompensation;
-
-      this.setScrollPosition(newX);
-    }
-
-    /**
-     * Gets table parent left position
-     *
-     * @returns {Number}
-     */
-
-  }, {
-    key: 'getTableParentOffset',
-    value: function getTableParentOffset() {
-      var preventOverflow = this.wot.getSetting('preventOverflow');
-      var offset = 0;
-
-      if (!preventOverflow && this.trimmingContainer === window) {
-        offset = this.wot.wtTable.holderOffset.left;
-      }
-
-      return offset;
-    }
-
-    /**
-     * Gets the main overlay's horizontal scroll position
-     *
-     * @returns {Number} Main table's vertical scroll position
-     */
-
-  }, {
-    key: 'getScrollPosition',
-    value: function getScrollPosition() {
-      return (0, _element.getScrollLeft)(this.mainTableScrollableElement);
-    }
-
-    /**
-     * Adds css classes to hide the header border's header (cell-selection border hiding issue)
-     *
-     * @param {Number} position Header X position if trimming container is window or scroll top if not
-     */
-
-  }, {
-    key: 'adjustHeaderBordersPosition',
-    value: function adjustHeaderBordersPosition(position) {
-      var masterParent = this.wot.wtTable.holder.parentNode;
-      var rowHeaders = this.wot.getSetting('rowHeaders');
-      var fixedColumnsLeft = this.wot.getSetting('fixedColumnsLeft');
-      var totalRows = this.wot.getSetting('totalRows');
-
-      if (totalRows) {
-        (0, _element.removeClass)(masterParent, 'emptyRows');
-      } else {
-        (0, _element.addClass)(masterParent, 'emptyRows');
-      }
-
-      if (fixedColumnsLeft && !rowHeaders.length) {
-        (0, _element.addClass)(masterParent, 'innerBorderLeft');
-      } else if (!fixedColumnsLeft && rowHeaders.length) {
-        var previousState = (0, _element.hasClass)(masterParent, 'innerBorderLeft');
-
-        if (position) {
-          (0, _element.addClass)(masterParent, 'innerBorderLeft');
-        } else {
-          (0, _element.removeClass)(masterParent, 'innerBorderLeft');
-        }
-        if (!previousState && position || previousState && !position) {
-          this.wot.wtOverlays.adjustElementsSize();
-        }
-      }
-    }
-  }]);
-
-  return LeftOverlay;
-}(_base2.default);
-
-_base2.default.registerOverlay(_base2.default.CLONE_LEFT, LeftOverlay);
-
-exports.default = LeftOverlay;
-
-/***/ }),
-/* 474 */
-/***/ (function(module, exports, __webpack_require__) {
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
-
-    // compare numbro object
-    numbro.isNumbro = function(obj) {
-        return obj instanceof Numbro;
-    };
-
-    /**
-     * This function allow the user to set a new language with a fallback if
-     * the language does not exist. If no fallback language is provided,
-     * it fallbacks to english.
-     *
-     * @deprecated Since in version 1.6.0. It will be deleted in version 2.0
-     * `setCulture` should be used instead.
-     */
-    numbro.setLanguage = function(newLanguage, fallbackLanguage) {
-        console.warn('`setLanguage` is deprecated since version 1.6.0. Use `setCulture` instead');
-        var key = newLanguage,
-            prefix = newLanguage.split('-')[0],
-            matchingLanguage = null;
-        if (!languages[key]) {
-            Object.keys(languages).forEach(function(language) {
-                if (!matchingLanguage && language.split('-')[0] === prefix) {
-                    matchingLanguage = language;
-                }
-            });
-            key = matchingLanguage || fallbackLanguage || 'en-US';
-        }
-        chooseCulture(key);
-    };
-
-<<<<<<< HEAD
-    /**
-     * This function allow the user to set a new culture with a fallback if
-     * the culture does not exist. If no fallback culture is provided,
-     * it falls back to "en-US".
-     */
-    numbro.setCulture = function(newCulture, fallbackCulture) {
-        var key = newCulture,
-            suffix = newCulture.split('-')[1],
-            matchingCulture = null;
-        if (!cultures[key]) {
-            if (suffix) {
-                Object.keys(cultures).forEach(function(language) {
-                    if (!matchingCulture && language.split('-')[1] === suffix) {
-                        matchingCulture = language;
-                    }
-                });
-            }
-
-            key = matchingCulture || fallbackCulture || 'en-US';
-        }
-        chooseCulture(key);
-    };
-
-    /**
-     * This function will load languages and then set the global language.  If
-     * no arguments are passed in, it will simply return the current global
-     * language key.
-     *
-     * @deprecated Since in version 1.6.0. It will be deleted in version 2.0
-     * `culture` should be used instead.
-     */
-    numbro.language = function(key, values) {
-        console.warn('`language` is deprecated since version 1.6.0. Use `culture` instead');
-
-        if (!key) {
-            return currentCulture;
-        }
-=======
-exports.__esModule = true;
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _element = __webpack_require__(0);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
-
-        if (key && !values) {
-            if (!languages[key]) {
-                throw new Error('Unknown language : ' + key);
-            }
-            chooseCulture(key);
-        }
-
-<<<<<<< HEAD
-        if (values || !languages[key]) {
-            setCulture(key, values);
-        }
-
-        return numbro;
-    };
-
-    /**
-     * This function will load cultures and then set the global culture.  If
-     * no arguments are passed in, it will simply return the current global
-     * culture code.
-     */
-    numbro.culture = function(code, values) {
-        if (!code) {
-            return currentCulture;
-        }
-
-        if (code && !values) {
-            if (!cultures[code]) {
-                throw new Error('Unknown culture : ' + code);
-            }
-            chooseCulture(code);
-        }
-
-        if (values || !cultures[code]) {
-            setCulture(code, values);
-        }
-
-        return numbro;
-    };
-
-    /**
-     * This function provides access to the loaded language data.  If
-     * no arguments are passed in, it will simply return the current
-     * global language object.
-     *
-     * @deprecated Since in version 1.6.0. It will be deleted in version 2.0
-     * `culture` should be used instead.
-     */
-    numbro.languageData = function(key) {
-        console.warn('`languageData` is deprecated since version 1.6.0. Use `cultureData` instead');
-
-        if (!key) {
-            return languages[currentCulture];
-        }
-
-        if (!languages[key]) {
-            throw new Error('Unknown language : ' + key);
-        }
-
-        return languages[key];
-    };
-
-    /**
-     * This function provides access to the loaded culture data.  If
-     * no arguments are passed in, it will simply return the current
-     * global culture object.
-     */
-    numbro.cultureData = function(code) {
-        if (!code) {
-            return cultures[currentCulture];
-        }
-
-        if (!cultures[code]) {
-            throw new Error('Unknown culture : ' + code);
-        }
-=======
-var _base = __webpack_require__(35);
-
-var _base2 = _interopRequireDefault(_base);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-/**
- * @class TopOverlay
- */
-var TopOverlay = function (_Overlay) {
-  _inherits(TopOverlay, _Overlay);
-
-  /**
-   * @param {Walkontable} wotInstance
-   */
-  function TopOverlay(wotInstance) {
-    _classCallCheck(this, TopOverlay);
-
-    var _this = _possibleConstructorReturn(this, (TopOverlay.__proto__ || Object.getPrototypeOf(TopOverlay)).call(this, wotInstance));
-
-    _this.clone = _this.makeClone(_base2.default.CLONE_TOP);
-    return _this;
-  }
-
-  /**
-   * Checks if overlay should be fully rendered
-   *
-   * @returns {Boolean}
-   */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
-
-        return cultures[code];
-    };
-
-<<<<<<< HEAD
-    numbro.culture('en-US', enUS);
-
-    /**
-     * @deprecated Since in version 1.6.0. It will be deleted in version 2.0
-     * `cultures` should be used instead.
-     */
-    numbro.languages = function() {
-        console.warn('`languages` is deprecated since version 1.6.0. Use `cultures` instead');
-
-        return languages;
-    };
-
-    numbro.cultures = function() {
-        return cultures;
-    };
-
-    numbro.zeroFormat = function(format) {
-        zeroFormat = typeof(format) === 'string' ? format : null;
-    };
-
-    numbro.defaultFormat = function(format) {
-        defaultFormat = typeof(format) === 'string' ? format : '0.0';
-    };
-
-    numbro.defaultCurrencyFormat = function (format) {
-        defaultCurrencyFormat = typeof(format) === 'string' ? format : '0$';
-    };
-
-    numbro.validate = function(val, culture) {
-
-        var _decimalSep,
-            _thousandSep,
-            _currSymbol,
-            _valArray,
-            _abbrObj,
-            _thousandRegEx,
-            cultureData,
-            temp;
-
-        //coerce val to string
-        if (typeof val !== 'string') {
-            val += '';
-            if (console.warn) {
-                console.warn('Numbro.js: Value is not string. It has been co-erced to: ', val);
-            }
-        }
-
-        //trim whitespaces from either sides
-        val = val.trim();
-
-        //replace the initial '+' or '-' sign if present
-        val = val.replace(/^[+-]?/, '');
-
-        //if val is just digits return true
-        if ( !! val.match(/^\d+$/)) {
-            return true;
-        }
-
-        //if val is empty return false
-        if (val === '') {
-            return false;
-        }
-
-        //get the decimal and thousands separator from numbro.cultureData
-        try {
-            //check if the culture is understood by numbro. if not, default it to current culture
-            cultureData = numbro.cultureData(culture);
-        } catch (e) {
-            cultureData = numbro.cultureData(numbro.culture());
-        }
-
-        //setup the delimiters and currency symbol based on culture
-        _currSymbol = cultureData.currency.symbol;
-        _abbrObj = cultureData.abbreviations;
-        _decimalSep = cultureData.delimiters.decimal;
-        if (cultureData.delimiters.thousands === '.') {
-            _thousandSep = '\\.';
-        } else {
-            _thousandSep = cultureData.delimiters.thousands;
-        }
-
-        // validating currency symbol
-        temp = val.match(/^[^\d\.\,]+/);
-        if (temp !== null) {
-            val = val.substr(1);
-            if (temp[0] !== _currSymbol) {
-                return false;
-            }
-        }
-
-        //validating abbreviation symbol
-        temp = val.match(/[^\d]+$/);
-        if (temp !== null) {
-            val = val.slice(0, -1);
-            if (temp[0] !== _abbrObj.thousand && temp[0] !== _abbrObj.million &&
-                    temp[0] !== _abbrObj.billion && temp[0] !== _abbrObj.trillion) {
-                return false;
-            }
-        }
-
-        _thousandRegEx = new RegExp(_thousandSep + '{2}');
-
-        if (!val.match(/[^\d.,]/g)) {
-            _valArray = val.split(_decimalSep);
-            if (_valArray.length > 2) {
-                return false;
-            } else {
-                if (_valArray.length < 2) {
-                    return ( !! _valArray[0].match(/^\d+.*\d$/) && !_valArray[0].match(_thousandRegEx));
-                } else {
-                    if (_valArray[0] === '') {
-                        // for values without leading zero eg. .984
-                        return (!_valArray[0].match(_thousandRegEx) &&
-                            !!_valArray[1].match(/^\d+$/));
-
-                    } else if (_valArray[0].length === 1) {
-                        return ( !! _valArray[0].match(/^\d+$/) &&
-                            !_valArray[0].match(_thousandRegEx) &&
-                            !! _valArray[1].match(/^\d+$/));
-                    } else {
-                        return ( !! _valArray[0].match(/^\d+.*\d$/) &&
-                            !_valArray[0].match(_thousandRegEx) &&
-                            !! _valArray[1].match(/^\d+$/));
-                    }
-                }
-            }
-        }
-
-        return false;
-    };
-
-    /**
-     * * @deprecated Since in version 1.6.0. It will be deleted in version 2.0
-     * `loadCulturesInNode` should be used instead.
-=======
-  _createClass(TopOverlay, [{
-    key: 'shouldBeRendered',
-    value: function shouldBeRendered() {
-      return !!(this.wot.getSetting('fixedRowsTop') || this.wot.getSetting('columnHeaders').length);
-    }
-
-    /**
-     * Updates the top overlay position
-     */
-
-  }, {
-    key: 'resetFixedPosition',
-    value: function resetFixedPosition() {
-      if (!this.needFullRender || !this.wot.wtTable.holder.parentNode) {
-        // removed from DOM
-        return;
-      }
-      var overlayRoot = this.clone.wtTable.holder.parentNode;
-      var headerPosition = 0;
-      var preventOverflow = this.wot.getSetting('preventOverflow');
-
-      if (this.trimmingContainer === window && (!preventOverflow || preventOverflow !== 'vertical')) {
-        var box = this.wot.wtTable.hider.getBoundingClientRect();
-        var top = Math.ceil(box.top);
-        var bottom = Math.ceil(box.bottom);
-        var finalLeft = void 0;
-        var finalTop = void 0;
-
-        finalLeft = this.wot.wtTable.hider.style.left;
-        finalLeft = finalLeft === '' ? 0 : finalLeft;
-
-        if (top < 0 && bottom - overlayRoot.offsetHeight > 0) {
-          finalTop = -top;
-        } else {
-          finalTop = 0;
-        }
-        headerPosition = finalTop;
-        finalTop += 'px';
-
-        (0, _element.setOverlayPosition)(overlayRoot, finalLeft, finalTop);
-      } else {
-        headerPosition = this.getScrollPosition();
-        (0, _element.resetCssTransform)(overlayRoot);
-      }
-
-      this.adjustHeaderBordersPosition(headerPosition);
-
-      this.adjustElementsSize();
-    }
-
-    /**
-     * Sets the main overlay's vertical scroll position
-     *
-     * @param {Number} pos
-     */
-
-  }, {
-    key: 'setScrollPosition',
-    value: function setScrollPosition(pos) {
-      if (this.mainTableScrollableElement === window) {
-        window.scrollTo((0, _element.getWindowScrollLeft)(), pos);
-      } else {
-        this.mainTableScrollableElement.scrollTop = pos;
-      }
-    }
-
-    /**
-     * Triggers onScroll hook callback
-     */
-
-  }, {
-    key: 'onScroll',
-    value: function onScroll() {
-      this.wot.getSetting('onScrollHorizontally');
-    }
-
-    /**
-     * Calculates total sum cells height
-     *
-     * @param {Number} from Row index which calculates started from
-     * @param {Number} to Row index where calculation is finished
-     * @returns {Number} Height sum
-     */
-
-  }, {
-    key: 'sumCellSizes',
-    value: function sumCellSizes(from, to) {
-      var sum = 0;
-      var defaultRowHeight = this.wot.wtSettings.settings.defaultRowHeight;
-
-      while (from < to) {
-        var height = this.wot.wtTable.getRowHeight(from);
-
-        sum += height === void 0 ? defaultRowHeight : height;
-        from++;
-      }
-
-      return sum;
-    }
-
-    /**
-     * Adjust overlay root element, childs and master table element sizes (width, height).
-     *
-     * @param {Boolean} [force=false]
-     */
-
-  }, {
-    key: 'adjustElementsSize',
-    value: function adjustElementsSize() {
-      var force = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
-
-      this.updateTrimmingContainer();
-
-      if (this.needFullRender || force) {
-        this.adjustRootElementSize();
-        this.adjustRootChildrenSize();
-
-        if (!force) {
-          this.areElementSizesAdjusted = true;
-        }
-      }
-    }
-
-    /**
-     * Adjust overlay root element size (width and height).
-     */
-
-  }, {
-    key: 'adjustRootElementSize',
-    value: function adjustRootElementSize() {
-      var masterHolder = this.wot.wtTable.holder;
-      var scrollbarWidth = masterHolder.clientWidth === masterHolder.offsetWidth ? 0 : (0, _element.getScrollbarWidth)();
-      var overlayRoot = this.clone.wtTable.holder.parentNode;
-      var overlayRootStyle = overlayRoot.style;
-      var preventOverflow = this.wot.getSetting('preventOverflow');
-      var tableHeight = void 0;
-
-      if (this.trimmingContainer !== window || preventOverflow === 'horizontal') {
-        var width = this.wot.wtViewport.getWorkspaceWidth() - scrollbarWidth;
-
-        width = Math.min(width, (0, _element.innerWidth)(this.wot.wtTable.wtRootElement));
-
-        overlayRootStyle.width = width + 'px';
-      } else {
-        overlayRootStyle.width = '';
-      }
-
-      this.clone.wtTable.holder.style.width = overlayRootStyle.width;
-
-      tableHeight = (0, _element.outerHeight)(this.clone.wtTable.TABLE);
-      overlayRootStyle.height = (tableHeight === 0 ? tableHeight : tableHeight + 4) + 'px';
-    }
-
-    /**
-     * Adjust overlay root childs size
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
-     */
-    numbro.loadLanguagesInNode = function() {
-        console.warn('`loadLanguagesInNode` is deprecated since version 1.6.0. Use `loadCulturesInNode` instead');
-
-<<<<<<< HEAD
-        numbro.loadCulturesInNode();
-    };
-
-    numbro.loadCulturesInNode = function() {
-        // TODO: Rename the folder in 2.0.0
-        var cultures = __webpack_require__(494);
-
-        for(var langLocaleCode in cultures) {
-            if(langLocaleCode) {
-                numbro.culture(langLocaleCode, cultures[langLocaleCode]);
-            }
-        }
-    };
-
-    /************************************
-        Helpers
-    ************************************/
-
-    function setCulture(code, values) {
-        cultures[code] = values;
-    }
-
-    function chooseCulture(code) {
-        currentCulture = code;
-        var defaults = cultures[code].defaults;
-        if (defaults && defaults.format) {
-            numbro.defaultFormat(defaults.format);
-        }
-        if (defaults && defaults.currencyFormat) {
-            numbro.defaultCurrencyFormat(defaults.currencyFormat);
-        }
-    }
-
-    function inNodejsRuntime() {
-        return (typeof process !== 'undefined') &&
-            (process.browser === undefined) &&
-            process.title &&
-            (
-                process.title.indexOf('node') !== -1 ||
-                process.title.indexOf('meteor-tool') > 0 ||
-                process.title === 'grunt' ||
-                process.title === 'gulp'
-            ) &&
-            ("function" !== 'undefined');
-    }
-
-    /************************************
-        Floating-point helpers
-    ************************************/
-
-    // The floating-point helper functions and implementation
-    // borrows heavily from sinful.js: http://guipn.github.io/sinful.js/
-
-    /**
-     * Array.prototype.reduce for browsers that don't support it
-     * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce#Compatibility
-=======
-  }, {
-    key: 'adjustRootChildrenSize',
-    value: function adjustRootChildrenSize() {
-      var scrollbarWidth = (0, _element.getScrollbarWidth)();
-
-      this.clone.wtTable.hider.style.width = this.hider.style.width;
-      this.clone.wtTable.holder.style.width = this.clone.wtTable.holder.parentNode.style.width;
-
-      if (scrollbarWidth === 0) {
-        scrollbarWidth = 30;
-      }
-      this.clone.wtTable.holder.style.height = parseInt(this.clone.wtTable.holder.parentNode.style.height, 10) + scrollbarWidth + 'px';
-    }
-
-    /**
-     * Adjust the overlay dimensions and position
-     */
-
-  }, {
-    key: 'applyToDOM',
-    value: function applyToDOM() {
-      var total = this.wot.getSetting('totalRows');
-
-      if (!this.areElementSizesAdjusted) {
-        this.adjustElementsSize();
-      }
-      if (typeof this.wot.wtViewport.rowsRenderCalculator.startPosition === 'number') {
-        this.spreader.style.top = this.wot.wtViewport.rowsRenderCalculator.startPosition + 'px';
-      } else if (total === 0) {
-        // can happen if there are 0 rows
-        this.spreader.style.top = '0';
-      } else {
-        throw new Error('Incorrect value of the rowsRenderCalculator');
-      }
-      this.spreader.style.bottom = '';
-
-      if (this.needFullRender) {
-        this.syncOverlayOffset();
-      }
-    }
-
-    /**
-     * Synchronize calculated left position to an element
-     */
-
-  }, {
-    key: 'syncOverlayOffset',
-    value: function syncOverlayOffset() {
-      if (typeof this.wot.wtViewport.columnsRenderCalculator.startPosition === 'number') {
-        this.clone.wtTable.spreader.style.left = this.wot.wtViewport.columnsRenderCalculator.startPosition + 'px';
-      } else {
-        this.clone.wtTable.spreader.style.left = '';
-      }
-    }
-
-    /**
-     * Scrolls vertically to a row
-     *
-     * @param sourceRow {Number} Row index which you want to scroll to
-     * @param [bottomEdge=false] {Boolean} if `true`, scrolls according to the bottom edge (top edge is by default)
-     */
-
-  }, {
-    key: 'scrollTo',
-    value: function scrollTo(sourceRow, bottomEdge) {
-      var newY = this.getTableParentOffset();
-      var sourceInstance = this.wot.cloneSource ? this.wot.cloneSource : this.wot;
-      var mainHolder = sourceInstance.wtTable.holder;
-      var scrollbarCompensation = 0;
-
-      if (bottomEdge && mainHolder.offsetHeight !== mainHolder.clientHeight) {
-        scrollbarCompensation = (0, _element.getScrollbarWidth)();
-      }
-
-      if (bottomEdge) {
-        var fixedRowsBottom = this.wot.getSetting('fixedRowsBottom');
-        var fixedRowsTop = this.wot.getSetting('fixedRowsTop');
-        var totalRows = this.wot.getSetting('totalRows');
-
-        newY += this.sumCellSizes(0, sourceRow + 1);
-        newY -= this.wot.wtViewport.getViewportHeight() - this.sumCellSizes(totalRows - fixedRowsBottom, totalRows);
-        // Fix 1 pixel offset when cell is selected
-        newY += 1;
-      } else {
-        newY += this.sumCellSizes(this.wot.getSetting('fixedRowsTop'), sourceRow);
-      }
-      newY += scrollbarCompensation;
-
-      this.setScrollPosition(newY);
-    }
-
-    /**
-     * Gets table parent top position
-     *
-     * @returns {Number}
-     */
-
-  }, {
-    key: 'getTableParentOffset',
-    value: function getTableParentOffset() {
-      if (this.mainTableScrollableElement === window) {
-        return this.wot.wtTable.holderOffset.top;
-      }
-      return 0;
-    }
-
-    /**
-     * Gets the main overlay's vertical scroll position
-     *
-     * @returns {Number} Main table's vertical scroll position
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
-     */
-    if ('function' !== typeof Array.prototype.reduce) {
-        Array.prototype.reduce = function(callback, optInitialValue) {
-
-<<<<<<< HEAD
-            if (null === this || 'undefined' === typeof this) {
-                // At the moment all modern browsers, that support strict mode, have
-                // native implementation of Array.prototype.reduce. For instance, IE8
-                // does not support strict mode, so this check is actually useless.
-                throw new TypeError('Array.prototype.reduce called on null or undefined');
-            }
-
-            if ('function' !== typeof callback) {
-                throw new TypeError(callback + ' is not a function');
-            }
-
-            var index,
-                value,
-                length = this.length >>> 0,
-                isValueSet = false;
-
-            if (1 < arguments.length) {
-                value = optInitialValue;
-                isValueSet = true;
-            }
-
-            for (index = 0; length > index; ++index) {
-                if (this.hasOwnProperty(index)) {
-                    if (isValueSet) {
-                        value = callback(value, this[index], index, this);
-                    } else {
-                        value = this[index];
-                        isValueSet = true;
-                    }
-                }
-            }
-
-            if (!isValueSet) {
-                throw new TypeError('Reduce of empty array with no initial value');
-            }
-
-            return value;
-        };
-=======
-  }, {
-    key: 'getScrollPosition',
-    value: function getScrollPosition() {
-      return (0, _element.getScrollTop)(this.mainTableScrollableElement);
-    }
-
-    /**
-     * Redraw borders of selection
-     *
-     * @param {WalkontableSelection} selection Selection for redraw
-     */
-
-  }, {
-    key: 'redrawSelectionBorders',
-    value: function redrawSelectionBorders(selection) {
-      if (selection && selection.cellRange) {
-        var border = selection.getBorder(this.wot);
-        var corners = selection.getCorners();
-
-        border.disappear();
-        border.appear(corners);
-      }
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
-    }
-
-
-    /**
-<<<<<<< HEAD
-     * Computes the multiplier necessary to make x >= 1,
-     * effectively eliminating miscalculations caused by
-     * finite precision.
-     */
-    function multiplier(x) {
-        var parts = x.toString().split('.');
-        if (parts.length < 2) {
-            return 1;
-        }
-        return Math.pow(10, parts[1].length);
-    }
-
-    /**
-     * Given a variable number of arguments, returns the maximum
-     * multiplier that must be used to normalize an operation involving
-     * all of them.
-     */
-    function correctionFactor() {
-        var args = Array.prototype.slice.call(arguments);
-        return args.reduce(function(prev, next) {
-            var mp = multiplier(prev),
-                mn = multiplier(next);
-            return mp > mn ? mp : mn;
-        }, -Infinity);
-    }
-
-    /************************************
-        Numbro Prototype
-    ************************************/
-
-=======
-     * Redrawing borders of all selections
-     */
-
-  }, {
-    key: 'redrawAllSelectionsBorders',
-    value: function redrawAllSelectionsBorders() {
-      var _this2 = this;
-
-      var selections = this.wot.selections;
-
-      this.redrawSelectionBorders(selections.getCell());
-
-      (0, _array.arrayEach)(selections.getAreas(), function (area) {
-        _this2.redrawSelectionBorders(area);
-      });
-      this.redrawSelectionBorders(selections.getFill());
-
-      this.wot.wtTable.wot.wtOverlays.leftOverlay.refresh();
-    }
-
-    /**
-     * Adds css classes to hide the header border's header (cell-selection border hiding issue)
-     *
-     * @param {Number} position Header Y position if trimming container is window or scroll top if not
-     */
-
-  }, {
-    key: 'adjustHeaderBordersPosition',
-    value: function adjustHeaderBordersPosition(position) {
-      var masterParent = this.wot.wtTable.holder.parentNode;
-      var totalColumns = this.wot.getSetting('totalColumns');
-
-      if (totalColumns) {
-        (0, _element.removeClass)(masterParent, 'emptyColumns');
-      } else {
-        (0, _element.addClass)(masterParent, 'emptyColumns');
-      }
-
-      if (this.wot.getSetting('fixedRowsTop') === 0 && this.wot.getSetting('columnHeaders').length > 0) {
-        var previousState = (0, _element.hasClass)(masterParent, 'innerBorderTop');
-
-        if (position || this.wot.getSetting('totalRows') === 0) {
-          (0, _element.addClass)(masterParent, 'innerBorderTop');
-        } else {
-          (0, _element.removeClass)(masterParent, 'innerBorderTop');
-        }
-
-        if (!previousState && position || previousState && !position) {
-          this.wot.wtOverlays.adjustElementsSize();
-
-          // cell borders should be positioned once again,
-          // because we added / removed 1px border from table header
-          this.redrawAllSelectionsBorders();
-        }
-      }
-
-      // nasty workaround for double border in the header, TODO: find a pure-css solution
-      if (this.wot.getSetting('rowHeaders').length === 0) {
-        var secondHeaderCell = this.clone.wtTable.THEAD.querySelectorAll('th:nth-of-type(2)');
-
-        if (secondHeaderCell) {
-          for (var i = 0; i < secondHeaderCell.length; i++) {
-            secondHeaderCell[i].style['border-left-width'] = 0;
-          }
-        }
-      }
-    }
-  }]);
-
-  return TopOverlay;
-}(_base2.default);
-
-_base2.default.registerOverlay(_base2.default.CLONE_TOP, TopOverlay);
-
-exports.default = TopOverlay;
-
-/***/ }),
-/* 475 */
-/***/ (function(module, exports, __webpack_require__) {
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
-
-    numbro.fn = Numbro.prototype = {
-
-        clone: function() {
-            return numbro(this);
-        },
-
-        format: function(inputString, roundingFunction) {
-            return formatNumbro(this,
-                inputString ? inputString : defaultFormat,
-                (roundingFunction !== undefined) ? roundingFunction : Math.round
-            );
-        },
-
-        formatCurrency: function(inputString, roundingFunction) {
-            return formatCurrency(this,
-                cultures[currentCulture].currency.symbol,
-                inputString ? inputString : defaultCurrencyFormat,
-                (roundingFunction !== undefined) ? roundingFunction : Math.round
-            );
-        },
-
-<<<<<<< HEAD
-        formatForeignCurrency: function(currencySymbol, inputString, roundingFunction) {
-            return formatForeignCurrency(this,
-                currencySymbol,
-                inputString ? inputString : defaultCurrencyFormat,
-                (roundingFunction !== undefined) ? roundingFunction : Math.round
-            );
-        },
-
-        unformat: function(inputString) {
-            if (typeof inputString === 'number') {
-                return inputString;
-            } else if (typeof inputString === 'string') {
-                var result = unformatNumbro(this, inputString);
-
-                // Any unparseable string (represented as NaN in the result) is
-                // converted into undefined.
-                return isNaN(result) ? undefined : result;
-            } else {
-                return undefined;
-            }
-        },
-
-        binaryByteUnits: function() {
-            return formatByteUnits(this._value, bytes.binary.suffixes, bytes.binary.scale).suffix;
-        },
-=======
-var _element = __webpack_require__(0);
-
-var _base = __webpack_require__(35);
-
-var _base2 = _interopRequireDefault(_base);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
-
-        byteUnits: function() {
-            return formatByteUnits(this._value, bytes.general.suffixes, bytes.general.scale).suffix;
-        },
-
-<<<<<<< HEAD
-        decimalByteUnits: function() {
-            return formatByteUnits(this._value, bytes.decimal.suffixes, bytes.decimal.scale).suffix;
-        },
-
-        value: function() {
-            return this._value;
-        },
-
-        valueOf: function() {
-            return this._value;
-        },
-
-        set: function(value) {
-            this._value = Number(value);
-            return this;
-        },
-
-        add: function(value) {
-            var corrFactor = correctionFactor.call(null, this._value, value);
-=======
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-/**
- * @class TopLeftCornerOverlay
- */
-var TopLeftCornerOverlay = function (_Overlay) {
-  _inherits(TopLeftCornerOverlay, _Overlay);
-
-  /**
-   * @param {Walkontable} wotInstance
-   */
-  function TopLeftCornerOverlay(wotInstance) {
-    _classCallCheck(this, TopLeftCornerOverlay);
-
-    var _this = _possibleConstructorReturn(this, (TopLeftCornerOverlay.__proto__ || Object.getPrototypeOf(TopLeftCornerOverlay)).call(this, wotInstance));
-
-    _this.clone = _this.makeClone(_base2.default.CLONE_TOP_LEFT_CORNER);
-    return _this;
-  }
-
-  /**
-   * Checks if overlay should be fully rendered
-   *
-   * @returns {Boolean}
-   */
-
-
-  _createClass(TopLeftCornerOverlay, [{
-    key: 'shouldBeRendered',
-    value: function shouldBeRendered() {
-      return !!((this.wot.getSetting('fixedRowsTop') || this.wot.getSetting('columnHeaders').length) && (this.wot.getSetting('fixedColumnsLeft') || this.wot.getSetting('rowHeaders').length));
-    }
-
-    /**
-     * Updates the corner overlay position
-     */
-
-  }, {
-    key: 'resetFixedPosition',
-    value: function resetFixedPosition() {
-      this.updateTrimmingContainer();
-
-      if (!this.wot.wtTable.holder.parentNode) {
-        // removed from DOM
-        return;
-      }
-      var overlayRoot = this.clone.wtTable.holder.parentNode;
-      var tableHeight = (0, _element.outerHeight)(this.clone.wtTable.TABLE);
-      var tableWidth = (0, _element.outerWidth)(this.clone.wtTable.TABLE);
-      var preventOverflow = this.wot.getSetting('preventOverflow');
-
-      if (this.trimmingContainer === window) {
-        var box = this.wot.wtTable.hider.getBoundingClientRect();
-        var top = Math.ceil(box.top);
-        var left = Math.ceil(box.left);
-        var bottom = Math.ceil(box.bottom);
-        var right = Math.ceil(box.right);
-        var finalLeft = '0';
-        var finalTop = '0';
-
-        if (!preventOverflow || preventOverflow === 'vertical') {
-          if (left < 0 && right - overlayRoot.offsetWidth > 0) {
-            finalLeft = -left + 'px';
-          }
-        }
-
-        if (!preventOverflow || preventOverflow === 'horizontal') {
-          if (top < 0 && bottom - overlayRoot.offsetHeight > 0) {
-            finalTop = -top + 'px';
-          }
-        }
-        (0, _element.setOverlayPosition)(overlayRoot, finalLeft, finalTop);
-      } else {
-        (0, _element.resetCssTransform)(overlayRoot);
-      }
-      overlayRoot.style.height = (tableHeight === 0 ? tableHeight : tableHeight + 4) + 'px';
-      overlayRoot.style.width = (tableWidth === 0 ? tableWidth : tableWidth + 4) + 'px';
-    }
-  }]);
-
-  return TopLeftCornerOverlay;
-}(_base2.default);
-
-_base2.default.registerOverlay(_base2.default.CLONE_TOP_LEFT_CORNER, TopLeftCornerOverlay);
-
-exports.default = TopLeftCornerOverlay;
-
-/***/ }),
-/* 476 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
-
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _element = __webpack_require__(0);
-
-var _border = __webpack_require__(307);
-
-var _border2 = _interopRequireDefault(_border);
-
-var _coords = __webpack_require__(55);
-
-var _coords2 = _interopRequireDefault(_coords);
-
-var _range = __webpack_require__(86);
-
-var _range2 = _interopRequireDefault(_range);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-/**
- * @class Selection
- */
-var Selection = function () {
-  /**
-   * @param {Object} settings
-   * @param {CellRange} cellRange
-   */
-  function Selection(settings, cellRange) {
-    _classCallCheck(this, Selection);
-
-    this.settings = settings;
-    this.cellRange = cellRange || null;
-    this.instanceBorders = {};
-    this.classNames = [this.settings.className];
-    this.classNameGenerator = this.linearClassNameGenerator(this.settings.className, this.settings.layerLevel);
-  }
-
-  /**
-   * Each Walkontable clone requires it's own border for every selection. This method creates and returns selection
-   * borders per instance
-   *
-   * @param {Walkontable} wotInstance
-   * @returns {Border}
-   */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
-
-            function cback(accum, curr) {
-                return accum + corrFactor * curr;
-            }
-            this._value = [this._value, value].reduce(cback, 0) / corrFactor;
-            return this;
-        },
-
-<<<<<<< HEAD
-        subtract: function(value) {
-            var corrFactor = correctionFactor.call(null, this._value, value);
-
-            function cback(accum, curr) {
-                return accum - corrFactor * curr;
-            }
-            this._value = [value].reduce(cback, this._value * corrFactor) / corrFactor;
-            return this;
-        },
-
-        multiply: function(value) {
-            function cback(accum, curr) {
-                var corrFactor = correctionFactor(accum, curr),
-                    result = accum * corrFactor;
-                result *= curr * corrFactor;
-                result /= corrFactor * corrFactor;
-                return result;
-            }
-            this._value = [this._value, value].reduce(cback, 1);
-            return this;
-        },
-
-        divide: function(value) {
-            function cback(accum, curr) {
-                var corrFactor = correctionFactor(accum, curr);
-                return (accum * corrFactor) / (curr * corrFactor);
-            }
-            this._value = [this._value, value].reduce(cback);
-            return this;
-        },
-
-        difference: function(value) {
-            return Math.abs(numbro(this._value).subtract(value).value());
-        }
-
-    };
-
-    /************************************
-        Exposing Numbro
-    ************************************/
-
-    if (inNodejsRuntime()) {
-        //Todo: Rename the folder in 2.0.0
-        numbro.loadCulturesInNode();
-    }
-
-    // CommonJS module is defined
-    if (hasModule) {
-        module.exports = numbro;
-    } else {
-        /*global ender:false */
-        if (typeof ender === 'undefined') {
-            // here, `this` means `window` in the browser, or `global` on the server
-            // add `numbro` as a global object via a string identifier,
-            // for Closure Compiler 'advanced' mode
-            this.numbro = numbro;
-        }
-
-        /*global define:false */
-        if (true) {
-            !(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = (function() {
-                return numbro;
-            }).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-        }
-    }
-
-}.call(typeof window === 'undefined' ? this : window));
-
-
-/*** EXPORTS FROM exports-to-window-loader ***/
-window['numbro'] = __webpack_require__(434);
-
-/***/ }),
-/* 435 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-=======
-  _createClass(Selection, [{
-    key: 'getBorder',
-    value: function getBorder(wotInstance) {
-      if (!this.instanceBorders[wotInstance.guid]) {
-        this.instanceBorders[wotInstance.guid] = new _border2.default(wotInstance, this.settings);
-      }
-
-      return this.instanceBorders[wotInstance.guid];
-    }
-
-    /**
-     * Checks if selection is empty
-     *
-     * @returns {Boolean}
-     */
-
-  }, {
-    key: 'isEmpty',
-    value: function isEmpty() {
-      return this.cellRange === null;
-    }
-
-    /**
-     * Adds a cell coords to the selection
-     *
-     * @param {CellCoords} coords
-     */
-
-  }, {
-    key: 'add',
-    value: function add(coords) {
-      if (this.isEmpty()) {
-        this.cellRange = new _range2.default(coords);
-      } else {
-        this.cellRange.expand(coords);
-      }
-
-      return this;
-    }
-
-    /**
-     * If selection range from or to property equals oldCoords, replace it with newCoords. Return boolean
-     * information about success
-     *
-     * @param {CellCoords} oldCoords
-     * @param {CellCoords} newCoords
-     * @returns {Boolean}
-     */
-
-  }, {
-    key: 'replace',
-    value: function replace(oldCoords, newCoords) {
-      if (!this.isEmpty()) {
-        if (this.cellRange.from.isEqual(oldCoords)) {
-          this.cellRange.from = newCoords;
-
-          return true;
-        }
-        if (this.cellRange.to.isEqual(oldCoords)) {
-          this.cellRange.to = newCoords;
-
-          return true;
-        }
-      }
-
-      return false;
-    }
-
-    /**
-     * Clears selection
-     *
-     * @returns {Selection}
-     */
-
-  }, {
-    key: 'clear',
-    value: function clear() {
-      this.cellRange = null;
-
-      return this;
-    }
-
-    /**
-     * Returns the top left (TL) and bottom right (BR) selection coordinates
-     *
-     * @returns {Array} Returns array of coordinates for example `[1, 1, 5, 5]`
-     */
-
-  }, {
-    key: 'getCorners',
-    value: function getCorners() {
-      var topLeft = this.cellRange.getTopLeftCorner();
-      var bottomRight = this.cellRange.getBottomRightCorner();
-
-      return [topLeft.row, topLeft.col, bottomRight.row, bottomRight.col];
-    }
-
-    /**
-     * Adds class name to cell element at given coords
-     *
-     * @param {Walkontable} wotInstance Walkontable instance
-     * @param {Number} sourceRow Cell row coord
-     * @param {Number} sourceColumn Cell column coord
-     * @param {String} className Class name
-     * @param {Boolean} [markIntersections=false] If `true`, linear className generator will be used to add CSS classes
-     *                                            in a continuous way.
-     * @returns {Selection}
-     */
-
-  }, {
-    key: 'addClassAtCoords',
-    value: function addClassAtCoords(wotInstance, sourceRow, sourceColumn, className) {
-      var markIntersections = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : false;
-
-      var TD = wotInstance.wtTable.getCell(new _coords2.default(sourceRow, sourceColumn));
-
-      if ((typeof TD === 'undefined' ? 'undefined' : _typeof(TD)) === 'object') {
-        if (markIntersections) {
-          className = this.classNameGenerator(TD);
-
-          if (!this.classNames.includes(className)) {
-            this.classNames.push(className);
-          }
-        }
-
-        (0, _element.addClass)(TD, className);
-      }
-
-      return this;
-    }
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
-
 exports.__esModule = true;
 exports.getNormalizedDate = getNormalizedDate;
 /* eslint-disable import/prefer-default-export */
@@ -41198,7 +31470,7 @@ function getNormalizedDate(dateString) {
 }
 
 /***/ }),
-/* 436 */
+/* 435 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41225,21 +31497,10 @@ function getNormalizedDate(dateString) {
 
   var SheetClip = {
     /**
-<<<<<<< HEAD
      * Decode spreadsheet string into array
      *
      * @param {String} str
      * @returns {Array}
-=======
-     * Generate helper for calculating classNames based on previously added base className.
-     * The generated className is always generated as a continuation of the previous className. For example, when
-     * the currently checked element has 'area-2' className the generated new className will be 'area-3'. When
-     * the element doesn't have any classNames than the base className will be returned ('area');
-     *
-     * @param {String} baseClassName Base className to be used.
-     * @param {Number} layerLevelOwner Layer level which the instance of the Selection belongs to.
-     * @return {Function}
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
      */
     parse: function parse(str) {
       var r,
@@ -41252,7 +31513,6 @@ function getNormalizedDate(dateString) {
           multiline,
           last;
 
-<<<<<<< HEAD
       rows = str.split('\n');
 
       if (rows.length > 1 && rows[rows.length - 1] === '') {
@@ -41286,52 +31546,9 @@ function getNormalizedDate(dateString) {
         }
         if (!multiline) {
           a += 1;
-=======
-  }, {
-    key: 'linearClassNameGenerator',
-    value: function linearClassNameGenerator(baseClassName, layerLevelOwner) {
-      // TODO: Make this recursive function Proper Tail Calls (TCO/PTC) friendly.
-      return function calcClassName(element) {
-        var previousIndex = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : -1;
-
-        if (layerLevelOwner === 0 || previousIndex === 0) {
-          return baseClassName;
-        }
-
-        var index = previousIndex >= 0 ? previousIndex : layerLevelOwner;
-        var className = baseClassName;
-
-        index -= 1;
-
-        var previousClassName = index === 0 ? baseClassName : baseClassName + '-' + index;
-
-        if ((0, _element.hasClass)(element, previousClassName)) {
-          var currentLayer = index + 1;
-
-          className = baseClassName + '-' + currentLayer;
-        } else {
-          className = calcClassName(element, index);
-        }
-
-        return className;
-      };
-    }
-
-    /**
-     * @param wotInstance
-     */
-
-  }, {
-    key: 'draw',
-    value: function draw(wotInstance) {
-      if (this.isEmpty()) {
-        if (this.settings.border) {
-          this.getBorder(wotInstance).disappear();
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
         }
       }
 
-<<<<<<< HEAD
       return arr;
     },
 
@@ -41390,115 +31607,12 @@ function getNormalizedDate(dateString) {
 })(window);
 
 /***/ }),
-/* 437 */
-=======
-        return;
-      }
-
-      var renderedRows = wotInstance.wtTable.getRenderedRowsCount();
-      var renderedColumns = wotInstance.wtTable.getRenderedColumnsCount();
-      var corners = this.getCorners();
-
-      var _corners = _slicedToArray(corners, 4),
-          topRow = _corners[0],
-          topColumn = _corners[1],
-          bottomRow = _corners[2],
-          bottomColumn = _corners[3];
-
-      for (var column = 0; column < renderedColumns; column += 1) {
-        var sourceCol = wotInstance.wtTable.columnFilter.renderedToSource(column);
-
-        if (sourceCol >= topColumn && sourceCol <= bottomColumn) {
-          var TH = wotInstance.wtTable.getColumnHeader(sourceCol);
-
-          if (TH) {
-            var newClasses = [];
-
-            if (this.settings.highlightHeaderClassName) {
-              newClasses.push(this.settings.highlightHeaderClassName);
-            }
-
-            if (this.settings.highlightColumnClassName) {
-              newClasses.push(this.settings.highlightColumnClassName);
-            }
-
-            (0, _element.addClass)(TH, newClasses);
-          }
-        }
-      }
-
-      for (var row = 0; row < renderedRows; row += 1) {
-        var sourceRow = wotInstance.wtTable.rowFilter.renderedToSource(row);
-
-        if (sourceRow >= topRow && sourceRow <= bottomRow) {
-          var _TH = wotInstance.wtTable.getRowHeader(sourceRow);
-
-          if (_TH) {
-            var _newClasses = [];
-
-            if (this.settings.highlightHeaderClassName) {
-              _newClasses.push(this.settings.highlightHeaderClassName);
-            }
-
-            if (this.settings.highlightRowClassName) {
-              _newClasses.push(this.settings.highlightRowClassName);
-            }
-
-            (0, _element.addClass)(_TH, _newClasses);
-          }
-        }
-
-        for (var _column = 0; _column < renderedColumns; _column += 1) {
-          var _sourceCol = wotInstance.wtTable.columnFilter.renderedToSource(_column);
-
-          if (sourceRow >= topRow && sourceRow <= bottomRow && _sourceCol >= topColumn && _sourceCol <= bottomColumn) {
-            // selected cell
-            if (this.settings.className) {
-              this.addClassAtCoords(wotInstance, sourceRow, _sourceCol, this.settings.className, this.settings.markIntersections);
-            }
-          } else if (sourceRow >= topRow && sourceRow <= bottomRow) {
-            // selection is in this row
-            if (this.settings.highlightRowClassName) {
-              this.addClassAtCoords(wotInstance, sourceRow, _sourceCol, this.settings.highlightRowClassName);
-            }
-          } else if (_sourceCol >= topColumn && _sourceCol <= bottomColumn) {
-            // selection is in this column
-            if (this.settings.highlightColumnClassName) {
-              this.addClassAtCoords(wotInstance, sourceRow, _sourceCol, this.settings.highlightColumnClassName);
-            }
-          }
-
-          var additionalSelectionClass = wotInstance.getSetting('onAfterDrawSelection', sourceRow, _sourceCol, corners, this.settings.layerLevel);
-
-          if (typeof additionalSelectionClass === 'string') {
-            this.addClassAtCoords(wotInstance, sourceRow, _sourceCol, additionalSelectionClass);
-          }
-        }
-      }
-
-      wotInstance.getSetting('onBeforeDrawBorders', corners, this.settings.className);
-
-      if (this.settings.border) {
-        // warning! border.appear modifies corners!
-        this.getBorder(wotInstance).appear(corners);
-      }
-    }
-  }]);
-
-  return Selection;
-}();
-
-exports.default = Selection;
-
-/***/ }),
-/* 477 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 436 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-<<<<<<< HEAD
 exports.__esModule = true;
 exports.mouseDown = mouseDown;
 exports.mouseOver = mouseOver;
@@ -41546,101 +31660,10 @@ function mouseDown(_ref) {
       selection.selectRows(currentSelection.from.row, coords.row);
     } else if ((!selectedCorner && !selectedRow && coords.row < 0 || selectedRow && coords.row < 0) && !controller.column) {
       selection.selectColumns(currentSelection.from.col, coords.col);
-=======
-/**
- * autoResize - resizes a DOM element to the width and height of another DOM element
- *
- * Copyright 2014, Marcin Warpechowski
- * Licensed under the MIT license
- */
-
-function autoResize() {
-  var defaults = {
-    minHeight: 200,
-    maxHeight: 300,
-    minWidth: 100,
-    maxWidth: 300
-  },
-      el,
-      body = document.body,
-      text = document.createTextNode(''),
-      span = document.createElement('SPAN'),
-      observe = function observe(element, event, handler) {
-    if (element.attachEvent) {
-      element.attachEvent('on' + event, handler);
-    } else {
-      element.addEventListener(event, handler, false);
-    }
-  },
-      _unObserve = function _unObserve(element, event, handler) {
-    if (element.removeEventListener) {
-      element.removeEventListener(event, handler, false);
-    } else {
-      element.detachEvent('on' + event, handler);
-    }
-  },
-      resize = function resize(newChar) {
-    var width, scrollHeight;
-
-    if (!newChar) {
-      newChar = "";
-    } else if (!/^[a-zA-Z \.,\\\/\|0-9]$/.test(newChar)) {
-      newChar = ".";
-    }
-
-    if (text.textContent !== void 0) {
-      text.textContent = el.value + newChar;
-    } else {
-      text.data = el.value + newChar; //IE8
-    }
-    span.style.fontSize = getComputedStyle(el).fontSize;
-    span.style.fontFamily = getComputedStyle(el).fontFamily;
-    span.style.whiteSpace = "pre";
-
-    body.appendChild(span);
-    width = span.clientWidth + 2;
-    body.removeChild(span);
-
-    el.style.height = defaults.minHeight + 'px';
-
-    if (defaults.minWidth > width) {
-      el.style.width = defaults.minWidth + 'px';
-    } else if (width > defaults.maxWidth) {
-      el.style.width = defaults.maxWidth + 'px';
-    } else {
-      el.style.width = width + 'px';
-    }
-    scrollHeight = el.scrollHeight ? el.scrollHeight - 1 : 0;
-
-    if (defaults.minHeight > scrollHeight) {
-      el.style.height = defaults.minHeight + 'px';
-    } else if (defaults.maxHeight < scrollHeight) {
-      el.style.height = defaults.maxHeight + 'px';
-      el.style.overflowY = 'visible';
-    } else {
-      el.style.height = scrollHeight + 'px';
-    }
-  },
-      delayedResize = function delayedResize() {
-    window.setTimeout(resize, 0);
-  },
-      extendDefaults = function extendDefaults(config) {
-
-    if (config && config.minHeight) {
-      if (config.minHeight == 'inherit') {
-        defaults.minHeight = el.clientHeight;
-      } else {
-        var minHeight = parseInt(config.minHeight);
-        if (!isNaN(minHeight)) {
-          defaults.minHeight = minHeight;
-        }
-      }
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
     }
   } else {
     var newCoord = new _src.CellCoords(coords.row, coords.col);
 
-<<<<<<< HEAD
     if (newCoord.row < 0) {
       newCoord.row = 0;
     }
@@ -41734,235 +31757,22 @@ function handleMouseEvent(event, _ref3) {
 }
 
 /***/ }),
-/* 438 */
-/***/ (function(module, exports, __webpack_require__) {
-=======
-    if (config && config.maxHeight) {
-      if (config.maxHeight == 'inherit') {
-        defaults.maxHeight = el.clientHeight;
-      } else {
-        var maxHeight = parseInt(config.maxHeight);
-        if (!isNaN(maxHeight)) {
-          defaults.maxHeight = maxHeight;
-        }
-      }
-    }
-
-    if (config && config.minWidth) {
-      if (config.minWidth == 'inherit') {
-        defaults.minWidth = el.clientWidth;
-      } else {
-        var minWidth = parseInt(config.minWidth);
-        if (!isNaN(minWidth)) {
-          defaults.minWidth = minWidth;
-        }
-      }
-    }
-
-    if (config && config.maxWidth) {
-      if (config.maxWidth == 'inherit') {
-        defaults.maxWidth = el.clientWidth;
-      } else {
-        var maxWidth = parseInt(config.maxWidth);
-        if (!isNaN(maxWidth)) {
-          defaults.maxWidth = maxWidth;
-        }
-      }
-    }
-
-    if (!span.firstChild) {
-      span.className = "autoResize";
-      span.style.display = 'inline-block';
-      span.appendChild(text);
-    }
-  },
-      _init = function _init(el_, config, doObserve) {
-    el = el_;
-    extendDefaults(config);
-
-    if (el.nodeName == 'TEXTAREA') {
-
-      el.style.resize = 'none';
-      el.style.overflowY = '';
-      el.style.height = defaults.minHeight + 'px';
-      el.style.minWidth = defaults.minWidth + 'px';
-      el.style.maxWidth = defaults.maxWidth + 'px';
-      el.style.overflowY = 'hidden';
-    }
-
-    if (doObserve) {
-      observe(el, 'change', resize);
-      observe(el, 'cut', delayedResize);
-      observe(el, 'paste', delayedResize);
-      observe(el, 'drop', delayedResize);
-      observe(el, 'keydown', delayedResize);
-      observe(el, 'focus', resize);
-    }
-
-    resize();
-  };
-
-  function getComputedStyle(element) {
-    return element.currentStyle || document.defaultView.getComputedStyle(element);
-  }
-
-  return {
-    init: function init(el_, config, doObserve) {
-      _init(el_, config, doObserve);
-    },
-    unObserve: function unObserve() {
-      _unObserve(el, 'change', resize);
-      _unObserve(el, 'cut', delayedResize);
-      _unObserve(el, 'paste', delayedResize);
-      _unObserve(el, 'drop', delayedResize);
-      _unObserve(el, 'keydown', delayedResize);
-      _unObserve(el, 'focus', resize);
-    },
-    resize: resize
-  };
-}
-
-if (true) {
-  module.exports = autoResize;
-}
-
-/***/ }),
-/* 478 */
+/* 437 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-exports.__esModule = true;
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _baseEditor = __webpack_require__(54);
-
-var _baseEditor2 = _interopRequireDefault(_baseEditor);
-
-var _element = __webpack_require__(0);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-/**
- * @private
- * @editor CheckboxEditor
- * @class CheckboxEditor
- */
-var CheckboxEditor = function (_BaseEditor) {
-  _inherits(CheckboxEditor, _BaseEditor);
-
-  function CheckboxEditor() {
-    _classCallCheck(this, CheckboxEditor);
-
-    return _possibleConstructorReturn(this, (CheckboxEditor.__proto__ || Object.getPrototypeOf(CheckboxEditor)).apply(this, arguments));
-  }
-
-  _createClass(CheckboxEditor, [{
-    key: 'beginEditing',
-    value: function beginEditing(initialValue, event) {
-      // Just some events connected with checkbox editor are delegated here. Some `keydown` events like `enter` and `space` key press
-      // are handled inside `checkboxRenderer`. Some events come here from `editorManager`. Below `if` statement was created by author
-      // for purpose of handling only `doubleclick` event which may be done on a cell with checkbox.
-
-      if (event.type === 'mouseup') {
-        var checkbox = this.TD.querySelector('input[type="checkbox"]');
-
-        if (!(0, _element.hasClass)(checkbox, 'htBadValue')) {
-          checkbox.click();
-        }
-      }
-    }
-  }, {
-    key: 'finishEditing',
-    value: function finishEditing() {}
-  }, {
-    key: 'init',
-    value: function init() {}
-  }, {
-    key: 'open',
-    value: function open() {}
-  }, {
-    key: 'close',
-    value: function close() {}
-  }, {
-    key: 'getValue',
-    value: function getValue() {}
-  }, {
-    key: 'setValue',
-    value: function setValue() {}
-  }, {
-    key: 'focus',
-    value: function focus() {}
-  }]);
-
-  return CheckboxEditor;
-}(_baseEditor2.default);
-
-exports.default = CheckboxEditor;
-
-/***/ }),
-/* 479 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.__esModule = true;
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
-
-var _moment = __webpack_require__(47);
-
-var _moment2 = _interopRequireDefault(_moment);
-
-var _pikaday = __webpack_require__(480);
-
-var _pikaday2 = _interopRequireDefault(_pikaday);
-
-__webpack_require__(483);
-
-var _element = __webpack_require__(0);
-
-var _object = __webpack_require__(2);
-
-var _eventManager = __webpack_require__(6);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
-
-var _eventManager2 = _interopRequireDefault(_eventManager);
-
-var _unicode = __webpack_require__(21);
-
-<<<<<<< HEAD
 exports.__esModule = true;
 exports.RecordTranslator = undefined;
-=======
-var _event = __webpack_require__(12);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
-var _textEditor = __webpack_require__(57);
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-<<<<<<< HEAD
 exports.registerIdentity = registerIdentity;
 exports.getTranslator = getTranslator;
-=======
-var _textEditor2 = _interopRequireDefault(_textEditor);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _core = __webpack_require__(88);
 
-var _core = __webpack_require__(89);
-
-<<<<<<< HEAD
 var _core2 = _interopRequireDefault(_core);
 
 var _object = __webpack_require__(2);
@@ -41987,32 +31797,9 @@ var RecordTranslator = function () {
    *
    * @param {Number} row Physical row index.
    * @returns {Number} Returns visual row index.
-=======
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-/**
- * @private
- * @editor DateEditor
- * @class DateEditor
- * @dependencies TextEditor moment pikaday
- */
-var DateEditor = function (_TextEditor) {
-  _inherits(DateEditor, _TextEditor);
-
-  /**
-   * @param {Core} hotInstance Handsontable instance
-   * @private
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
    */
-  function DateEditor(hotInstance) {
-    _classCallCheck(this, DateEditor);
 
-    // TODO: Move this option to general settings
-    var _this = _possibleConstructorReturn(this, (DateEditor.__proto__ || Object.getPrototypeOf(DateEditor)).call(this, hotInstance));
 
-<<<<<<< HEAD
   _createClass(RecordTranslator, [{
     key: 'toVisualRow',
     value: function toVisualRow(row) {
@@ -42108,109 +31895,9 @@ var DateEditor = function (_TextEditor) {
       }
 
       return result;
-=======
-    _this.defaultDateFormat = 'DD/MM/YYYY';
-    _this.isCellEdited = false;
-    _this.parentDestroyed = false;
-    return _this;
-  }
-
-  _createClass(DateEditor, [{
-    key: 'init',
-    value: function init() {
-      var _this2 = this;
-
-      if (typeof _moment2.default !== 'function') {
-        throw new Error('You need to include moment.js to your project.');
-      }
-
-      if (typeof _pikaday2.default !== 'function') {
-        throw new Error('You need to include Pikaday to your project.');
-      }
-      _get(DateEditor.prototype.__proto__ || Object.getPrototypeOf(DateEditor.prototype), 'init', this).call(this);
-      this.instance.addHook('afterDestroy', function () {
-        _this2.parentDestroyed = true;
-        _this2.destroyElements();
-      });
-    }
-
-    /**
-     * Create data picker instance
-     */
-
-  }, {
-    key: 'createElements',
-    value: function createElements() {
-      _get(DateEditor.prototype.__proto__ || Object.getPrototypeOf(DateEditor.prototype), 'createElements', this).call(this);
-
-      this.datePicker = document.createElement('DIV');
-      this.datePickerStyle = this.datePicker.style;
-      this.datePickerStyle.position = 'absolute';
-      this.datePickerStyle.top = 0;
-      this.datePickerStyle.left = 0;
-      this.datePickerStyle.zIndex = 9999;
-
-      (0, _element.addClass)(this.datePicker, 'htDatepickerHolder');
-      document.body.appendChild(this.datePicker);
-
-      this.$datePicker = new _pikaday2.default(this.getDatePickerConfig());
-      var eventManager = new _eventManager2.default(this);
-
-      /**
-       * Prevent recognizing clicking on datepicker as clicking outside of table
-       */
-      eventManager.addEventListener(this.datePicker, 'mousedown', function (event) {
-        return (0, _event.stopPropagation)(event);
-      });
-      this.hideDatepicker();
-    }
-
-    /**
-     * Destroy data picker instance
-     */
-
-  }, {
-    key: 'destroyElements',
-    value: function destroyElements() {
-      this.$datePicker.destroy();
-    }
-
-    /**
-     * Prepare editor to appear
-     *
-     * @param {Number} row Row index
-     * @param {Number} col Column index
-     * @param {String} prop Property name (passed when datasource is an array of objects)
-     * @param {HTMLTableCellElement} td Table cell element
-     * @param {*} originalValue Original value
-     * @param {Object} cellProperties Object with cell properties ({@see Core#getCellMeta})
-     */
-
-  }, {
-    key: 'prepare',
-    value: function prepare(row, col, prop, td, originalValue, cellProperties) {
-      this._opened = false;
-      _get(DateEditor.prototype.__proto__ || Object.getPrototypeOf(DateEditor.prototype), 'prepare', this).call(this, row, col, prop, td, originalValue, cellProperties);
-    }
-
-    /**
-     * Open editor
-     *
-     * @param {Event} [event=null]
-     */
-
-  }, {
-    key: 'open',
-    value: function open() {
-      var event = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : null;
-
-      _get(DateEditor.prototype.__proto__ || Object.getPrototypeOf(DateEditor.prototype), 'open', this).call(this);
-      this.showDatepicker(event);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
     }
   }]);
 
-<<<<<<< HEAD
   return RecordTranslator;
 }();
 
@@ -42230,108 +31917,6 @@ function getTranslator(identity) {
   if (!(identity instanceof _core2.default)) {
     if (!identities.has(identity)) {
       throw Error('Record translator was not registered for this object identity');
-=======
-    /**
-     * Close editor
-     */
-
-  }, {
-    key: 'close',
-    value: function close() {
-      var _this3 = this;
-
-      this._opened = false;
-      this.instance._registerTimeout(setTimeout(function () {
-        _this3.instance._refreshBorders();
-      }, 0));
-
-      _get(DateEditor.prototype.__proto__ || Object.getPrototypeOf(DateEditor.prototype), 'close', this).call(this);
-    }
-
-    /**
-     * @param {Boolean} [isCancelled=false]
-     * @param {Boolean} [ctrlDown=false]
-     */
-
-  }, {
-    key: 'finishEditing',
-    value: function finishEditing() {
-      var isCancelled = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
-      var ctrlDown = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-
-      if (isCancelled) {
-        // pressed ESC, restore original value
-        // var value = this.instance.getDataAtCell(this.row, this.col);
-        var value = this.originalValue;
-
-        if (value !== void 0) {
-          this.setValue(value);
-        }
-      }
-      this.hideDatepicker();
-      _get(DateEditor.prototype.__proto__ || Object.getPrototypeOf(DateEditor.prototype), 'finishEditing', this).call(this, isCancelled, ctrlDown);
-    }
-
-    /**
-     * Show data picker
-     *
-     * @param {Event} event
-     */
-
-  }, {
-    key: 'showDatepicker',
-    value: function showDatepicker(event) {
-      this.$datePicker.config(this.getDatePickerConfig());
-
-      var offset = this.TD.getBoundingClientRect();
-      var dateFormat = this.cellProperties.dateFormat || this.defaultDateFormat;
-      var datePickerConfig = this.$datePicker.config();
-      var dateStr = void 0;
-      var isMouseDown = this.instance.view.isMouseDown();
-      var isMeta = event ? (0, _unicode.isMetaKey)(event.keyCode) : false;
-
-      this.datePickerStyle.top = window.pageYOffset + offset.top + (0, _element.outerHeight)(this.TD) + 'px';
-      this.datePickerStyle.left = window.pageXOffset + offset.left + 'px';
-
-      this.$datePicker._onInputFocus = function () {};
-      datePickerConfig.format = dateFormat;
-
-      if (this.originalValue) {
-        dateStr = this.originalValue;
-
-        if ((0, _moment2.default)(dateStr, dateFormat, true).isValid()) {
-          this.$datePicker.setMoment((0, _moment2.default)(dateStr, dateFormat), true);
-        }
-
-        // workaround for date/time cells - pikaday resets the cell value to 12:00 AM by default, this will overwrite the value.
-        if (this.getValue() !== this.originalValue) {
-          this.setValue(this.originalValue);
-        }
-
-        if (!isMeta && !isMouseDown) {
-          this.setValue('');
-        }
-      } else if (this.cellProperties.defaultDate) {
-        dateStr = this.cellProperties.defaultDate;
-
-        datePickerConfig.defaultDate = dateStr;
-
-        if ((0, _moment2.default)(dateStr, dateFormat, true).isValid()) {
-          this.$datePicker.setMoment((0, _moment2.default)(dateStr, dateFormat), true);
-        }
-
-        if (!isMeta && !isMouseDown) {
-          this.setValue('');
-        }
-      } else {
-        // if a default date is not defined, set a soft-default-date: display the current day and month in the
-        // datepicker, but don't fill the editor input
-        this.$datePicker.gotoToday();
-      }
-
-      this.datePickerStyle.display = 'block';
-      this.$datePicker.show();
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
     }
     identity = identities.get(identity);
   }
@@ -42342,12 +31927,11 @@ function getTranslator(identity) {
     translatorSingletons.set(identity, singleton);
   }
 
-<<<<<<< HEAD
   return singleton;
 }
 
 /***/ }),
-/* 439 */
+/* 438 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42391,112 +31975,14 @@ function isRootInstance(object) {
 }
 
 /***/ }),
-/* 440 */
-=======
-    /**
-     * Hide data picker
-     */
-
-  }, {
-    key: 'hideDatepicker',
-    value: function hideDatepicker() {
-      this.datePickerStyle.display = 'none';
-      this.$datePicker.hide();
-    }
-
-    /**
-     * Get date picker options.
-     *
-     * @returns {Object}
-     */
-
-  }, {
-    key: 'getDatePickerConfig',
-    value: function getDatePickerConfig() {
-      var _this4 = this;
-
-      var htInput = this.TEXTAREA;
-      var options = {};
-
-      if (this.cellProperties && this.cellProperties.datePickerConfig) {
-        (0, _object.deepExtend)(options, this.cellProperties.datePickerConfig);
-      }
-      var origOnSelect = options.onSelect;
-      var origOnClose = options.onClose;
-
-      options.field = htInput;
-      options.trigger = htInput;
-      options.container = this.datePicker;
-      options.bound = false;
-      options.format = options.format || this.defaultDateFormat;
-      options.reposition = options.reposition || false;
-      options.onSelect = function (dateStr) {
-        if (!isNaN(dateStr.getTime())) {
-          dateStr = (0, _moment2.default)(dateStr).format(_this4.cellProperties.dateFormat || _this4.defaultDateFormat);
-        }
-        _this4.setValue(dateStr);
-        _this4.hideDatepicker();
-
-        if (origOnSelect) {
-          origOnSelect();
-        }
-      };
-      options.onClose = function () {
-        if (!_this4.parentDestroyed) {
-          _this4.finishEditing(false);
-        }
-        if (origOnClose) {
-          origOnClose();
-        }
-      };
-
-      return options;
-    }
-  }]);
-
-  return DateEditor;
-}(_textEditor2.default);
-
-exports.default = DateEditor;
-
-/***/ }),
-/* 480 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 439 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/*!
- * Pikaday
- *
- * Copyright © 2014 David Bushell | BSD & MIT license | https://github.com/dbushell/Pikaday
- */
+"use strict";
 
-(function (root, factory)
-{
-    'use strict';
 
-    var moment;
-    if (true) {
-        // CommonJS module
-        // Load moment.js as an optional dependency
-        try { moment = __webpack_require__(481); } catch (e) {}
-        module.exports = factory(moment);
-    } else if (typeof define === 'function' && define.amd) {
-        // AMD. Register as an anonymous module.
-        define(function (req)
-        {
-            // Load moment.js as an optional dependency
-            var id = 'moment';
-            try { moment = req(id); } catch (e) {}
-            return factory(moment);
-        });
-    } else {
-        root.Pikaday = factory(root.moment);
-    }
-}(this, function (moment)
-{
-    'use strict';
+exports.__esModule = true;
 
-<<<<<<< HEAD
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 var _mixed = __webpack_require__(11);
@@ -44610,7 +34096,7 @@ DefaultSettings.prototype = {
 exports.default = DefaultSettings;
 
 /***/ }),
-/* 441 */
+/* 440 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44623,7 +34109,7 @@ var _array = __webpack_require__(1);
 
 var _dictionariesManager = __webpack_require__(71);
 
-var _phraseFormatters = __webpack_require__(517);
+var _phraseFormatters = __webpack_require__(516);
 
 var _mixed = __webpack_require__(11);
 
@@ -44679,7 +34165,7 @@ function getFormattedPhrase(phrasePropositions, argumentsForFormatters) {
 }
 
 /***/ }),
-/* 442 */
+/* 441 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44699,9 +34185,9 @@ var _mixed = __webpack_require__(11);
 
 var _object = __webpack_require__(2);
 
-var _console = __webpack_require__(57);
+var _console = __webpack_require__(56);
 
-var _templateLiteralTag = __webpack_require__(42);
+var _templateLiteralTag = __webpack_require__(41);
 
 var _dictionariesManager = __webpack_require__(71);
 
@@ -44802,7 +34288,7 @@ function warnUserAboutLanguageRegistration(languageCode) {
 }
 
 /***/ }),
-/* 443 */
+/* 442 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44912,7 +34398,7 @@ exports.startObserving = startObserving;
 exports.stopObserving = stopObserving;
 
 /***/ }),
-/* 444 */
+/* 443 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44923,7 +34409,7 @@ exports.HEADER_TYPE = exports.FILL_TYPE = exports.CELL_TYPE = exports.AREA_TYPE 
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _types = __webpack_require__(520);
+var _types = __webpack_require__(519);
 
 var _array = __webpack_require__(1);
 
@@ -45230,7 +34716,7 @@ var Highlight = function () {
 exports.default = Highlight;
 
 /***/ }),
-/* 445 */
+/* 444 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45464,7 +34950,7 @@ var SamplesGenerator = function () {
 exports.default = SamplesGenerator;
 
 /***/ }),
-/* 446 */
+/* 445 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45684,7 +35170,7 @@ var BaseUI = function () {
 exports.default = BaseUI;
 
 /***/ }),
-/* 447 */
+/* 446 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45902,7 +35388,7 @@ var BaseUI = function () {
 exports.default = BaseUI;
 
 /***/ }),
-/* 448 */
+/* 447 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45939,7 +35425,7 @@ function applySpanProperties(TD, mergedCellInfo, row, col) {
 }
 
 /***/ }),
-/* 449 */
+/* 448 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46544,7 +36030,7 @@ if (true) {
 }
 
 /***/ }),
-/* 450 */
+/* 449 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46552,17 +36038,19 @@ if (true) {
 
 exports.__esModule = true;
 
-__webpack_require__(98);
+__webpack_require__(97);
+
+__webpack_require__(112);
 
 __webpack_require__(113);
 
-__webpack_require__(114);
+__webpack_require__(117);
 
 __webpack_require__(118);
 
-__webpack_require__(119);
+__webpack_require__(120);
 
-__webpack_require__(121);
+__webpack_require__(123);
 
 __webpack_require__(124);
 
@@ -46598,9 +36086,9 @@ __webpack_require__(139);
 
 __webpack_require__(140);
 
-__webpack_require__(141);
+__webpack_require__(142);
 
-__webpack_require__(143);
+__webpack_require__(144);
 
 __webpack_require__(145);
 
@@ -46626,13 +36114,13 @@ __webpack_require__(155);
 
 __webpack_require__(156);
 
-__webpack_require__(157);
+__webpack_require__(85);
 
-__webpack_require__(86);
+__webpack_require__(157);
 
 __webpack_require__(158);
 
-__webpack_require__(159);
+__webpack_require__(160);
 
 __webpack_require__(161);
 
@@ -46646,13 +36134,11 @@ __webpack_require__(165);
 
 __webpack_require__(166);
 
-__webpack_require__(167);
+__webpack_require__(168);
 
 __webpack_require__(169);
 
 __webpack_require__(170);
-
-__webpack_require__(171);
 
 __webpack_require__(173);
 
@@ -46660,25 +36146,25 @@ __webpack_require__(174);
 
 __webpack_require__(175);
 
+__webpack_require__(468);
+
 __webpack_require__(469);
 
 __webpack_require__(470);
-
-__webpack_require__(471);
 
 var _editors = __webpack_require__(17);
 
 var _renderers = __webpack_require__(14);
 
-var _validators = __webpack_require__(28);
+var _validators = __webpack_require__(29);
 
-var _cellTypes = __webpack_require__(88);
+var _cellTypes = __webpack_require__(87);
 
-var _core = __webpack_require__(89);
+var _core = __webpack_require__(88);
 
 var _core2 = _interopRequireDefault(_core);
 
-var _jquery = __webpack_require__(529);
+var _jquery = __webpack_require__(528);
 
 var _jquery2 = _interopRequireDefault(_jquery);
 
@@ -46690,7 +36176,7 @@ var _pluginHooks = __webpack_require__(16);
 
 var _pluginHooks2 = _interopRequireDefault(_pluginHooks);
 
-var _ghostTable = __webpack_require__(93);
+var _ghostTable = __webpack_require__(92);
 
 var _ghostTable2 = _interopRequireDefault(_ghostTable);
 
@@ -46698,23 +36184,23 @@ var _array = __webpack_require__(1);
 
 var arrayHelpers = _interopRequireWildcard(_array);
 
-var _browser = __webpack_require__(27);
+var _browser = __webpack_require__(28);
 
 var browserHelpers = _interopRequireWildcard(_browser);
 
-var _data = __webpack_require__(91);
+var _data = __webpack_require__(90);
 
 var dataHelpers = _interopRequireWildcard(_data);
 
-var _date = __webpack_require__(435);
+var _date = __webpack_require__(434);
 
 var dateHelpers = _interopRequireWildcard(_date);
 
-var _feature = __webpack_require__(41);
+var _feature = __webpack_require__(40);
 
 var featureHelpers = _interopRequireWildcard(_feature);
 
-var _function = __webpack_require__(43);
+var _function = __webpack_require__(42);
 
 var functionHelpers = _interopRequireWildcard(_function);
 
@@ -46730,7 +36216,7 @@ var _object = __webpack_require__(2);
 
 var objectHelpers = _interopRequireWildcard(_object);
 
-var _setting = __webpack_require__(90);
+var _setting = __webpack_require__(89);
 
 var settingHelpers = _interopRequireWildcard(_setting);
 
@@ -46750,19 +36236,19 @@ var _event = __webpack_require__(13);
 
 var domEventHelpers = _interopRequireWildcard(_event);
 
-var _index = __webpack_require__(530);
+var _index = __webpack_require__(529);
 
 var plugins = _interopRequireWildcard(_index);
 
 var _plugins = __webpack_require__(8);
 
-var _defaultSettings = __webpack_require__(440);
+var _defaultSettings = __webpack_require__(439);
 
 var _defaultSettings2 = _interopRequireDefault(_defaultSettings);
 
-var _rootInstance = __webpack_require__(439);
+var _rootInstance = __webpack_require__(438);
 
-var _i18n = __webpack_require__(441);
+var _i18n = __webpack_require__(440);
 
 var _constants = __webpack_require__(7);
 
@@ -46789,7 +36275,7 @@ Handsontable.DefaultSettings = _defaultSettings2.default;
 Handsontable.EventManager = _eventManager2.default;
 Handsontable._getListenersCounter = _eventManager.getListenersCounter; // For MemoryLeak tests
 
-Handsontable.buildDate = '09/05/2018 15:18:34';
+Handsontable.buildDate = '04/06/2018 17:02:51';
 Handsontable.packageName = 'handsontable';
 Handsontable.version = '3.0.0';
 
@@ -46905,7 +36391,7 @@ Handsontable.languages.getTranslatedPhrase = function () {
 exports.default = Handsontable;
 
 /***/ }),
-/* 451 */
+/* 450 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var dP = __webpack_require__(20);
@@ -46924,14 +36410,14 @@ module.exports = __webpack_require__(22) ? Object.defineProperties : function de
 
 
 /***/ }),
-/* 452 */
+/* 451 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var create = __webpack_require__(74);
-var descriptor = __webpack_require__(51);
-var setToStringTag = __webpack_require__(53);
+var descriptor = __webpack_require__(50);
+var setToStringTag = __webpack_require__(52);
 var IteratorPrototype = {};
 
 // 25.1.2.1.1 %IteratorPrototype%[@@iterator]()
@@ -46944,11 +36430,11 @@ module.exports = function (Constructor, NAME, next) {
 
 
 /***/ }),
-/* 453 */
+/* 452 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var isObject = __webpack_require__(9);
-var setPrototypeOf = __webpack_require__(112).set;
+var setPrototypeOf = __webpack_require__(111).set;
 module.exports = function (that, target, C) {
   var S = target.constructor;
   var P;
@@ -46959,11 +36445,11 @@ module.exports = function (that, target, C) {
 
 
 /***/ }),
-/* 454 */
+/* 453 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 9.4.2.3 ArraySpeciesCreate(originalArray, length)
-var speciesConstructor = __webpack_require__(455);
+var speciesConstructor = __webpack_require__(454);
 
 module.exports = function (original, length) {
   return new (speciesConstructor(original))(length);
@@ -46971,11 +36457,11 @@ module.exports = function (original, length) {
 
 
 /***/ }),
-/* 455 */
+/* 454 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var isObject = __webpack_require__(9);
-var isArray = __webpack_require__(115);
+var isArray = __webpack_require__(114);
 var SPECIES = __webpack_require__(12)('species');
 
 module.exports = function (original) {
@@ -46993,12 +36479,12 @@ module.exports = function (original) {
 
 
 /***/ }),
-/* 456 */
+/* 455 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.3.20 SpeciesConstructor(O, defaultConstructor)
 var anObject = __webpack_require__(18);
-var aFunction = __webpack_require__(63);
+var aFunction = __webpack_require__(62);
 var SPECIES = __webpack_require__(12)('species');
 module.exports = function (O, D) {
   var C = anObject(O).constructor;
@@ -47008,7 +36494,7 @@ module.exports = function (O, D) {
 
 
 /***/ }),
-/* 457 */
+/* 456 */
 /***/ (function(module, exports) {
 
 // fast apply, http://jsperf.lnkit.com/fast-apply/5
@@ -47030,7 +36516,7 @@ module.exports = function (fn, args, that) {
 
 
 /***/ }),
-/* 458 */
+/* 457 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var global = __webpack_require__(15);
@@ -47038,7 +36524,7 @@ var macrotask = __webpack_require__(80).set;
 var Observer = global.MutationObserver || global.WebKitMutationObserver;
 var process = global.process;
 var Promise = global.Promise;
-var isNode = __webpack_require__(44)(process) == 'process';
+var isNode = __webpack_require__(43)(process) == 'process';
 
 module.exports = function () {
   var head, last, notify;
@@ -47075,8 +36561,7 @@ module.exports = function () {
     };
   // environments with maybe non-completely correct, but existent Promise
   } else if (Promise && Promise.resolve) {
-    // Promise.resolve without an argument throws an error in LG WebOS 2
-    var promise = Promise.resolve(undefined);
+    var promise = Promise.resolve();
     notify = function () {
       promise.then(flush);
     };
@@ -47105,7 +36590,7 @@ module.exports = function () {
 
 
 /***/ }),
-/* 459 */
+/* 458 */
 /***/ (function(module, exports) {
 
 module.exports = function (exec) {
@@ -47118,12 +36603,12 @@ module.exports = function (exec) {
 
 
 /***/ }),
-/* 460 */
+/* 459 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var anObject = __webpack_require__(18);
 var isObject = __webpack_require__(9);
-var newPromiseCapability = __webpack_require__(120);
+var newPromiseCapability = __webpack_require__(119);
 
 module.exports = function (C, x) {
   anObject(C);
@@ -47136,13 +36621,13 @@ module.exports = function (C, x) {
 
 
 /***/ }),
-/* 461 */
+/* 460 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var global = __webpack_require__(15);
-var core = __webpack_require__(39);
-var LIBRARY = __webpack_require__(49);
-var wksExt = __webpack_require__(122);
+var core = __webpack_require__(44);
+var LIBRARY = __webpack_require__(65);
+var wksExt = __webpack_require__(121);
 var defineProperty = __webpack_require__(20).f;
 module.exports = function (name) {
   var $Symbol = core.Symbol || (core.Symbol = LIBRARY ? {} : global.Symbol || {});
@@ -47151,13 +36636,13 @@ module.exports = function (name) {
 
 
 /***/ }),
-/* 462 */
+/* 461 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // all enumerable object keys, includes symbols
 var getKeys = __webpack_require__(37);
 var gOPS = __webpack_require__(69);
-var pIE = __webpack_require__(54);
+var pIE = __webpack_require__(53);
 module.exports = function (it) {
   var result = getKeys(it);
   var getSymbols = gOPS.f;
@@ -47172,7 +36657,7 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 463 */
+/* 462 */
 /***/ (function(module, exports) {
 
 // 7.2.9 SameValue(x, y)
@@ -47183,10 +36668,10 @@ module.exports = Object.is || function is(x, y) {
 
 
 /***/ }),
-/* 464 */
+/* 463 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var toInteger = __webpack_require__(60);
+var toInteger = __webpack_require__(59);
 var defined = __webpack_require__(38);
 // true  -> String#at
 // false -> String#codePointAt
@@ -47206,7 +36691,7 @@ module.exports = function (TO_STRING) {
 
 
 /***/ }),
-/* 465 */
+/* 464 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47226,14 +36711,14 @@ module.exports = function () {
 
 
 /***/ }),
-/* 466 */
+/* 465 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 // 22.1.3.3 Array.prototype.copyWithin(target, start, end = this.length)
 
 var toObject = __webpack_require__(33);
-var toAbsoluteIndex = __webpack_require__(61);
+var toAbsoluteIndex = __webpack_require__(60);
 var toLength = __webpack_require__(25);
 
 module.exports = [].copyWithin || function copyWithin(target /* = 0 */, start /* = 0, end = @length */) {
@@ -47259,14 +36744,14 @@ module.exports = [].copyWithin || function copyWithin(target /* = 0 */, start /*
 
 
 /***/ }),
-/* 467 */
+/* 466 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 // 22.1.3.6 Array.prototype.fill(value, start = 0, end = this.length)
 
 var toObject = __webpack_require__(33);
-var toAbsoluteIndex = __webpack_require__(61);
+var toAbsoluteIndex = __webpack_require__(60);
 var toLength = __webpack_require__(25);
 module.exports = function fill(value /* , start = 0, end = @length */) {
   var O = toObject(this);
@@ -47281,11 +36766,11 @@ module.exports = function fill(value /* , start = 0, end = @length */) {
 
 
 /***/ }),
-/* 468 */
+/* 467 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // all object keys, includes non-enumerable and symbols
-var gOPN = __webpack_require__(82);
+var gOPN = __webpack_require__(81);
 var gOPS = __webpack_require__(69);
 var anObject = __webpack_require__(18);
 var Reflect = __webpack_require__(15).Reflect;
@@ -47295,6 +36780,12 @@ module.exports = Reflect && Reflect.ownKeys || function ownKeys(it) {
   return getSymbols ? keys.concat(getSymbols(it)) : keys;
 };
 
+
+/***/ }),
+/* 468 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 /* 469 */
@@ -47310,12 +36801,6 @@ module.exports = Reflect && Reflect.ownKeys || function ownKeys(it) {
 
 /***/ }),
 /* 471 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 472 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47370,7 +36855,7 @@ _base2.default.registerOverlay(_base2.default.CLONE_DEBUG, DebugOverlay);
 exports.default = DebugOverlay;
 
 /***/ }),
-/* 473 */
+/* 472 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -47627,10 +37112,10 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 473;
+webpackContext.id = 472;
 
 /***/ }),
-/* 474 */
+/* 473 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47992,7 +37477,7 @@ _base2.default.registerOverlay(_base2.default.CLONE_LEFT, LeftOverlay);
 exports.default = LeftOverlay;
 
 /***/ }),
-/* 475 */
+/* 474 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48414,7 +37899,7 @@ _base2.default.registerOverlay(_base2.default.CLONE_TOP, TopOverlay);
 exports.default = TopOverlay;
 
 /***/ }),
-/* 476 */
+/* 475 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48524,7 +38009,7 @@ _base2.default.registerOverlay(_base2.default.CLONE_TOP_LEFT_CORNER, TopLeftCorn
 exports.default = TopLeftCornerOverlay;
 
 /***/ }),
-/* 477 */
+/* 476 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48544,11 +38029,11 @@ var _border = __webpack_require__(308);
 
 var _border2 = _interopRequireDefault(_border);
 
-var _coords = __webpack_require__(56);
+var _coords = __webpack_require__(55);
 
 var _coords2 = _interopRequireDefault(_coords);
 
-var _range = __webpack_require__(87);
+var _range = __webpack_require__(86);
 
 var _range2 = _interopRequireDefault(_range);
 
@@ -48866,7 +38351,7 @@ var Selection = function () {
 exports.default = Selection;
 
 /***/ }),
-/* 478 */
+/* 477 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49052,7 +38537,7 @@ if (true) {
 }
 
 /***/ }),
-/* 479 */
+/* 478 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49062,7 +38547,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _baseEditor = __webpack_require__(55);
+var _baseEditor = __webpack_require__(54);
 
 var _baseEditor2 = _interopRequireDefault(_baseEditor);
 
@@ -49134,7 +38619,7 @@ var CheckboxEditor = function (_BaseEditor) {
 exports.default = CheckboxEditor;
 
 /***/ }),
-/* 480 */
+/* 479 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49150,11 +38635,11 @@ var _moment = __webpack_require__(47);
 
 var _moment2 = _interopRequireDefault(_moment);
 
-var _pikaday = __webpack_require__(481);
+var _pikaday = __webpack_require__(480);
 
 var _pikaday2 = _interopRequireDefault(_pikaday);
 
-__webpack_require__(484);
+__webpack_require__(483);
 
 var _element = __webpack_require__(0);
 
@@ -49168,7 +38653,7 @@ var _unicode = __webpack_require__(21);
 
 var _event = __webpack_require__(13);
 
-var _textEditor = __webpack_require__(58);
+var _textEditor = __webpack_require__(57);
 
 var _textEditor2 = _interopRequireDefault(_textEditor);
 
@@ -49467,7 +38952,7 @@ var DateEditor = function (_TextEditor) {
 exports.default = DateEditor;
 
 /***/ }),
-/* 481 */
+/* 480 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
@@ -49484,7 +38969,7 @@ exports.default = DateEditor;
     if (true) {
         // CommonJS module
         // Load moment.js as an optional dependency
-        try { moment = __webpack_require__(482); } catch (e) {}
+        try { moment = __webpack_require__(481); } catch (e) {}
         module.exports = factory(moment);
     } else if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.
@@ -49502,1168 +38987,6 @@ exports.default = DateEditor;
 {
     'use strict';
 
-    /**
-     * feature detection and helper functions
-     */
-    var hasMoment = typeof moment === 'function',
-
-    hasEventListeners = !!window.addEventListener,
-
-    document = window.document,
-
-    sto = window.setTimeout,
-
-    addEvent = function(el, e, callback, capture)
-    {
-        if (hasEventListeners) {
-            el.addEventListener(e, callback, !!capture);
-        } else {
-            el.attachEvent('on' + e, callback);
-        }
-    },
-
-    removeEvent = function(el, e, callback, capture)
-    {
-        if (hasEventListeners) {
-            el.removeEventListener(e, callback, !!capture);
-        } else {
-            el.detachEvent('on' + e, callback);
-        }
-    },
-
-    fireEvent = function(el, eventName, data)
-    {
-        var ev;
-
-        if (document.createEvent) {
-            ev = document.createEvent('HTMLEvents');
-            ev.initEvent(eventName, true, false);
-            ev = extend(ev, data);
-            el.dispatchEvent(ev);
-        } else if (document.createEventObject) {
-            ev = document.createEventObject();
-            ev = extend(ev, data);
-            el.fireEvent('on' + eventName, ev);
-        }
-    },
-
-    trim = function(str)
-    {
-        return str.trim ? str.trim() : str.replace(/^\s+|\s+$/g,'');
-    },
-
-    hasClass = function(el, cn)
-    {
-        return (' ' + el.className + ' ').indexOf(' ' + cn + ' ') !== -1;
-    },
-
-    addClass = function(el, cn)
-    {
-        if (!hasClass(el, cn)) {
-            el.className = (el.className === '') ? cn : el.className + ' ' + cn;
-        }
-    },
-
-    removeClass = function(el, cn)
-    {
-        el.className = trim((' ' + el.className + ' ').replace(' ' + cn + ' ', ' '));
-    },
-
-    isArray = function(obj)
-    {
-        return (/Array/).test(Object.prototype.toString.call(obj));
-    },
-
-    isDate = function(obj)
-    {
-        return (/Date/).test(Object.prototype.toString.call(obj)) && !isNaN(obj.getTime());
-    },
-
-    isWeekend = function(date)
-    {
-        var day = date.getDay();
-        return day === 0 || day === 6;
-    },
-
-    isLeapYear = function(year)
-    {
-        // solution by Matti Virkkunen: http://stackoverflow.com/a/4881951
-        return year % 4 === 0 && year % 100 !== 0 || year % 400 === 0;
-    },
-
-    getDaysInMonth = function(year, month)
-    {
-        return [31, isLeapYear(year) ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][month];
-    },
-
-    setToStartOfDay = function(date)
-    {
-        if (isDate(date)) date.setHours(0,0,0,0);
-    },
-
-    compareDates = function(a,b)
-    {
-        // weak date comparison (use setToStartOfDay(date) to ensure correct result)
-        return a.getTime() === b.getTime();
-    },
-
-    extend = function(to, from, overwrite)
-    {
-        var prop, hasProp;
-        for (prop in from) {
-            hasProp = to[prop] !== undefined;
-            if (hasProp && typeof from[prop] === 'object' && from[prop] !== null && from[prop].nodeName === undefined) {
-                if (isDate(from[prop])) {
-                    if (overwrite) {
-                        to[prop] = new Date(from[prop].getTime());
-                    }
-                }
-                else if (isArray(from[prop])) {
-                    if (overwrite) {
-                        to[prop] = from[prop].slice(0);
-                    }
-                } else {
-                    to[prop] = extend({}, from[prop], overwrite);
-                }
-            } else if (overwrite || !hasProp) {
-                to[prop] = from[prop];
-            }
-        }
-        return to;
-    },
-
-    adjustCalendar = function(calendar) {
-        if (calendar.month < 0) {
-            calendar.year -= Math.ceil(Math.abs(calendar.month)/12);
-            calendar.month += 12;
-        }
-        if (calendar.month > 11) {
-            calendar.year += Math.floor(Math.abs(calendar.month)/12);
-            calendar.month -= 12;
-        }
-        return calendar;
-    },
-
-    /**
-     * defaults and localisation
-     */
-    defaults = {
-
-        // bind the picker to a form field
-        field: null,
-
-        // automatically show/hide the picker on `field` focus (default `true` if `field` is set)
-        bound: undefined,
-
-        // position of the datepicker, relative to the field (default to bottom & left)
-        // ('bottom' & 'left' keywords are not used, 'top' & 'right' are modifier on the bottom/left position)
-        position: 'bottom left',
-
-        // automatically fit in the viewport even if it means repositioning from the position option
-        reposition: true,
-
-        // the default output format for `.toString()` and `field` value
-        format: 'YYYY-MM-DD',
-
-        // the initial date to view when first opened
-        defaultDate: null,
-
-        // make the `defaultDate` the initial selected value
-        setDefaultDate: false,
-
-        // first day of week (0: Sunday, 1: Monday etc)
-        firstDay: 0,
-
-        // the default flag for moment's strict date parsing
-        formatStrict: false,
-
-        // the minimum/earliest date that can be selected
-        minDate: null,
-        // the maximum/latest date that can be selected
-        maxDate: null,
-
-        // number of years either side, or array of upper/lower range
-        yearRange: 10,
-
-        // show week numbers at head of row
-        showWeekNumber: false,
-
-        // used internally (don't config outside)
-        minYear: 0,
-        maxYear: 9999,
-        minMonth: undefined,
-        maxMonth: undefined,
-
-        startRange: null,
-        endRange: null,
-
-        isRTL: false,
-
-        // Additional text to append to the year in the calendar title
-        yearSuffix: '',
-
-        // Render the month after year in the calendar title
-        showMonthAfterYear: false,
-
-        // Render days of the calendar grid that fall in the next or previous month
-        showDaysInNextAndPreviousMonths: false,
-
-        // how many months are visible
-        numberOfMonths: 1,
-
-        // when numberOfMonths is used, this will help you to choose where the main calendar will be (default `left`, can be set to `right`)
-        // only used for the first display or when a selected date is not visible
-        mainCalendar: 'left',
-
-        // Specify a DOM element to render the calendar in
-        container: undefined,
-
-        // internationalization
-        i18n: {
-            previousMonth : 'Previous Month',
-            nextMonth     : 'Next Month',
-            months        : ['January','February','March','April','May','June','July','August','September','October','November','December'],
-            weekdays      : ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],
-            weekdaysShort : ['Sun','Mon','Tue','Wed','Thu','Fri','Sat']
-        },
-
-        // Theme Classname
-        theme: null,
-
-        // callback function
-        onSelect: null,
-        onOpen: null,
-        onClose: null,
-        onDraw: null
-    },
-
-
-    /**
-     * templating functions to abstract HTML rendering
-     */
-    renderDayName = function(opts, day, abbr)
-    {
-        day += opts.firstDay;
-        while (day >= 7) {
-            day -= 7;
-        }
-        return abbr ? opts.i18n.weekdaysShort[day] : opts.i18n.weekdays[day];
-    },
-
-    renderDay = function(opts)
-    {
-        var arr = [];
-        var ariaSelected = 'false';
-        if (opts.isEmpty) {
-            if (opts.showDaysInNextAndPreviousMonths) {
-                arr.push('is-outside-current-month');
-            } else {
-                return '<td class="is-empty"></td>';
-            }
-        }
-        if (opts.isDisabled) {
-            arr.push('is-disabled');
-        }
-        if (opts.isToday) {
-            arr.push('is-today');
-        }
-        if (opts.isSelected) {
-            arr.push('is-selected');
-            ariaSelected = 'true';
-        }
-        if (opts.isInRange) {
-            arr.push('is-inrange');
-        }
-        if (opts.isStartRange) {
-            arr.push('is-startrange');
-        }
-        if (opts.isEndRange) {
-            arr.push('is-endrange');
-        }
-        return '<td data-day="' + opts.day + '" class="' + arr.join(' ') + '" aria-selected="' + ariaSelected + '">' +
-                 '<button class="pika-button pika-day" type="button" ' +
-                    'data-pika-year="' + opts.year + '" data-pika-month="' + opts.month + '" data-pika-day="' + opts.day + '">' +
-                        opts.day +
-                 '</button>' +
-               '</td>';
-    },
-
-    renderWeek = function (d, m, y) {
-        // Lifted from http://javascript.about.com/library/blweekyear.htm, lightly modified.
-        var onejan = new Date(y, 0, 1),
-            weekNum = Math.ceil((((new Date(y, m, d) - onejan) / 86400000) + onejan.getDay()+1)/7);
-        return '<td class="pika-week">' + weekNum + '</td>';
-    },
-
-    renderRow = function(days, isRTL)
-    {
-        return '<tr>' + (isRTL ? days.reverse() : days).join('') + '</tr>';
-    },
-
-    renderBody = function(rows)
-    {
-        return '<tbody>' + rows.join('') + '</tbody>';
-    },
-
-    renderHead = function(opts)
-    {
-        var i, arr = [];
-        if (opts.showWeekNumber) {
-            arr.push('<th></th>');
-        }
-        for (i = 0; i < 7; i++) {
-            arr.push('<th scope="col"><abbr title="' + renderDayName(opts, i) + '">' + renderDayName(opts, i, true) + '</abbr></th>');
-        }
-        return '<thead><tr>' + (opts.isRTL ? arr.reverse() : arr).join('') + '</tr></thead>';
-    },
-
-    renderTitle = function(instance, c, year, month, refYear, randId)
-    {
-        var i, j, arr,
-            opts = instance._o,
-            isMinYear = year === opts.minYear,
-            isMaxYear = year === opts.maxYear,
-            html = '<div id="' + randId + '" class="pika-title" role="heading" aria-live="assertive">',
-            monthHtml,
-            yearHtml,
-            prev = true,
-            next = true;
-
-        for (arr = [], i = 0; i < 12; i++) {
-            arr.push('<option value="' + (year === refYear ? i - c : 12 + i - c) + '"' +
-                (i === month ? ' selected="selected"': '') +
-                ((isMinYear && i < opts.minMonth) || (isMaxYear && i > opts.maxMonth) ? 'disabled="disabled"' : '') + '>' +
-                opts.i18n.months[i] + '</option>');
-        }
-
-        monthHtml = '<div class="pika-label">' + opts.i18n.months[month] + '<select class="pika-select pika-select-month" tabindex="-1">' + arr.join('') + '</select></div>';
-
-        if (isArray(opts.yearRange)) {
-            i = opts.yearRange[0];
-            j = opts.yearRange[1] + 1;
-        } else {
-            i = year - opts.yearRange;
-            j = 1 + year + opts.yearRange;
-        }
-
-        for (arr = []; i < j && i <= opts.maxYear; i++) {
-            if (i >= opts.minYear) {
-                arr.push('<option value="' + i + '"' + (i === year ? ' selected="selected"': '') + '>' + (i) + '</option>');
-            }
-        }
-        yearHtml = '<div class="pika-label">' + year + opts.yearSuffix + '<select class="pika-select pika-select-year" tabindex="-1">' + arr.join('') + '</select></div>';
-
-        if (opts.showMonthAfterYear) {
-            html += yearHtml + monthHtml;
-        } else {
-            html += monthHtml + yearHtml;
-        }
-
-        if (isMinYear && (month === 0 || opts.minMonth >= month)) {
-            prev = false;
-        }
-
-        if (isMaxYear && (month === 11 || opts.maxMonth <= month)) {
-            next = false;
-        }
-
-        if (c === 0) {
-            html += '<button class="pika-prev' + (prev ? '' : ' is-disabled') + '" type="button">' + opts.i18n.previousMonth + '</button>';
-        }
-        if (c === (instance._o.numberOfMonths - 1) ) {
-            html += '<button class="pika-next' + (next ? '' : ' is-disabled') + '" type="button">' + opts.i18n.nextMonth + '</button>';
-        }
-
-        return html += '</div>';
-    },
-
-    renderTable = function(opts, data, randId)
-    {
-        return '<table cellpadding="0" cellspacing="0" class="pika-table" role="grid" aria-labelledby="' + randId + '">' + renderHead(opts) + renderBody(data) + '</table>';
-    },
-
-
-    /**
-     * Pikaday constructor
-     */
-    Pikaday = function(options)
-    {
-        var self = this,
-            opts = self.config(options);
-
-        self._onMouseDown = function(e)
-        {
-            if (!self._v) {
-                return;
-            }
-            e = e || window.event;
-            var target = e.target || e.srcElement;
-            if (!target) {
-                return;
-            }
-
-            if (!hasClass(target, 'is-disabled')) {
-                if (hasClass(target, 'pika-button') && !hasClass(target, 'is-empty') && !hasClass(target.parentNode, 'is-disabled')) {
-                    self.setDate(new Date(target.getAttribute('data-pika-year'), target.getAttribute('data-pika-month'), target.getAttribute('data-pika-day')));
-                    if (opts.bound) {
-                        sto(function() {
-                            self.hide();
-                            if (opts.field) {
-                                opts.field.blur();
-                            }
-                        }, 100);
-                    }
-                }
-                else if (hasClass(target, 'pika-prev')) {
-                    self.prevMonth();
-                }
-                else if (hasClass(target, 'pika-next')) {
-                    self.nextMonth();
-                }
-            }
-            if (!hasClass(target, 'pika-select')) {
-                // if this is touch event prevent mouse events emulation
-                if (e.preventDefault) {
-                    e.preventDefault();
-                } else {
-                    e.returnValue = false;
-                    return false;
-                }
-            } else {
-                self._c = true;
-            }
-        };
-
-        self._onChange = function(e)
-        {
-            e = e || window.event;
-            var target = e.target || e.srcElement;
-            if (!target) {
-                return;
-            }
-            if (hasClass(target, 'pika-select-month')) {
-                self.gotoMonth(target.value);
-            }
-            else if (hasClass(target, 'pika-select-year')) {
-                self.gotoYear(target.value);
-            }
-        };
-
-        self._onKeyChange = function(e)
-        {
-            e = e || window.event;
-
-            if (self.isVisible()) {
-
-                switch(e.keyCode){
-                    case 13:
-                    case 27:
-                        opts.field.blur();
-                        break;
-                    case 37:
-                        e.preventDefault();
-                        self.adjustDate('subtract', 1);
-                        break;
-                    case 38:
-                        self.adjustDate('subtract', 7);
-                        break;
-                    case 39:
-                        self.adjustDate('add', 1);
-                        break;
-                    case 40:
-                        self.adjustDate('add', 7);
-                        break;
-                }
-            }
-        };
-
-        self._onInputChange = function(e)
-        {
-            var date;
-
-            if (e.firedBy === self) {
-                return;
-            }
-            if (hasMoment) {
-                date = moment(opts.field.value, opts.format, opts.formatStrict);
-                date = (date && date.isValid()) ? date.toDate() : null;
-            }
-            else {
-                date = new Date(Date.parse(opts.field.value));
-            }
-            if (isDate(date)) {
-              self.setDate(date);
-            }
-            if (!self._v) {
-                self.show();
-            }
-        };
-
-        self._onInputFocus = function()
-        {
-            self.show();
-        };
-
-        self._onInputClick = function()
-        {
-            self.show();
-        };
-
-        self._onInputBlur = function()
-        {
-            // IE allows pika div to gain focus; catch blur the input field
-            var pEl = document.activeElement;
-            do {
-                if (hasClass(pEl, 'pika-single')) {
-                    return;
-                }
-            }
-            while ((pEl = pEl.parentNode));
-
-            if (!self._c) {
-                self._b = sto(function() {
-                    self.hide();
-                }, 50);
-            }
-            self._c = false;
-        };
-
-        self._onClick = function(e)
-        {
-            e = e || window.event;
-            var target = e.target || e.srcElement,
-                pEl = target;
-            if (!target) {
-                return;
-            }
-            if (!hasEventListeners && hasClass(target, 'pika-select')) {
-                if (!target.onchange) {
-                    target.setAttribute('onchange', 'return;');
-                    addEvent(target, 'change', self._onChange);
-                }
-            }
-            do {
-                if (hasClass(pEl, 'pika-single') || pEl === opts.trigger) {
-                    return;
-                }
-            }
-            while ((pEl = pEl.parentNode));
-            if (self._v && target !== opts.trigger && pEl !== opts.trigger) {
-                self.hide();
-            }
-        };
-
-        self.el = document.createElement('div');
-        self.el.className = 'pika-single' + (opts.isRTL ? ' is-rtl' : '') + (opts.theme ? ' ' + opts.theme : '');
-
-        addEvent(self.el, 'mousedown', self._onMouseDown, true);
-        addEvent(self.el, 'touchend', self._onMouseDown, true);
-        addEvent(self.el, 'change', self._onChange);
-        addEvent(document, 'keydown', self._onKeyChange);
-
-        if (opts.field) {
-            if (opts.container) {
-                opts.container.appendChild(self.el);
-            } else if (opts.bound) {
-                document.body.appendChild(self.el);
-            } else {
-                opts.field.parentNode.insertBefore(self.el, opts.field.nextSibling);
-            }
-            addEvent(opts.field, 'change', self._onInputChange);
-
-            if (!opts.defaultDate) {
-                if (hasMoment && opts.field.value) {
-                    opts.defaultDate = moment(opts.field.value, opts.format).toDate();
-                } else {
-                    opts.defaultDate = new Date(Date.parse(opts.field.value));
-                }
-                opts.setDefaultDate = true;
-            }
-        }
-
-        var defDate = opts.defaultDate;
-
-        if (isDate(defDate)) {
-            if (opts.setDefaultDate) {
-                self.setDate(defDate, true);
-            } else {
-                self.gotoDate(defDate);
-            }
-        } else {
-            self.gotoDate(new Date());
-        }
-
-        if (opts.bound) {
-            this.hide();
-            self.el.className += ' is-bound';
-            addEvent(opts.trigger, 'click', self._onInputClick);
-            addEvent(opts.trigger, 'focus', self._onInputFocus);
-            addEvent(opts.trigger, 'blur', self._onInputBlur);
-        } else {
-            this.show();
-        }
-    };
-
-
-    /**
-     * public Pikaday API
-     */
-    Pikaday.prototype = {
-
-
-        /**
-         * configure functionality
-         */
-        config: function(options)
-        {
-            if (!this._o) {
-                this._o = extend({}, defaults, true);
-            }
-
-            var opts = extend(this._o, options, true);
-
-            opts.isRTL = !!opts.isRTL;
-
-            opts.field = (opts.field && opts.field.nodeName) ? opts.field : null;
-
-            opts.theme = (typeof opts.theme) === 'string' && opts.theme ? opts.theme : null;
-
-            opts.bound = !!(opts.bound !== undefined ? opts.field && opts.bound : opts.field);
-
-            opts.trigger = (opts.trigger && opts.trigger.nodeName) ? opts.trigger : opts.field;
-
-            opts.disableWeekends = !!opts.disableWeekends;
-
-            opts.disableDayFn = (typeof opts.disableDayFn) === 'function' ? opts.disableDayFn : null;
-
-            var nom = parseInt(opts.numberOfMonths, 10) || 1;
-            opts.numberOfMonths = nom > 4 ? 4 : nom;
-
-            if (!isDate(opts.minDate)) {
-                opts.minDate = false;
-            }
-            if (!isDate(opts.maxDate)) {
-                opts.maxDate = false;
-            }
-            if ((opts.minDate && opts.maxDate) && opts.maxDate < opts.minDate) {
-                opts.maxDate = opts.minDate = false;
-            }
-            if (opts.minDate) {
-                this.setMinDate(opts.minDate);
-            }
-            if (opts.maxDate) {
-                this.setMaxDate(opts.maxDate);
-            }
-
-            if (isArray(opts.yearRange)) {
-                var fallback = new Date().getFullYear() - 10;
-                opts.yearRange[0] = parseInt(opts.yearRange[0], 10) || fallback;
-                opts.yearRange[1] = parseInt(opts.yearRange[1], 10) || fallback;
-            } else {
-                opts.yearRange = Math.abs(parseInt(opts.yearRange, 10)) || defaults.yearRange;
-                if (opts.yearRange > 100) {
-                    opts.yearRange = 100;
-                }
-            }
-
-            return opts;
-        },
-
-        /**
-         * return a formatted string of the current selection (using Moment.js if available)
-         */
-        toString: function(format)
-        {
-            return !isDate(this._d) ? '' : hasMoment ? moment(this._d).format(format || this._o.format) : this._d.toDateString();
-        },
-
-        /**
-         * return a Moment.js object of the current selection (if available)
-         */
-        getMoment: function()
-        {
-            return hasMoment ? moment(this._d) : null;
-        },
-
-        /**
-         * set the current selection from a Moment.js object (if available)
-         */
-        setMoment: function(date, preventOnSelect)
-        {
-            if (hasMoment && moment.isMoment(date)) {
-                this.setDate(date.toDate(), preventOnSelect);
-            }
-        },
-
-        /**
-         * return a Date object of the current selection with fallback for the current date
-         */
-        getDate: function()
-        {
-            return isDate(this._d) ? new Date(this._d.getTime()) : new Date();
-        },
-
-        /**
-         * set the current selection
-         */
-        setDate: function(date, preventOnSelect)
-        {
-            if (!date) {
-                this._d = null;
-
-                if (this._o.field) {
-                    this._o.field.value = '';
-                    fireEvent(this._o.field, 'change', { firedBy: this });
-                }
-
-                return this.draw();
-            }
-            if (typeof date === 'string') {
-                date = new Date(Date.parse(date));
-            }
-            if (!isDate(date)) {
-                return;
-            }
-
-            var min = this._o.minDate,
-                max = this._o.maxDate;
-
-            if (isDate(min) && date < min) {
-                date = min;
-            } else if (isDate(max) && date > max) {
-                date = max;
-            }
-
-            this._d = new Date(date.getTime());
-            setToStartOfDay(this._d);
-            this.gotoDate(this._d);
-
-            if (this._o.field) {
-                this._o.field.value = this.toString();
-                fireEvent(this._o.field, 'change', { firedBy: this });
-            }
-            if (!preventOnSelect && typeof this._o.onSelect === 'function') {
-                this._o.onSelect.call(this, this.getDate());
-            }
-        },
-
-        /**
-         * change view to a specific date
-         */
-        gotoDate: function(date)
-        {
-            var newCalendar = true;
-
-            if (!isDate(date)) {
-                return;
-            }
-
-            if (this.calendars) {
-                var firstVisibleDate = new Date(this.calendars[0].year, this.calendars[0].month, 1),
-                    lastVisibleDate = new Date(this.calendars[this.calendars.length-1].year, this.calendars[this.calendars.length-1].month, 1),
-                    visibleDate = date.getTime();
-                // get the end of the month
-                lastVisibleDate.setMonth(lastVisibleDate.getMonth()+1);
-                lastVisibleDate.setDate(lastVisibleDate.getDate()-1);
-                newCalendar = (visibleDate < firstVisibleDate.getTime() || lastVisibleDate.getTime() < visibleDate);
-            }
-
-            if (newCalendar) {
-                this.calendars = [{
-                    month: date.getMonth(),
-                    year: date.getFullYear()
-                }];
-                if (this._o.mainCalendar === 'right') {
-                    this.calendars[0].month += 1 - this._o.numberOfMonths;
-                }
-            }
-
-            this.adjustCalendars();
-        },
-
-        adjustDate: function(sign, days) {
-
-            var day = this.getDate();
-            var difference = parseInt(days)*24*60*60*1000;
-
-            var newDay;
-
-            if (sign === 'add') {
-                newDay = new Date(day.valueOf() + difference);
-            } else if (sign === 'subtract') {
-                newDay = new Date(day.valueOf() - difference);
-            }
-
-            if (hasMoment) {
-                if (sign === 'add') {
-                    newDay = moment(day).add(days, "days").toDate();
-                } else if (sign === 'subtract') {
-                    newDay = moment(day).subtract(days, "days").toDate();
-                }
-            }
-
-            this.setDate(newDay);
-        },
-
-        adjustCalendars: function() {
-            this.calendars[0] = adjustCalendar(this.calendars[0]);
-            for (var c = 1; c < this._o.numberOfMonths; c++) {
-                this.calendars[c] = adjustCalendar({
-                    month: this.calendars[0].month + c,
-                    year: this.calendars[0].year
-                });
-            }
-            this.draw();
-        },
-
-        gotoToday: function()
-        {
-            this.gotoDate(new Date());
-        },
-
-        /**
-         * change view to a specific month (zero-index, e.g. 0: January)
-         */
-        gotoMonth: function(month)
-        {
-            if (!isNaN(month)) {
-                this.calendars[0].month = parseInt(month, 10);
-                this.adjustCalendars();
-            }
-        },
-
-        nextMonth: function()
-        {
-            this.calendars[0].month++;
-            this.adjustCalendars();
-        },
-
-        prevMonth: function()
-        {
-            this.calendars[0].month--;
-            this.adjustCalendars();
-        },
-
-        /**
-         * change view to a specific full year (e.g. "2012")
-         */
-        gotoYear: function(year)
-        {
-            if (!isNaN(year)) {
-                this.calendars[0].year = parseInt(year, 10);
-                this.adjustCalendars();
-            }
-        },
-
-        /**
-         * change the minDate
-         */
-        setMinDate: function(value)
-        {
-            if(value instanceof Date) {
-                setToStartOfDay(value);
-                this._o.minDate = value;
-                this._o.minYear  = value.getFullYear();
-                this._o.minMonth = value.getMonth();
-            } else {
-                this._o.minDate = defaults.minDate;
-                this._o.minYear  = defaults.minYear;
-                this._o.minMonth = defaults.minMonth;
-                this._o.startRange = defaults.startRange;
-            }
-
-            this.draw();
-        },
-
-        /**
-         * change the maxDate
-         */
-        setMaxDate: function(value)
-        {
-            if(value instanceof Date) {
-                setToStartOfDay(value);
-                this._o.maxDate = value;
-                this._o.maxYear = value.getFullYear();
-                this._o.maxMonth = value.getMonth();
-            } else {
-                this._o.maxDate = defaults.maxDate;
-                this._o.maxYear = defaults.maxYear;
-                this._o.maxMonth = defaults.maxMonth;
-                this._o.endRange = defaults.endRange;
-            }
-
-            this.draw();
-        },
-
-        setStartRange: function(value)
-        {
-            this._o.startRange = value;
-        },
-
-        setEndRange: function(value)
-        {
-            this._o.endRange = value;
-        },
-
-        /**
-         * refresh the HTML
-         */
-        draw: function(force)
-        {
-            if (!this._v && !force) {
-                return;
-            }
-            var opts = this._o,
-                minYear = opts.minYear,
-                maxYear = opts.maxYear,
-                minMonth = opts.minMonth,
-                maxMonth = opts.maxMonth,
-                html = '',
-                randId;
-
-            if (this._y <= minYear) {
-                this._y = minYear;
-                if (!isNaN(minMonth) && this._m < minMonth) {
-                    this._m = minMonth;
-                }
-            }
-            if (this._y >= maxYear) {
-                this._y = maxYear;
-                if (!isNaN(maxMonth) && this._m > maxMonth) {
-                    this._m = maxMonth;
-                }
-            }
-
-            randId = 'pika-title-' + Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 2);
-
-            for (var c = 0; c < opts.numberOfMonths; c++) {
-                html += '<div class="pika-lendar">' + renderTitle(this, c, this.calendars[c].year, this.calendars[c].month, this.calendars[0].year, randId) + this.render(this.calendars[c].year, this.calendars[c].month, randId) + '</div>';
-            }
-
-            this.el.innerHTML = html;
-
-            if (opts.bound) {
-                if(opts.field.type !== 'hidden') {
-                    sto(function() {
-                        opts.trigger.focus();
-                    }, 1);
-                }
-            }
-
-            if (typeof this._o.onDraw === 'function') {
-                this._o.onDraw(this);
-            }
-            
-            if (opts.bound) {
-                // let the screen reader user know to use arrow keys
-                opts.field.setAttribute('aria-label', 'Use the arrow keys to pick a date');
-            }
-        },
-
-        adjustPosition: function()
-        {
-            var field, pEl, width, height, viewportWidth, viewportHeight, scrollTop, left, top, clientRect;
-
-            if (this._o.container) return;
-
-            this.el.style.position = 'absolute';
-
-            field = this._o.trigger;
-            pEl = field;
-            width = this.el.offsetWidth;
-            height = this.el.offsetHeight;
-            viewportWidth = window.innerWidth || document.documentElement.clientWidth;
-            viewportHeight = window.innerHeight || document.documentElement.clientHeight;
-            scrollTop = window.pageYOffset || document.body.scrollTop || document.documentElement.scrollTop;
-
-            if (typeof field.getBoundingClientRect === 'function') {
-                clientRect = field.getBoundingClientRect();
-                left = clientRect.left + window.pageXOffset;
-                top = clientRect.bottom + window.pageYOffset;
-            } else {
-                left = pEl.offsetLeft;
-                top  = pEl.offsetTop + pEl.offsetHeight;
-                while((pEl = pEl.offsetParent)) {
-                    left += pEl.offsetLeft;
-                    top  += pEl.offsetTop;
-                }
-            }
-
-            // default position is bottom & left
-            if ((this._o.reposition && left + width > viewportWidth) ||
-                (
-                    this._o.position.indexOf('right') > -1 &&
-                    left - width + field.offsetWidth > 0
-                )
-            ) {
-                left = left - width + field.offsetWidth;
-            }
-            if ((this._o.reposition && top + height > viewportHeight + scrollTop) ||
-                (
-                    this._o.position.indexOf('top') > -1 &&
-                    top - height - field.offsetHeight > 0
-                )
-            ) {
-                top = top - height - field.offsetHeight;
-            }
-
-            this.el.style.left = left + 'px';
-            this.el.style.top = top + 'px';
-        },
-
-        /**
-         * render HTML for a particular month
-         */
-        render: function(year, month, randId)
-        {
-            var opts   = this._o,
-                now    = new Date(),
-                days   = getDaysInMonth(year, month),
-                before = new Date(year, month, 1).getDay(),
-                data   = [],
-                row    = [];
-            setToStartOfDay(now);
-            if (opts.firstDay > 0) {
-                before -= opts.firstDay;
-                if (before < 0) {
-                    before += 7;
-                }
-            }
-            var previousMonth = month === 0 ? 11 : month - 1,
-                nextMonth = month === 11 ? 0 : month + 1,
-                yearOfPreviousMonth = month === 0 ? year - 1 : year,
-                yearOfNextMonth = month === 11 ? year + 1 : year,
-                daysInPreviousMonth = getDaysInMonth(yearOfPreviousMonth, previousMonth);
-            var cells = days + before,
-                after = cells;
-            while(after > 7) {
-                after -= 7;
-            }
-            cells += 7 - after;
-            for (var i = 0, r = 0; i < cells; i++)
-            {
-                var day = new Date(year, month, 1 + (i - before)),
-                    isSelected = isDate(this._d) ? compareDates(day, this._d) : false,
-                    isToday = compareDates(day, now),
-                    isEmpty = i < before || i >= (days + before),
-                    dayNumber = 1 + (i - before),
-                    monthNumber = month,
-                    yearNumber = year,
-                    isStartRange = opts.startRange && compareDates(opts.startRange, day),
-                    isEndRange = opts.endRange && compareDates(opts.endRange, day),
-                    isInRange = opts.startRange && opts.endRange && opts.startRange < day && day < opts.endRange,
-                    isDisabled = (opts.minDate && day < opts.minDate) ||
-                                 (opts.maxDate && day > opts.maxDate) ||
-                                 (opts.disableWeekends && isWeekend(day)) ||
-                                 (opts.disableDayFn && opts.disableDayFn(day));
-
-                if (isEmpty) {
-                    if (i < before) {
-                        dayNumber = daysInPreviousMonth + dayNumber;
-                        monthNumber = previousMonth;
-                        yearNumber = yearOfPreviousMonth;
-                    } else {
-                        dayNumber = dayNumber - days;
-                        monthNumber = nextMonth;
-                        yearNumber = yearOfNextMonth;
-                    }
-                }
-
-                var dayConfig = {
-                        day: dayNumber,
-                        month: monthNumber,
-                        year: yearNumber,
-                        isSelected: isSelected,
-                        isToday: isToday,
-                        isDisabled: isDisabled,
-                        isEmpty: isEmpty,
-                        isStartRange: isStartRange,
-                        isEndRange: isEndRange,
-                        isInRange: isInRange,
-                        showDaysInNextAndPreviousMonths: opts.showDaysInNextAndPreviousMonths
-                    };
-
-                row.push(renderDay(dayConfig));
-
-                if (++r === 7) {
-                    if (opts.showWeekNumber) {
-                        row.unshift(renderWeek(i - before, month, year));
-                    }
-                    data.push(renderRow(row, opts.isRTL));
-                    row = [];
-                    r = 0;
-                }
-            }
-            return renderTable(opts, data, randId);
-        },
-
-        isVisible: function()
-        {
-            return this._v;
-        },
-
-        show: function()
-        {
-            if (!this.isVisible()) {
-                removeClass(this.el, 'is-hidden');
-                this._v = true;
-                this.draw();
-                if (this._o.bound) {
-                    addEvent(document, 'click', this._onClick);
-                    this.adjustPosition();
-                }
-                if (typeof this._o.onOpen === 'function') {
-                    this._o.onOpen.call(this);
-                }
-            }
-        },
-
-        hide: function()
-        {
-            var v = this._v;
-            if (v !== false) {
-                if (this._o.bound) {
-                    removeEvent(document, 'click', this._onClick);
-                }
-                this.el.style.position = 'static'; // reset
-                this.el.style.left = 'auto';
-                this.el.style.top = 'auto';
-                addClass(this.el, 'is-hidden');
-                this._v = false;
-                if (v !== undefined && typeof this._o.onClose === 'function') {
-                    this._o.onClose.call(this);
-                }
-            }
-        },
-
-        /**
-         * GAME OVER
-         */
-        destroy: function()
-        {
-            this.hide();
-            removeEvent(this.el, 'mousedown', this._onMouseDown, true);
-            removeEvent(this.el, 'touchend', this._onMouseDown, true);
-            removeEvent(this.el, 'change', this._onChange);
-            if (this._o.field) {
-                removeEvent(this._o.field, 'change', this._onInputChange);
-                if (this._o.bound) {
-                    removeEvent(this._o.trigger, 'click', this._onInputClick);
-                    removeEvent(this._o.trigger, 'focus', this._onInputFocus);
-                    removeEvent(this._o.trigger, 'blur', this._onInputBlur);
-                }
-            }
-            if (this.el.parentNode) {
-                this.el.parentNode.removeChild(this.el);
-            }
-        }
-
-    };
-
-    return Pikaday;
-
-}));
-=======
     /**
      * feature detection and helper functions
      */
@@ -52610,47 +40933,11 @@ function isLeapYear(year) {
 }
 
 // HOOKS
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 hooks.parseTwoDigitYear = function (input) {
     return toInt(input) + (toInt(input) > 68 ? 1900 : 2000);
 };
 
-<<<<<<< HEAD
-/***/ }),
-/* 482 */
-/***/ (function(module, exports, __webpack_require__) {
-
-/* WEBPACK VAR INJECTION */(function(module) {var require;//! moment.js
-
-;(function (global, factory) {
-     true ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) :
-    global.moment = factory()
-}(this, (function () { 'use strict';
-
-    var hookCallback;
-
-    function hooks () {
-        return hookCallback.apply(null, arguments);
-    }
-
-    // This is done to register the method called with moment()
-    // without creating circular dependencies.
-    function setHookCallback (callback) {
-        hookCallback = callback;
-    }
-
-    function isArray(input) {
-        return input instanceof Array || Object.prototype.toString.call(input) === '[object Array]';
-    }
-
-    function isObject(input) {
-        // IE8 will treat undefined and null as object if it wasn't for
-        // input != null
-        return input != null && Object.prototype.toString.call(input) === '[object Object]';
-    }
-=======
 // MOMENTS
 
 var getSetYear = makeGetSet('FullYear', true);
@@ -52696,664 +40983,8 @@ function stringGet (units) {
     }
     return this;
 }
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
-    function isObjectEmpty(obj) {
-        if (Object.getOwnPropertyNames) {
-            return (Object.getOwnPropertyNames(obj).length === 0);
-        } else {
-            var k;
-            for (k in obj) {
-                if (obj.hasOwnProperty(k)) {
-                    return false;
-                }
-            }
-            return true;
-        }
-    }
 
-<<<<<<< HEAD
-    function isUndefined(input) {
-        return input === void 0;
-    }
-
-    function isNumber(input) {
-        return typeof input === 'number' || Object.prototype.toString.call(input) === '[object Number]';
-    }
-
-    function isDate(input) {
-        return input instanceof Date || Object.prototype.toString.call(input) === '[object Date]';
-    }
-
-    function map(arr, fn) {
-        var res = [], i;
-        for (i = 0; i < arr.length; ++i) {
-            res.push(fn(arr[i], i));
-        }
-        return res;
-    }
-
-    function hasOwnProp(a, b) {
-        return Object.prototype.hasOwnProperty.call(a, b);
-    }
-
-    function extend(a, b) {
-        for (var i in b) {
-            if (hasOwnProp(b, i)) {
-                a[i] = b[i];
-            }
-        }
-
-        if (hasOwnProp(b, 'toString')) {
-            a.toString = b.toString;
-        }
-
-        if (hasOwnProp(b, 'valueOf')) {
-            a.valueOf = b.valueOf;
-        }
-
-        return a;
-    }
-
-    function createUTC (input, format, locale, strict) {
-        return createLocalOrUTC(input, format, locale, strict, true).utc();
-    }
-
-    function defaultParsingFlags() {
-        // We need to deep clone this object.
-        return {
-            empty           : false,
-            unusedTokens    : [],
-            unusedInput     : [],
-            overflow        : -2,
-            charsLeftOver   : 0,
-            nullInput       : false,
-            invalidMonth    : null,
-            invalidFormat   : false,
-            userInvalidated : false,
-            iso             : false,
-            parsedDateParts : [],
-            meridiem        : null,
-            rfc2822         : false,
-            weekdayMismatch : false
-        };
-    }
-
-    function getParsingFlags(m) {
-        if (m._pf == null) {
-            m._pf = defaultParsingFlags();
-        }
-        return m._pf;
-    }
-
-    var some;
-    if (Array.prototype.some) {
-        some = Array.prototype.some;
-    } else {
-        some = function (fun) {
-            var t = Object(this);
-            var len = t.length >>> 0;
-
-            for (var i = 0; i < len; i++) {
-                if (i in t && fun.call(this, t[i], i, t)) {
-                    return true;
-                }
-            }
-
-            return false;
-        };
-    }
-
-    function isValid(m) {
-        if (m._isValid == null) {
-            var flags = getParsingFlags(m);
-            var parsedParts = some.call(flags.parsedDateParts, function (i) {
-                return i != null;
-            });
-            var isNowValid = !isNaN(m._d.getTime()) &&
-                flags.overflow < 0 &&
-                !flags.empty &&
-                !flags.invalidMonth &&
-                !flags.invalidWeekday &&
-                !flags.weekdayMismatch &&
-                !flags.nullInput &&
-                !flags.invalidFormat &&
-                !flags.userInvalidated &&
-                (!flags.meridiem || (flags.meridiem && parsedParts));
-
-            if (m._strict) {
-                isNowValid = isNowValid &&
-                    flags.charsLeftOver === 0 &&
-                    flags.unusedTokens.length === 0 &&
-                    flags.bigHour === undefined;
-            }
-
-            if (Object.isFrozen == null || !Object.isFrozen(m)) {
-                m._isValid = isNowValid;
-            }
-            else {
-                return isNowValid;
-            }
-        }
-        return m._isValid;
-    }
-
-    function createInvalid (flags) {
-        var m = createUTC(NaN);
-        if (flags != null) {
-            extend(getParsingFlags(m), flags);
-        }
-        else {
-            getParsingFlags(m).userInvalidated = true;
-        }
-
-        return m;
-    }
-
-    // Plugins that add properties should also add the key here (null value),
-    // so we can properly clone ourselves.
-    var momentProperties = hooks.momentProperties = [];
-
-    function copyConfig(to, from) {
-        var i, prop, val;
-
-        if (!isUndefined(from._isAMomentObject)) {
-            to._isAMomentObject = from._isAMomentObject;
-        }
-        if (!isUndefined(from._i)) {
-            to._i = from._i;
-        }
-        if (!isUndefined(from._f)) {
-            to._f = from._f;
-        }
-        if (!isUndefined(from._l)) {
-            to._l = from._l;
-        }
-        if (!isUndefined(from._strict)) {
-            to._strict = from._strict;
-        }
-        if (!isUndefined(from._tzm)) {
-            to._tzm = from._tzm;
-        }
-        if (!isUndefined(from._isUTC)) {
-            to._isUTC = from._isUTC;
-        }
-        if (!isUndefined(from._offset)) {
-            to._offset = from._offset;
-        }
-        if (!isUndefined(from._pf)) {
-            to._pf = getParsingFlags(from);
-        }
-        if (!isUndefined(from._locale)) {
-            to._locale = from._locale;
-        }
-
-        if (momentProperties.length > 0) {
-            for (i = 0; i < momentProperties.length; i++) {
-                prop = momentProperties[i];
-                val = from[prop];
-                if (!isUndefined(val)) {
-                    to[prop] = val;
-                }
-            }
-        }
-
-        return to;
-    }
-
-    var updateInProgress = false;
-
-    // Moment prototype object
-    function Moment(config) {
-        copyConfig(this, config);
-        this._d = new Date(config._d != null ? config._d.getTime() : NaN);
-        if (!this.isValid()) {
-            this._d = new Date(NaN);
-        }
-        // Prevent infinite loop in case updateOffset creates new moment
-        // objects.
-        if (updateInProgress === false) {
-            updateInProgress = true;
-            hooks.updateOffset(this);
-            updateInProgress = false;
-        }
-    }
-
-    function isMoment (obj) {
-        return obj instanceof Moment || (obj != null && obj._isAMomentObject != null);
-    }
-
-    function absFloor (number) {
-        if (number < 0) {
-            // -0 -> 0
-            return Math.ceil(number) || 0;
-        } else {
-            return Math.floor(number);
-        }
-    }
-
-    function toInt(argumentForCoercion) {
-        var coercedNumber = +argumentForCoercion,
-            value = 0;
-
-        if (coercedNumber !== 0 && isFinite(coercedNumber)) {
-            value = absFloor(coercedNumber);
-        }
-
-        return value;
-    }
-
-    // compare two arrays, return the number of differences
-    function compareArrays(array1, array2, dontConvert) {
-        var len = Math.min(array1.length, array2.length),
-            lengthDiff = Math.abs(array1.length - array2.length),
-            diffs = 0,
-            i;
-        for (i = 0; i < len; i++) {
-            if ((dontConvert && array1[i] !== array2[i]) ||
-                (!dontConvert && toInt(array1[i]) !== toInt(array2[i]))) {
-                diffs++;
-            }
-        }
-        return diffs + lengthDiff;
-    }
-
-    function warn(msg) {
-        if (hooks.suppressDeprecationWarnings === false &&
-                (typeof console !==  'undefined') && console.warn) {
-            console.warn('Deprecation warning: ' + msg);
-        }
-    }
-
-    function deprecate(msg, fn) {
-        var firstTime = true;
-
-        return extend(function () {
-            if (hooks.deprecationHandler != null) {
-                hooks.deprecationHandler(null, msg);
-            }
-            if (firstTime) {
-                var args = [];
-                var arg;
-                for (var i = 0; i < arguments.length; i++) {
-                    arg = '';
-                    if (typeof arguments[i] === 'object') {
-                        arg += '\n[' + i + '] ';
-                        for (var key in arguments[0]) {
-                            arg += key + ': ' + arguments[0][key] + ', ';
-                        }
-                        arg = arg.slice(0, -2); // Remove trailing comma and space
-                    } else {
-                        arg = arguments[i];
-                    }
-                    args.push(arg);
-                }
-                warn(msg + '\nArguments: ' + Array.prototype.slice.call(args).join('') + '\n' + (new Error()).stack);
-                firstTime = false;
-            }
-            return fn.apply(this, arguments);
-        }, fn);
-    }
-
-    var deprecations = {};
-
-    function deprecateSimple(name, msg) {
-        if (hooks.deprecationHandler != null) {
-            hooks.deprecationHandler(name, msg);
-        }
-        if (!deprecations[name]) {
-            warn(msg);
-            deprecations[name] = true;
-        }
-    }
-
-    hooks.suppressDeprecationWarnings = false;
-    hooks.deprecationHandler = null;
-
-    function isFunction(input) {
-        return input instanceof Function || Object.prototype.toString.call(input) === '[object Function]';
-    }
-
-    function set (config) {
-        var prop, i;
-        for (i in config) {
-            prop = config[i];
-            if (isFunction(prop)) {
-                this[i] = prop;
-            } else {
-                this['_' + i] = prop;
-            }
-        }
-        this._config = config;
-        // Lenient ordinal parsing accepts just a number in addition to
-        // number + (possibly) stuff coming from _dayOfMonthOrdinalParse.
-        // TODO: Remove "ordinalParse" fallback in next major release.
-        this._dayOfMonthOrdinalParseLenient = new RegExp(
-            (this._dayOfMonthOrdinalParse.source || this._ordinalParse.source) +
-                '|' + (/\d{1,2}/).source);
-    }
-
-    function mergeConfigs(parentConfig, childConfig) {
-        var res = extend({}, parentConfig), prop;
-        for (prop in childConfig) {
-            if (hasOwnProp(childConfig, prop)) {
-                if (isObject(parentConfig[prop]) && isObject(childConfig[prop])) {
-                    res[prop] = {};
-                    extend(res[prop], parentConfig[prop]);
-                    extend(res[prop], childConfig[prop]);
-                } else if (childConfig[prop] != null) {
-                    res[prop] = childConfig[prop];
-                } else {
-                    delete res[prop];
-                }
-            }
-        }
-        for (prop in parentConfig) {
-            if (hasOwnProp(parentConfig, prop) &&
-                    !hasOwnProp(childConfig, prop) &&
-                    isObject(parentConfig[prop])) {
-                // make sure changes to properties don't modify parent config
-                res[prop] = extend({}, res[prop]);
-            }
-        }
-        return res;
-    }
-
-    function Locale(config) {
-        if (config != null) {
-            this.set(config);
-        }
-    }
-
-    var keys;
-
-    if (Object.keys) {
-        keys = Object.keys;
-    } else {
-        keys = function (obj) {
-            var i, res = [];
-            for (i in obj) {
-                if (hasOwnProp(obj, i)) {
-                    res.push(i);
-                }
-            }
-            return res;
-        };
-    }
-
-    var defaultCalendar = {
-        sameDay : '[Today at] LT',
-        nextDay : '[Tomorrow at] LT',
-        nextWeek : 'dddd [at] LT',
-        lastDay : '[Yesterday at] LT',
-        lastWeek : '[Last] dddd [at] LT',
-        sameElse : 'L'
-    };
-
-    function calendar (key, mom, now) {
-        var output = this._calendar[key] || this._calendar['sameElse'];
-        return isFunction(output) ? output.call(mom, now) : output;
-    }
-
-    var defaultLongDateFormat = {
-        LTS  : 'h:mm:ss A',
-        LT   : 'h:mm A',
-        L    : 'MM/DD/YYYY',
-        LL   : 'MMMM D, YYYY',
-        LLL  : 'MMMM D, YYYY h:mm A',
-        LLLL : 'dddd, MMMM D, YYYY h:mm A'
-    };
-
-    function longDateFormat (key) {
-        var format = this._longDateFormat[key],
-            formatUpper = this._longDateFormat[key.toUpperCase()];
-
-        if (format || !formatUpper) {
-            return format;
-        }
-
-        this._longDateFormat[key] = formatUpper.replace(/MMMM|MM|DD|dddd/g, function (val) {
-            return val.slice(1);
-        });
-
-        return this._longDateFormat[key];
-    }
-
-    var defaultInvalidDate = 'Invalid date';
-
-    function invalidDate () {
-        return this._invalidDate;
-    }
-
-    var defaultOrdinal = '%d';
-    var defaultDayOfMonthOrdinalParse = /\d{1,2}/;
-
-    function ordinal (number) {
-        return this._ordinal.replace('%d', number);
-    }
-
-    var defaultRelativeTime = {
-        future : 'in %s',
-        past   : '%s ago',
-        s  : 'a few seconds',
-        ss : '%d seconds',
-        m  : 'a minute',
-        mm : '%d minutes',
-        h  : 'an hour',
-        hh : '%d hours',
-        d  : 'a day',
-        dd : '%d days',
-        M  : 'a month',
-        MM : '%d months',
-        y  : 'a year',
-        yy : '%d years'
-    };
-
-    function relativeTime (number, withoutSuffix, string, isFuture) {
-        var output = this._relativeTime[string];
-        return (isFunction(output)) ?
-            output(number, withoutSuffix, string, isFuture) :
-            output.replace(/%d/i, number);
-    }
-
-    function pastFuture (diff, output) {
-        var format = this._relativeTime[diff > 0 ? 'future' : 'past'];
-        return isFunction(format) ? format(output) : format.replace(/%s/i, output);
-    }
-
-    var aliases = {};
-
-    function addUnitAlias (unit, shorthand) {
-        var lowerCase = unit.toLowerCase();
-        aliases[lowerCase] = aliases[lowerCase + 's'] = aliases[shorthand] = unit;
-    }
-
-    function normalizeUnits(units) {
-        return typeof units === 'string' ? aliases[units] || aliases[units.toLowerCase()] : undefined;
-    }
-
-    function normalizeObjectUnits(inputObject) {
-        var normalizedInput = {},
-            normalizedProp,
-            prop;
-
-        for (prop in inputObject) {
-            if (hasOwnProp(inputObject, prop)) {
-                normalizedProp = normalizeUnits(prop);
-                if (normalizedProp) {
-                    normalizedInput[normalizedProp] = inputObject[prop];
-                }
-            }
-        }
-
-        return normalizedInput;
-    }
-
-    var priorities = {};
-
-    function addUnitPriority(unit, priority) {
-        priorities[unit] = priority;
-    }
-
-    function getPrioritizedUnits(unitsObj) {
-        var units = [];
-        for (var u in unitsObj) {
-            units.push({unit: u, priority: priorities[u]});
-        }
-        units.sort(function (a, b) {
-            return a.priority - b.priority;
-        });
-        return units;
-    }
-
-    function zeroFill(number, targetLength, forceSign) {
-        var absNumber = '' + Math.abs(number),
-            zerosToFill = targetLength - absNumber.length,
-            sign = number >= 0;
-        return (sign ? (forceSign ? '+' : '') : '-') +
-            Math.pow(10, Math.max(0, zerosToFill)).toString().substr(1) + absNumber;
-    }
-
-    var formattingTokens = /(\[[^\[]*\])|(\\)?([Hh]mm(ss)?|Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|Qo?|YYYYYY|YYYYY|YYYY|YY|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|kk?|mm?|ss?|S{1,9}|x|X|zz?|ZZ?|.)/g;
-
-    var localFormattingTokens = /(\[[^\[]*\])|(\\)?(LTS|LT|LL?L?L?|l{1,4})/g;
-
-    var formatFunctions = {};
-
-    var formatTokenFunctions = {};
-
-    // token:    'M'
-    // padded:   ['MM', 2]
-    // ordinal:  'Mo'
-    // callback: function () { this.month() + 1 }
-    function addFormatToken (token, padded, ordinal, callback) {
-        var func = callback;
-        if (typeof callback === 'string') {
-            func = function () {
-                return this[callback]();
-            };
-        }
-        if (token) {
-            formatTokenFunctions[token] = func;
-        }
-        if (padded) {
-            formatTokenFunctions[padded[0]] = function () {
-                return zeroFill(func.apply(this, arguments), padded[1], padded[2]);
-            };
-        }
-        if (ordinal) {
-            formatTokenFunctions[ordinal] = function () {
-                return this.localeData().ordinal(func.apply(this, arguments), token);
-            };
-        }
-    }
-
-    function removeFormattingTokens(input) {
-        if (input.match(/\[[\s\S]/)) {
-            return input.replace(/^\[|\]$/g, '');
-        }
-        return input.replace(/\\/g, '');
-    }
-
-    function makeFormatFunction(format) {
-        var array = format.match(formattingTokens), i, length;
-
-        for (i = 0, length = array.length; i < length; i++) {
-            if (formatTokenFunctions[array[i]]) {
-                array[i] = formatTokenFunctions[array[i]];
-            } else {
-                array[i] = removeFormattingTokens(array[i]);
-            }
-        }
-
-        return function (mom) {
-            var output = '', i;
-            for (i = 0; i < length; i++) {
-                output += isFunction(array[i]) ? array[i].call(mom, format) : array[i];
-            }
-            return output;
-        };
-    }
-
-    // format date using native date object
-    function formatMoment(m, format) {
-        if (!m.isValid()) {
-            return m.localeData().invalidDate();
-        }
-
-        format = expandFormat(format, m.localeData());
-        formatFunctions[format] = formatFunctions[format] || makeFormatFunction(format);
-
-        return formatFunctions[format](m);
-    }
-
-    function expandFormat(format, locale) {
-        var i = 5;
-
-        function replaceLongDateFormatTokens(input) {
-            return locale.longDateFormat(input) || input;
-        }
-
-        localFormattingTokens.lastIndex = 0;
-        while (i >= 0 && localFormattingTokens.test(format)) {
-            format = format.replace(localFormattingTokens, replaceLongDateFormatTokens);
-            localFormattingTokens.lastIndex = 0;
-            i -= 1;
-        }
-
-        return format;
-    }
-
-    var match1         = /\d/;            //       0 - 9
-    var match2         = /\d\d/;          //      00 - 99
-    var match3         = /\d{3}/;         //     000 - 999
-    var match4         = /\d{4}/;         //    0000 - 9999
-    var match6         = /[+-]?\d{6}/;    // -999999 - 999999
-    var match1to2      = /\d\d?/;         //       0 - 99
-    var match3to4      = /\d\d\d\d?/;     //     999 - 9999
-    var match5to6      = /\d\d\d\d\d\d?/; //   99999 - 999999
-    var match1to3      = /\d{1,3}/;       //       0 - 999
-    var match1to4      = /\d{1,4}/;       //       0 - 9999
-    var match1to6      = /[+-]?\d{1,6}/;  // -999999 - 999999
-
-    var matchUnsigned  = /\d+/;           //       0 - inf
-    var matchSigned    = /[+-]?\d+/;      //    -inf - inf
-
-    var matchOffset    = /Z|[+-]\d\d:?\d\d/gi; // +00:00 -00:00 +0000 -0000 or Z
-    var matchShortOffset = /Z|[+-]\d\d(?::?\d\d)?/gi; // +00 -00 +00:00 -00:00 +0000 -0000 or Z
-
-    var matchTimestamp = /[+-]?\d+(\.\d{1,3})?/; // 123456789 123456789.123
-
-    // any word (or two) characters or numbers including two/three word month in arabic.
-    // includes scottish gaelic two word and hyphenated months
-    var matchWord = /[0-9]{0,256}['a-z\u00A0-\u05FF\u0700-\uD7FF\uF900-\uFDCF\uFDF0-\uFF07\uFF10-\uFFEF]{1,256}|[\u0600-\u06FF\/]{1,256}(\s*?[\u0600-\u06FF]{1,256}){1,2}/i;
-
-    var regexes = {};
-
-    function addRegexToken (token, regex, strictRegex) {
-        regexes[token] = isFunction(regex) ? regex : function (isStrict, localeData) {
-            return (isStrict && strictRegex) ? strictRegex : regex;
-        };
-    }
-
-    function getParseRegexForToken (token, config) {
-        if (!hasOwnProp(regexes, token)) {
-            return new RegExp(unescapeFormat(token));
-        }
-
-        return regexes[token](config._strict, config._locale);
-    }
-
-    // Code from http://stackoverflow.com/questions/3561493/is-there-a-regexp-escape-function-in-javascript
-    function unescapeFormat(s) {
-        return regexEscape(s.replace('\\', '').replace(/\\(\[)|\\(\])|\[([^\]\[]*)\]|\\(.)/g, function (matched, p1, p2, p3, p4) {
-            return p1 || p2 || p3 || p4;
-        }));
-    }
-
-    function regexEscape(s) {
-        return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
-=======
 function stringSet (units, value) {
     if (typeof units === 'object') {
         units = normalizeObjectUnits(units);
@@ -53888,117 +41519,10 @@ function parseWeekday(input, locale) {
 function parseIsoWeekday(input, locale) {
     if (typeof input === 'string') {
         return locale.weekdaysParse(input) % 7 || 7;
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
     }
     return isNaN(input) ? null : input;
 }
 
-<<<<<<< HEAD
-    var tokens = {};
-
-    function addParseToken (token, callback) {
-        var i, func = callback;
-        if (typeof token === 'string') {
-            token = [token];
-        }
-        if (isNumber(callback)) {
-            func = function (input, array) {
-                array[callback] = toInt(input);
-            };
-        }
-        for (i = 0; i < token.length; i++) {
-            tokens[token[i]] = func;
-        }
-    }
-
-    function addWeekParseToken (token, callback) {
-        addParseToken(token, function (input, array, config, token) {
-            config._w = config._w || {};
-            callback(input, config._w, config, token);
-        });
-    }
-
-    function addTimeToArrayFromToken(token, input, config) {
-        if (input != null && hasOwnProp(tokens, token)) {
-            tokens[token](input, config._a, config, token);
-        }
-    }
-
-    var YEAR = 0;
-    var MONTH = 1;
-    var DATE = 2;
-    var HOUR = 3;
-    var MINUTE = 4;
-    var SECOND = 5;
-    var MILLISECOND = 6;
-    var WEEK = 7;
-    var WEEKDAY = 8;
-
-    // FORMATTING
-
-    addFormatToken('Y', 0, 0, function () {
-        var y = this.year();
-        return y <= 9999 ? '' + y : '+' + y;
-    });
-
-    addFormatToken(0, ['YY', 2], 0, function () {
-        return this.year() % 100;
-    });
-
-    addFormatToken(0, ['YYYY',   4],       0, 'year');
-    addFormatToken(0, ['YYYYY',  5],       0, 'year');
-    addFormatToken(0, ['YYYYYY', 6, true], 0, 'year');
-
-    // ALIASES
-
-    addUnitAlias('year', 'y');
-
-    // PRIORITIES
-
-    addUnitPriority('year', 1);
-
-    // PARSING
-
-    addRegexToken('Y',      matchSigned);
-    addRegexToken('YY',     match1to2, match2);
-    addRegexToken('YYYY',   match1to4, match4);
-    addRegexToken('YYYYY',  match1to6, match6);
-    addRegexToken('YYYYYY', match1to6, match6);
-
-    addParseToken(['YYYYY', 'YYYYYY'], YEAR);
-    addParseToken('YYYY', function (input, array) {
-        array[YEAR] = input.length === 2 ? hooks.parseTwoDigitYear(input) : toInt(input);
-    });
-    addParseToken('YY', function (input, array) {
-        array[YEAR] = hooks.parseTwoDigitYear(input);
-    });
-    addParseToken('Y', function (input, array) {
-        array[YEAR] = parseInt(input, 10);
-    });
-
-    // HELPERS
-
-    function daysInYear(year) {
-        return isLeapYear(year) ? 366 : 365;
-    }
-
-    function isLeapYear(year) {
-        return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
-    }
-
-    // HOOKS
-
-    hooks.parseTwoDigitYear = function (input) {
-        return toInt(input) + (toInt(input) > 68 ? 1900 : 2000);
-    };
-
-    // MOMENTS
-
-    var getSetYear = makeGetSet('FullYear', true);
-
-    function getIsLeapYear () {
-        return isLeapYear(this.year());
-=======
 // LOCALES
 
 var defaultLocaleWeekdays = 'Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday'.split('_');
@@ -54137,244 +41661,9 @@ function getSetDayOfWeek (input) {
         return this.add(input - day, 'd');
     } else {
         return day;
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
     }
 }
 
-<<<<<<< HEAD
-    function makeGetSet (unit, keepTime) {
-        return function (value) {
-            if (value != null) {
-                set$1(this, unit, value);
-                hooks.updateOffset(this, keepTime);
-                return this;
-            } else {
-                return get(this, unit);
-            }
-        };
-    }
-
-    function get (mom, unit) {
-        return mom.isValid() ?
-            mom._d['get' + (mom._isUTC ? 'UTC' : '') + unit]() : NaN;
-    }
-
-    function set$1 (mom, unit, value) {
-        if (mom.isValid() && !isNaN(value)) {
-            if (unit === 'FullYear' && isLeapYear(mom.year()) && mom.month() === 1 && mom.date() === 29) {
-                mom._d['set' + (mom._isUTC ? 'UTC' : '') + unit](value, mom.month(), daysInMonth(value, mom.month()));
-            }
-            else {
-                mom._d['set' + (mom._isUTC ? 'UTC' : '') + unit](value);
-            }
-        }
-    }
-
-    // MOMENTS
-
-    function stringGet (units) {
-        units = normalizeUnits(units);
-        if (isFunction(this[units])) {
-            return this[units]();
-        }
-        return this;
-    }
-
-
-    function stringSet (units, value) {
-        if (typeof units === 'object') {
-            units = normalizeObjectUnits(units);
-            var prioritized = getPrioritizedUnits(units);
-            for (var i = 0; i < prioritized.length; i++) {
-                this[prioritized[i].unit](units[prioritized[i].unit]);
-            }
-        } else {
-            units = normalizeUnits(units);
-            if (isFunction(this[units])) {
-                return this[units](value);
-            }
-        }
-        return this;
-    }
-
-    function mod(n, x) {
-        return ((n % x) + x) % x;
-    }
-
-    var indexOf;
-
-    if (Array.prototype.indexOf) {
-        indexOf = Array.prototype.indexOf;
-    } else {
-        indexOf = function (o) {
-            // I know
-            var i;
-            for (i = 0; i < this.length; ++i) {
-                if (this[i] === o) {
-                    return i;
-                }
-            }
-            return -1;
-        };
-    }
-
-    function daysInMonth(year, month) {
-        if (isNaN(year) || isNaN(month)) {
-            return NaN;
-        }
-        var modMonth = mod(month, 12);
-        year += (month - modMonth) / 12;
-        return modMonth === 1 ? (isLeapYear(year) ? 29 : 28) : (31 - modMonth % 7 % 2);
-    }
-
-    // FORMATTING
-
-    addFormatToken('M', ['MM', 2], 'Mo', function () {
-        return this.month() + 1;
-    });
-
-    addFormatToken('MMM', 0, 0, function (format) {
-        return this.localeData().monthsShort(this, format);
-    });
-
-    addFormatToken('MMMM', 0, 0, function (format) {
-        return this.localeData().months(this, format);
-    });
-
-    // ALIASES
-
-    addUnitAlias('month', 'M');
-
-    // PRIORITY
-
-    addUnitPriority('month', 8);
-
-    // PARSING
-
-    addRegexToken('M',    match1to2);
-    addRegexToken('MM',   match1to2, match2);
-    addRegexToken('MMM',  function (isStrict, locale) {
-        return locale.monthsShortRegex(isStrict);
-    });
-    addRegexToken('MMMM', function (isStrict, locale) {
-        return locale.monthsRegex(isStrict);
-    });
-
-    addParseToken(['M', 'MM'], function (input, array) {
-        array[MONTH] = toInt(input) - 1;
-    });
-
-    addParseToken(['MMM', 'MMMM'], function (input, array, config, token) {
-        var month = config._locale.monthsParse(input, token, config._strict);
-        // if we didn't find a month name, mark the date as invalid.
-        if (month != null) {
-            array[MONTH] = month;
-        } else {
-            getParsingFlags(config).invalidMonth = input;
-        }
-    });
-
-    // LOCALES
-
-    var MONTHS_IN_FORMAT = /D[oD]?(\[[^\[\]]*\]|\s)+MMMM?/;
-    var defaultLocaleMonths = 'January_February_March_April_May_June_July_August_September_October_November_December'.split('_');
-    function localeMonths (m, format) {
-        if (!m) {
-            return isArray(this._months) ? this._months :
-                this._months['standalone'];
-        }
-        return isArray(this._months) ? this._months[m.month()] :
-            this._months[(this._months.isFormat || MONTHS_IN_FORMAT).test(format) ? 'format' : 'standalone'][m.month()];
-    }
-
-    var defaultLocaleMonthsShort = 'Jan_Feb_Mar_Apr_May_Jun_Jul_Aug_Sep_Oct_Nov_Dec'.split('_');
-    function localeMonthsShort (m, format) {
-        if (!m) {
-            return isArray(this._monthsShort) ? this._monthsShort :
-                this._monthsShort['standalone'];
-        }
-        return isArray(this._monthsShort) ? this._monthsShort[m.month()] :
-            this._monthsShort[MONTHS_IN_FORMAT.test(format) ? 'format' : 'standalone'][m.month()];
-    }
-
-    function handleStrictParse(monthName, format, strict) {
-        var i, ii, mom, llc = monthName.toLocaleLowerCase();
-        if (!this._monthsParse) {
-            // this is not used
-            this._monthsParse = [];
-            this._longMonthsParse = [];
-            this._shortMonthsParse = [];
-            for (i = 0; i < 12; ++i) {
-                mom = createUTC([2000, i]);
-                this._shortMonthsParse[i] = this.monthsShort(mom, '').toLocaleLowerCase();
-                this._longMonthsParse[i] = this.months(mom, '').toLocaleLowerCase();
-            }
-        }
-
-        if (strict) {
-            if (format === 'MMM') {
-                ii = indexOf.call(this._shortMonthsParse, llc);
-                return ii !== -1 ? ii : null;
-            } else {
-                ii = indexOf.call(this._longMonthsParse, llc);
-                return ii !== -1 ? ii : null;
-            }
-        } else {
-            if (format === 'MMM') {
-                ii = indexOf.call(this._shortMonthsParse, llc);
-                if (ii !== -1) {
-                    return ii;
-                }
-                ii = indexOf.call(this._longMonthsParse, llc);
-                return ii !== -1 ? ii : null;
-            } else {
-                ii = indexOf.call(this._longMonthsParse, llc);
-                if (ii !== -1) {
-                    return ii;
-                }
-                ii = indexOf.call(this._shortMonthsParse, llc);
-                return ii !== -1 ? ii : null;
-            }
-        }
-    }
-
-    function localeMonthsParse (monthName, format, strict) {
-        var i, mom, regex;
-
-        if (this._monthsParseExact) {
-            return handleStrictParse.call(this, monthName, format, strict);
-        }
-
-        if (!this._monthsParse) {
-            this._monthsParse = [];
-            this._longMonthsParse = [];
-            this._shortMonthsParse = [];
-        }
-
-        // TODO: add sorting
-        // Sorting makes sure if one month (or abbr) is a prefix of another
-        // see sorting in computeMonthsParse
-        for (i = 0; i < 12; i++) {
-            // make the regex if we don't have it already
-            mom = createUTC([2000, i]);
-            if (strict && !this._longMonthsParse[i]) {
-                this._longMonthsParse[i] = new RegExp('^' + this.months(mom, '').replace('.', '') + '$', 'i');
-                this._shortMonthsParse[i] = new RegExp('^' + this.monthsShort(mom, '').replace('.', '') + '$', 'i');
-            }
-            if (!strict && !this._monthsParse[i]) {
-                regex = '^' + this.months(mom, '') + '|^' + this.monthsShort(mom, '');
-                this._monthsParse[i] = new RegExp(regex.replace('.', ''), 'i');
-            }
-            // test the regex
-            if (strict && format === 'MMMM' && this._longMonthsParse[i].test(monthName)) {
-                return i;
-            } else if (strict && format === 'MMM' && this._shortMonthsParse[i].test(monthName)) {
-                return i;
-            } else if (!strict && this._monthsParse[i].test(monthName)) {
-                return i;
-            }
-        }
-=======
 function getSetLocaleDayOfWeek (input) {
     if (!this.isValid()) {
         return input != null ? this : NaN;
@@ -54624,137 +41913,9 @@ function localeMeridiem (hours, minutes, isLower) {
         return isLower ? 'pm' : 'PM';
     } else {
         return isLower ? 'am' : 'AM';
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
     }
 }
 
-<<<<<<< HEAD
-    // MOMENTS
-
-    function setMonth (mom, value) {
-        var dayOfMonth;
-
-        if (!mom.isValid()) {
-            // No op
-            return mom;
-        }
-
-        if (typeof value === 'string') {
-            if (/^\d+$/.test(value)) {
-                value = toInt(value);
-            } else {
-                value = mom.localeData().monthsParse(value);
-                // TODO: Another silent failure?
-                if (!isNumber(value)) {
-                    return mom;
-                }
-            }
-        }
-
-        dayOfMonth = Math.min(mom.date(), daysInMonth(mom.year(), value));
-        mom._d['set' + (mom._isUTC ? 'UTC' : '') + 'Month'](value, dayOfMonth);
-        return mom;
-    }
-
-    function getSetMonth (value) {
-        if (value != null) {
-            setMonth(this, value);
-            hooks.updateOffset(this, true);
-            return this;
-        } else {
-            return get(this, 'Month');
-        }
-    }
-
-    function getDaysInMonth () {
-        return daysInMonth(this.year(), this.month());
-    }
-
-    var defaultMonthsShortRegex = matchWord;
-    function monthsShortRegex (isStrict) {
-        if (this._monthsParseExact) {
-            if (!hasOwnProp(this, '_monthsRegex')) {
-                computeMonthsParse.call(this);
-            }
-            if (isStrict) {
-                return this._monthsShortStrictRegex;
-            } else {
-                return this._monthsShortRegex;
-            }
-        } else {
-            if (!hasOwnProp(this, '_monthsShortRegex')) {
-                this._monthsShortRegex = defaultMonthsShortRegex;
-            }
-            return this._monthsShortStrictRegex && isStrict ?
-                this._monthsShortStrictRegex : this._monthsShortRegex;
-        }
-    }
-
-    var defaultMonthsRegex = matchWord;
-    function monthsRegex (isStrict) {
-        if (this._monthsParseExact) {
-            if (!hasOwnProp(this, '_monthsRegex')) {
-                computeMonthsParse.call(this);
-            }
-            if (isStrict) {
-                return this._monthsStrictRegex;
-            } else {
-                return this._monthsRegex;
-            }
-        } else {
-            if (!hasOwnProp(this, '_monthsRegex')) {
-                this._monthsRegex = defaultMonthsRegex;
-            }
-            return this._monthsStrictRegex && isStrict ?
-                this._monthsStrictRegex : this._monthsRegex;
-        }
-    }
-
-    function computeMonthsParse () {
-        function cmpLenRev(a, b) {
-            return b.length - a.length;
-        }
-
-        var shortPieces = [], longPieces = [], mixedPieces = [],
-            i, mom;
-        for (i = 0; i < 12; i++) {
-            // make the regex if we don't have it already
-            mom = createUTC([2000, i]);
-            shortPieces.push(this.monthsShort(mom, ''));
-            longPieces.push(this.months(mom, ''));
-            mixedPieces.push(this.months(mom, ''));
-            mixedPieces.push(this.monthsShort(mom, ''));
-        }
-        // Sorting makes sure if one month (or abbr) is a prefix of another it
-        // will match the longer piece.
-        shortPieces.sort(cmpLenRev);
-        longPieces.sort(cmpLenRev);
-        mixedPieces.sort(cmpLenRev);
-        for (i = 0; i < 12; i++) {
-            shortPieces[i] = regexEscape(shortPieces[i]);
-            longPieces[i] = regexEscape(longPieces[i]);
-        }
-        for (i = 0; i < 24; i++) {
-            mixedPieces[i] = regexEscape(mixedPieces[i]);
-        }
-
-        this._monthsRegex = new RegExp('^(' + mixedPieces.join('|') + ')', 'i');
-        this._monthsShortRegex = this._monthsRegex;
-        this._monthsStrictRegex = new RegExp('^(' + longPieces.join('|') + ')', 'i');
-        this._monthsShortStrictRegex = new RegExp('^(' + shortPieces.join('|') + ')', 'i');
-    }
-
-    function createDate (y, m, d, h, M, s, ms) {
-        // can't just apply() to create a date:
-        // https://stackoverflow.com/q/181348
-        var date = new Date(y, m, d, h, M, s, ms);
-
-        // the date constructor remaps years 0-99 to 1900-1999
-        if (y < 100 && y >= 0 && isFinite(date.getFullYear())) {
-            date.setFullYear(y);
-        }
-        return date;
-=======
 
 // MOMENTS
 
@@ -54816,31 +41977,10 @@ function chooseLocale(names) {
             j--;
         }
         i++;
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
     }
     return globalLocale;
 }
 
-<<<<<<< HEAD
-    function createUTCDate (y) {
-        var date = new Date(Date.UTC.apply(null, arguments));
-
-        // the Date.UTC function remaps years 0-99 to 1900-1999
-        if (y < 100 && y >= 0 && isFinite(date.getUTCFullYear())) {
-            date.setUTCFullYear(y);
-        }
-        return date;
-    }
-
-    // start-of-first-week - start-of-year
-    function firstWeekOffset(year, dow, doy) {
-        var // first-week day -- which january is always in the first week (4 for iso, 1 for other)
-            fwd = 7 + dow - doy,
-            // first-week day local weekday -- which local weekday is fwd
-            fwdlw = (7 + createUTCDate(year, 0, fwd).getUTCDay() - dow) % 7;
-
-        return -fwdlw + fwd - 1;
-=======
 function loadLocale(name) {
     var oldLocale = null;
     // TODO: Find a better way to register and load all the locales in Node
@@ -54852,529 +41992,10 @@ function loadLocale(name) {
             __webpack_require__(482)("./" + name);
             getSetGlobalLocale(oldLocale);
         } catch (e) {}
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
     }
     return locales[name];
 }
 
-<<<<<<< HEAD
-    // https://en.wikipedia.org/wiki/ISO_week_date#Calculating_a_date_given_the_year.2C_week_number_and_weekday
-    function dayOfYearFromWeeks(year, week, weekday, dow, doy) {
-        var localWeekday = (7 + weekday - dow) % 7,
-            weekOffset = firstWeekOffset(year, dow, doy),
-            dayOfYear = 1 + 7 * (week - 1) + localWeekday + weekOffset,
-            resYear, resDayOfYear;
-
-        if (dayOfYear <= 0) {
-            resYear = year - 1;
-            resDayOfYear = daysInYear(resYear) + dayOfYear;
-        } else if (dayOfYear > daysInYear(year)) {
-            resYear = year + 1;
-            resDayOfYear = dayOfYear - daysInYear(year);
-        } else {
-            resYear = year;
-            resDayOfYear = dayOfYear;
-        }
-
-        return {
-            year: resYear,
-            dayOfYear: resDayOfYear
-        };
-    }
-
-    function weekOfYear(mom, dow, doy) {
-        var weekOffset = firstWeekOffset(mom.year(), dow, doy),
-            week = Math.floor((mom.dayOfYear() - weekOffset - 1) / 7) + 1,
-            resWeek, resYear;
-
-        if (week < 1) {
-            resYear = mom.year() - 1;
-            resWeek = week + weeksInYear(resYear, dow, doy);
-        } else if (week > weeksInYear(mom.year(), dow, doy)) {
-            resWeek = week - weeksInYear(mom.year(), dow, doy);
-            resYear = mom.year() + 1;
-        } else {
-            resYear = mom.year();
-            resWeek = week;
-        }
-
-        return {
-            week: resWeek,
-            year: resYear
-        };
-    }
-
-    function weeksInYear(year, dow, doy) {
-        var weekOffset = firstWeekOffset(year, dow, doy),
-            weekOffsetNext = firstWeekOffset(year + 1, dow, doy);
-        return (daysInYear(year) - weekOffset + weekOffsetNext) / 7;
-    }
-
-    // FORMATTING
-
-    addFormatToken('w', ['ww', 2], 'wo', 'week');
-    addFormatToken('W', ['WW', 2], 'Wo', 'isoWeek');
-
-    // ALIASES
-
-    addUnitAlias('week', 'w');
-    addUnitAlias('isoWeek', 'W');
-
-    // PRIORITIES
-
-    addUnitPriority('week', 5);
-    addUnitPriority('isoWeek', 5);
-
-    // PARSING
-
-    addRegexToken('w',  match1to2);
-    addRegexToken('ww', match1to2, match2);
-    addRegexToken('W',  match1to2);
-    addRegexToken('WW', match1to2, match2);
-
-    addWeekParseToken(['w', 'ww', 'W', 'WW'], function (input, week, config, token) {
-        week[token.substr(0, 1)] = toInt(input);
-    });
-
-    // HELPERS
-
-    // LOCALES
-
-    function localeWeek (mom) {
-        return weekOfYear(mom, this._week.dow, this._week.doy).week;
-    }
-
-    var defaultLocaleWeek = {
-        dow : 0, // Sunday is the first day of the week.
-        doy : 6  // The week that contains Jan 1st is the first week of the year.
-    };
-
-    function localeFirstDayOfWeek () {
-        return this._week.dow;
-    }
-
-    function localeFirstDayOfYear () {
-        return this._week.doy;
-    }
-
-    // MOMENTS
-
-    function getSetWeek (input) {
-        var week = this.localeData().week(this);
-        return input == null ? week : this.add((input - week) * 7, 'd');
-    }
-
-    function getSetISOWeek (input) {
-        var week = weekOfYear(this, 1, 4).week;
-        return input == null ? week : this.add((input - week) * 7, 'd');
-    }
-
-    // FORMATTING
-
-    addFormatToken('d', 0, 'do', 'day');
-
-    addFormatToken('dd', 0, 0, function (format) {
-        return this.localeData().weekdaysMin(this, format);
-    });
-
-    addFormatToken('ddd', 0, 0, function (format) {
-        return this.localeData().weekdaysShort(this, format);
-    });
-
-    addFormatToken('dddd', 0, 0, function (format) {
-        return this.localeData().weekdays(this, format);
-    });
-
-    addFormatToken('e', 0, 0, 'weekday');
-    addFormatToken('E', 0, 0, 'isoWeekday');
-
-    // ALIASES
-
-    addUnitAlias('day', 'd');
-    addUnitAlias('weekday', 'e');
-    addUnitAlias('isoWeekday', 'E');
-
-    // PRIORITY
-    addUnitPriority('day', 11);
-    addUnitPriority('weekday', 11);
-    addUnitPriority('isoWeekday', 11);
-
-    // PARSING
-
-    addRegexToken('d',    match1to2);
-    addRegexToken('e',    match1to2);
-    addRegexToken('E',    match1to2);
-    addRegexToken('dd',   function (isStrict, locale) {
-        return locale.weekdaysMinRegex(isStrict);
-    });
-    addRegexToken('ddd',   function (isStrict, locale) {
-        return locale.weekdaysShortRegex(isStrict);
-    });
-    addRegexToken('dddd',   function (isStrict, locale) {
-        return locale.weekdaysRegex(isStrict);
-    });
-
-    addWeekParseToken(['dd', 'ddd', 'dddd'], function (input, week, config, token) {
-        var weekday = config._locale.weekdaysParse(input, token, config._strict);
-        // if we didn't get a weekday name, mark the date as invalid
-        if (weekday != null) {
-            week.d = weekday;
-        } else {
-            getParsingFlags(config).invalidWeekday = input;
-        }
-    });
-
-    addWeekParseToken(['d', 'e', 'E'], function (input, week, config, token) {
-        week[token] = toInt(input);
-    });
-
-    // HELPERS
-
-    function parseWeekday(input, locale) {
-        if (typeof input !== 'string') {
-            return input;
-        }
-
-        if (!isNaN(input)) {
-            return parseInt(input, 10);
-        }
-
-        input = locale.weekdaysParse(input);
-        if (typeof input === 'number') {
-            return input;
-        }
-
-        return null;
-    }
-
-    function parseIsoWeekday(input, locale) {
-        if (typeof input === 'string') {
-            return locale.weekdaysParse(input) % 7 || 7;
-        }
-        return isNaN(input) ? null : input;
-    }
-
-    // LOCALES
-
-    var defaultLocaleWeekdays = 'Sunday_Monday_Tuesday_Wednesday_Thursday_Friday_Saturday'.split('_');
-    function localeWeekdays (m, format) {
-        if (!m) {
-            return isArray(this._weekdays) ? this._weekdays :
-                this._weekdays['standalone'];
-        }
-        return isArray(this._weekdays) ? this._weekdays[m.day()] :
-            this._weekdays[this._weekdays.isFormat.test(format) ? 'format' : 'standalone'][m.day()];
-    }
-
-    var defaultLocaleWeekdaysShort = 'Sun_Mon_Tue_Wed_Thu_Fri_Sat'.split('_');
-    function localeWeekdaysShort (m) {
-        return (m) ? this._weekdaysShort[m.day()] : this._weekdaysShort;
-    }
-
-    var defaultLocaleWeekdaysMin = 'Su_Mo_Tu_We_Th_Fr_Sa'.split('_');
-    function localeWeekdaysMin (m) {
-        return (m) ? this._weekdaysMin[m.day()] : this._weekdaysMin;
-    }
-
-    function handleStrictParse$1(weekdayName, format, strict) {
-        var i, ii, mom, llc = weekdayName.toLocaleLowerCase();
-        if (!this._weekdaysParse) {
-            this._weekdaysParse = [];
-            this._shortWeekdaysParse = [];
-            this._minWeekdaysParse = [];
-
-            for (i = 0; i < 7; ++i) {
-                mom = createUTC([2000, 1]).day(i);
-                this._minWeekdaysParse[i] = this.weekdaysMin(mom, '').toLocaleLowerCase();
-                this._shortWeekdaysParse[i] = this.weekdaysShort(mom, '').toLocaleLowerCase();
-                this._weekdaysParse[i] = this.weekdays(mom, '').toLocaleLowerCase();
-            }
-        }
-
-        if (strict) {
-            if (format === 'dddd') {
-                ii = indexOf.call(this._weekdaysParse, llc);
-                return ii !== -1 ? ii : null;
-            } else if (format === 'ddd') {
-                ii = indexOf.call(this._shortWeekdaysParse, llc);
-                return ii !== -1 ? ii : null;
-            } else {
-                ii = indexOf.call(this._minWeekdaysParse, llc);
-                return ii !== -1 ? ii : null;
-            }
-        } else {
-            if (format === 'dddd') {
-                ii = indexOf.call(this._weekdaysParse, llc);
-                if (ii !== -1) {
-                    return ii;
-                }
-                ii = indexOf.call(this._shortWeekdaysParse, llc);
-                if (ii !== -1) {
-                    return ii;
-                }
-                ii = indexOf.call(this._minWeekdaysParse, llc);
-                return ii !== -1 ? ii : null;
-            } else if (format === 'ddd') {
-                ii = indexOf.call(this._shortWeekdaysParse, llc);
-                if (ii !== -1) {
-                    return ii;
-                }
-                ii = indexOf.call(this._weekdaysParse, llc);
-                if (ii !== -1) {
-                    return ii;
-                }
-                ii = indexOf.call(this._minWeekdaysParse, llc);
-                return ii !== -1 ? ii : null;
-            } else {
-                ii = indexOf.call(this._minWeekdaysParse, llc);
-                if (ii !== -1) {
-                    return ii;
-                }
-                ii = indexOf.call(this._weekdaysParse, llc);
-                if (ii !== -1) {
-                    return ii;
-                }
-                ii = indexOf.call(this._shortWeekdaysParse, llc);
-                return ii !== -1 ? ii : null;
-            }
-        }
-    }
-
-    function localeWeekdaysParse (weekdayName, format, strict) {
-        var i, mom, regex;
-
-        if (this._weekdaysParseExact) {
-            return handleStrictParse$1.call(this, weekdayName, format, strict);
-        }
-
-        if (!this._weekdaysParse) {
-            this._weekdaysParse = [];
-            this._minWeekdaysParse = [];
-            this._shortWeekdaysParse = [];
-            this._fullWeekdaysParse = [];
-        }
-
-        for (i = 0; i < 7; i++) {
-            // make the regex if we don't have it already
-
-            mom = createUTC([2000, 1]).day(i);
-            if (strict && !this._fullWeekdaysParse[i]) {
-                this._fullWeekdaysParse[i] = new RegExp('^' + this.weekdays(mom, '').replace('.', '\.?') + '$', 'i');
-                this._shortWeekdaysParse[i] = new RegExp('^' + this.weekdaysShort(mom, '').replace('.', '\.?') + '$', 'i');
-                this._minWeekdaysParse[i] = new RegExp('^' + this.weekdaysMin(mom, '').replace('.', '\.?') + '$', 'i');
-            }
-            if (!this._weekdaysParse[i]) {
-                regex = '^' + this.weekdays(mom, '') + '|^' + this.weekdaysShort(mom, '') + '|^' + this.weekdaysMin(mom, '');
-                this._weekdaysParse[i] = new RegExp(regex.replace('.', ''), 'i');
-            }
-            // test the regex
-            if (strict && format === 'dddd' && this._fullWeekdaysParse[i].test(weekdayName)) {
-                return i;
-            } else if (strict && format === 'ddd' && this._shortWeekdaysParse[i].test(weekdayName)) {
-                return i;
-            } else if (strict && format === 'dd' && this._minWeekdaysParse[i].test(weekdayName)) {
-                return i;
-            } else if (!strict && this._weekdaysParse[i].test(weekdayName)) {
-                return i;
-            }
-        }
-    }
-
-    // MOMENTS
-
-    function getSetDayOfWeek (input) {
-        if (!this.isValid()) {
-            return input != null ? this : NaN;
-        }
-        var day = this._isUTC ? this._d.getUTCDay() : this._d.getDay();
-        if (input != null) {
-            input = parseWeekday(input, this.localeData());
-            return this.add(input - day, 'd');
-        } else {
-            return day;
-        }
-    }
-
-    function getSetLocaleDayOfWeek (input) {
-        if (!this.isValid()) {
-            return input != null ? this : NaN;
-        }
-        var weekday = (this.day() + 7 - this.localeData()._week.dow) % 7;
-        return input == null ? weekday : this.add(input - weekday, 'd');
-    }
-
-    function getSetISODayOfWeek (input) {
-        if (!this.isValid()) {
-            return input != null ? this : NaN;
-        }
-
-        // behaves the same as moment#day except
-        // as a getter, returns 7 instead of 0 (1-7 range instead of 0-6)
-        // as a setter, sunday should belong to the previous week.
-
-        if (input != null) {
-            var weekday = parseIsoWeekday(input, this.localeData());
-            return this.day(this.day() % 7 ? weekday : weekday - 7);
-        } else {
-            return this.day() || 7;
-        }
-    }
-
-    var defaultWeekdaysRegex = matchWord;
-    function weekdaysRegex (isStrict) {
-        if (this._weekdaysParseExact) {
-            if (!hasOwnProp(this, '_weekdaysRegex')) {
-                computeWeekdaysParse.call(this);
-            }
-            if (isStrict) {
-                return this._weekdaysStrictRegex;
-            } else {
-                return this._weekdaysRegex;
-            }
-        } else {
-            if (!hasOwnProp(this, '_weekdaysRegex')) {
-                this._weekdaysRegex = defaultWeekdaysRegex;
-            }
-            return this._weekdaysStrictRegex && isStrict ?
-                this._weekdaysStrictRegex : this._weekdaysRegex;
-        }
-    }
-
-    var defaultWeekdaysShortRegex = matchWord;
-    function weekdaysShortRegex (isStrict) {
-        if (this._weekdaysParseExact) {
-            if (!hasOwnProp(this, '_weekdaysRegex')) {
-                computeWeekdaysParse.call(this);
-            }
-            if (isStrict) {
-                return this._weekdaysShortStrictRegex;
-            } else {
-                return this._weekdaysShortRegex;
-            }
-        } else {
-            if (!hasOwnProp(this, '_weekdaysShortRegex')) {
-                this._weekdaysShortRegex = defaultWeekdaysShortRegex;
-            }
-            return this._weekdaysShortStrictRegex && isStrict ?
-                this._weekdaysShortStrictRegex : this._weekdaysShortRegex;
-        }
-    }
-
-    var defaultWeekdaysMinRegex = matchWord;
-    function weekdaysMinRegex (isStrict) {
-        if (this._weekdaysParseExact) {
-            if (!hasOwnProp(this, '_weekdaysRegex')) {
-                computeWeekdaysParse.call(this);
-            }
-            if (isStrict) {
-                return this._weekdaysMinStrictRegex;
-            } else {
-                return this._weekdaysMinRegex;
-            }
-        } else {
-            if (!hasOwnProp(this, '_weekdaysMinRegex')) {
-                this._weekdaysMinRegex = defaultWeekdaysMinRegex;
-            }
-            return this._weekdaysMinStrictRegex && isStrict ?
-                this._weekdaysMinStrictRegex : this._weekdaysMinRegex;
-        }
-    }
-
-
-    function computeWeekdaysParse () {
-        function cmpLenRev(a, b) {
-            return b.length - a.length;
-        }
-
-        var minPieces = [], shortPieces = [], longPieces = [], mixedPieces = [],
-            i, mom, minp, shortp, longp;
-        for (i = 0; i < 7; i++) {
-            // make the regex if we don't have it already
-            mom = createUTC([2000, 1]).day(i);
-            minp = this.weekdaysMin(mom, '');
-            shortp = this.weekdaysShort(mom, '');
-            longp = this.weekdays(mom, '');
-            minPieces.push(minp);
-            shortPieces.push(shortp);
-            longPieces.push(longp);
-            mixedPieces.push(minp);
-            mixedPieces.push(shortp);
-            mixedPieces.push(longp);
-        }
-        // Sorting makes sure if one weekday (or abbr) is a prefix of another it
-        // will match the longer piece.
-        minPieces.sort(cmpLenRev);
-        shortPieces.sort(cmpLenRev);
-        longPieces.sort(cmpLenRev);
-        mixedPieces.sort(cmpLenRev);
-        for (i = 0; i < 7; i++) {
-            shortPieces[i] = regexEscape(shortPieces[i]);
-            longPieces[i] = regexEscape(longPieces[i]);
-            mixedPieces[i] = regexEscape(mixedPieces[i]);
-        }
-
-        this._weekdaysRegex = new RegExp('^(' + mixedPieces.join('|') + ')', 'i');
-        this._weekdaysShortRegex = this._weekdaysRegex;
-        this._weekdaysMinRegex = this._weekdaysRegex;
-
-        this._weekdaysStrictRegex = new RegExp('^(' + longPieces.join('|') + ')', 'i');
-        this._weekdaysShortStrictRegex = new RegExp('^(' + shortPieces.join('|') + ')', 'i');
-        this._weekdaysMinStrictRegex = new RegExp('^(' + minPieces.join('|') + ')', 'i');
-    }
-
-    // FORMATTING
-
-    function hFormat() {
-        return this.hours() % 12 || 12;
-    }
-
-    function kFormat() {
-        return this.hours() || 24;
-    }
-
-    addFormatToken('H', ['HH', 2], 0, 'hour');
-    addFormatToken('h', ['hh', 2], 0, hFormat);
-    addFormatToken('k', ['kk', 2], 0, kFormat);
-
-    addFormatToken('hmm', 0, 0, function () {
-        return '' + hFormat.apply(this) + zeroFill(this.minutes(), 2);
-    });
-
-    addFormatToken('hmmss', 0, 0, function () {
-        return '' + hFormat.apply(this) + zeroFill(this.minutes(), 2) +
-            zeroFill(this.seconds(), 2);
-    });
-
-    addFormatToken('Hmm', 0, 0, function () {
-        return '' + this.hours() + zeroFill(this.minutes(), 2);
-    });
-
-    addFormatToken('Hmmss', 0, 0, function () {
-        return '' + this.hours() + zeroFill(this.minutes(), 2) +
-            zeroFill(this.seconds(), 2);
-    });
-
-    function meridiem (token, lowercase) {
-        addFormatToken(token, 0, 0, function () {
-            return this.localeData().meridiem(this.hours(), this.minutes(), lowercase);
-        });
-    }
-
-    meridiem('a', true);
-    meridiem('A', false);
-
-    // ALIASES
-
-    addUnitAlias('hour', 'h');
-
-    // PRIORITY
-    addUnitPriority('hour', 13);
-
-    // PARSING
-
-    function matchMeridiem (isStrict, locale) {
-        return locale._meridiemParse;
-=======
 // This function will load locale and then set the global locale.  If
 // no arguments are passed in, it will simply return the current global
 // locale key.
@@ -55910,872 +42531,9 @@ hooks.createFromInputFallback = deprecate(
     'http://momentjs.com/guides/#/warnings/js-date/ for more info.',
     function (config) {
         config._d = new Date(config._i + (config._useUTC ? ' UTC' : ''));
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
     }
 );
 
-<<<<<<< HEAD
-    addRegexToken('a',  matchMeridiem);
-    addRegexToken('A',  matchMeridiem);
-    addRegexToken('H',  match1to2);
-    addRegexToken('h',  match1to2);
-    addRegexToken('k',  match1to2);
-    addRegexToken('HH', match1to2, match2);
-    addRegexToken('hh', match1to2, match2);
-    addRegexToken('kk', match1to2, match2);
-
-    addRegexToken('hmm', match3to4);
-    addRegexToken('hmmss', match5to6);
-    addRegexToken('Hmm', match3to4);
-    addRegexToken('Hmmss', match5to6);
-
-    addParseToken(['H', 'HH'], HOUR);
-    addParseToken(['k', 'kk'], function (input, array, config) {
-        var kInput = toInt(input);
-        array[HOUR] = kInput === 24 ? 0 : kInput;
-    });
-    addParseToken(['a', 'A'], function (input, array, config) {
-        config._isPm = config._locale.isPM(input);
-        config._meridiem = input;
-    });
-    addParseToken(['h', 'hh'], function (input, array, config) {
-        array[HOUR] = toInt(input);
-        getParsingFlags(config).bigHour = true;
-    });
-    addParseToken('hmm', function (input, array, config) {
-        var pos = input.length - 2;
-        array[HOUR] = toInt(input.substr(0, pos));
-        array[MINUTE] = toInt(input.substr(pos));
-        getParsingFlags(config).bigHour = true;
-    });
-    addParseToken('hmmss', function (input, array, config) {
-        var pos1 = input.length - 4;
-        var pos2 = input.length - 2;
-        array[HOUR] = toInt(input.substr(0, pos1));
-        array[MINUTE] = toInt(input.substr(pos1, 2));
-        array[SECOND] = toInt(input.substr(pos2));
-        getParsingFlags(config).bigHour = true;
-    });
-    addParseToken('Hmm', function (input, array, config) {
-        var pos = input.length - 2;
-        array[HOUR] = toInt(input.substr(0, pos));
-        array[MINUTE] = toInt(input.substr(pos));
-    });
-    addParseToken('Hmmss', function (input, array, config) {
-        var pos1 = input.length - 4;
-        var pos2 = input.length - 2;
-        array[HOUR] = toInt(input.substr(0, pos1));
-        array[MINUTE] = toInt(input.substr(pos1, 2));
-        array[SECOND] = toInt(input.substr(pos2));
-    });
-
-    // LOCALES
-
-    function localeIsPM (input) {
-        // IE8 Quirks Mode & IE7 Standards Mode do not allow accessing strings like arrays
-        // Using charAt should be more compatible.
-        return ((input + '').toLowerCase().charAt(0) === 'p');
-    }
-
-    var defaultLocaleMeridiemParse = /[ap]\.?m?\.?/i;
-    function localeMeridiem (hours, minutes, isLower) {
-        if (hours > 11) {
-            return isLower ? 'pm' : 'PM';
-        } else {
-            return isLower ? 'am' : 'AM';
-        }
-    }
-
-
-    // MOMENTS
-
-    // Setting the hour should keep the time, because the user explicitly
-    // specified which hour they want. So trying to maintain the same hour (in
-    // a new timezone) makes sense. Adding/subtracting hours does not follow
-    // this rule.
-    var getSetHour = makeGetSet('Hours', true);
-
-    var baseConfig = {
-        calendar: defaultCalendar,
-        longDateFormat: defaultLongDateFormat,
-        invalidDate: defaultInvalidDate,
-        ordinal: defaultOrdinal,
-        dayOfMonthOrdinalParse: defaultDayOfMonthOrdinalParse,
-        relativeTime: defaultRelativeTime,
-
-        months: defaultLocaleMonths,
-        monthsShort: defaultLocaleMonthsShort,
-
-        week: defaultLocaleWeek,
-
-        weekdays: defaultLocaleWeekdays,
-        weekdaysMin: defaultLocaleWeekdaysMin,
-        weekdaysShort: defaultLocaleWeekdaysShort,
-
-        meridiemParse: defaultLocaleMeridiemParse
-    };
-
-    // internal storage for locale config files
-    var locales = {};
-    var localeFamilies = {};
-    var globalLocale;
-
-    function normalizeLocale(key) {
-        return key ? key.toLowerCase().replace('_', '-') : key;
-    }
-
-    // pick the locale from the array
-    // try ['en-au', 'en-gb'] as 'en-au', 'en-gb', 'en', as in move through the list trying each
-    // substring from most specific to least, but move to the next array item if it's a more specific variant than the current root
-    function chooseLocale(names) {
-        var i = 0, j, next, locale, split;
-
-        while (i < names.length) {
-            split = normalizeLocale(names[i]).split('-');
-            j = split.length;
-            next = normalizeLocale(names[i + 1]);
-            next = next ? next.split('-') : null;
-            while (j > 0) {
-                locale = loadLocale(split.slice(0, j).join('-'));
-                if (locale) {
-                    return locale;
-                }
-                if (next && next.length >= j && compareArrays(split, next, true) >= j - 1) {
-                    //the next array item is better than a shallower substring of this one
-                    break;
-                }
-                j--;
-            }
-            i++;
-        }
-        return globalLocale;
-    }
-
-    function loadLocale(name) {
-        var oldLocale = null;
-        // TODO: Find a better way to register and load all the locales in Node
-        if (!locales[name] && (typeof module !== 'undefined') &&
-                module && module.exports) {
-            try {
-                oldLocale = globalLocale._abbr;
-                var aliasedRequire = require;
-                __webpack_require__(483)("./" + name);
-                getSetGlobalLocale(oldLocale);
-            } catch (e) {}
-        }
-        return locales[name];
-    }
-
-    // This function will load locale and then set the global locale.  If
-    // no arguments are passed in, it will simply return the current global
-    // locale key.
-    function getSetGlobalLocale (key, values) {
-        var data;
-        if (key) {
-            if (isUndefined(values)) {
-                data = getLocale(key);
-            }
-            else {
-                data = defineLocale(key, values);
-            }
-
-            if (data) {
-                // moment.duration._locale = moment._locale = data;
-                globalLocale = data;
-            }
-            else {
-                if ((typeof console !==  'undefined') && console.warn) {
-                    //warn user if arguments are passed but the locale could not be set
-                    console.warn('Locale ' + key +  ' not found. Did you forget to load it?');
-                }
-            }
-        }
-
-        return globalLocale._abbr;
-    }
-
-    function defineLocale (name, config) {
-        if (config !== null) {
-            var locale, parentConfig = baseConfig;
-            config.abbr = name;
-            if (locales[name] != null) {
-                deprecateSimple('defineLocaleOverride',
-                        'use moment.updateLocale(localeName, config) to change ' +
-                        'an existing locale. moment.defineLocale(localeName, ' +
-                        'config) should only be used for creating a new locale ' +
-                        'See http://momentjs.com/guides/#/warnings/define-locale/ for more info.');
-                parentConfig = locales[name]._config;
-            } else if (config.parentLocale != null) {
-                if (locales[config.parentLocale] != null) {
-                    parentConfig = locales[config.parentLocale]._config;
-                } else {
-                    locale = loadLocale(config.parentLocale);
-                    if (locale != null) {
-                        parentConfig = locale._config;
-                    } else {
-                        if (!localeFamilies[config.parentLocale]) {
-                            localeFamilies[config.parentLocale] = [];
-                        }
-                        localeFamilies[config.parentLocale].push({
-                            name: name,
-                            config: config
-                        });
-                        return null;
-                    }
-                }
-            }
-            locales[name] = new Locale(mergeConfigs(parentConfig, config));
-
-            if (localeFamilies[name]) {
-                localeFamilies[name].forEach(function (x) {
-                    defineLocale(x.name, x.config);
-                });
-            }
-
-            // backwards compat for now: also set the locale
-            // make sure we set the locale AFTER all child locales have been
-            // created, so we won't end up with the child locale set.
-            getSetGlobalLocale(name);
-
-
-            return locales[name];
-        } else {
-            // useful for testing
-            delete locales[name];
-            return null;
-        }
-    }
-
-    function updateLocale(name, config) {
-        if (config != null) {
-            var locale, tmpLocale, parentConfig = baseConfig;
-            // MERGE
-            tmpLocale = loadLocale(name);
-            if (tmpLocale != null) {
-                parentConfig = tmpLocale._config;
-            }
-            config = mergeConfigs(parentConfig, config);
-            locale = new Locale(config);
-            locale.parentLocale = locales[name];
-            locales[name] = locale;
-
-            // backwards compat for now: also set the locale
-            getSetGlobalLocale(name);
-        } else {
-            // pass null for config to unupdate, useful for tests
-            if (locales[name] != null) {
-                if (locales[name].parentLocale != null) {
-                    locales[name] = locales[name].parentLocale;
-                } else if (locales[name] != null) {
-                    delete locales[name];
-                }
-            }
-        }
-        return locales[name];
-    }
-
-    // returns locale data
-    function getLocale (key) {
-        var locale;
-
-        if (key && key._locale && key._locale._abbr) {
-            key = key._locale._abbr;
-        }
-
-        if (!key) {
-            return globalLocale;
-        }
-
-        if (!isArray(key)) {
-            //short-circuit everything else
-            locale = loadLocale(key);
-            if (locale) {
-                return locale;
-            }
-            key = [key];
-        }
-
-        return chooseLocale(key);
-    }
-
-    function listLocales() {
-        return keys(locales);
-    }
-
-    function checkOverflow (m) {
-        var overflow;
-        var a = m._a;
-
-        if (a && getParsingFlags(m).overflow === -2) {
-            overflow =
-                a[MONTH]       < 0 || a[MONTH]       > 11  ? MONTH :
-                a[DATE]        < 1 || a[DATE]        > daysInMonth(a[YEAR], a[MONTH]) ? DATE :
-                a[HOUR]        < 0 || a[HOUR]        > 24 || (a[HOUR] === 24 && (a[MINUTE] !== 0 || a[SECOND] !== 0 || a[MILLISECOND] !== 0)) ? HOUR :
-                a[MINUTE]      < 0 || a[MINUTE]      > 59  ? MINUTE :
-                a[SECOND]      < 0 || a[SECOND]      > 59  ? SECOND :
-                a[MILLISECOND] < 0 || a[MILLISECOND] > 999 ? MILLISECOND :
-                -1;
-
-            if (getParsingFlags(m)._overflowDayOfYear && (overflow < YEAR || overflow > DATE)) {
-                overflow = DATE;
-            }
-            if (getParsingFlags(m)._overflowWeeks && overflow === -1) {
-                overflow = WEEK;
-            }
-            if (getParsingFlags(m)._overflowWeekday && overflow === -1) {
-                overflow = WEEKDAY;
-            }
-
-            getParsingFlags(m).overflow = overflow;
-        }
-
-        return m;
-    }
-
-    // Pick the first defined of two or three arguments.
-    function defaults(a, b, c) {
-        if (a != null) {
-            return a;
-        }
-        if (b != null) {
-            return b;
-        }
-        return c;
-    }
-
-    function currentDateArray(config) {
-        // hooks is actually the exported moment object
-        var nowValue = new Date(hooks.now());
-        if (config._useUTC) {
-            return [nowValue.getUTCFullYear(), nowValue.getUTCMonth(), nowValue.getUTCDate()];
-        }
-        return [nowValue.getFullYear(), nowValue.getMonth(), nowValue.getDate()];
-    }
-
-    // convert an array to a date.
-    // the array should mirror the parameters below
-    // note: all values past the year are optional and will default to the lowest possible value.
-    // [year, month, day , hour, minute, second, millisecond]
-    function configFromArray (config) {
-        var i, date, input = [], currentDate, expectedWeekday, yearToUse;
-
-        if (config._d) {
-            return;
-        }
-
-        currentDate = currentDateArray(config);
-
-        //compute day of the year from weeks and weekdays
-        if (config._w && config._a[DATE] == null && config._a[MONTH] == null) {
-            dayOfYearFromWeekInfo(config);
-        }
-
-        //if the day of the year is set, figure out what it is
-        if (config._dayOfYear != null) {
-            yearToUse = defaults(config._a[YEAR], currentDate[YEAR]);
-
-            if (config._dayOfYear > daysInYear(yearToUse) || config._dayOfYear === 0) {
-                getParsingFlags(config)._overflowDayOfYear = true;
-            }
-
-            date = createUTCDate(yearToUse, 0, config._dayOfYear);
-            config._a[MONTH] = date.getUTCMonth();
-            config._a[DATE] = date.getUTCDate();
-        }
-
-        // Default to current date.
-        // * if no year, month, day of month are given, default to today
-        // * if day of month is given, default month and year
-        // * if month is given, default only year
-        // * if year is given, don't default anything
-        for (i = 0; i < 3 && config._a[i] == null; ++i) {
-            config._a[i] = input[i] = currentDate[i];
-        }
-
-        // Zero out whatever was not defaulted, including time
-        for (; i < 7; i++) {
-            config._a[i] = input[i] = (config._a[i] == null) ? (i === 2 ? 1 : 0) : config._a[i];
-        }
-
-        // Check for 24:00:00.000
-        if (config._a[HOUR] === 24 &&
-                config._a[MINUTE] === 0 &&
-                config._a[SECOND] === 0 &&
-                config._a[MILLISECOND] === 0) {
-            config._nextDay = true;
-            config._a[HOUR] = 0;
-        }
-
-        config._d = (config._useUTC ? createUTCDate : createDate).apply(null, input);
-        expectedWeekday = config._useUTC ? config._d.getUTCDay() : config._d.getDay();
-
-        // Apply timezone offset from input. The actual utcOffset can be changed
-        // with parseZone.
-        if (config._tzm != null) {
-            config._d.setUTCMinutes(config._d.getUTCMinutes() - config._tzm);
-        }
-
-        if (config._nextDay) {
-            config._a[HOUR] = 24;
-        }
-
-        // check for mismatching day of week
-        if (config._w && typeof config._w.d !== 'undefined' && config._w.d !== expectedWeekday) {
-            getParsingFlags(config).weekdayMismatch = true;
-        }
-    }
-
-    function dayOfYearFromWeekInfo(config) {
-        var w, weekYear, week, weekday, dow, doy, temp, weekdayOverflow;
-
-        w = config._w;
-        if (w.GG != null || w.W != null || w.E != null) {
-            dow = 1;
-            doy = 4;
-
-            // TODO: We need to take the current isoWeekYear, but that depends on
-            // how we interpret now (local, utc, fixed offset). So create
-            // a now version of current config (take local/utc/offset flags, and
-            // create now).
-            weekYear = defaults(w.GG, config._a[YEAR], weekOfYear(createLocal(), 1, 4).year);
-            week = defaults(w.W, 1);
-            weekday = defaults(w.E, 1);
-            if (weekday < 1 || weekday > 7) {
-                weekdayOverflow = true;
-            }
-        } else {
-            dow = config._locale._week.dow;
-            doy = config._locale._week.doy;
-
-            var curWeek = weekOfYear(createLocal(), dow, doy);
-
-            weekYear = defaults(w.gg, config._a[YEAR], curWeek.year);
-
-            // Default to current week.
-            week = defaults(w.w, curWeek.week);
-
-            if (w.d != null) {
-                // weekday -- low day numbers are considered next week
-                weekday = w.d;
-                if (weekday < 0 || weekday > 6) {
-                    weekdayOverflow = true;
-                }
-            } else if (w.e != null) {
-                // local weekday -- counting starts from begining of week
-                weekday = w.e + dow;
-                if (w.e < 0 || w.e > 6) {
-                    weekdayOverflow = true;
-                }
-            } else {
-                // default to begining of week
-                weekday = dow;
-            }
-        }
-        if (week < 1 || week > weeksInYear(weekYear, dow, doy)) {
-            getParsingFlags(config)._overflowWeeks = true;
-        } else if (weekdayOverflow != null) {
-            getParsingFlags(config)._overflowWeekday = true;
-        } else {
-            temp = dayOfYearFromWeeks(weekYear, week, weekday, dow, doy);
-            config._a[YEAR] = temp.year;
-            config._dayOfYear = temp.dayOfYear;
-        }
-    }
-
-    // iso 8601 regex
-    // 0000-00-00 0000-W00 or 0000-W00-0 + T + 00 or 00:00 or 00:00:00 or 00:00:00.000 + +00:00 or +0000 or +00)
-    var extendedIsoRegex = /^\s*((?:[+-]\d{6}|\d{4})-(?:\d\d-\d\d|W\d\d-\d|W\d\d|\d\d\d|\d\d))(?:(T| )(\d\d(?::\d\d(?::\d\d(?:[.,]\d+)?)?)?)([\+\-]\d\d(?::?\d\d)?|\s*Z)?)?$/;
-    var basicIsoRegex = /^\s*((?:[+-]\d{6}|\d{4})(?:\d\d\d\d|W\d\d\d|W\d\d|\d\d\d|\d\d))(?:(T| )(\d\d(?:\d\d(?:\d\d(?:[.,]\d+)?)?)?)([\+\-]\d\d(?::?\d\d)?|\s*Z)?)?$/;
-
-    var tzRegex = /Z|[+-]\d\d(?::?\d\d)?/;
-
-    var isoDates = [
-        ['YYYYYY-MM-DD', /[+-]\d{6}-\d\d-\d\d/],
-        ['YYYY-MM-DD', /\d{4}-\d\d-\d\d/],
-        ['GGGG-[W]WW-E', /\d{4}-W\d\d-\d/],
-        ['GGGG-[W]WW', /\d{4}-W\d\d/, false],
-        ['YYYY-DDD', /\d{4}-\d{3}/],
-        ['YYYY-MM', /\d{4}-\d\d/, false],
-        ['YYYYYYMMDD', /[+-]\d{10}/],
-        ['YYYYMMDD', /\d{8}/],
-        // YYYYMM is NOT allowed by the standard
-        ['GGGG[W]WWE', /\d{4}W\d{3}/],
-        ['GGGG[W]WW', /\d{4}W\d{2}/, false],
-        ['YYYYDDD', /\d{7}/]
-    ];
-
-    // iso time formats and regexes
-    var isoTimes = [
-        ['HH:mm:ss.SSSS', /\d\d:\d\d:\d\d\.\d+/],
-        ['HH:mm:ss,SSSS', /\d\d:\d\d:\d\d,\d+/],
-        ['HH:mm:ss', /\d\d:\d\d:\d\d/],
-        ['HH:mm', /\d\d:\d\d/],
-        ['HHmmss.SSSS', /\d\d\d\d\d\d\.\d+/],
-        ['HHmmss,SSSS', /\d\d\d\d\d\d,\d+/],
-        ['HHmmss', /\d\d\d\d\d\d/],
-        ['HHmm', /\d\d\d\d/],
-        ['HH', /\d\d/]
-    ];
-
-    var aspNetJsonRegex = /^\/?Date\((\-?\d+)/i;
-
-    // date from iso format
-    function configFromISO(config) {
-        var i, l,
-            string = config._i,
-            match = extendedIsoRegex.exec(string) || basicIsoRegex.exec(string),
-            allowTime, dateFormat, timeFormat, tzFormat;
-
-        if (match) {
-            getParsingFlags(config).iso = true;
-
-            for (i = 0, l = isoDates.length; i < l; i++) {
-                if (isoDates[i][1].exec(match[1])) {
-                    dateFormat = isoDates[i][0];
-                    allowTime = isoDates[i][2] !== false;
-                    break;
-                }
-            }
-            if (dateFormat == null) {
-                config._isValid = false;
-                return;
-            }
-            if (match[3]) {
-                for (i = 0, l = isoTimes.length; i < l; i++) {
-                    if (isoTimes[i][1].exec(match[3])) {
-                        // match[2] should be 'T' or space
-                        timeFormat = (match[2] || ' ') + isoTimes[i][0];
-                        break;
-                    }
-                }
-                if (timeFormat == null) {
-                    config._isValid = false;
-                    return;
-                }
-            }
-            if (!allowTime && timeFormat != null) {
-                config._isValid = false;
-                return;
-            }
-            if (match[4]) {
-                if (tzRegex.exec(match[4])) {
-                    tzFormat = 'Z';
-                } else {
-                    config._isValid = false;
-                    return;
-                }
-            }
-            config._f = dateFormat + (timeFormat || '') + (tzFormat || '');
-            configFromStringAndFormat(config);
-        } else {
-            config._isValid = false;
-        }
-    }
-
-    // RFC 2822 regex: For details see https://tools.ietf.org/html/rfc2822#section-3.3
-    var rfc2822 = /^(?:(Mon|Tue|Wed|Thu|Fri|Sat|Sun),?\s)?(\d{1,2})\s(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s(\d{2,4})\s(\d\d):(\d\d)(?::(\d\d))?\s(?:(UT|GMT|[ECMP][SD]T)|([Zz])|([+-]\d{4}))$/;
-
-    function extractFromRFC2822Strings(yearStr, monthStr, dayStr, hourStr, minuteStr, secondStr) {
-        var result = [
-            untruncateYear(yearStr),
-            defaultLocaleMonthsShort.indexOf(monthStr),
-            parseInt(dayStr, 10),
-            parseInt(hourStr, 10),
-            parseInt(minuteStr, 10)
-        ];
-
-        if (secondStr) {
-            result.push(parseInt(secondStr, 10));
-        }
-
-        return result;
-    }
-
-    function untruncateYear(yearStr) {
-        var year = parseInt(yearStr, 10);
-        if (year <= 49) {
-            return 2000 + year;
-        } else if (year <= 999) {
-            return 1900 + year;
-        }
-        return year;
-    }
-
-    function preprocessRFC2822(s) {
-        // Remove comments and folding whitespace and replace multiple-spaces with a single space
-        return s.replace(/\([^)]*\)|[\n\t]/g, ' ').replace(/(\s\s+)/g, ' ').trim();
-    }
-
-    function checkWeekday(weekdayStr, parsedInput, config) {
-        if (weekdayStr) {
-            // TODO: Replace the vanilla JS Date object with an indepentent day-of-week check.
-            var weekdayProvided = defaultLocaleWeekdaysShort.indexOf(weekdayStr),
-                weekdayActual = new Date(parsedInput[0], parsedInput[1], parsedInput[2]).getDay();
-            if (weekdayProvided !== weekdayActual) {
-                getParsingFlags(config).weekdayMismatch = true;
-                config._isValid = false;
-                return false;
-            }
-        }
-        return true;
-    }
-
-    var obsOffsets = {
-        UT: 0,
-        GMT: 0,
-        EDT: -4 * 60,
-        EST: -5 * 60,
-        CDT: -5 * 60,
-        CST: -6 * 60,
-        MDT: -6 * 60,
-        MST: -7 * 60,
-        PDT: -7 * 60,
-        PST: -8 * 60
-    };
-
-    function calculateOffset(obsOffset, militaryOffset, numOffset) {
-        if (obsOffset) {
-            return obsOffsets[obsOffset];
-        } else if (militaryOffset) {
-            // the only allowed military tz is Z
-            return 0;
-        } else {
-            var hm = parseInt(numOffset, 10);
-            var m = hm % 100, h = (hm - m) / 100;
-            return h * 60 + m;
-        }
-    }
-
-    // date and time from ref 2822 format
-    function configFromRFC2822(config) {
-        var match = rfc2822.exec(preprocessRFC2822(config._i));
-        if (match) {
-            var parsedArray = extractFromRFC2822Strings(match[4], match[3], match[2], match[5], match[6], match[7]);
-            if (!checkWeekday(match[1], parsedArray, config)) {
-                return;
-            }
-
-            config._a = parsedArray;
-            config._tzm = calculateOffset(match[8], match[9], match[10]);
-
-            config._d = createUTCDate.apply(null, config._a);
-            config._d.setUTCMinutes(config._d.getUTCMinutes() - config._tzm);
-
-            getParsingFlags(config).rfc2822 = true;
-        } else {
-            config._isValid = false;
-        }
-    }
-
-    // date from iso format or fallback
-    function configFromString(config) {
-        var matched = aspNetJsonRegex.exec(config._i);
-
-        if (matched !== null) {
-            config._d = new Date(+matched[1]);
-            return;
-        }
-
-        configFromISO(config);
-        if (config._isValid === false) {
-            delete config._isValid;
-        } else {
-            return;
-        }
-
-        configFromRFC2822(config);
-        if (config._isValid === false) {
-            delete config._isValid;
-        } else {
-            return;
-        }
-
-        // Final attempt, use Input Fallback
-        hooks.createFromInputFallback(config);
-    }
-
-    hooks.createFromInputFallback = deprecate(
-        'value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), ' +
-        'which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are ' +
-        'discouraged and will be removed in an upcoming major release. Please refer to ' +
-        'http://momentjs.com/guides/#/warnings/js-date/ for more info.',
-        function (config) {
-            config._d = new Date(config._i + (config._useUTC ? ' UTC' : ''));
-        }
-    );
-
-    // constant that refers to the ISO standard
-    hooks.ISO_8601 = function () {};
-
-    // constant that refers to the RFC 2822 form
-    hooks.RFC_2822 = function () {};
-
-    // date from string and format string
-    function configFromStringAndFormat(config) {
-        // TODO: Move this to another part of the creation flow to prevent circular deps
-        if (config._f === hooks.ISO_8601) {
-            configFromISO(config);
-            return;
-        }
-        if (config._f === hooks.RFC_2822) {
-            configFromRFC2822(config);
-            return;
-        }
-        config._a = [];
-        getParsingFlags(config).empty = true;
-
-        // This array is used to make a Date, either with `new Date` or `Date.UTC`
-        var string = '' + config._i,
-            i, parsedInput, tokens, token, skipped,
-            stringLength = string.length,
-            totalParsedInputLength = 0;
-
-        tokens = expandFormat(config._f, config._locale).match(formattingTokens) || [];
-
-        for (i = 0; i < tokens.length; i++) {
-            token = tokens[i];
-            parsedInput = (string.match(getParseRegexForToken(token, config)) || [])[0];
-            // console.log('token', token, 'parsedInput', parsedInput,
-            //         'regex', getParseRegexForToken(token, config));
-            if (parsedInput) {
-                skipped = string.substr(0, string.indexOf(parsedInput));
-                if (skipped.length > 0) {
-                    getParsingFlags(config).unusedInput.push(skipped);
-                }
-                string = string.slice(string.indexOf(parsedInput) + parsedInput.length);
-                totalParsedInputLength += parsedInput.length;
-            }
-            // don't parse if it's not a known token
-            if (formatTokenFunctions[token]) {
-                if (parsedInput) {
-                    getParsingFlags(config).empty = false;
-                }
-                else {
-                    getParsingFlags(config).unusedTokens.push(token);
-                }
-                addTimeToArrayFromToken(token, parsedInput, config);
-            }
-            else if (config._strict && !parsedInput) {
-                getParsingFlags(config).unusedTokens.push(token);
-            }
-        }
-
-        // add remaining unparsed input length to the string
-        getParsingFlags(config).charsLeftOver = stringLength - totalParsedInputLength;
-        if (string.length > 0) {
-            getParsingFlags(config).unusedInput.push(string);
-        }
-
-        // clear _12h flag if hour is <= 12
-        if (config._a[HOUR] <= 12 &&
-            getParsingFlags(config).bigHour === true &&
-            config._a[HOUR] > 0) {
-            getParsingFlags(config).bigHour = undefined;
-        }
-
-        getParsingFlags(config).parsedDateParts = config._a.slice(0);
-        getParsingFlags(config).meridiem = config._meridiem;
-        // handle meridiem
-        config._a[HOUR] = meridiemFixWrap(config._locale, config._a[HOUR], config._meridiem);
-
-        configFromArray(config);
-        checkOverflow(config);
-    }
-
-
-    function meridiemFixWrap (locale, hour, meridiem) {
-        var isPm;
-
-        if (meridiem == null) {
-            // nothing to do
-            return hour;
-        }
-        if (locale.meridiemHour != null) {
-            return locale.meridiemHour(hour, meridiem);
-        } else if (locale.isPM != null) {
-            // Fallback
-            isPm = locale.isPM(meridiem);
-            if (isPm && hour < 12) {
-                hour += 12;
-            }
-            if (!isPm && hour === 12) {
-                hour = 0;
-            }
-            return hour;
-        } else {
-            // this is not supposed to happen
-            return hour;
-        }
-    }
-
-    // date from string and array of format strings
-    function configFromStringAndArray(config) {
-        var tempConfig,
-            bestMoment,
-
-            scoreToBeat,
-            i,
-            currentScore;
-
-        if (config._f.length === 0) {
-            getParsingFlags(config).invalidFormat = true;
-            config._d = new Date(NaN);
-            return;
-        }
-
-        for (i = 0; i < config._f.length; i++) {
-            currentScore = 0;
-            tempConfig = copyConfig({}, config);
-            if (config._useUTC != null) {
-                tempConfig._useUTC = config._useUTC;
-            }
-            tempConfig._f = config._f[i];
-            configFromStringAndFormat(tempConfig);
-
-            if (!isValid(tempConfig)) {
-                continue;
-            }
-
-            // if there is any input that was not parsed add a penalty for that format
-            currentScore += getParsingFlags(tempConfig).charsLeftOver;
-
-            //or tokens
-            currentScore += getParsingFlags(tempConfig).unusedTokens.length * 10;
-
-            getParsingFlags(tempConfig).score = currentScore;
-
-            if (scoreToBeat == null || currentScore < scoreToBeat) {
-                scoreToBeat = currentScore;
-                bestMoment = tempConfig;
-            }
-        }
-
-        extend(config, bestMoment || tempConfig);
-    }
-
-    function configFromObject(config) {
-        if (config._d) {
-            return;
-        }
-
-        var i = normalizeObjectUnits(config._i);
-        config._a = map([i.year, i.month, i.day || i.date, i.hour, i.minute, i.second, i.millisecond], function (obj) {
-            return obj && parseInt(obj, 10);
-        });
-
-        configFromArray(config);
-    }
-
-    function createFromConfig (config) {
-        var res = new Moment(checkOverflow(prepareConfig(config)));
-        if (res._nextDay) {
-            // Adding is smart enough around DST
-            res.add(1, 'd');
-            res._nextDay = undefined;
-        }
-
-        return res;
-=======
 // constant that refers to the ISO standard
 hooks.ISO_8601 = function () {};
 
@@ -57329,44 +43087,10 @@ function setOffsetToLocal (keepLocalTime) {
         if (keepLocalTime) {
             this.subtract(getDateOffset(this), 'm');
         }
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
     }
     return this;
 }
 
-<<<<<<< HEAD
-    function prepareConfig (config) {
-        var input = config._i,
-            format = config._f;
-
-        config._locale = config._locale || getLocale(config._l);
-
-        if (input === null || (format === undefined && input === '')) {
-            return createInvalid({nullInput: true});
-        }
-
-        if (typeof input === 'string') {
-            config._i = input = config._locale.preparse(input);
-        }
-
-        if (isMoment(input)) {
-            return new Moment(checkOverflow(input));
-        } else if (isDate(input)) {
-            config._d = input;
-        } else if (isArray(format)) {
-            configFromStringAndArray(config);
-        } else if (format) {
-            configFromStringAndFormat(config);
-        }  else {
-            configFromInput(config);
-        }
-
-        if (!isValid(config)) {
-            config._d = null;
-        }
-
-        return config;
-=======
 function setOffsetToParsedOffset () {
     if (this._tzm != null) {
         this.utcOffset(this._tzm, false, true);
@@ -57378,495 +43102,10 @@ function setOffsetToParsedOffset () {
         else {
             this.utcOffset(0, true);
         }
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
     }
     return this;
 }
 
-<<<<<<< HEAD
-    function configFromInput(config) {
-        var input = config._i;
-        if (isUndefined(input)) {
-            config._d = new Date(hooks.now());
-        } else if (isDate(input)) {
-            config._d = new Date(input.valueOf());
-        } else if (typeof input === 'string') {
-            configFromString(config);
-        } else if (isArray(input)) {
-            config._a = map(input.slice(0), function (obj) {
-                return parseInt(obj, 10);
-            });
-            configFromArray(config);
-        } else if (isObject(input)) {
-            configFromObject(config);
-        } else if (isNumber(input)) {
-            // from milliseconds
-            config._d = new Date(input);
-        } else {
-            hooks.createFromInputFallback(config);
-        }
-    }
-
-    function createLocalOrUTC (input, format, locale, strict, isUTC) {
-        var c = {};
-
-        if (locale === true || locale === false) {
-            strict = locale;
-            locale = undefined;
-        }
-
-        if ((isObject(input) && isObjectEmpty(input)) ||
-                (isArray(input) && input.length === 0)) {
-            input = undefined;
-        }
-        // object construction must be done this way.
-        // https://github.com/moment/moment/issues/1423
-        c._isAMomentObject = true;
-        c._useUTC = c._isUTC = isUTC;
-        c._l = locale;
-        c._i = input;
-        c._f = format;
-        c._strict = strict;
-
-        return createFromConfig(c);
-    }
-
-    function createLocal (input, format, locale, strict) {
-        return createLocalOrUTC(input, format, locale, strict, false);
-    }
-
-    var prototypeMin = deprecate(
-        'moment().min is deprecated, use moment.max instead. http://momentjs.com/guides/#/warnings/min-max/',
-        function () {
-            var other = createLocal.apply(null, arguments);
-            if (this.isValid() && other.isValid()) {
-                return other < this ? this : other;
-            } else {
-                return createInvalid();
-            }
-        }
-    );
-
-    var prototypeMax = deprecate(
-        'moment().max is deprecated, use moment.min instead. http://momentjs.com/guides/#/warnings/min-max/',
-        function () {
-            var other = createLocal.apply(null, arguments);
-            if (this.isValid() && other.isValid()) {
-                return other > this ? this : other;
-            } else {
-                return createInvalid();
-            }
-        }
-    );
-
-    // Pick a moment m from moments so that m[fn](other) is true for all
-    // other. This relies on the function fn to be transitive.
-    //
-    // moments should either be an array of moment objects or an array, whose
-    // first element is an array of moment objects.
-    function pickBy(fn, moments) {
-        var res, i;
-        if (moments.length === 1 && isArray(moments[0])) {
-            moments = moments[0];
-        }
-        if (!moments.length) {
-            return createLocal();
-        }
-        res = moments[0];
-        for (i = 1; i < moments.length; ++i) {
-            if (!moments[i].isValid() || moments[i][fn](res)) {
-                res = moments[i];
-            }
-        }
-        return res;
-    }
-
-    // TODO: Use [].sort instead?
-    function min () {
-        var args = [].slice.call(arguments, 0);
-
-        return pickBy('isBefore', args);
-    }
-
-    function max () {
-        var args = [].slice.call(arguments, 0);
-
-        return pickBy('isAfter', args);
-    }
-
-    var now = function () {
-        return Date.now ? Date.now() : +(new Date());
-    };
-
-    var ordering = ['year', 'quarter', 'month', 'week', 'day', 'hour', 'minute', 'second', 'millisecond'];
-
-    function isDurationValid(m) {
-        for (var key in m) {
-            if (!(indexOf.call(ordering, key) !== -1 && (m[key] == null || !isNaN(m[key])))) {
-                return false;
-            }
-        }
-
-        var unitHasDecimal = false;
-        for (var i = 0; i < ordering.length; ++i) {
-            if (m[ordering[i]]) {
-                if (unitHasDecimal) {
-                    return false; // only allow non-integers for smallest unit
-                }
-                if (parseFloat(m[ordering[i]]) !== toInt(m[ordering[i]])) {
-                    unitHasDecimal = true;
-                }
-            }
-        }
-
-        return true;
-    }
-
-    function isValid$1() {
-        return this._isValid;
-    }
-
-    function createInvalid$1() {
-        return createDuration(NaN);
-    }
-
-    function Duration (duration) {
-        var normalizedInput = normalizeObjectUnits(duration),
-            years = normalizedInput.year || 0,
-            quarters = normalizedInput.quarter || 0,
-            months = normalizedInput.month || 0,
-            weeks = normalizedInput.week || 0,
-            days = normalizedInput.day || 0,
-            hours = normalizedInput.hour || 0,
-            minutes = normalizedInput.minute || 0,
-            seconds = normalizedInput.second || 0,
-            milliseconds = normalizedInput.millisecond || 0;
-
-        this._isValid = isDurationValid(normalizedInput);
-
-        // representation for dateAddRemove
-        this._milliseconds = +milliseconds +
-            seconds * 1e3 + // 1000
-            minutes * 6e4 + // 1000 * 60
-            hours * 1000 * 60 * 60; //using 1000 * 60 * 60 instead of 36e5 to avoid floating point rounding errors https://github.com/moment/moment/issues/2978
-        // Because of dateAddRemove treats 24 hours as different from a
-        // day when working around DST, we need to store them separately
-        this._days = +days +
-            weeks * 7;
-        // It is impossible to translate months into days without knowing
-        // which months you are are talking about, so we have to store
-        // it separately.
-        this._months = +months +
-            quarters * 3 +
-            years * 12;
-
-        this._data = {};
-
-        this._locale = getLocale();
-
-        this._bubble();
-    }
-
-    function isDuration (obj) {
-        return obj instanceof Duration;
-    }
-
-    function absRound (number) {
-        if (number < 0) {
-            return Math.round(-1 * number) * -1;
-        } else {
-            return Math.round(number);
-        }
-    }
-
-    // FORMATTING
-
-    function offset (token, separator) {
-        addFormatToken(token, 0, 0, function () {
-            var offset = this.utcOffset();
-            var sign = '+';
-            if (offset < 0) {
-                offset = -offset;
-                sign = '-';
-            }
-            return sign + zeroFill(~~(offset / 60), 2) + separator + zeroFill(~~(offset) % 60, 2);
-        });
-    }
-
-    offset('Z', ':');
-    offset('ZZ', '');
-
-    // PARSING
-
-    addRegexToken('Z',  matchShortOffset);
-    addRegexToken('ZZ', matchShortOffset);
-    addParseToken(['Z', 'ZZ'], function (input, array, config) {
-        config._useUTC = true;
-        config._tzm = offsetFromString(matchShortOffset, input);
-    });
-
-    // HELPERS
-
-    // timezone chunker
-    // '+10:00' > ['10',  '00']
-    // '-1530'  > ['-15', '30']
-    var chunkOffset = /([\+\-]|\d\d)/gi;
-
-    function offsetFromString(matcher, string) {
-        var matches = (string || '').match(matcher);
-
-        if (matches === null) {
-            return null;
-        }
-
-        var chunk   = matches[matches.length - 1] || [];
-        var parts   = (chunk + '').match(chunkOffset) || ['-', 0, 0];
-        var minutes = +(parts[1] * 60) + toInt(parts[2]);
-
-        return minutes === 0 ?
-          0 :
-          parts[0] === '+' ? minutes : -minutes;
-    }
-
-    // Return a moment from input, that is local/utc/zone equivalent to model.
-    function cloneWithOffset(input, model) {
-        var res, diff;
-        if (model._isUTC) {
-            res = model.clone();
-            diff = (isMoment(input) || isDate(input) ? input.valueOf() : createLocal(input).valueOf()) - res.valueOf();
-            // Use low-level api, because this fn is low-level api.
-            res._d.setTime(res._d.valueOf() + diff);
-            hooks.updateOffset(res, false);
-            return res;
-        } else {
-            return createLocal(input).local();
-        }
-    }
-
-    function getDateOffset (m) {
-        // On Firefox.24 Date#getTimezoneOffset returns a floating point.
-        // https://github.com/moment/moment/pull/1871
-        return -Math.round(m._d.getTimezoneOffset() / 15) * 15;
-    }
-
-    // HOOKS
-
-    // This function will be called whenever a moment is mutated.
-    // It is intended to keep the offset in sync with the timezone.
-    hooks.updateOffset = function () {};
-
-    // MOMENTS
-
-    // keepLocalTime = true means only change the timezone, without
-    // affecting the local hour. So 5:31:26 +0300 --[utcOffset(2, true)]-->
-    // 5:31:26 +0200 It is possible that 5:31:26 doesn't exist with offset
-    // +0200, so we adjust the time as needed, to be valid.
-    //
-    // Keeping the time actually adds/subtracts (one hour)
-    // from the actual represented time. That is why we call updateOffset
-    // a second time. In case it wants us to change the offset again
-    // _changeInProgress == true case, then we have to adjust, because
-    // there is no such time in the given timezone.
-    function getSetOffset (input, keepLocalTime, keepMinutes) {
-        var offset = this._offset || 0,
-            localAdjust;
-        if (!this.isValid()) {
-            return input != null ? this : NaN;
-        }
-        if (input != null) {
-            if (typeof input === 'string') {
-                input = offsetFromString(matchShortOffset, input);
-                if (input === null) {
-                    return this;
-                }
-            } else if (Math.abs(input) < 16 && !keepMinutes) {
-                input = input * 60;
-            }
-            if (!this._isUTC && keepLocalTime) {
-                localAdjust = getDateOffset(this);
-            }
-            this._offset = input;
-            this._isUTC = true;
-            if (localAdjust != null) {
-                this.add(localAdjust, 'm');
-            }
-            if (offset !== input) {
-                if (!keepLocalTime || this._changeInProgress) {
-                    addSubtract(this, createDuration(input - offset, 'm'), 1, false);
-                } else if (!this._changeInProgress) {
-                    this._changeInProgress = true;
-                    hooks.updateOffset(this, true);
-                    this._changeInProgress = null;
-                }
-            }
-            return this;
-        } else {
-            return this._isUTC ? offset : getDateOffset(this);
-        }
-    }
-
-    function getSetZone (input, keepLocalTime) {
-        if (input != null) {
-            if (typeof input !== 'string') {
-                input = -input;
-            }
-
-            this.utcOffset(input, keepLocalTime);
-
-            return this;
-        } else {
-            return -this.utcOffset();
-        }
-    }
-
-    function setOffsetToUTC (keepLocalTime) {
-        return this.utcOffset(0, keepLocalTime);
-    }
-
-    function setOffsetToLocal (keepLocalTime) {
-        if (this._isUTC) {
-            this.utcOffset(0, keepLocalTime);
-            this._isUTC = false;
-
-            if (keepLocalTime) {
-                this.subtract(getDateOffset(this), 'm');
-            }
-        }
-        return this;
-    }
-
-    function setOffsetToParsedOffset () {
-        if (this._tzm != null) {
-            this.utcOffset(this._tzm, false, true);
-        } else if (typeof this._i === 'string') {
-            var tZone = offsetFromString(matchOffset, this._i);
-            if (tZone != null) {
-                this.utcOffset(tZone);
-            }
-            else {
-                this.utcOffset(0, true);
-            }
-        }
-        return this;
-    }
-
-    function hasAlignedHourOffset (input) {
-        if (!this.isValid()) {
-            return false;
-        }
-        input = input ? createLocal(input).utcOffset() : 0;
-
-        return (this.utcOffset() - input) % 60 === 0;
-    }
-
-    function isDaylightSavingTime () {
-        return (
-            this.utcOffset() > this.clone().month(0).utcOffset() ||
-            this.utcOffset() > this.clone().month(5).utcOffset()
-        );
-    }
-
-    function isDaylightSavingTimeShifted () {
-        if (!isUndefined(this._isDSTShifted)) {
-            return this._isDSTShifted;
-        }
-
-        var c = {};
-
-        copyConfig(c, this);
-        c = prepareConfig(c);
-
-        if (c._a) {
-            var other = c._isUTC ? createUTC(c._a) : createLocal(c._a);
-            this._isDSTShifted = this.isValid() &&
-                compareArrays(c._a, other.toArray()) > 0;
-        } else {
-            this._isDSTShifted = false;
-        }
-
-        return this._isDSTShifted;
-    }
-
-    function isLocal () {
-        return this.isValid() ? !this._isUTC : false;
-    }
-
-    function isUtcOffset () {
-        return this.isValid() ? this._isUTC : false;
-    }
-
-    function isUtc () {
-        return this.isValid() ? this._isUTC && this._offset === 0 : false;
-    }
-
-    // ASP.NET json date format regex
-    var aspNetRegex = /^(\-|\+)?(?:(\d*)[. ])?(\d+)\:(\d+)(?:\:(\d+)(\.\d*)?)?$/;
-
-    // from http://docs.closure-library.googlecode.com/git/closure_goog_date_date.js.source.html
-    // somewhat more in line with 4.4.3.2 2004 spec, but allows decimal anywhere
-    // and further modified to allow for strings containing both week and day
-    var isoRegex = /^(-|\+)?P(?:([-+]?[0-9,.]*)Y)?(?:([-+]?[0-9,.]*)M)?(?:([-+]?[0-9,.]*)W)?(?:([-+]?[0-9,.]*)D)?(?:T(?:([-+]?[0-9,.]*)H)?(?:([-+]?[0-9,.]*)M)?(?:([-+]?[0-9,.]*)S)?)?$/;
-
-    function createDuration (input, key) {
-        var duration = input,
-            // matching against regexp is expensive, do it on demand
-            match = null,
-            sign,
-            ret,
-            diffRes;
-
-        if (isDuration(input)) {
-            duration = {
-                ms : input._milliseconds,
-                d  : input._days,
-                M  : input._months
-            };
-        } else if (isNumber(input)) {
-            duration = {};
-            if (key) {
-                duration[key] = input;
-            } else {
-                duration.milliseconds = input;
-            }
-        } else if (!!(match = aspNetRegex.exec(input))) {
-            sign = (match[1] === '-') ? -1 : 1;
-            duration = {
-                y  : 0,
-                d  : toInt(match[DATE])                         * sign,
-                h  : toInt(match[HOUR])                         * sign,
-                m  : toInt(match[MINUTE])                       * sign,
-                s  : toInt(match[SECOND])                       * sign,
-                ms : toInt(absRound(match[MILLISECOND] * 1000)) * sign // the millisecond decimal point is included in the match
-            };
-        } else if (!!(match = isoRegex.exec(input))) {
-            sign = (match[1] === '-') ? -1 : (match[1] === '+') ? 1 : 1;
-            duration = {
-                y : parseIso(match[2], sign),
-                M : parseIso(match[3], sign),
-                w : parseIso(match[4], sign),
-                d : parseIso(match[5], sign),
-                h : parseIso(match[6], sign),
-                m : parseIso(match[7], sign),
-                s : parseIso(match[8], sign)
-            };
-        } else if (duration == null) {// checks for null or undefined
-            duration = {};
-        } else if (typeof duration === 'object' && ('from' in duration || 'to' in duration)) {
-            diffRes = momentsDifference(createLocal(duration.from), createLocal(duration.to));
-
-            duration = {};
-            duration.ms = diffRes.milliseconds;
-            duration.M = diffRes.months;
-        }
-
-        ret = new Duration(duration);
-
-        if (isDuration(input) && hasOwnProp(input, '_locale')) {
-            ret._locale = input._locale;
-        }
-
-        return ret;
-=======
 function hasAlignedHourOffset (input) {
     if (!this.isValid()) {
         return false;
@@ -58266,24 +43505,11 @@ function inspect () {
 function format (inputString) {
     if (!inputString) {
         inputString = this.isUtc() ? hooks.defaultFormatUtc : hooks.defaultFormat;
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
     }
     var output = formatMoment(this, inputString);
     return this.localeData().postformat(output);
 }
 
-<<<<<<< HEAD
-    createDuration.fn = Duration.prototype;
-    createDuration.invalid = createInvalid$1;
-
-    function parseIso (inp, sign) {
-        // We'd normally use ~~inp for this, but unfortunately it also
-        // converts floats to ints.
-        // inp may be undefined, so careful calling replace on it.
-        var res = inp && parseFloat(inp.replace(',', '.'));
-        // apply sign while we're at it
-        return (isNaN(res) ? 0 : res) * sign;
-=======
 function from (time, withoutSuffix) {
     if (this.isValid() &&
             ((isMoment(time) && time.isValid()) ||
@@ -58305,24 +43531,9 @@ function to (time, withoutSuffix) {
         return createDuration({from: this, to: time}).locale(this.locale()).humanize(!withoutSuffix);
     } else {
         return this.localeData().invalidDate();
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
     }
 }
 
-<<<<<<< HEAD
-    function positiveMomentsDifference(base, other) {
-        var res = {milliseconds: 0, months: 0};
-
-        res.months = other.month() - base.month() +
-            (other.year() - base.year()) * 12;
-        if (base.clone().add(res.months, 'M').isAfter(other)) {
-            --res.months;
-        }
-
-        res.milliseconds = +other - +(base.clone().add(res.months, 'M'));
-
-        return res;
-=======
 function toNow (withoutSuffix) {
     return this.to(createLocal(), withoutSuffix);
 }
@@ -58341,1695 +43552,9 @@ function locale (key) {
             this._locale = newLocaleData;
         }
         return this;
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
     }
 }
 
-<<<<<<< HEAD
-    function momentsDifference(base, other) {
-        var res;
-        if (!(base.isValid() && other.isValid())) {
-            return {milliseconds: 0, months: 0};
-        }
-
-        other = cloneWithOffset(other, base);
-        if (base.isBefore(other)) {
-            res = positiveMomentsDifference(base, other);
-        } else {
-            res = positiveMomentsDifference(other, base);
-            res.milliseconds = -res.milliseconds;
-            res.months = -res.months;
-        }
-
-        return res;
-    }
-
-    // TODO: remove 'name' arg after deprecation is removed
-    function createAdder(direction, name) {
-        return function (val, period) {
-            var dur, tmp;
-            //invert the arguments, but complain about it
-            if (period !== null && !isNaN(+period)) {
-                deprecateSimple(name, 'moment().' + name  + '(period, number) is deprecated. Please use moment().' + name + '(number, period). ' +
-                'See http://momentjs.com/guides/#/warnings/add-inverted-param/ for more info.');
-                tmp = val; val = period; period = tmp;
-            }
-
-            val = typeof val === 'string' ? +val : val;
-            dur = createDuration(val, period);
-            addSubtract(this, dur, direction);
-            return this;
-        };
-    }
-
-    function addSubtract (mom, duration, isAdding, updateOffset) {
-        var milliseconds = duration._milliseconds,
-            days = absRound(duration._days),
-            months = absRound(duration._months);
-
-        if (!mom.isValid()) {
-            // No op
-            return;
-        }
-
-        updateOffset = updateOffset == null ? true : updateOffset;
-
-        if (months) {
-            setMonth(mom, get(mom, 'Month') + months * isAdding);
-        }
-        if (days) {
-            set$1(mom, 'Date', get(mom, 'Date') + days * isAdding);
-        }
-        if (milliseconds) {
-            mom._d.setTime(mom._d.valueOf() + milliseconds * isAdding);
-        }
-        if (updateOffset) {
-            hooks.updateOffset(mom, days || months);
-        }
-    }
-
-    var add      = createAdder(1, 'add');
-    var subtract = createAdder(-1, 'subtract');
-
-    function getCalendarFormat(myMoment, now) {
-        var diff = myMoment.diff(now, 'days', true);
-        return diff < -6 ? 'sameElse' :
-                diff < -1 ? 'lastWeek' :
-                diff < 0 ? 'lastDay' :
-                diff < 1 ? 'sameDay' :
-                diff < 2 ? 'nextDay' :
-                diff < 7 ? 'nextWeek' : 'sameElse';
-    }
-
-    function calendar$1 (time, formats) {
-        // We want to compare the start of today, vs this.
-        // Getting start-of-today depends on whether we're local/utc/offset or not.
-        var now = time || createLocal(),
-            sod = cloneWithOffset(now, this).startOf('day'),
-            format = hooks.calendarFormat(this, sod) || 'sameElse';
-
-        var output = formats && (isFunction(formats[format]) ? formats[format].call(this, now) : formats[format]);
-
-        return this.format(output || this.localeData().calendar(format, this, createLocal(now)));
-    }
-
-    function clone () {
-        return new Moment(this);
-    }
-
-    function isAfter (input, units) {
-        var localInput = isMoment(input) ? input : createLocal(input);
-        if (!(this.isValid() && localInput.isValid())) {
-            return false;
-        }
-        units = normalizeUnits(!isUndefined(units) ? units : 'millisecond');
-        if (units === 'millisecond') {
-            return this.valueOf() > localInput.valueOf();
-        } else {
-            return localInput.valueOf() < this.clone().startOf(units).valueOf();
-        }
-    }
-
-    function isBefore (input, units) {
-        var localInput = isMoment(input) ? input : createLocal(input);
-        if (!(this.isValid() && localInput.isValid())) {
-            return false;
-        }
-        units = normalizeUnits(!isUndefined(units) ? units : 'millisecond');
-        if (units === 'millisecond') {
-            return this.valueOf() < localInput.valueOf();
-        } else {
-            return this.clone().endOf(units).valueOf() < localInput.valueOf();
-        }
-    }
-
-    function isBetween (from, to, units, inclusivity) {
-        inclusivity = inclusivity || '()';
-        return (inclusivity[0] === '(' ? this.isAfter(from, units) : !this.isBefore(from, units)) &&
-            (inclusivity[1] === ')' ? this.isBefore(to, units) : !this.isAfter(to, units));
-    }
-
-    function isSame (input, units) {
-        var localInput = isMoment(input) ? input : createLocal(input),
-            inputMs;
-        if (!(this.isValid() && localInput.isValid())) {
-            return false;
-        }
-        units = normalizeUnits(units || 'millisecond');
-        if (units === 'millisecond') {
-            return this.valueOf() === localInput.valueOf();
-        } else {
-            inputMs = localInput.valueOf();
-            return this.clone().startOf(units).valueOf() <= inputMs && inputMs <= this.clone().endOf(units).valueOf();
-        }
-    }
-
-    function isSameOrAfter (input, units) {
-        return this.isSame(input, units) || this.isAfter(input,units);
-    }
-
-    function isSameOrBefore (input, units) {
-        return this.isSame(input, units) || this.isBefore(input,units);
-    }
-
-    function diff (input, units, asFloat) {
-        var that,
-            zoneDelta,
-            output;
-
-        if (!this.isValid()) {
-            return NaN;
-        }
-
-        that = cloneWithOffset(input, this);
-
-        if (!that.isValid()) {
-            return NaN;
-        }
-
-        zoneDelta = (that.utcOffset() - this.utcOffset()) * 6e4;
-
-        units = normalizeUnits(units);
-
-        switch (units) {
-            case 'year': output = monthDiff(this, that) / 12; break;
-            case 'month': output = monthDiff(this, that); break;
-            case 'quarter': output = monthDiff(this, that) / 3; break;
-            case 'second': output = (this - that) / 1e3; break; // 1000
-            case 'minute': output = (this - that) / 6e4; break; // 1000 * 60
-            case 'hour': output = (this - that) / 36e5; break; // 1000 * 60 * 60
-            case 'day': output = (this - that - zoneDelta) / 864e5; break; // 1000 * 60 * 60 * 24, negate dst
-            case 'week': output = (this - that - zoneDelta) / 6048e5; break; // 1000 * 60 * 60 * 24 * 7, negate dst
-            default: output = this - that;
-        }
-
-        return asFloat ? output : absFloor(output);
-    }
-
-    function monthDiff (a, b) {
-        // difference in months
-        var wholeMonthDiff = ((b.year() - a.year()) * 12) + (b.month() - a.month()),
-            // b is in (anchor - 1 month, anchor + 1 month)
-            anchor = a.clone().add(wholeMonthDiff, 'months'),
-            anchor2, adjust;
-
-        if (b - anchor < 0) {
-            anchor2 = a.clone().add(wholeMonthDiff - 1, 'months');
-            // linear across the month
-            adjust = (b - anchor) / (anchor - anchor2);
-        } else {
-            anchor2 = a.clone().add(wholeMonthDiff + 1, 'months');
-            // linear across the month
-            adjust = (b - anchor) / (anchor2 - anchor);
-        }
-
-        //check for negative zero, return zero if negative zero
-        return -(wholeMonthDiff + adjust) || 0;
-    }
-
-    hooks.defaultFormat = 'YYYY-MM-DDTHH:mm:ssZ';
-    hooks.defaultFormatUtc = 'YYYY-MM-DDTHH:mm:ss[Z]';
-
-    function toString () {
-        return this.clone().locale('en').format('ddd MMM DD YYYY HH:mm:ss [GMT]ZZ');
-    }
-
-    function toISOString(keepOffset) {
-        if (!this.isValid()) {
-            return null;
-        }
-        var utc = keepOffset !== true;
-        var m = utc ? this.clone().utc() : this;
-        if (m.year() < 0 || m.year() > 9999) {
-            return formatMoment(m, utc ? 'YYYYYY-MM-DD[T]HH:mm:ss.SSS[Z]' : 'YYYYYY-MM-DD[T]HH:mm:ss.SSSZ');
-        }
-        if (isFunction(Date.prototype.toISOString)) {
-            // native implementation is ~50x faster, use it when we can
-            if (utc) {
-                return this.toDate().toISOString();
-            } else {
-                return new Date(this.valueOf() + this.utcOffset() * 60 * 1000).toISOString().replace('Z', formatMoment(m, 'Z'));
-            }
-        }
-        return formatMoment(m, utc ? 'YYYY-MM-DD[T]HH:mm:ss.SSS[Z]' : 'YYYY-MM-DD[T]HH:mm:ss.SSSZ');
-    }
-
-    /**
-     * Return a human readable representation of a moment that can
-     * also be evaluated to get a new moment which is the same
-     *
-     * @link https://nodejs.org/dist/latest/docs/api/util.html#util_custom_inspect_function_on_objects
-     */
-    function inspect () {
-        if (!this.isValid()) {
-            return 'moment.invalid(/* ' + this._i + ' */)';
-        }
-        var func = 'moment';
-        var zone = '';
-        if (!this.isLocal()) {
-            func = this.utcOffset() === 0 ? 'moment.utc' : 'moment.parseZone';
-            zone = 'Z';
-        }
-        var prefix = '[' + func + '("]';
-        var year = (0 <= this.year() && this.year() <= 9999) ? 'YYYY' : 'YYYYYY';
-        var datetime = '-MM-DD[T]HH:mm:ss.SSS';
-        var suffix = zone + '[")]';
-
-        return this.format(prefix + year + datetime + suffix);
-    }
-
-    function format (inputString) {
-        if (!inputString) {
-            inputString = this.isUtc() ? hooks.defaultFormatUtc : hooks.defaultFormat;
-        }
-        var output = formatMoment(this, inputString);
-        return this.localeData().postformat(output);
-    }
-
-    function from (time, withoutSuffix) {
-        if (this.isValid() &&
-                ((isMoment(time) && time.isValid()) ||
-                 createLocal(time).isValid())) {
-            return createDuration({to: this, from: time}).locale(this.locale()).humanize(!withoutSuffix);
-        } else {
-            return this.localeData().invalidDate();
-        }
-    }
-
-    function fromNow (withoutSuffix) {
-        return this.from(createLocal(), withoutSuffix);
-    }
-
-    function to (time, withoutSuffix) {
-        if (this.isValid() &&
-                ((isMoment(time) && time.isValid()) ||
-                 createLocal(time).isValid())) {
-            return createDuration({from: this, to: time}).locale(this.locale()).humanize(!withoutSuffix);
-        } else {
-            return this.localeData().invalidDate();
-        }
-    }
-
-    function toNow (withoutSuffix) {
-        return this.to(createLocal(), withoutSuffix);
-    }
-
-    // If passed a locale key, it will set the locale for this
-    // instance.  Otherwise, it will return the locale configuration
-    // variables for this instance.
-    function locale (key) {
-        var newLocaleData;
-
-        if (key === undefined) {
-            return this._locale._abbr;
-        } else {
-            newLocaleData = getLocale(key);
-            if (newLocaleData != null) {
-                this._locale = newLocaleData;
-            }
-            return this;
-        }
-    }
-
-    var lang = deprecate(
-        'moment().lang() is deprecated. Instead, use moment().localeData() to get the language configuration. Use moment().locale() to change languages.',
-        function (key) {
-            if (key === undefined) {
-                return this.localeData();
-            } else {
-                return this.locale(key);
-            }
-        }
-    );
-
-    function localeData () {
-        return this._locale;
-    }
-
-    function startOf (units) {
-        units = normalizeUnits(units);
-        // the following switch intentionally omits break keywords
-        // to utilize falling through the cases.
-        switch (units) {
-            case 'year':
-                this.month(0);
-                /* falls through */
-            case 'quarter':
-            case 'month':
-                this.date(1);
-                /* falls through */
-            case 'week':
-            case 'isoWeek':
-            case 'day':
-            case 'date':
-                this.hours(0);
-                /* falls through */
-            case 'hour':
-                this.minutes(0);
-                /* falls through */
-            case 'minute':
-                this.seconds(0);
-                /* falls through */
-            case 'second':
-                this.milliseconds(0);
-        }
-
-        // weeks are a special case
-        if (units === 'week') {
-            this.weekday(0);
-        }
-        if (units === 'isoWeek') {
-            this.isoWeekday(1);
-        }
-
-        // quarters are also special
-        if (units === 'quarter') {
-            this.month(Math.floor(this.month() / 3) * 3);
-        }
-
-        return this;
-    }
-
-    function endOf (units) {
-        units = normalizeUnits(units);
-        if (units === undefined || units === 'millisecond') {
-            return this;
-        }
-
-        // 'date' is an alias for 'day', so it should be considered as such.
-        if (units === 'date') {
-            units = 'day';
-        }
-
-        return this.startOf(units).add(1, (units === 'isoWeek' ? 'week' : units)).subtract(1, 'ms');
-    }
-
-    function valueOf () {
-        return this._d.valueOf() - ((this._offset || 0) * 60000);
-    }
-
-    function unix () {
-        return Math.floor(this.valueOf() / 1000);
-    }
-
-    function toDate () {
-        return new Date(this.valueOf());
-    }
-
-    function toArray () {
-        var m = this;
-        return [m.year(), m.month(), m.date(), m.hour(), m.minute(), m.second(), m.millisecond()];
-    }
-
-    function toObject () {
-        var m = this;
-        return {
-            years: m.year(),
-            months: m.month(),
-            date: m.date(),
-            hours: m.hours(),
-            minutes: m.minutes(),
-            seconds: m.seconds(),
-            milliseconds: m.milliseconds()
-        };
-    }
-
-    function toJSON () {
-        // new Date(NaN).toJSON() === null
-        return this.isValid() ? this.toISOString() : null;
-    }
-
-    function isValid$2 () {
-        return isValid(this);
-    }
-
-    function parsingFlags () {
-        return extend({}, getParsingFlags(this));
-    }
-
-    function invalidAt () {
-        return getParsingFlags(this).overflow;
-    }
-
-    function creationData() {
-        return {
-            input: this._i,
-            format: this._f,
-            locale: this._locale,
-            isUTC: this._isUTC,
-            strict: this._strict
-        };
-    }
-
-    // FORMATTING
-
-    addFormatToken(0, ['gg', 2], 0, function () {
-        return this.weekYear() % 100;
-    });
-
-    addFormatToken(0, ['GG', 2], 0, function () {
-        return this.isoWeekYear() % 100;
-    });
-
-    function addWeekYearFormatToken (token, getter) {
-        addFormatToken(0, [token, token.length], 0, getter);
-    }
-
-    addWeekYearFormatToken('gggg',     'weekYear');
-    addWeekYearFormatToken('ggggg',    'weekYear');
-    addWeekYearFormatToken('GGGG',  'isoWeekYear');
-    addWeekYearFormatToken('GGGGG', 'isoWeekYear');
-
-    // ALIASES
-
-    addUnitAlias('weekYear', 'gg');
-    addUnitAlias('isoWeekYear', 'GG');
-
-    // PRIORITY
-
-    addUnitPriority('weekYear', 1);
-    addUnitPriority('isoWeekYear', 1);
-
-
-    // PARSING
-
-    addRegexToken('G',      matchSigned);
-    addRegexToken('g',      matchSigned);
-    addRegexToken('GG',     match1to2, match2);
-    addRegexToken('gg',     match1to2, match2);
-    addRegexToken('GGGG',   match1to4, match4);
-    addRegexToken('gggg',   match1to4, match4);
-    addRegexToken('GGGGG',  match1to6, match6);
-    addRegexToken('ggggg',  match1to6, match6);
-
-    addWeekParseToken(['gggg', 'ggggg', 'GGGG', 'GGGGG'], function (input, week, config, token) {
-        week[token.substr(0, 2)] = toInt(input);
-    });
-
-    addWeekParseToken(['gg', 'GG'], function (input, week, config, token) {
-        week[token] = hooks.parseTwoDigitYear(input);
-    });
-
-    // MOMENTS
-
-    function getSetWeekYear (input) {
-        return getSetWeekYearHelper.call(this,
-                input,
-                this.week(),
-                this.weekday(),
-                this.localeData()._week.dow,
-                this.localeData()._week.doy);
-    }
-
-    function getSetISOWeekYear (input) {
-        return getSetWeekYearHelper.call(this,
-                input, this.isoWeek(), this.isoWeekday(), 1, 4);
-    }
-
-    function getISOWeeksInYear () {
-        return weeksInYear(this.year(), 1, 4);
-    }
-
-    function getWeeksInYear () {
-        var weekInfo = this.localeData()._week;
-        return weeksInYear(this.year(), weekInfo.dow, weekInfo.doy);
-    }
-
-    function getSetWeekYearHelper(input, week, weekday, dow, doy) {
-        var weeksTarget;
-        if (input == null) {
-            return weekOfYear(this, dow, doy).year;
-        } else {
-            weeksTarget = weeksInYear(input, dow, doy);
-            if (week > weeksTarget) {
-                week = weeksTarget;
-            }
-            return setWeekAll.call(this, input, week, weekday, dow, doy);
-        }
-    }
-
-    function setWeekAll(weekYear, week, weekday, dow, doy) {
-        var dayOfYearData = dayOfYearFromWeeks(weekYear, week, weekday, dow, doy),
-            date = createUTCDate(dayOfYearData.year, 0, dayOfYearData.dayOfYear);
-
-        this.year(date.getUTCFullYear());
-        this.month(date.getUTCMonth());
-        this.date(date.getUTCDate());
-        return this;
-    }
-
-    // FORMATTING
-
-    addFormatToken('Q', 0, 'Qo', 'quarter');
-
-    // ALIASES
-
-    addUnitAlias('quarter', 'Q');
-
-    // PRIORITY
-
-    addUnitPriority('quarter', 7);
-
-    // PARSING
-
-    addRegexToken('Q', match1);
-    addParseToken('Q', function (input, array) {
-        array[MONTH] = (toInt(input) - 1) * 3;
-    });
-
-    // MOMENTS
-
-    function getSetQuarter (input) {
-        return input == null ? Math.ceil((this.month() + 1) / 3) : this.month((input - 1) * 3 + this.month() % 3);
-    }
-
-    // FORMATTING
-
-    addFormatToken('D', ['DD', 2], 'Do', 'date');
-
-    // ALIASES
-
-    addUnitAlias('date', 'D');
-
-    // PRIORITY
-    addUnitPriority('date', 9);
-
-    // PARSING
-
-    addRegexToken('D',  match1to2);
-    addRegexToken('DD', match1to2, match2);
-    addRegexToken('Do', function (isStrict, locale) {
-        // TODO: Remove "ordinalParse" fallback in next major release.
-        return isStrict ?
-          (locale._dayOfMonthOrdinalParse || locale._ordinalParse) :
-          locale._dayOfMonthOrdinalParseLenient;
-    });
-
-    addParseToken(['D', 'DD'], DATE);
-    addParseToken('Do', function (input, array) {
-        array[DATE] = toInt(input.match(match1to2)[0]);
-    });
-
-    // MOMENTS
-
-    var getSetDayOfMonth = makeGetSet('Date', true);
-
-    // FORMATTING
-
-    addFormatToken('DDD', ['DDDD', 3], 'DDDo', 'dayOfYear');
-
-    // ALIASES
-
-    addUnitAlias('dayOfYear', 'DDD');
-
-    // PRIORITY
-    addUnitPriority('dayOfYear', 4);
-
-    // PARSING
-
-    addRegexToken('DDD',  match1to3);
-    addRegexToken('DDDD', match3);
-    addParseToken(['DDD', 'DDDD'], function (input, array, config) {
-        config._dayOfYear = toInt(input);
-    });
-
-    // HELPERS
-
-    // MOMENTS
-
-    function getSetDayOfYear (input) {
-        var dayOfYear = Math.round((this.clone().startOf('day') - this.clone().startOf('year')) / 864e5) + 1;
-        return input == null ? dayOfYear : this.add((input - dayOfYear), 'd');
-    }
-
-    // FORMATTING
-
-    addFormatToken('m', ['mm', 2], 0, 'minute');
-
-    // ALIASES
-
-    addUnitAlias('minute', 'm');
-
-    // PRIORITY
-
-    addUnitPriority('minute', 14);
-
-    // PARSING
-
-    addRegexToken('m',  match1to2);
-    addRegexToken('mm', match1to2, match2);
-    addParseToken(['m', 'mm'], MINUTE);
-
-    // MOMENTS
-
-    var getSetMinute = makeGetSet('Minutes', false);
-
-    // FORMATTING
-
-    addFormatToken('s', ['ss', 2], 0, 'second');
-
-    // ALIASES
-
-    addUnitAlias('second', 's');
-
-    // PRIORITY
-
-    addUnitPriority('second', 15);
-
-    // PARSING
-
-    addRegexToken('s',  match1to2);
-    addRegexToken('ss', match1to2, match2);
-    addParseToken(['s', 'ss'], SECOND);
-
-    // MOMENTS
-
-    var getSetSecond = makeGetSet('Seconds', false);
-
-    // FORMATTING
-
-    addFormatToken('S', 0, 0, function () {
-        return ~~(this.millisecond() / 100);
-    });
-
-    addFormatToken(0, ['SS', 2], 0, function () {
-        return ~~(this.millisecond() / 10);
-    });
-
-    addFormatToken(0, ['SSS', 3], 0, 'millisecond');
-    addFormatToken(0, ['SSSS', 4], 0, function () {
-        return this.millisecond() * 10;
-    });
-    addFormatToken(0, ['SSSSS', 5], 0, function () {
-        return this.millisecond() * 100;
-    });
-    addFormatToken(0, ['SSSSSS', 6], 0, function () {
-        return this.millisecond() * 1000;
-    });
-    addFormatToken(0, ['SSSSSSS', 7], 0, function () {
-        return this.millisecond() * 10000;
-    });
-    addFormatToken(0, ['SSSSSSSS', 8], 0, function () {
-        return this.millisecond() * 100000;
-    });
-    addFormatToken(0, ['SSSSSSSSS', 9], 0, function () {
-        return this.millisecond() * 1000000;
-    });
-
-
-    // ALIASES
-
-    addUnitAlias('millisecond', 'ms');
-
-    // PRIORITY
-
-    addUnitPriority('millisecond', 16);
-
-    // PARSING
-
-    addRegexToken('S',    match1to3, match1);
-    addRegexToken('SS',   match1to3, match2);
-    addRegexToken('SSS',  match1to3, match3);
-
-    var token;
-    for (token = 'SSSS'; token.length <= 9; token += 'S') {
-        addRegexToken(token, matchUnsigned);
-    }
-
-    function parseMs(input, array) {
-        array[MILLISECOND] = toInt(('0.' + input) * 1000);
-    }
-
-    for (token = 'S'; token.length <= 9; token += 'S') {
-        addParseToken(token, parseMs);
-    }
-    // MOMENTS
-
-    var getSetMillisecond = makeGetSet('Milliseconds', false);
-
-    // FORMATTING
-
-    addFormatToken('z',  0, 0, 'zoneAbbr');
-    addFormatToken('zz', 0, 0, 'zoneName');
-
-    // MOMENTS
-
-    function getZoneAbbr () {
-        return this._isUTC ? 'UTC' : '';
-    }
-
-    function getZoneName () {
-        return this._isUTC ? 'Coordinated Universal Time' : '';
-    }
-
-    var proto = Moment.prototype;
-
-    proto.add               = add;
-    proto.calendar          = calendar$1;
-    proto.clone             = clone;
-    proto.diff              = diff;
-    proto.endOf             = endOf;
-    proto.format            = format;
-    proto.from              = from;
-    proto.fromNow           = fromNow;
-    proto.to                = to;
-    proto.toNow             = toNow;
-    proto.get               = stringGet;
-    proto.invalidAt         = invalidAt;
-    proto.isAfter           = isAfter;
-    proto.isBefore          = isBefore;
-    proto.isBetween         = isBetween;
-    proto.isSame            = isSame;
-    proto.isSameOrAfter     = isSameOrAfter;
-    proto.isSameOrBefore    = isSameOrBefore;
-    proto.isValid           = isValid$2;
-    proto.lang              = lang;
-    proto.locale            = locale;
-    proto.localeData        = localeData;
-    proto.max               = prototypeMax;
-    proto.min               = prototypeMin;
-    proto.parsingFlags      = parsingFlags;
-    proto.set               = stringSet;
-    proto.startOf           = startOf;
-    proto.subtract          = subtract;
-    proto.toArray           = toArray;
-    proto.toObject          = toObject;
-    proto.toDate            = toDate;
-    proto.toISOString       = toISOString;
-    proto.inspect           = inspect;
-    proto.toJSON            = toJSON;
-    proto.toString          = toString;
-    proto.unix              = unix;
-    proto.valueOf           = valueOf;
-    proto.creationData      = creationData;
-    proto.year       = getSetYear;
-    proto.isLeapYear = getIsLeapYear;
-    proto.weekYear    = getSetWeekYear;
-    proto.isoWeekYear = getSetISOWeekYear;
-    proto.quarter = proto.quarters = getSetQuarter;
-    proto.month       = getSetMonth;
-    proto.daysInMonth = getDaysInMonth;
-    proto.week           = proto.weeks        = getSetWeek;
-    proto.isoWeek        = proto.isoWeeks     = getSetISOWeek;
-    proto.weeksInYear    = getWeeksInYear;
-    proto.isoWeeksInYear = getISOWeeksInYear;
-    proto.date       = getSetDayOfMonth;
-    proto.day        = proto.days             = getSetDayOfWeek;
-    proto.weekday    = getSetLocaleDayOfWeek;
-    proto.isoWeekday = getSetISODayOfWeek;
-    proto.dayOfYear  = getSetDayOfYear;
-    proto.hour = proto.hours = getSetHour;
-    proto.minute = proto.minutes = getSetMinute;
-    proto.second = proto.seconds = getSetSecond;
-    proto.millisecond = proto.milliseconds = getSetMillisecond;
-    proto.utcOffset            = getSetOffset;
-    proto.utc                  = setOffsetToUTC;
-    proto.local                = setOffsetToLocal;
-    proto.parseZone            = setOffsetToParsedOffset;
-    proto.hasAlignedHourOffset = hasAlignedHourOffset;
-    proto.isDST                = isDaylightSavingTime;
-    proto.isLocal              = isLocal;
-    proto.isUtcOffset          = isUtcOffset;
-    proto.isUtc                = isUtc;
-    proto.isUTC                = isUtc;
-    proto.zoneAbbr = getZoneAbbr;
-    proto.zoneName = getZoneName;
-    proto.dates  = deprecate('dates accessor is deprecated. Use date instead.', getSetDayOfMonth);
-    proto.months = deprecate('months accessor is deprecated. Use month instead', getSetMonth);
-    proto.years  = deprecate('years accessor is deprecated. Use year instead', getSetYear);
-    proto.zone   = deprecate('moment().zone is deprecated, use moment().utcOffset instead. http://momentjs.com/guides/#/warnings/zone/', getSetZone);
-    proto.isDSTShifted = deprecate('isDSTShifted is deprecated. See http://momentjs.com/guides/#/warnings/dst-shifted/ for more information', isDaylightSavingTimeShifted);
-
-    function createUnix (input) {
-        return createLocal(input * 1000);
-    }
-
-    function createInZone () {
-        return createLocal.apply(null, arguments).parseZone();
-    }
-
-    function preParsePostFormat (string) {
-        return string;
-    }
-
-    var proto$1 = Locale.prototype;
-
-    proto$1.calendar        = calendar;
-    proto$1.longDateFormat  = longDateFormat;
-    proto$1.invalidDate     = invalidDate;
-    proto$1.ordinal         = ordinal;
-    proto$1.preparse        = preParsePostFormat;
-    proto$1.postformat      = preParsePostFormat;
-    proto$1.relativeTime    = relativeTime;
-    proto$1.pastFuture      = pastFuture;
-    proto$1.set             = set;
-
-    proto$1.months            =        localeMonths;
-    proto$1.monthsShort       =        localeMonthsShort;
-    proto$1.monthsParse       =        localeMonthsParse;
-    proto$1.monthsRegex       = monthsRegex;
-    proto$1.monthsShortRegex  = monthsShortRegex;
-    proto$1.week = localeWeek;
-    proto$1.firstDayOfYear = localeFirstDayOfYear;
-    proto$1.firstDayOfWeek = localeFirstDayOfWeek;
-
-    proto$1.weekdays       =        localeWeekdays;
-    proto$1.weekdaysMin    =        localeWeekdaysMin;
-    proto$1.weekdaysShort  =        localeWeekdaysShort;
-    proto$1.weekdaysParse  =        localeWeekdaysParse;
-
-    proto$1.weekdaysRegex       =        weekdaysRegex;
-    proto$1.weekdaysShortRegex  =        weekdaysShortRegex;
-    proto$1.weekdaysMinRegex    =        weekdaysMinRegex;
-
-    proto$1.isPM = localeIsPM;
-    proto$1.meridiem = localeMeridiem;
-
-    function get$1 (format, index, field, setter) {
-        var locale = getLocale();
-        var utc = createUTC().set(setter, index);
-        return locale[field](utc, format);
-    }
-
-    function listMonthsImpl (format, index, field) {
-        if (isNumber(format)) {
-            index = format;
-            format = undefined;
-        }
-
-        format = format || '';
-
-        if (index != null) {
-            return get$1(format, index, field, 'month');
-        }
-
-        var i;
-        var out = [];
-        for (i = 0; i < 12; i++) {
-            out[i] = get$1(format, i, field, 'month');
-        }
-        return out;
-    }
-
-    // ()
-    // (5)
-    // (fmt, 5)
-    // (fmt)
-    // (true)
-    // (true, 5)
-    // (true, fmt, 5)
-    // (true, fmt)
-    function listWeekdaysImpl (localeSorted, format, index, field) {
-        if (typeof localeSorted === 'boolean') {
-            if (isNumber(format)) {
-                index = format;
-                format = undefined;
-            }
-
-            format = format || '';
-        } else {
-            format = localeSorted;
-            index = format;
-            localeSorted = false;
-
-            if (isNumber(format)) {
-                index = format;
-                format = undefined;
-            }
-
-            format = format || '';
-        }
-
-        var locale = getLocale(),
-            shift = localeSorted ? locale._week.dow : 0;
-
-        if (index != null) {
-            return get$1(format, (index + shift) % 7, field, 'day');
-        }
-
-        var i;
-        var out = [];
-        for (i = 0; i < 7; i++) {
-            out[i] = get$1(format, (i + shift) % 7, field, 'day');
-        }
-        return out;
-    }
-
-    function listMonths (format, index) {
-        return listMonthsImpl(format, index, 'months');
-    }
-
-    function listMonthsShort (format, index) {
-        return listMonthsImpl(format, index, 'monthsShort');
-    }
-
-    function listWeekdays (localeSorted, format, index) {
-        return listWeekdaysImpl(localeSorted, format, index, 'weekdays');
-    }
-
-    function listWeekdaysShort (localeSorted, format, index) {
-        return listWeekdaysImpl(localeSorted, format, index, 'weekdaysShort');
-    }
-
-    function listWeekdaysMin (localeSorted, format, index) {
-        return listWeekdaysImpl(localeSorted, format, index, 'weekdaysMin');
-    }
-
-    getSetGlobalLocale('en', {
-        dayOfMonthOrdinalParse: /\d{1,2}(th|st|nd|rd)/,
-        ordinal : function (number) {
-            var b = number % 10,
-                output = (toInt(number % 100 / 10) === 1) ? 'th' :
-                (b === 1) ? 'st' :
-                (b === 2) ? 'nd' :
-                (b === 3) ? 'rd' : 'th';
-            return number + output;
-        }
-    });
-
-    // Side effect imports
-
-    hooks.lang = deprecate('moment.lang is deprecated. Use moment.locale instead.', getSetGlobalLocale);
-    hooks.langData = deprecate('moment.langData is deprecated. Use moment.localeData instead.', getLocale);
-
-    var mathAbs = Math.abs;
-
-    function abs () {
-        var data           = this._data;
-
-        this._milliseconds = mathAbs(this._milliseconds);
-        this._days         = mathAbs(this._days);
-        this._months       = mathAbs(this._months);
-
-        data.milliseconds  = mathAbs(data.milliseconds);
-        data.seconds       = mathAbs(data.seconds);
-        data.minutes       = mathAbs(data.minutes);
-        data.hours         = mathAbs(data.hours);
-        data.months        = mathAbs(data.months);
-        data.years         = mathAbs(data.years);
-
-        return this;
-    }
-
-    function addSubtract$1 (duration, input, value, direction) {
-        var other = createDuration(input, value);
-
-        duration._milliseconds += direction * other._milliseconds;
-        duration._days         += direction * other._days;
-        duration._months       += direction * other._months;
-
-        return duration._bubble();
-    }
-
-    // supports only 2.0-style add(1, 's') or add(duration)
-    function add$1 (input, value) {
-        return addSubtract$1(this, input, value, 1);
-    }
-
-    // supports only 2.0-style subtract(1, 's') or subtract(duration)
-    function subtract$1 (input, value) {
-        return addSubtract$1(this, input, value, -1);
-    }
-
-    function absCeil (number) {
-        if (number < 0) {
-            return Math.floor(number);
-        } else {
-            return Math.ceil(number);
-        }
-    }
-
-    function bubble () {
-        var milliseconds = this._milliseconds;
-        var days         = this._days;
-        var months       = this._months;
-        var data         = this._data;
-        var seconds, minutes, hours, years, monthsFromDays;
-
-        // if we have a mix of positive and negative values, bubble down first
-        // check: https://github.com/moment/moment/issues/2166
-        if (!((milliseconds >= 0 && days >= 0 && months >= 0) ||
-                (milliseconds <= 0 && days <= 0 && months <= 0))) {
-            milliseconds += absCeil(monthsToDays(months) + days) * 864e5;
-            days = 0;
-            months = 0;
-        }
-
-        // The following code bubbles up values, see the tests for
-        // examples of what that means.
-        data.milliseconds = milliseconds % 1000;
-
-        seconds           = absFloor(milliseconds / 1000);
-        data.seconds      = seconds % 60;
-
-        minutes           = absFloor(seconds / 60);
-        data.minutes      = minutes % 60;
-
-        hours             = absFloor(minutes / 60);
-        data.hours        = hours % 24;
-
-        days += absFloor(hours / 24);
-
-        // convert days to months
-        monthsFromDays = absFloor(daysToMonths(days));
-        months += monthsFromDays;
-        days -= absCeil(monthsToDays(monthsFromDays));
-
-        // 12 months -> 1 year
-        years = absFloor(months / 12);
-        months %= 12;
-
-        data.days   = days;
-        data.months = months;
-        data.years  = years;
-
-        return this;
-    }
-
-    function daysToMonths (days) {
-        // 400 years have 146097 days (taking into account leap year rules)
-        // 400 years have 12 months === 4800
-        return days * 4800 / 146097;
-    }
-
-    function monthsToDays (months) {
-        // the reverse of daysToMonths
-        return months * 146097 / 4800;
-    }
-
-    function as (units) {
-        if (!this.isValid()) {
-            return NaN;
-        }
-        var days;
-        var months;
-        var milliseconds = this._milliseconds;
-
-        units = normalizeUnits(units);
-
-        if (units === 'month' || units === 'year') {
-            days   = this._days   + milliseconds / 864e5;
-            months = this._months + daysToMonths(days);
-            return units === 'month' ? months : months / 12;
-        } else {
-            // handle milliseconds separately because of floating point math errors (issue #1867)
-            days = this._days + Math.round(monthsToDays(this._months));
-            switch (units) {
-                case 'week'   : return days / 7     + milliseconds / 6048e5;
-                case 'day'    : return days         + milliseconds / 864e5;
-                case 'hour'   : return days * 24    + milliseconds / 36e5;
-                case 'minute' : return days * 1440  + milliseconds / 6e4;
-                case 'second' : return days * 86400 + milliseconds / 1000;
-                // Math.floor prevents floating point math errors here
-                case 'millisecond': return Math.floor(days * 864e5) + milliseconds;
-                default: throw new Error('Unknown unit ' + units);
-            }
-        }
-    }
-
-    // TODO: Use this.as('ms')?
-    function valueOf$1 () {
-        if (!this.isValid()) {
-            return NaN;
-        }
-        return (
-            this._milliseconds +
-            this._days * 864e5 +
-            (this._months % 12) * 2592e6 +
-            toInt(this._months / 12) * 31536e6
-        );
-    }
-
-    function makeAs (alias) {
-        return function () {
-            return this.as(alias);
-        };
-    }
-
-    var asMilliseconds = makeAs('ms');
-    var asSeconds      = makeAs('s');
-    var asMinutes      = makeAs('m');
-    var asHours        = makeAs('h');
-    var asDays         = makeAs('d');
-    var asWeeks        = makeAs('w');
-    var asMonths       = makeAs('M');
-    var asYears        = makeAs('y');
-
-    function clone$1 () {
-        return createDuration(this);
-    }
-
-    function get$2 (units) {
-        units = normalizeUnits(units);
-        return this.isValid() ? this[units + 's']() : NaN;
-    }
-
-    function makeGetter(name) {
-        return function () {
-            return this.isValid() ? this._data[name] : NaN;
-        };
-    }
-
-    var milliseconds = makeGetter('milliseconds');
-    var seconds      = makeGetter('seconds');
-    var minutes      = makeGetter('minutes');
-    var hours        = makeGetter('hours');
-    var days         = makeGetter('days');
-    var months       = makeGetter('months');
-    var years        = makeGetter('years');
-
-    function weeks () {
-        return absFloor(this.days() / 7);
-    }
-
-    var round = Math.round;
-    var thresholds = {
-        ss: 44,         // a few seconds to seconds
-        s : 45,         // seconds to minute
-        m : 45,         // minutes to hour
-        h : 22,         // hours to day
-        d : 26,         // days to month
-        M : 11          // months to year
-    };
-
-    // helper function for moment.fn.from, moment.fn.fromNow, and moment.duration.fn.humanize
-    function substituteTimeAgo(string, number, withoutSuffix, isFuture, locale) {
-        return locale.relativeTime(number || 1, !!withoutSuffix, string, isFuture);
-    }
-
-    function relativeTime$1 (posNegDuration, withoutSuffix, locale) {
-        var duration = createDuration(posNegDuration).abs();
-        var seconds  = round(duration.as('s'));
-        var minutes  = round(duration.as('m'));
-        var hours    = round(duration.as('h'));
-        var days     = round(duration.as('d'));
-        var months   = round(duration.as('M'));
-        var years    = round(duration.as('y'));
-
-        var a = seconds <= thresholds.ss && ['s', seconds]  ||
-                seconds < thresholds.s   && ['ss', seconds] ||
-                minutes <= 1             && ['m']           ||
-                minutes < thresholds.m   && ['mm', minutes] ||
-                hours   <= 1             && ['h']           ||
-                hours   < thresholds.h   && ['hh', hours]   ||
-                days    <= 1             && ['d']           ||
-                days    < thresholds.d   && ['dd', days]    ||
-                months  <= 1             && ['M']           ||
-                months  < thresholds.M   && ['MM', months]  ||
-                years   <= 1             && ['y']           || ['yy', years];
-
-        a[2] = withoutSuffix;
-        a[3] = +posNegDuration > 0;
-        a[4] = locale;
-        return substituteTimeAgo.apply(null, a);
-    }
-
-    // This function allows you to set the rounding function for relative time strings
-    function getSetRelativeTimeRounding (roundingFunction) {
-        if (roundingFunction === undefined) {
-            return round;
-        }
-        if (typeof(roundingFunction) === 'function') {
-            round = roundingFunction;
-            return true;
-        }
-        return false;
-    }
-
-    // This function allows you to set a threshold for relative time strings
-    function getSetRelativeTimeThreshold (threshold, limit) {
-        if (thresholds[threshold] === undefined) {
-            return false;
-        }
-        if (limit === undefined) {
-            return thresholds[threshold];
-        }
-        thresholds[threshold] = limit;
-        if (threshold === 's') {
-            thresholds.ss = limit - 1;
-        }
-        return true;
-    }
-
-    function humanize (withSuffix) {
-        if (!this.isValid()) {
-            return this.localeData().invalidDate();
-        }
-
-        var locale = this.localeData();
-        var output = relativeTime$1(this, !withSuffix, locale);
-
-        if (withSuffix) {
-            output = locale.pastFuture(+this, output);
-        }
-
-        return locale.postformat(output);
-    }
-
-    var abs$1 = Math.abs;
-
-    function sign(x) {
-        return ((x > 0) - (x < 0)) || +x;
-    }
-
-    function toISOString$1() {
-        // for ISO strings we do not use the normal bubbling rules:
-        //  * milliseconds bubble up until they become hours
-        //  * days do not bubble at all
-        //  * months bubble up until they become years
-        // This is because there is no context-free conversion between hours and days
-        // (think of clock changes)
-        // and also not between days and months (28-31 days per month)
-        if (!this.isValid()) {
-            return this.localeData().invalidDate();
-        }
-
-        var seconds = abs$1(this._milliseconds) / 1000;
-        var days         = abs$1(this._days);
-        var months       = abs$1(this._months);
-        var minutes, hours, years;
-
-        // 3600 seconds -> 60 minutes -> 1 hour
-        minutes           = absFloor(seconds / 60);
-        hours             = absFloor(minutes / 60);
-        seconds %= 60;
-        minutes %= 60;
-
-        // 12 months -> 1 year
-        years  = absFloor(months / 12);
-        months %= 12;
-
-
-        // inspired by https://github.com/dordille/moment-isoduration/blob/master/moment.isoduration.js
-        var Y = years;
-        var M = months;
-        var D = days;
-        var h = hours;
-        var m = minutes;
-        var s = seconds ? seconds.toFixed(3).replace(/\.?0+$/, '') : '';
-        var total = this.asSeconds();
-
-        if (!total) {
-            // this is the same as C#'s (Noda) and python (isodate)...
-            // but not other JS (goog.date)
-            return 'P0D';
-        }
-
-        var totalSign = total < 0 ? '-' : '';
-        var ymSign = sign(this._months) !== sign(total) ? '-' : '';
-        var daysSign = sign(this._days) !== sign(total) ? '-' : '';
-        var hmsSign = sign(this._milliseconds) !== sign(total) ? '-' : '';
-
-        return totalSign + 'P' +
-            (Y ? ymSign + Y + 'Y' : '') +
-            (M ? ymSign + M + 'M' : '') +
-            (D ? daysSign + D + 'D' : '') +
-            ((h || m || s) ? 'T' : '') +
-            (h ? hmsSign + h + 'H' : '') +
-            (m ? hmsSign + m + 'M' : '') +
-            (s ? hmsSign + s + 'S' : '');
-    }
-
-    var proto$2 = Duration.prototype;
-
-    proto$2.isValid        = isValid$1;
-    proto$2.abs            = abs;
-    proto$2.add            = add$1;
-    proto$2.subtract       = subtract$1;
-    proto$2.as             = as;
-    proto$2.asMilliseconds = asMilliseconds;
-    proto$2.asSeconds      = asSeconds;
-    proto$2.asMinutes      = asMinutes;
-    proto$2.asHours        = asHours;
-    proto$2.asDays         = asDays;
-    proto$2.asWeeks        = asWeeks;
-    proto$2.asMonths       = asMonths;
-    proto$2.asYears        = asYears;
-    proto$2.valueOf        = valueOf$1;
-    proto$2._bubble        = bubble;
-    proto$2.clone          = clone$1;
-    proto$2.get            = get$2;
-    proto$2.milliseconds   = milliseconds;
-    proto$2.seconds        = seconds;
-    proto$2.minutes        = minutes;
-    proto$2.hours          = hours;
-    proto$2.days           = days;
-    proto$2.weeks          = weeks;
-    proto$2.months         = months;
-    proto$2.years          = years;
-    proto$2.humanize       = humanize;
-    proto$2.toISOString    = toISOString$1;
-    proto$2.toString       = toISOString$1;
-    proto$2.toJSON         = toISOString$1;
-    proto$2.locale         = locale;
-    proto$2.localeData     = localeData;
-
-    proto$2.toIsoString = deprecate('toIsoString() is deprecated. Please use toISOString() instead (notice the capitals)', toISOString$1);
-    proto$2.lang = lang;
-
-    // Side effect imports
-
-    // FORMATTING
-
-    addFormatToken('X', 0, 0, 'unix');
-    addFormatToken('x', 0, 0, 'valueOf');
-
-    // PARSING
-
-    addRegexToken('x', matchSigned);
-    addRegexToken('X', matchTimestamp);
-    addParseToken('X', function (input, array, config) {
-        config._d = new Date(parseFloat(input, 10) * 1000);
-    });
-    addParseToken('x', function (input, array, config) {
-        config._d = new Date(toInt(input));
-    });
-
-    // Side effect imports
-
-
-    hooks.version = '2.22.1';
-
-    setHookCallback(createLocal);
-
-    hooks.fn                    = proto;
-    hooks.min                   = min;
-    hooks.max                   = max;
-    hooks.now                   = now;
-    hooks.utc                   = createUTC;
-    hooks.unix                  = createUnix;
-    hooks.months                = listMonths;
-    hooks.isDate                = isDate;
-    hooks.locale                = getSetGlobalLocale;
-    hooks.invalid               = createInvalid;
-    hooks.duration              = createDuration;
-    hooks.isMoment              = isMoment;
-    hooks.weekdays              = listWeekdays;
-    hooks.parseZone             = createInZone;
-    hooks.localeData            = getLocale;
-    hooks.isDuration            = isDuration;
-    hooks.monthsShort           = listMonthsShort;
-    hooks.weekdaysMin           = listWeekdaysMin;
-    hooks.defineLocale          = defineLocale;
-    hooks.updateLocale          = updateLocale;
-    hooks.locales               = listLocales;
-    hooks.weekdaysShort         = listWeekdaysShort;
-    hooks.normalizeUnits        = normalizeUnits;
-    hooks.relativeTimeRounding  = getSetRelativeTimeRounding;
-    hooks.relativeTimeThreshold = getSetRelativeTimeThreshold;
-    hooks.calendarFormat        = getCalendarFormat;
-    hooks.prototype             = proto;
-
-    // currently HTML5 input type only supports 24-hour formats
-    hooks.HTML5_FMT = {
-        DATETIME_LOCAL: 'YYYY-MM-DDTHH:mm',             // <input type="datetime-local" />
-        DATETIME_LOCAL_SECONDS: 'YYYY-MM-DDTHH:mm:ss',  // <input type="datetime-local" step="1" />
-        DATETIME_LOCAL_MS: 'YYYY-MM-DDTHH:mm:ss.SSS',   // <input type="datetime-local" step="0.001" />
-        DATE: 'YYYY-MM-DD',                             // <input type="date" />
-        TIME: 'HH:mm',                                  // <input type="time" />
-        TIME_SECONDS: 'HH:mm:ss',                       // <input type="time" step="1" />
-        TIME_MS: 'HH:mm:ss.SSS',                        // <input type="time" step="0.001" />
-        WEEK: 'YYYY-[W]WW',                             // <input type="week" />
-        MONTH: 'YYYY-MM'                                // <input type="month" />
-    };
-
-    return hooks;
-
-})));
-
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(181)(module)))
-
-/***/ }),
-/* 483 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var map = {
-	"./af": 311,
-	"./af.js": 311,
-	"./ar": 312,
-	"./ar-dz": 313,
-	"./ar-dz.js": 313,
-	"./ar-kw": 314,
-	"./ar-kw.js": 314,
-	"./ar-ly": 315,
-	"./ar-ly.js": 315,
-	"./ar-ma": 316,
-	"./ar-ma.js": 316,
-	"./ar-sa": 317,
-	"./ar-sa.js": 317,
-	"./ar-tn": 318,
-	"./ar-tn.js": 318,
-	"./ar.js": 312,
-	"./az": 319,
-	"./az.js": 319,
-	"./be": 320,
-	"./be.js": 320,
-	"./bg": 321,
-	"./bg.js": 321,
-	"./bm": 322,
-	"./bm.js": 322,
-	"./bn": 323,
-	"./bn.js": 323,
-	"./bo": 324,
-	"./bo.js": 324,
-	"./br": 325,
-	"./br.js": 325,
-	"./bs": 326,
-	"./bs.js": 326,
-	"./ca": 327,
-	"./ca.js": 327,
-	"./cs": 328,
-	"./cs.js": 328,
-	"./cv": 329,
-	"./cv.js": 329,
-	"./cy": 330,
-	"./cy.js": 330,
-	"./da": 331,
-	"./da.js": 331,
-	"./de": 332,
-	"./de-at": 333,
-	"./de-at.js": 333,
-	"./de-ch": 334,
-	"./de-ch.js": 334,
-	"./de.js": 332,
-	"./dv": 335,
-	"./dv.js": 335,
-	"./el": 336,
-	"./el.js": 336,
-	"./en-au": 337,
-	"./en-au.js": 337,
-	"./en-ca": 338,
-	"./en-ca.js": 338,
-	"./en-gb": 339,
-	"./en-gb.js": 339,
-	"./en-ie": 340,
-	"./en-ie.js": 340,
-	"./en-il": 341,
-	"./en-il.js": 341,
-	"./en-nz": 342,
-	"./en-nz.js": 342,
-	"./eo": 343,
-	"./eo.js": 343,
-	"./es": 344,
-	"./es-do": 345,
-	"./es-do.js": 345,
-	"./es-us": 346,
-	"./es-us.js": 346,
-	"./es.js": 344,
-	"./et": 347,
-	"./et.js": 347,
-	"./eu": 348,
-	"./eu.js": 348,
-	"./fa": 349,
-	"./fa.js": 349,
-	"./fi": 350,
-	"./fi.js": 350,
-	"./fo": 351,
-	"./fo.js": 351,
-	"./fr": 352,
-	"./fr-ca": 353,
-	"./fr-ca.js": 353,
-	"./fr-ch": 354,
-	"./fr-ch.js": 354,
-	"./fr.js": 352,
-	"./fy": 355,
-	"./fy.js": 355,
-	"./gd": 356,
-	"./gd.js": 356,
-	"./gl": 357,
-	"./gl.js": 357,
-	"./gom-latn": 358,
-	"./gom-latn.js": 358,
-	"./gu": 359,
-	"./gu.js": 359,
-	"./he": 360,
-	"./he.js": 360,
-	"./hi": 361,
-	"./hi.js": 361,
-	"./hr": 362,
-	"./hr.js": 362,
-	"./hu": 363,
-	"./hu.js": 363,
-	"./hy-am": 364,
-	"./hy-am.js": 364,
-	"./id": 365,
-	"./id.js": 365,
-	"./is": 366,
-	"./is.js": 366,
-	"./it": 367,
-	"./it.js": 367,
-	"./ja": 368,
-	"./ja.js": 368,
-	"./jv": 369,
-	"./jv.js": 369,
-	"./ka": 370,
-	"./ka.js": 370,
-	"./kk": 371,
-	"./kk.js": 371,
-	"./km": 372,
-	"./km.js": 372,
-	"./kn": 373,
-	"./kn.js": 373,
-	"./ko": 374,
-	"./ko.js": 374,
-	"./ky": 375,
-	"./ky.js": 375,
-	"./lb": 376,
-	"./lb.js": 376,
-	"./lo": 377,
-	"./lo.js": 377,
-	"./lt": 378,
-	"./lt.js": 378,
-	"./lv": 379,
-	"./lv.js": 379,
-	"./me": 380,
-	"./me.js": 380,
-	"./mi": 381,
-	"./mi.js": 381,
-	"./mk": 382,
-	"./mk.js": 382,
-	"./ml": 383,
-	"./ml.js": 383,
-	"./mn": 384,
-	"./mn.js": 384,
-	"./mr": 385,
-	"./mr.js": 385,
-	"./ms": 386,
-	"./ms-my": 387,
-	"./ms-my.js": 387,
-	"./ms.js": 386,
-	"./mt": 388,
-	"./mt.js": 388,
-	"./my": 389,
-	"./my.js": 389,
-	"./nb": 390,
-	"./nb.js": 390,
-	"./ne": 391,
-	"./ne.js": 391,
-	"./nl": 392,
-	"./nl-be": 393,
-	"./nl-be.js": 393,
-	"./nl.js": 392,
-	"./nn": 394,
-	"./nn.js": 394,
-	"./pa-in": 395,
-	"./pa-in.js": 395,
-	"./pl": 396,
-	"./pl.js": 396,
-	"./pt": 397,
-	"./pt-br": 398,
-	"./pt-br.js": 398,
-	"./pt.js": 397,
-	"./ro": 399,
-	"./ro.js": 399,
-	"./ru": 400,
-	"./ru.js": 400,
-	"./sd": 401,
-	"./sd.js": 401,
-	"./se": 402,
-	"./se.js": 402,
-	"./si": 403,
-	"./si.js": 403,
-	"./sk": 404,
-	"./sk.js": 404,
-	"./sl": 405,
-	"./sl.js": 405,
-	"./sq": 406,
-	"./sq.js": 406,
-	"./sr": 407,
-	"./sr-cyrl": 408,
-	"./sr-cyrl.js": 408,
-	"./sr.js": 407,
-	"./ss": 409,
-	"./ss.js": 409,
-	"./sv": 410,
-	"./sv.js": 410,
-	"./sw": 411,
-	"./sw.js": 411,
-	"./ta": 412,
-	"./ta.js": 412,
-	"./te": 413,
-	"./te.js": 413,
-	"./tet": 414,
-	"./tet.js": 414,
-	"./tg": 415,
-	"./tg.js": 415,
-	"./th": 416,
-	"./th.js": 416,
-	"./tl-ph": 417,
-	"./tl-ph.js": 417,
-	"./tlh": 418,
-	"./tlh.js": 418,
-	"./tr": 419,
-	"./tr.js": 419,
-	"./tzl": 420,
-	"./tzl.js": 420,
-	"./tzm": 421,
-	"./tzm-latn": 422,
-	"./tzm-latn.js": 422,
-	"./tzm.js": 421,
-	"./ug-cn": 423,
-	"./ug-cn.js": 423,
-	"./uk": 424,
-	"./uk.js": 424,
-	"./ur": 425,
-	"./ur.js": 425,
-	"./uz": 426,
-	"./uz-latn": 427,
-	"./uz-latn.js": 427,
-	"./uz.js": 426,
-	"./vi": 428,
-	"./vi.js": 428,
-	"./x-pseudo": 429,
-	"./x-pseudo.js": 429,
-	"./yo": 430,
-	"./yo.js": 430,
-	"./zh-cn": 431,
-	"./zh-cn.js": 431,
-	"./zh-hk": 432,
-	"./zh-hk.js": 432,
-	"./zh-tw": 433,
-	"./zh-tw.js": 433
-};
-function webpackContext(req) {
-	return __webpack_require__(webpackContextResolve(req));
-};
-function webpackContextResolve(req) {
-	var id = map[req];
-	if(!(id + 1)) // check for number or string
-		throw new Error("Cannot find module '" + req + "'.");
-	return id;
-};
-webpackContext.keys = function webpackContextKeys() {
-	return Object.keys(map);
-};
-webpackContext.resolve = webpackContextResolve;
-module.exports = webpackContext;
-webpackContext.id = 483;
-
-/***/ }),
-/* 484 */
-=======
 var lang = deprecate(
     'moment().lang() is deprecated. Instead, use moment().localeData() to get the language configuration. Use moment().locale() to change languages.',
     function (key) {
@@ -61136,257 +44661,257 @@ return hooks;
 
 })));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(180)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(181)(module)))
 
 /***/ }),
 /* 482 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./af": 310,
-	"./af.js": 310,
-	"./ar": 311,
-	"./ar-dz": 312,
-	"./ar-dz.js": 312,
-	"./ar-kw": 313,
-	"./ar-kw.js": 313,
-	"./ar-ly": 314,
-	"./ar-ly.js": 314,
-	"./ar-ma": 315,
-	"./ar-ma.js": 315,
-	"./ar-sa": 316,
-	"./ar-sa.js": 316,
-	"./ar-tn": 317,
-	"./ar-tn.js": 317,
-	"./ar.js": 311,
-	"./az": 318,
-	"./az.js": 318,
-	"./be": 319,
-	"./be.js": 319,
-	"./bg": 320,
-	"./bg.js": 320,
-	"./bm": 321,
-	"./bm.js": 321,
-	"./bn": 322,
-	"./bn.js": 322,
-	"./bo": 323,
-	"./bo.js": 323,
-	"./br": 324,
-	"./br.js": 324,
-	"./bs": 325,
-	"./bs.js": 325,
-	"./ca": 326,
-	"./ca.js": 326,
-	"./cs": 327,
-	"./cs.js": 327,
-	"./cv": 328,
-	"./cv.js": 328,
-	"./cy": 329,
-	"./cy.js": 329,
-	"./da": 330,
-	"./da.js": 330,
-	"./de": 331,
-	"./de-at": 332,
-	"./de-at.js": 332,
-	"./de-ch": 333,
-	"./de-ch.js": 333,
-	"./de.js": 331,
-	"./dv": 334,
-	"./dv.js": 334,
-	"./el": 335,
-	"./el.js": 335,
-	"./en-au": 336,
-	"./en-au.js": 336,
-	"./en-ca": 337,
-	"./en-ca.js": 337,
-	"./en-gb": 338,
-	"./en-gb.js": 338,
-	"./en-ie": 339,
-	"./en-ie.js": 339,
-	"./en-il": 340,
-	"./en-il.js": 340,
-	"./en-nz": 341,
-	"./en-nz.js": 341,
-	"./eo": 342,
-	"./eo.js": 342,
-	"./es": 343,
-	"./es-do": 344,
-	"./es-do.js": 344,
-	"./es-us": 345,
-	"./es-us.js": 345,
-	"./es.js": 343,
-	"./et": 346,
-	"./et.js": 346,
-	"./eu": 347,
-	"./eu.js": 347,
-	"./fa": 348,
-	"./fa.js": 348,
-	"./fi": 349,
-	"./fi.js": 349,
-	"./fo": 350,
-	"./fo.js": 350,
-	"./fr": 351,
-	"./fr-ca": 352,
-	"./fr-ca.js": 352,
-	"./fr-ch": 353,
-	"./fr-ch.js": 353,
-	"./fr.js": 351,
-	"./fy": 354,
-	"./fy.js": 354,
-	"./gd": 355,
-	"./gd.js": 355,
-	"./gl": 356,
-	"./gl.js": 356,
-	"./gom-latn": 357,
-	"./gom-latn.js": 357,
-	"./gu": 358,
-	"./gu.js": 358,
-	"./he": 359,
-	"./he.js": 359,
-	"./hi": 360,
-	"./hi.js": 360,
-	"./hr": 361,
-	"./hr.js": 361,
-	"./hu": 362,
-	"./hu.js": 362,
-	"./hy-am": 363,
-	"./hy-am.js": 363,
-	"./id": 364,
-	"./id.js": 364,
-	"./is": 365,
-	"./is.js": 365,
-	"./it": 366,
-	"./it.js": 366,
-	"./ja": 367,
-	"./ja.js": 367,
-	"./jv": 368,
-	"./jv.js": 368,
-	"./ka": 369,
-	"./ka.js": 369,
-	"./kk": 370,
-	"./kk.js": 370,
-	"./km": 371,
-	"./km.js": 371,
-	"./kn": 372,
-	"./kn.js": 372,
-	"./ko": 373,
-	"./ko.js": 373,
-	"./ky": 374,
-	"./ky.js": 374,
-	"./lb": 375,
-	"./lb.js": 375,
-	"./lo": 376,
-	"./lo.js": 376,
-	"./lt": 377,
-	"./lt.js": 377,
-	"./lv": 378,
-	"./lv.js": 378,
-	"./me": 379,
-	"./me.js": 379,
-	"./mi": 380,
-	"./mi.js": 380,
-	"./mk": 381,
-	"./mk.js": 381,
-	"./ml": 382,
-	"./ml.js": 382,
-	"./mr": 383,
-	"./mr.js": 383,
-	"./ms": 384,
-	"./ms-my": 385,
-	"./ms-my.js": 385,
-	"./ms.js": 384,
-	"./mt": 386,
-	"./mt.js": 386,
-	"./my": 387,
-	"./my.js": 387,
-	"./nb": 388,
-	"./nb.js": 388,
-	"./ne": 389,
-	"./ne.js": 389,
-	"./nl": 390,
-	"./nl-be": 391,
-	"./nl-be.js": 391,
-	"./nl.js": 390,
-	"./nn": 392,
-	"./nn.js": 392,
-	"./pa-in": 393,
-	"./pa-in.js": 393,
-	"./pl": 394,
-	"./pl.js": 394,
-	"./pt": 395,
-	"./pt-br": 396,
-	"./pt-br.js": 396,
-	"./pt.js": 395,
-	"./ro": 397,
-	"./ro.js": 397,
-	"./ru": 398,
-	"./ru.js": 398,
-	"./sd": 399,
-	"./sd.js": 399,
-	"./se": 400,
-	"./se.js": 400,
-	"./si": 401,
-	"./si.js": 401,
-	"./sk": 402,
-	"./sk.js": 402,
-	"./sl": 403,
-	"./sl.js": 403,
-	"./sq": 404,
-	"./sq.js": 404,
-	"./sr": 405,
-	"./sr-cyrl": 406,
-	"./sr-cyrl.js": 406,
-	"./sr.js": 405,
-	"./ss": 407,
-	"./ss.js": 407,
-	"./sv": 408,
-	"./sv.js": 408,
-	"./sw": 409,
-	"./sw.js": 409,
-	"./ta": 410,
-	"./ta.js": 410,
-	"./te": 411,
-	"./te.js": 411,
-	"./tet": 412,
-	"./tet.js": 412,
-	"./tg": 413,
-	"./tg.js": 413,
-	"./th": 414,
-	"./th.js": 414,
-	"./tl-ph": 415,
-	"./tl-ph.js": 415,
-	"./tlh": 416,
-	"./tlh.js": 416,
-	"./tr": 417,
-	"./tr.js": 417,
-	"./tzl": 418,
-	"./tzl.js": 418,
-	"./tzm": 419,
-	"./tzm-latn": 420,
-	"./tzm-latn.js": 420,
-	"./tzm.js": 419,
-	"./ug-cn": 421,
-	"./ug-cn.js": 421,
-	"./uk": 422,
-	"./uk.js": 422,
-	"./ur": 423,
-	"./ur.js": 423,
-	"./uz": 424,
-	"./uz-latn": 425,
-	"./uz-latn.js": 425,
-	"./uz.js": 424,
-	"./vi": 426,
-	"./vi.js": 426,
-	"./x-pseudo": 427,
-	"./x-pseudo.js": 427,
-	"./yo": 428,
-	"./yo.js": 428,
-	"./zh-cn": 429,
-	"./zh-cn.js": 429,
-	"./zh-hk": 430,
-	"./zh-hk.js": 430,
-	"./zh-tw": 431,
-	"./zh-tw.js": 431
+	"./af": 311,
+	"./af.js": 311,
+	"./ar": 312,
+	"./ar-dz": 313,
+	"./ar-dz.js": 313,
+	"./ar-kw": 314,
+	"./ar-kw.js": 314,
+	"./ar-ly": 315,
+	"./ar-ly.js": 315,
+	"./ar-ma": 316,
+	"./ar-ma.js": 316,
+	"./ar-sa": 317,
+	"./ar-sa.js": 317,
+	"./ar-tn": 318,
+	"./ar-tn.js": 318,
+	"./ar.js": 312,
+	"./az": 319,
+	"./az.js": 319,
+	"./be": 320,
+	"./be.js": 320,
+	"./bg": 321,
+	"./bg.js": 321,
+	"./bm": 322,
+	"./bm.js": 322,
+	"./bn": 323,
+	"./bn.js": 323,
+	"./bo": 324,
+	"./bo.js": 324,
+	"./br": 325,
+	"./br.js": 325,
+	"./bs": 326,
+	"./bs.js": 326,
+	"./ca": 327,
+	"./ca.js": 327,
+	"./cs": 328,
+	"./cs.js": 328,
+	"./cv": 329,
+	"./cv.js": 329,
+	"./cy": 330,
+	"./cy.js": 330,
+	"./da": 331,
+	"./da.js": 331,
+	"./de": 332,
+	"./de-at": 333,
+	"./de-at.js": 333,
+	"./de-ch": 334,
+	"./de-ch.js": 334,
+	"./de.js": 332,
+	"./dv": 335,
+	"./dv.js": 335,
+	"./el": 336,
+	"./el.js": 336,
+	"./en-au": 337,
+	"./en-au.js": 337,
+	"./en-ca": 338,
+	"./en-ca.js": 338,
+	"./en-gb": 339,
+	"./en-gb.js": 339,
+	"./en-ie": 340,
+	"./en-ie.js": 340,
+	"./en-il": 341,
+	"./en-il.js": 341,
+	"./en-nz": 342,
+	"./en-nz.js": 342,
+	"./eo": 343,
+	"./eo.js": 343,
+	"./es": 344,
+	"./es-do": 345,
+	"./es-do.js": 345,
+	"./es-us": 346,
+	"./es-us.js": 346,
+	"./es.js": 344,
+	"./et": 347,
+	"./et.js": 347,
+	"./eu": 348,
+	"./eu.js": 348,
+	"./fa": 349,
+	"./fa.js": 349,
+	"./fi": 350,
+	"./fi.js": 350,
+	"./fo": 351,
+	"./fo.js": 351,
+	"./fr": 352,
+	"./fr-ca": 353,
+	"./fr-ca.js": 353,
+	"./fr-ch": 354,
+	"./fr-ch.js": 354,
+	"./fr.js": 352,
+	"./fy": 355,
+	"./fy.js": 355,
+	"./gd": 356,
+	"./gd.js": 356,
+	"./gl": 357,
+	"./gl.js": 357,
+	"./gom-latn": 358,
+	"./gom-latn.js": 358,
+	"./gu": 359,
+	"./gu.js": 359,
+	"./he": 360,
+	"./he.js": 360,
+	"./hi": 361,
+	"./hi.js": 361,
+	"./hr": 362,
+	"./hr.js": 362,
+	"./hu": 363,
+	"./hu.js": 363,
+	"./hy-am": 364,
+	"./hy-am.js": 364,
+	"./id": 365,
+	"./id.js": 365,
+	"./is": 366,
+	"./is.js": 366,
+	"./it": 367,
+	"./it.js": 367,
+	"./ja": 368,
+	"./ja.js": 368,
+	"./jv": 369,
+	"./jv.js": 369,
+	"./ka": 370,
+	"./ka.js": 370,
+	"./kk": 371,
+	"./kk.js": 371,
+	"./km": 372,
+	"./km.js": 372,
+	"./kn": 373,
+	"./kn.js": 373,
+	"./ko": 374,
+	"./ko.js": 374,
+	"./ky": 375,
+	"./ky.js": 375,
+	"./lb": 376,
+	"./lb.js": 376,
+	"./lo": 377,
+	"./lo.js": 377,
+	"./lt": 378,
+	"./lt.js": 378,
+	"./lv": 379,
+	"./lv.js": 379,
+	"./me": 380,
+	"./me.js": 380,
+	"./mi": 381,
+	"./mi.js": 381,
+	"./mk": 382,
+	"./mk.js": 382,
+	"./ml": 383,
+	"./ml.js": 383,
+	"./mr": 384,
+	"./mr.js": 384,
+	"./ms": 385,
+	"./ms-my": 386,
+	"./ms-my.js": 386,
+	"./ms.js": 385,
+	"./mt": 387,
+	"./mt.js": 387,
+	"./my": 388,
+	"./my.js": 388,
+	"./nb": 389,
+	"./nb.js": 389,
+	"./ne": 390,
+	"./ne.js": 390,
+	"./nl": 391,
+	"./nl-be": 392,
+	"./nl-be.js": 392,
+	"./nl.js": 391,
+	"./nn": 393,
+	"./nn.js": 393,
+	"./pa-in": 394,
+	"./pa-in.js": 394,
+	"./pl": 395,
+	"./pl.js": 395,
+	"./pt": 396,
+	"./pt-br": 397,
+	"./pt-br.js": 397,
+	"./pt.js": 396,
+	"./ro": 398,
+	"./ro.js": 398,
+	"./ru": 399,
+	"./ru.js": 399,
+	"./sd": 400,
+	"./sd.js": 400,
+	"./se": 401,
+	"./se.js": 401,
+	"./si": 402,
+	"./si.js": 402,
+	"./sk": 403,
+	"./sk.js": 403,
+	"./sl": 404,
+	"./sl.js": 404,
+	"./sq": 405,
+	"./sq.js": 405,
+	"./sr": 406,
+	"./sr-cyrl": 407,
+	"./sr-cyrl.js": 407,
+	"./sr.js": 406,
+	"./ss": 408,
+	"./ss.js": 408,
+	"./sv": 409,
+	"./sv.js": 409,
+	"./sw": 410,
+	"./sw.js": 410,
+	"./ta": 411,
+	"./ta.js": 411,
+	"./te": 412,
+	"./te.js": 412,
+	"./tet": 413,
+	"./tet.js": 413,
+	"./tg": 414,
+	"./tg.js": 414,
+	"./th": 415,
+	"./th.js": 415,
+	"./tl-ph": 416,
+	"./tl-ph.js": 416,
+	"./tlh": 417,
+	"./tlh.js": 417,
+	"./tr": 418,
+	"./tr.js": 418,
+	"./tzl": 419,
+	"./tzl.js": 419,
+	"./tzm": 420,
+	"./tzm-latn": 421,
+	"./tzm-latn.js": 421,
+	"./tzm.js": 420,
+	"./ug-cn": 422,
+	"./ug-cn.js": 422,
+	"./uk": 423,
+	"./uk.js": 423,
+	"./ur": 424,
+	"./ur.js": 424,
+	"./uz": 425,
+	"./uz-latn": 426,
+	"./uz-latn.js": 426,
+	"./uz.js": 425,
+	"./vi": 427,
+	"./vi.js": 427,
+	"./x-pseudo": 428,
+	"./x-pseudo.js": 428,
+	"./yo": 429,
+	"./yo.js": 429,
+	"./zh-cn": 430,
+	"./zh-cn.js": 430,
+	"./zh-hk": 431,
+	"./zh-hk.js": 431,
+	"./zh-tw": 432,
+	"./zh-tw.js": 432
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -61406,17 +44931,12 @@ webpackContext.id = 482;
 
 /***/ }),
 /* 483 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-<<<<<<< HEAD
-/* 485 */
-=======
 /* 484 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61428,11 +44948,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
 
-<<<<<<< HEAD
 var _autocompleteEditor = __webpack_require__(309);
-=======
-var _autocompleteEditor = __webpack_require__(308);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _autocompleteEditor2 = _interopRequireDefault(_autocompleteEditor);
 
@@ -61489,11 +45005,7 @@ _pluginHooks2.default.getSingleton().add('beforeValidate', function (value, row,
 exports.default = DropdownEditor;
 
 /***/ }),
-<<<<<<< HEAD
-/* 486 */
-=======
 /* 485 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61501,7 +45013,7 @@ exports.default = DropdownEditor;
 
 exports.__esModule = true;
 
-var _textEditor = __webpack_require__(58);
+var _textEditor = __webpack_require__(57);
 
 var _textEditor2 = _interopRequireDefault(_textEditor);
 
@@ -61533,11 +45045,7 @@ var NumericEditor = function (_TextEditor) {
 exports.default = NumericEditor;
 
 /***/ }),
-<<<<<<< HEAD
-/* 487 */
-=======
 /* 486 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61551,7 +45059,7 @@ var _get = function get(object, property, receiver) { if (object === null) objec
 
 var _element = __webpack_require__(0);
 
-var _textEditor = __webpack_require__(58);
+var _textEditor = __webpack_require__(57);
 
 var _textEditor2 = _interopRequireDefault(_textEditor);
 
@@ -61601,11 +45109,7 @@ var PasswordEditor = function (_TextEditor) {
 exports.default = PasswordEditor;
 
 /***/ }),
-<<<<<<< HEAD
-/* 488 */
-=======
 /* 487 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61621,7 +45125,7 @@ var _event = __webpack_require__(13);
 
 var _unicode = __webpack_require__(21);
 
-var _baseEditor = __webpack_require__(55);
+var _baseEditor = __webpack_require__(54);
 
 var _baseEditor2 = _interopRequireDefault(_baseEditor);
 
@@ -61873,11 +45377,7 @@ SelectEditor.prototype.getEditedCell = function () {
 exports.default = SelectEditor;
 
 /***/ }),
-<<<<<<< HEAD
-/* 489 */
-=======
 /* 488 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61925,11 +45425,7 @@ function cellDecorator(instance, TD, row, col, prop, value, cellProperties) {
 exports.default = cellDecorator;
 
 /***/ }),
-<<<<<<< HEAD
-/* 490 */
-=======
 /* 489 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62019,11 +45515,7 @@ function autocompleteRenderer(instance, TD, row, col, prop, value, cellPropertie
 exports.default = autocompleteRenderer;
 
 /***/ }),
-<<<<<<< HEAD
-/* 491 */
-=======
 /* 490 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62392,11 +45884,7 @@ function isCheckboxInput(element) {
 exports.default = checkboxRenderer;
 
 /***/ }),
-<<<<<<< HEAD
-/* 492 */
-=======
 /* 491 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62432,11 +45920,7 @@ function htmlRenderer(instance, TD, row, col, prop, value, cellProperties) {
 exports.default = htmlRenderer;
 
 /***/ }),
-<<<<<<< HEAD
-/* 493 */
-=======
 /* 492 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62444,11 +45928,7 @@ exports.default = htmlRenderer;
 
 exports.__esModule = true;
 
-<<<<<<< HEAD
-var _numbro = __webpack_require__(434);
-=======
-var _numbro = __webpack_require__(432);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _numbro = __webpack_require__(433);
 
 var _numbro2 = _interopRequireDefault(_numbro);
 
@@ -62503,21 +45983,13 @@ function numericRenderer(instance, TD, row, col, prop, value, cellProperties) {
 exports.default = numericRenderer;
 
 /***/ }),
-<<<<<<< HEAD
-/* 494 */
-=======
 /* 493 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-<<<<<<< HEAD
-/* 495 */
-=======
 /* 494 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62561,11 +46033,7 @@ function passwordRenderer(instance, TD, row, col, prop, value, cellProperties) {
 exports.default = passwordRenderer;
 
 /***/ }),
-<<<<<<< HEAD
-/* 496 */
-=======
 /* 495 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62622,11 +46090,7 @@ function textRenderer(instance, TD, row, col, prop, value, cellProperties) {
 exports.default = textRenderer;
 
 /***/ }),
-<<<<<<< HEAD
-/* 497 */
-=======
 /* 496 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62688,11 +46152,7 @@ function process(value, callback) {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 498 */
-=======
 /* 497 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62706,11 +46166,7 @@ var _moment = __webpack_require__(47);
 
 var _moment2 = _interopRequireDefault(_moment);
 
-<<<<<<< HEAD
-var _date = __webpack_require__(435);
-=======
-var _date = __webpack_require__(433);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _date = __webpack_require__(434);
 
 var _editors = __webpack_require__(17);
 
@@ -62787,11 +46243,7 @@ function correctFormat(value, dateFormat) {
 };
 
 /***/ }),
-<<<<<<< HEAD
-/* 499 */
-=======
 /* 498 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62821,11 +46273,7 @@ function numericValidator(value, callback) {
 };
 
 /***/ }),
-<<<<<<< HEAD
-/* 500 */
-=======
 /* 499 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62904,11 +46352,7 @@ function timeValidator(value, callback) {
 };
 
 /***/ }),
-<<<<<<< HEAD
-/* 501 */
-=======
 /* 500 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62931,11 +46375,7 @@ exports.default = {
 };
 
 /***/ }),
-<<<<<<< HEAD
-/* 502 */
-=======
 /* 501 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62955,11 +46395,7 @@ exports.default = {
 };
 
 /***/ }),
-<<<<<<< HEAD
-/* 503 */
-=======
 /* 502 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62983,11 +46419,7 @@ exports.default = {
 };
 
 /***/ }),
-<<<<<<< HEAD
-/* 504 */
-=======
 /* 503 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63011,11 +46443,7 @@ exports.default = {
 };
 
 /***/ }),
-<<<<<<< HEAD
-/* 505 */
-=======
 /* 504 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63036,11 +46464,7 @@ exports.default = {
 };
 
 /***/ }),
-<<<<<<< HEAD
-/* 506 */
-=======
 /* 505 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63064,11 +46488,7 @@ exports.default = {
 };
 
 /***/ }),
-<<<<<<< HEAD
-/* 507 */
-=======
 /* 506 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63091,11 +46511,7 @@ exports.default = {
 };
 
 /***/ }),
-<<<<<<< HEAD
-/* 508 */
-=======
 /* 507 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63117,11 +46533,7 @@ exports.default = {
 };
 
 /***/ }),
-<<<<<<< HEAD
-/* 509 */
-=======
 /* 508 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63145,11 +46557,7 @@ exports.default = {
 };
 
 /***/ }),
-<<<<<<< HEAD
-/* 510 */
-=======
 /* 509 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63159,37 +46567,25 @@ exports.__esModule = true;
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
-<<<<<<< HEAD
-var _SheetClip = __webpack_require__(436);
-=======
-var _SheetClip = __webpack_require__(434);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _SheetClip = __webpack_require__(435);
 
 var _SheetClip2 = _interopRequireDefault(_SheetClip);
 
-var _data = __webpack_require__(91);
+var _data = __webpack_require__(90);
 
-var _setting = __webpack_require__(90);
+var _setting = __webpack_require__(89);
 
 var _object = __webpack_require__(2);
 
 var _array = __webpack_require__(1);
 
-<<<<<<< HEAD
-var _interval = __webpack_require__(511);
-=======
 var _interval = __webpack_require__(510);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _interval2 = _interopRequireDefault(_interval);
 
 var _number = __webpack_require__(5);
 
-<<<<<<< HEAD
-var _multiMap = __webpack_require__(512);
-=======
 var _multiMap = __webpack_require__(511);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _multiMap2 = _interopRequireDefault(_multiMap);
 
@@ -64076,11 +47472,7 @@ DataMap.prototype.destroy = function () {
 exports.default = DataMap;
 
 /***/ }),
-<<<<<<< HEAD
-/* 511 */
-=======
 /* 510 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64092,7 +47484,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 exports.parseDelay = parseDelay;
 
-var _feature = __webpack_require__(41);
+var _feature = __webpack_require__(40);
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -64229,11 +47621,7 @@ function parseDelay(delay) {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 512 */
-=======
 /* 511 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64292,11 +47680,7 @@ function MultiMap() {
 exports.default = MultiMap;
 
 /***/ }),
-<<<<<<< HEAD
-/* 513 */
-=======
 /* 512 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64316,7 +47700,7 @@ var _eventManager = __webpack_require__(6);
 
 var _eventManager2 = _interopRequireDefault(_eventManager);
 
-var _baseEditor = __webpack_require__(55);
+var _baseEditor = __webpack_require__(54);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -64755,11 +48139,7 @@ EditorManager.getInstance = function (hotInstance, hotSettings, selection, datam
 exports.default = EditorManager;
 
 /***/ }),
-<<<<<<< HEAD
-/* 514 */
-=======
 /* 513 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64783,11 +48163,7 @@ var _src = __webpack_require__(4);
 
 var _src2 = _interopRequireDefault(_src);
 
-<<<<<<< HEAD
-var _mouseEventHandler = __webpack_require__(437);
-=======
-var _mouseEventHandler = __webpack_require__(435);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _mouseEventHandler = __webpack_require__(436);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -65267,9 +48643,26 @@ TableView.prototype.onDraw = function (force) {
   }
 };
 
+/**
+ * Renders table, can specify specific rows to render
+ *
+ * @param {Array} array of visual row indexs to render
+ */
 TableView.prototype.render = function () {
-  this.wt.draw(!this.instance.forceFullRender);
+  var rowsToRender = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : null;
+
+  this.wt.draw(!this.instance.forceFullRender, rowsToRender);
   this.instance.forceFullRender = false;
+  this.instance.renderCall = false;
+};
+
+/**
+ * Renders specific rows in the table
+ *
+ * @param {Array} array of visual row indexs to render
+ */
+TableView.prototype.selectiveRender = function (rowsToRender) {
+  this.wt.selectiveDraw(rowsToRender);
   this.instance.renderCall = false;
 };
 
@@ -65428,11 +48821,7 @@ TableView.prototype.destroy = function () {
 exports.default = TableView;
 
 /***/ }),
-<<<<<<< HEAD
-/* 515 */
-=======
 /* 514 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65693,11 +49082,7 @@ var DataSource = function () {
 exports.default = DataSource;
 
 /***/ }),
-<<<<<<< HEAD
-/* 516 */
-=======
 /* 515 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65729,11 +49114,7 @@ var dictionary = (_dictionary = {
 exports.default = dictionary;
 
 /***/ }),
-<<<<<<< HEAD
-/* 517 */
-=======
 /* 516 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65744,15 +49125,11 @@ exports.getPhraseFormatters = exports.registerPhraseFormatter = undefined;
 exports.register = register;
 exports.getAll = getAll;
 
-var _staticRegister2 = __webpack_require__(40);
+var _staticRegister2 = __webpack_require__(39);
 
 var _staticRegister3 = _interopRequireDefault(_staticRegister2);
 
-<<<<<<< HEAD
-var _pluralize = __webpack_require__(518);
-=======
 var _pluralize = __webpack_require__(517);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _pluralize2 = _interopRequireDefault(_pluralize);
 
@@ -65790,11 +49167,7 @@ exports.getPhraseFormatters = getAll;
 register('pluralize', _pluralize2.default);
 
 /***/ }),
-<<<<<<< HEAD
-/* 518 */
-=======
 /* 517 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65821,11 +49194,7 @@ function pluralize(phrasePropositions, pluralForm) {
 };
 
 /***/ }),
-<<<<<<< HEAD
-/* 519 */
-=======
 /* 518 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65834,18 +49203,7 @@ function pluralize(phrasePropositions, pluralForm) {
 exports.__esModule = true;
 exports.Selection = exports.Highlight = exports.handleMouseEvent = undefined;
 
-<<<<<<< HEAD
-var _highlight = __webpack_require__(444);
-
-var _highlight2 = _interopRequireDefault(_highlight);
-
-var _selection = __webpack_require__(526);
-
-var _selection2 = _interopRequireDefault(_selection);
-
-var _mouseEventHandler = __webpack_require__(437);
-=======
-var _highlight = __webpack_require__(442);
+var _highlight = __webpack_require__(443);
 
 var _highlight2 = _interopRequireDefault(_highlight);
 
@@ -65853,8 +49211,7 @@ var _selection = __webpack_require__(525);
 
 var _selection2 = _interopRequireDefault(_selection);
 
-var _mouseEventHandler = __webpack_require__(435);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _mouseEventHandler = __webpack_require__(436);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -65863,11 +49220,7 @@ exports.Highlight = _highlight2.default;
 exports.Selection = _selection2.default;
 
 /***/ }),
-<<<<<<< HEAD
-/* 520 */
-=======
 /* 519 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65876,29 +49229,10 @@ exports.Selection = _selection2.default;
 exports.__esModule = true;
 exports.createHighlight = undefined;
 
-var _staticRegister2 = __webpack_require__(40);
+var _staticRegister2 = __webpack_require__(39);
 
 var _staticRegister3 = _interopRequireDefault(_staticRegister2);
 
-<<<<<<< HEAD
-var _activeHeader = __webpack_require__(521);
-
-var _activeHeader2 = _interopRequireDefault(_activeHeader);
-
-var _area = __webpack_require__(522);
-
-var _area2 = _interopRequireDefault(_area);
-
-var _cell = __webpack_require__(523);
-
-var _cell2 = _interopRequireDefault(_cell);
-
-var _fill = __webpack_require__(524);
-
-var _fill2 = _interopRequireDefault(_fill);
-
-var _header = __webpack_require__(525);
-=======
 var _activeHeader = __webpack_require__(520);
 
 var _activeHeader2 = _interopRequireDefault(_activeHeader);
@@ -65916,7 +49250,6 @@ var _fill = __webpack_require__(523);
 var _fill2 = _interopRequireDefault(_fill);
 
 var _header = __webpack_require__(524);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _header2 = _interopRequireDefault(_header);
 
@@ -65940,11 +49273,7 @@ function createHighlight(highlightType, options) {
 exports.createHighlight = createHighlight;
 
 /***/ }),
-<<<<<<< HEAD
-/* 521 */
-=======
 /* 520 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65970,11 +49299,7 @@ function createHighlight(_ref) {
 exports.default = createHighlight;
 
 /***/ }),
-<<<<<<< HEAD
-/* 522 */
-=======
 /* 521 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66010,11 +49335,7 @@ function createHighlight(_ref) {
 exports.default = createHighlight;
 
 /***/ }),
-<<<<<<< HEAD
-/* 523 */
-=======
 /* 522 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66048,11 +49369,7 @@ function createHighlight(_ref) {
 exports.default = createHighlight;
 
 /***/ }),
-<<<<<<< HEAD
-/* 524 */
-=======
 /* 523 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66083,11 +49400,7 @@ function createHighlight() {
 exports.default = createHighlight;
 
 /***/ }),
-<<<<<<< HEAD
-/* 525 */
-=======
 /* 524 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66121,11 +49434,7 @@ function createHighlight(_ref) {
 exports.default = createHighlight;
 
 /***/ }),
-<<<<<<< HEAD
-/* 526 */
-=======
 /* 525 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66139,29 +49448,17 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _templateObject = _taggedTemplateLiteral(['Unsupported format of the selection ranges was passed. To select cells pass \n        the coordinates as an array of arrays ([[rowStart, columnStart/columnPropStart, rowEnd, columnEnd/columnPropEnd]]) \n        or as an array of CellRange objects.'], ['Unsupported format of the selection ranges was passed. To select cells pass \n        the coordinates as an array of arrays ([[rowStart, columnStart/columnPropStart, rowEnd, columnEnd/columnPropEnd]]) \n        or as an array of CellRange objects.']);
 
-<<<<<<< HEAD
-var _highlight = __webpack_require__(444);
-
-var _highlight2 = _interopRequireDefault(_highlight);
-
-var _range = __webpack_require__(527);
-=======
-var _highlight = __webpack_require__(442);
+var _highlight = __webpack_require__(443);
 
 var _highlight2 = _interopRequireDefault(_highlight);
 
 var _range = __webpack_require__(526);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _range2 = _interopRequireDefault(_range);
 
 var _src = __webpack_require__(4);
 
-<<<<<<< HEAD
-var _keyStateObserver = __webpack_require__(443);
-=======
-var _keyStateObserver = __webpack_require__(441);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _keyStateObserver = __webpack_require__(442);
 
 var _object = __webpack_require__(2);
 
@@ -66169,19 +49466,15 @@ var _mixed = __webpack_require__(11);
 
 var _array = __webpack_require__(1);
 
-var _localHooks = __webpack_require__(59);
+var _localHooks = __webpack_require__(58);
 
 var _localHooks2 = _interopRequireDefault(_localHooks);
 
-<<<<<<< HEAD
-var _transformation = __webpack_require__(528);
-=======
 var _transformation = __webpack_require__(527);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _transformation2 = _interopRequireDefault(_transformation);
 
-var _utils = __webpack_require__(92);
+var _utils = __webpack_require__(91);
 
 var _templateLiteralTag = __webpack_require__(41);
 
@@ -66887,11 +50180,7 @@ var Selection = function () {
 exports.default = Selection;
 
 /***/ }),
-<<<<<<< HEAD
-/* 527 */
-=======
 /* 526 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67069,11 +50358,7 @@ var SelectionRange = function () {
 exports.default = SelectionRange;
 
 /***/ }),
-<<<<<<< HEAD
-/* 528 */
-=======
 /* 527 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67087,7 +50372,7 @@ var _src = __webpack_require__(4);
 
 var _object = __webpack_require__(2);
 
-var _localHooks = __webpack_require__(59);
+var _localHooks = __webpack_require__(58);
 
 var _localHooks2 = _interopRequireDefault(_localHooks);
 
@@ -67250,11 +50535,7 @@ var Transformation = function () {
 exports.default = Transformation;
 
 /***/ }),
-<<<<<<< HEAD
-/* 529 */
-=======
 /* 528 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67315,11 +50596,7 @@ function jQueryWrapper(Handsontable) {
 };
 
 /***/ }),
-<<<<<<< HEAD
-/* 530 */
-=======
 /* 529 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67328,89 +50605,6 @@ function jQueryWrapper(Handsontable) {
 exports.__esModule = true;
 exports.Base = exports.UndoRedo = exports.TouchScroll = exports.Search = exports.PersistentState = exports.ObserveChanges = exports.MultipleSelectionHandles = exports.MergeCells = exports.ManualRowResize = exports.ManualRowMove = exports.ManualColumnResize = exports.ManualColumnMove = exports.ManualColumnFreeze = exports.DragToScroll = exports.CustomBorders = exports.CopyPaste = exports.ContextMenu = exports.Comments = exports.ColumnSorting = exports.AutoRowSize = exports.AutoFill = exports.AutoColumnSize = undefined;
 
-<<<<<<< HEAD
-var _persistentState = __webpack_require__(531);
-
-var _persistentState2 = _interopRequireDefault(_persistentState);
-
-var _autoColumnSize = __webpack_require__(533);
-
-var _autoColumnSize2 = _interopRequireDefault(_autoColumnSize);
-
-var _autofill = __webpack_require__(534);
-
-var _autofill2 = _interopRequireDefault(_autofill);
-
-var _autoRowSize = __webpack_require__(536);
-
-var _autoRowSize2 = _interopRequireDefault(_autoRowSize);
-
-var _columnSorting = __webpack_require__(537);
-
-var _columnSorting2 = _interopRequireDefault(_columnSorting);
-
-var _comments = __webpack_require__(544);
-
-var _comments2 = _interopRequireDefault(_comments);
-
-var _contextMenu = __webpack_require__(548);
-
-var _contextMenu2 = _interopRequireDefault(_contextMenu);
-
-var _copyPaste = __webpack_require__(565);
-
-var _copyPaste2 = _interopRequireDefault(_copyPaste);
-
-var _customBorders = __webpack_require__(572);
-
-var _customBorders2 = _interopRequireDefault(_customBorders);
-
-var _dragToScroll = __webpack_require__(578);
-
-var _dragToScroll2 = _interopRequireDefault(_dragToScroll);
-
-var _manualColumnFreeze = __webpack_require__(579);
-
-var _manualColumnFreeze2 = _interopRequireDefault(_manualColumnFreeze);
-
-var _manualColumnMove = __webpack_require__(583);
-
-var _manualColumnMove2 = _interopRequireDefault(_manualColumnMove);
-
-var _manualColumnResize = __webpack_require__(588);
-
-var _manualColumnResize2 = _interopRequireDefault(_manualColumnResize);
-
-var _manualRowMove = __webpack_require__(589);
-
-var _manualRowMove2 = _interopRequireDefault(_manualRowMove);
-
-var _manualRowResize = __webpack_require__(594);
-
-var _manualRowResize2 = _interopRequireDefault(_manualRowResize);
-
-var _mergeCells = __webpack_require__(595);
-
-var _mergeCells2 = _interopRequireDefault(_mergeCells);
-
-var _multipleSelectionHandles = __webpack_require__(601);
-
-var _multipleSelectionHandles2 = _interopRequireDefault(_multipleSelectionHandles);
-
-var _observeChanges = __webpack_require__(602);
-
-var _observeChanges2 = _interopRequireDefault(_observeChanges);
-
-var _search = __webpack_require__(605);
-
-var _search2 = _interopRequireDefault(_search);
-
-var _touchScroll = __webpack_require__(606);
-
-var _touchScroll2 = _interopRequireDefault(_touchScroll);
-
-var _undoRedo = __webpack_require__(607);
-=======
 var _persistentState = __webpack_require__(530);
 
 var _persistentState2 = _interopRequireDefault(_persistentState);
@@ -67431,68 +50625,67 @@ var _columnSorting = __webpack_require__(536);
 
 var _columnSorting2 = _interopRequireDefault(_columnSorting);
 
-var _comments = __webpack_require__(539);
+var _comments = __webpack_require__(543);
 
 var _comments2 = _interopRequireDefault(_comments);
 
-var _contextMenu = __webpack_require__(543);
+var _contextMenu = __webpack_require__(547);
 
 var _contextMenu2 = _interopRequireDefault(_contextMenu);
 
-var _copyPaste = __webpack_require__(560);
+var _copyPaste = __webpack_require__(564);
 
 var _copyPaste2 = _interopRequireDefault(_copyPaste);
 
-var _customBorders = __webpack_require__(567);
+var _customBorders = __webpack_require__(571);
 
 var _customBorders2 = _interopRequireDefault(_customBorders);
 
-var _dragToScroll = __webpack_require__(573);
+var _dragToScroll = __webpack_require__(577);
 
 var _dragToScroll2 = _interopRequireDefault(_dragToScroll);
 
-var _manualColumnFreeze = __webpack_require__(574);
+var _manualColumnFreeze = __webpack_require__(578);
 
 var _manualColumnFreeze2 = _interopRequireDefault(_manualColumnFreeze);
 
-var _manualColumnMove = __webpack_require__(578);
+var _manualColumnMove = __webpack_require__(582);
 
 var _manualColumnMove2 = _interopRequireDefault(_manualColumnMove);
 
-var _manualColumnResize = __webpack_require__(583);
+var _manualColumnResize = __webpack_require__(587);
 
 var _manualColumnResize2 = _interopRequireDefault(_manualColumnResize);
 
-var _manualRowMove = __webpack_require__(584);
+var _manualRowMove = __webpack_require__(588);
 
 var _manualRowMove2 = _interopRequireDefault(_manualRowMove);
 
-var _manualRowResize = __webpack_require__(589);
+var _manualRowResize = __webpack_require__(593);
 
 var _manualRowResize2 = _interopRequireDefault(_manualRowResize);
 
-var _mergeCells = __webpack_require__(590);
+var _mergeCells = __webpack_require__(594);
 
 var _mergeCells2 = _interopRequireDefault(_mergeCells);
 
-var _multipleSelectionHandles = __webpack_require__(596);
+var _multipleSelectionHandles = __webpack_require__(600);
 
 var _multipleSelectionHandles2 = _interopRequireDefault(_multipleSelectionHandles);
 
-var _observeChanges = __webpack_require__(597);
+var _observeChanges = __webpack_require__(601);
 
 var _observeChanges2 = _interopRequireDefault(_observeChanges);
 
-var _search = __webpack_require__(600);
+var _search = __webpack_require__(604);
 
 var _search2 = _interopRequireDefault(_search);
 
-var _touchScroll = __webpack_require__(601);
+var _touchScroll = __webpack_require__(605);
 
 var _touchScroll2 = _interopRequireDefault(_touchScroll);
 
-var _undoRedo = __webpack_require__(602);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _undoRedo = __webpack_require__(606);
 
 var _undoRedo2 = _interopRequireDefault(_undoRedo);
 
@@ -67526,11 +50719,7 @@ exports.UndoRedo = _undoRedo2.default;
 exports.Base = _base2.default;
 
 /***/ }),
-<<<<<<< HEAD
-/* 531 */
-=======
 /* 530 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67548,11 +50737,7 @@ var _base2 = _interopRequireDefault(_base);
 
 var _plugins = __webpack_require__(8);
 
-<<<<<<< HEAD
-var _storage = __webpack_require__(532);
-=======
 var _storage = __webpack_require__(531);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _storage2 = _interopRequireDefault(_storage);
 
@@ -67740,11 +50925,7 @@ var PersistentState = function (_BasePlugin) {
 exports.default = PersistentState;
 
 /***/ }),
-<<<<<<< HEAD
-/* 532 */
-=======
 /* 531 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67896,11 +51077,7 @@ var Storage = function () {
 exports.default = Storage;
 
 /***/ }),
-<<<<<<< HEAD
-/* 533 */
-=======
 /* 532 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67920,11 +51097,11 @@ var _base2 = _interopRequireDefault(_base);
 
 var _array = __webpack_require__(1);
 
-var _feature = __webpack_require__(41);
+var _feature = __webpack_require__(40);
 
 var _element = __webpack_require__(0);
 
-var _ghostTable = __webpack_require__(93);
+var _ghostTable = __webpack_require__(92);
 
 var _ghostTable2 = _interopRequireDefault(_ghostTable);
 
@@ -67934,11 +51111,7 @@ var _number = __webpack_require__(5);
 
 var _plugins = __webpack_require__(8);
 
-<<<<<<< HEAD
-var _samplesGenerator = __webpack_require__(445);
-=======
-var _samplesGenerator = __webpack_require__(443);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _samplesGenerator = __webpack_require__(444);
 
 var _samplesGenerator2 = _interopRequireDefault(_samplesGenerator);
 
@@ -68581,11 +51754,7 @@ var AutoColumnSize = function (_BasePlugin) {
 exports.default = AutoColumnSize;
 
 /***/ }),
-<<<<<<< HEAD
-/* 534 */
-=======
 /* 533 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -68615,11 +51784,7 @@ var _plugins = __webpack_require__(8);
 
 var _src = __webpack_require__(4);
 
-<<<<<<< HEAD
-var _utils = __webpack_require__(535);
-=======
 var _utils = __webpack_require__(534);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -69265,11 +52430,7 @@ var Autofill = function (_BasePlugin) {
 exports.default = Autofill;
 
 /***/ }),
-<<<<<<< HEAD
-/* 535 */
-=======
 /* 534 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -69421,11 +52582,7 @@ function getMappedFillHandleSetting(fillHandle) {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 536 */
-=======
 /* 535 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -69443,11 +52600,11 @@ var _base2 = _interopRequireDefault(_base);
 
 var _array = __webpack_require__(1);
 
-var _feature = __webpack_require__(41);
+var _feature = __webpack_require__(40);
 
 var _element = __webpack_require__(0);
 
-var _ghostTable = __webpack_require__(93);
+var _ghostTable = __webpack_require__(92);
 
 var _ghostTable2 = _interopRequireDefault(_ghostTable);
 
@@ -69457,11 +52614,7 @@ var _number = __webpack_require__(5);
 
 var _plugins = __webpack_require__(8);
 
-<<<<<<< HEAD
-var _samplesGenerator = __webpack_require__(445);
-=======
-var _samplesGenerator = __webpack_require__(443);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _samplesGenerator = __webpack_require__(444);
 
 var _samplesGenerator2 = _interopRequireDefault(_samplesGenerator);
 
@@ -70078,11 +53231,7 @@ var AutoRowSize = function (_BasePlugin) {
 exports.default = AutoRowSize;
 
 /***/ }),
-<<<<<<< HEAD
-/* 537 */
-=======
 /* 536 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70094,13 +53243,6 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
 
-<<<<<<< HEAD
-=======
-var _moment = __webpack_require__(47);
-
-var _moment2 = _interopRequireDefault(_moment);
-
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 var _element = __webpack_require__(0);
 
 var _object = __webpack_require__(2);
@@ -70113,11 +53255,7 @@ var _base2 = _interopRequireDefault(_base);
 
 var _plugins = __webpack_require__(8);
 
-<<<<<<< HEAD
-var _mergeSort = __webpack_require__(538);
-=======
 var _mergeSort = __webpack_require__(537);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _mergeSort2 = _interopRequireDefault(_mergeSort);
 
@@ -70125,19 +53263,19 @@ var _pluginHooks = __webpack_require__(16);
 
 var _pluginHooks2 = _interopRequireDefault(_pluginHooks);
 
-var _rowsMapper = __webpack_require__(540);
+var _rowsMapper = __webpack_require__(539);
 
 var _rowsMapper2 = _interopRequireDefault(_rowsMapper);
 
-var _date = __webpack_require__(541);
+var _date = __webpack_require__(540);
 
 var _date2 = _interopRequireDefault(_date);
 
-var _numeric = __webpack_require__(542);
+var _numeric = __webpack_require__(541);
 
 var _numeric2 = _interopRequireDefault(_numeric);
 
-var _default = __webpack_require__(543);
+var _default = __webpack_require__(542);
 
 var _default2 = _interopRequireDefault(_default);
 
@@ -70755,11 +53893,7 @@ var ColumnSorting = function (_BasePlugin) {
 exports.default = ColumnSorting;
 
 /***/ }),
-<<<<<<< HEAD
-/* 538 */
-=======
 /* 537 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70769,11 +53903,7 @@ exports.__esModule = true;
 exports.default = mergeSort;
 exports.merge = merge;
 
-<<<<<<< HEAD
-var _linkedList = __webpack_require__(539);
-=======
 var _linkedList = __webpack_require__(538);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _linkedList2 = _interopRequireDefault(_linkedList);
 
@@ -70888,11 +54018,7 @@ function merge(array, compareFunction, startIndex, middleIndex, endIndex) {
 };
 
 /***/ }),
-<<<<<<< HEAD
-/* 539 */
-=======
 /* 538 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71203,8 +54329,7 @@ exports.NodeStructure = NodeStructure;
 exports.default = LinkedList;
 
 /***/ }),
-<<<<<<< HEAD
-/* 540 */
+/* 539 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71214,7 +54339,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _arrayMapper = __webpack_require__(94);
+var _arrayMapper = __webpack_require__(93);
 
 var _arrayMapper2 = _interopRequireDefault(_arrayMapper);
 
@@ -71282,7 +54407,7 @@ var RowsMapper = function () {
 exports.default = RowsMapper;
 
 /***/ }),
-/* 541 */
+/* 540 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71358,7 +54483,7 @@ function dateSort(sortOrder, columnMeta) {
 }
 
 /***/ }),
-/* 542 */
+/* 541 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71416,7 +54541,7 @@ function numericSort(sortOrder, columnMeta) {
 }
 
 /***/ }),
-/* 543 */
+/* 542 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71490,10 +54615,7 @@ function defaultSort(sortOrder, columnMeta) {
 }
 
 /***/ }),
-/* 544 */
-=======
-/* 539 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 543 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71521,21 +54643,13 @@ var _base = __webpack_require__(10);
 
 var _base2 = _interopRequireDefault(_base);
 
-<<<<<<< HEAD
-var _commentEditor = __webpack_require__(545);
-=======
-var _commentEditor = __webpack_require__(540);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _commentEditor = __webpack_require__(544);
 
 var _commentEditor2 = _interopRequireDefault(_commentEditor);
 
 var _utils = __webpack_require__(19);
 
-<<<<<<< HEAD
-var _displaySwitch = __webpack_require__(546);
-=======
-var _displaySwitch = __webpack_require__(541);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _displaySwitch = __webpack_require__(545);
 
 var _displaySwitch2 = _interopRequireDefault(_displaySwitch);
 
@@ -71543,11 +54657,7 @@ var _constants = __webpack_require__(7);
 
 var C = _interopRequireWildcard(_constants);
 
-<<<<<<< HEAD
-__webpack_require__(547);
-=======
-__webpack_require__(542);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+__webpack_require__(546);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -72487,11 +55597,7 @@ var Comments = function (_BasePlugin) {
 exports.default = Comments;
 
 /***/ }),
-<<<<<<< HEAD
-/* 545 */
-=======
-/* 540 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 544 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -72749,11 +55855,7 @@ var CommentEditor = function () {
 exports.default = CommentEditor;
 
 /***/ }),
-<<<<<<< HEAD
-/* 546 */
-=======
-/* 541 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 545 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -72767,7 +55869,7 @@ var _function = __webpack_require__(42);
 
 var _object = __webpack_require__(2);
 
-var _localHooks = __webpack_require__(59);
+var _localHooks = __webpack_require__(58);
 
 var _localHooks2 = _interopRequireDefault(_localHooks);
 
@@ -72896,21 +55998,13 @@ var DisplaySwitch = function () {
 exports.default = DisplaySwitch;
 
 /***/ }),
-<<<<<<< HEAD
-/* 547 */
-=======
-/* 542 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 546 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-<<<<<<< HEAD
-/* 548 */
-=======
-/* 543 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 547 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -72932,11 +56026,7 @@ var _pluginHooks2 = _interopRequireDefault(_pluginHooks);
 
 var _array = __webpack_require__(1);
 
-<<<<<<< HEAD
-var _commandExecutor = __webpack_require__(549);
-=======
-var _commandExecutor = __webpack_require__(544);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _commandExecutor = __webpack_require__(548);
 
 var _commandExecutor2 = _interopRequireDefault(_commandExecutor);
 
@@ -72944,19 +56034,11 @@ var _eventManager = __webpack_require__(6);
 
 var _eventManager2 = _interopRequireDefault(_eventManager);
 
-<<<<<<< HEAD
-var _itemsFactory = __webpack_require__(550);
+var _itemsFactory = __webpack_require__(549);
 
 var _itemsFactory2 = _interopRequireDefault(_itemsFactory);
 
-var _menu = __webpack_require__(562);
-=======
-var _itemsFactory = __webpack_require__(545);
-
-var _itemsFactory2 = _interopRequireDefault(_itemsFactory);
-
-var _menu = __webpack_require__(557);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _menu = __webpack_require__(561);
 
 var _menu2 = _interopRequireDefault(_menu);
 
@@ -72966,13 +56048,9 @@ var _event = __webpack_require__(13);
 
 var _element = __webpack_require__(0);
 
-var _predefinedItems = __webpack_require__(96);
+var _predefinedItems = __webpack_require__(95);
 
-<<<<<<< HEAD
-__webpack_require__(564);
-=======
-__webpack_require__(559);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+__webpack_require__(563);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -73372,11 +56450,7 @@ ContextMenu.SEPARATOR = {
 exports.default = ContextMenu;
 
 /***/ }),
-<<<<<<< HEAD
-/* 549 */
-=======
-/* 544 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 548 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -73508,11 +56582,7 @@ function findSubCommand(subCommandName, subCommands) {
 exports.default = CommandExecutor;
 
 /***/ }),
-<<<<<<< HEAD
-/* 550 */
-=======
-/* 545 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 549 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -73526,7 +56596,7 @@ var _object = __webpack_require__(2);
 
 var _array = __webpack_require__(1);
 
-var _predefinedItems = __webpack_require__(96);
+var _predefinedItems = __webpack_require__(95);
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -73660,11 +56730,7 @@ function _getItems() {
 exports.default = ItemsFactory;
 
 /***/ }),
-<<<<<<< HEAD
-/* 551 */
-=======
-/* 546 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 550 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -73676,7 +56742,7 @@ exports.default = alignmentItem;
 
 var _utils = __webpack_require__(19);
 
-var _separator = __webpack_require__(95);
+var _separator = __webpack_require__(94);
 
 var _constants = __webpack_require__(7);
 
@@ -73984,11 +57050,7 @@ function alignmentItem() {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 552 */
-=======
-/* 547 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 551 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74046,11 +57108,7 @@ function clearColumnItem() {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 553 */
-=======
-/* 548 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 552 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74113,11 +57171,7 @@ function columnLeftItem() {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 554 */
-=======
-/* 549 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 553 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74180,11 +57234,7 @@ function columnRightItem() {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 555 */
-=======
-/* 550 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 554 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74246,11 +57296,7 @@ function readOnlyItem() {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 556 */
-=======
-/* 551 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 555 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74284,11 +57330,7 @@ function redoItem() {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 557 */
-=======
-/* 552 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 556 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74305,7 +57347,7 @@ var _utils = __webpack_require__(19);
 
 var _array = __webpack_require__(1);
 
-var _utils2 = __webpack_require__(92);
+var _utils2 = __webpack_require__(91);
 
 var _constants = __webpack_require__(7);
 
@@ -74358,11 +57400,7 @@ function removeColumnItem() {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 558 */
-=======
-/* 553 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 557 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74379,7 +57417,7 @@ var _utils = __webpack_require__(19);
 
 var _array = __webpack_require__(1);
 
-var _utils2 = __webpack_require__(92);
+var _utils2 = __webpack_require__(91);
 
 var _constants = __webpack_require__(7);
 
@@ -74432,11 +57470,7 @@ function removeRowItem() {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 559 */
-=======
-/* 554 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 558 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74483,11 +57517,7 @@ function rowAboveItem() {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 560 */
-=======
-/* 555 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 559 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74534,11 +57564,7 @@ function rowBelowItem() {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 561 */
-=======
-/* 556 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 560 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74572,11 +57598,7 @@ function undoItem() {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 562 */
-=======
-/* 557 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 561 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74586,7 +57608,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _core = __webpack_require__(89);
+var _core = __webpack_require__(88);
 
 var _core2 = _interopRequireDefault(_core);
 
@@ -74594,11 +57616,7 @@ var _element = __webpack_require__(0);
 
 var _array = __webpack_require__(1);
 
-<<<<<<< HEAD
-var _cursor = __webpack_require__(563);
-=======
-var _cursor = __webpack_require__(558);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _cursor = __webpack_require__(562);
 
 var _cursor2 = _interopRequireDefault(_cursor);
 
@@ -74616,11 +57634,11 @@ var _utils = __webpack_require__(19);
 
 var _unicode = __webpack_require__(21);
 
-var _localHooks = __webpack_require__(59);
+var _localHooks = __webpack_require__(58);
 
 var _localHooks2 = _interopRequireDefault(_localHooks);
 
-var _predefinedItems = __webpack_require__(96);
+var _predefinedItems = __webpack_require__(95);
 
 var _event = __webpack_require__(13);
 
@@ -75469,11 +58487,7 @@ var Menu = function () {
 exports.default = Menu;
 
 /***/ }),
-<<<<<<< HEAD
-/* 563 */
-=======
-/* 558 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 562 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -75623,21 +58637,13 @@ var Cursor = function () {
 exports.default = Cursor;
 
 /***/ }),
-<<<<<<< HEAD
-/* 564 */
-=======
-/* 559 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 563 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-<<<<<<< HEAD
-/* 565 */
-=======
-/* 560 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 564 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -75659,11 +58665,7 @@ var _pluginHooks = __webpack_require__(16);
 
 var _pluginHooks2 = _interopRequireDefault(_pluginHooks);
 
-<<<<<<< HEAD
-var _SheetClip = __webpack_require__(436);
-=======
-var _SheetClip = __webpack_require__(434);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _SheetClip = __webpack_require__(435);
 
 var _SheetClip2 = _interopRequireDefault(_SheetClip);
 
@@ -75677,27 +58679,15 @@ var _number = __webpack_require__(5);
 
 var _plugins = __webpack_require__(8);
 
-<<<<<<< HEAD
-var _textarea = __webpack_require__(566);
+var _textarea = __webpack_require__(565);
 
 var _textarea2 = _interopRequireDefault(_textarea);
 
-var _copy = __webpack_require__(567);
+var _copy = __webpack_require__(566);
 
 var _copy2 = _interopRequireDefault(_copy);
 
-var _cut = __webpack_require__(568);
-=======
-var _textarea = __webpack_require__(561);
-
-var _textarea2 = _interopRequireDefault(_textarea);
-
-var _copy = __webpack_require__(562);
-
-var _copy2 = _interopRequireDefault(_copy);
-
-var _cut = __webpack_require__(563);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _cut = __webpack_require__(567);
 
 var _cut2 = _interopRequireDefault(_cut);
 
@@ -75705,19 +58695,11 @@ var _eventManager = __webpack_require__(6);
 
 var _eventManager2 = _interopRequireDefault(_eventManager);
 
-<<<<<<< HEAD
-var _pasteEvent = __webpack_require__(569);
+var _pasteEvent = __webpack_require__(568);
 
 var _pasteEvent2 = _interopRequireDefault(_pasteEvent);
 
-__webpack_require__(571);
-=======
-var _pasteEvent = __webpack_require__(564);
-
-var _pasteEvent2 = _interopRequireDefault(_pasteEvent);
-
-__webpack_require__(566);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+__webpack_require__(570);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -76311,11 +59293,7 @@ var CopyPaste = function (_BasePlugin) {
 exports.default = CopyPaste;
 
 /***/ }),
-<<<<<<< HEAD
-/* 566 */
-=======
-/* 561 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 565 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -76500,11 +59478,7 @@ var globalSingleton = new Textarea();
 exports.default = Textarea;
 
 /***/ }),
-<<<<<<< HEAD
-/* 567 */
-=======
-/* 562 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 566 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -76543,11 +59517,7 @@ function copyItem(copyPastePlugin) {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 568 */
-=======
-/* 563 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 567 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -76586,11 +59556,7 @@ function cutItem(copyPastePlugin) {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 569 */
-=======
-/* 564 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 568 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -76598,11 +59564,7 @@ function cutItem(copyPastePlugin) {
 
 exports.__esModule = true;
 
-<<<<<<< HEAD
-var _clipboardData = __webpack_require__(570);
-=======
-var _clipboardData = __webpack_require__(565);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _clipboardData = __webpack_require__(569);
 
 var _clipboardData2 = _interopRequireDefault(_clipboardData);
 
@@ -76619,11 +59581,7 @@ var PasteEvent = function PasteEvent() {
 exports.default = PasteEvent;
 
 /***/ }),
-<<<<<<< HEAD
-/* 570 */
-=======
-/* 565 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 569 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -76660,21 +59618,13 @@ var ClipboardData = function () {
 exports.default = ClipboardData;
 
 /***/ }),
-<<<<<<< HEAD
-/* 571 */
-=======
-/* 566 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 570 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-<<<<<<< HEAD
-/* 572 */
-=======
-/* 567 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 571 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -76708,43 +59658,23 @@ var _constants = __webpack_require__(7);
 
 var C = _interopRequireWildcard(_constants);
 
-<<<<<<< HEAD
-var _bottom = __webpack_require__(573);
+var _bottom = __webpack_require__(572);
 
 var _bottom2 = _interopRequireDefault(_bottom);
 
-var _left = __webpack_require__(574);
+var _left = __webpack_require__(573);
 
 var _left2 = _interopRequireDefault(_left);
 
-var _noBorders = __webpack_require__(575);
+var _noBorders = __webpack_require__(574);
 
 var _noBorders2 = _interopRequireDefault(_noBorders);
 
-var _right = __webpack_require__(576);
+var _right = __webpack_require__(575);
 
 var _right2 = _interopRequireDefault(_right);
 
-var _top = __webpack_require__(577);
-=======
-var _bottom = __webpack_require__(568);
-
-var _bottom2 = _interopRequireDefault(_bottom);
-
-var _left = __webpack_require__(569);
-
-var _left2 = _interopRequireDefault(_left);
-
-var _noBorders = __webpack_require__(570);
-
-var _noBorders2 = _interopRequireDefault(_noBorders);
-
-var _right = __webpack_require__(571);
-
-var _right2 = _interopRequireDefault(_right);
-
-var _top = __webpack_require__(572);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _top = __webpack_require__(576);
 
 var _top2 = _interopRequireDefault(_top);
 
@@ -77277,11 +60207,7 @@ var CustomBorders = function (_BasePlugin) {
 exports.default = CustomBorders;
 
 /***/ }),
-<<<<<<< HEAD
-/* 573 */
-=======
-/* 568 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 572 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -77317,11 +60243,7 @@ function bottom(customBordersPlugin) {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 574 */
-=======
-/* 569 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 573 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -77358,11 +60280,7 @@ function left(customBordersPlugin) {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 575 */
-=======
-/* 570 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 574 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -77395,11 +60313,7 @@ function noBorders(customBordersPlugin) {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 576 */
-=======
-/* 571 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 575 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -77435,11 +60349,7 @@ function right(customBordersPlugin) {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 577 */
-=======
-/* 572 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 576 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -77476,11 +60386,7 @@ function top(customBordersPlugin) {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 578 */
-=======
-/* 573 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 577 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -77784,11 +60690,7 @@ var DragToScroll = function (_BasePlugin) {
 exports.default = DragToScroll;
 
 /***/ }),
-<<<<<<< HEAD
-/* 579 */
-=======
-/* 574 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 578 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -77808,27 +60710,15 @@ var _plugins = __webpack_require__(8);
 
 var _array = __webpack_require__(1);
 
-<<<<<<< HEAD
-var _freezeColumn = __webpack_require__(580);
+var _freezeColumn = __webpack_require__(579);
 
 var _freezeColumn2 = _interopRequireDefault(_freezeColumn);
 
-var _unfreezeColumn = __webpack_require__(581);
+var _unfreezeColumn = __webpack_require__(580);
 
 var _unfreezeColumn2 = _interopRequireDefault(_unfreezeColumn);
 
-__webpack_require__(582);
-=======
-var _freezeColumn = __webpack_require__(575);
-
-var _freezeColumn2 = _interopRequireDefault(_freezeColumn);
-
-var _unfreezeColumn = __webpack_require__(576);
-
-var _unfreezeColumn2 = _interopRequireDefault(_unfreezeColumn);
-
-__webpack_require__(577);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+__webpack_require__(581);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -78131,11 +61021,7 @@ var ManualColumnFreeze = function (_BasePlugin) {
 exports.default = ManualColumnFreeze;
 
 /***/ }),
-<<<<<<< HEAD
-/* 580 */
-=======
-/* 575 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 579 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -78186,11 +61072,7 @@ function freezeColumnItem(manualColumnFreezePlugin) {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 581 */
-=======
-/* 576 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 580 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -78241,21 +61123,13 @@ function unfreezeColumnItem(manualColumnFreezePlugin) {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 582 */
-=======
-/* 577 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 581 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-<<<<<<< HEAD
-/* 583 */
-=======
-/* 578 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 582 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -78287,37 +61161,21 @@ var _eventManager2 = _interopRequireDefault(_eventManager);
 
 var _plugins = __webpack_require__(8);
 
-<<<<<<< HEAD
-var _columnsMapper = __webpack_require__(584);
+var _columnsMapper = __webpack_require__(583);
 
 var _columnsMapper2 = _interopRequireDefault(_columnsMapper);
 
-var _backlight = __webpack_require__(585);
+var _backlight = __webpack_require__(584);
 
 var _backlight2 = _interopRequireDefault(_backlight);
 
-var _guideline = __webpack_require__(586);
-=======
-var _columnsMapper = __webpack_require__(579);
-
-var _columnsMapper2 = _interopRequireDefault(_columnsMapper);
-
-var _backlight = __webpack_require__(580);
-
-var _backlight2 = _interopRequireDefault(_backlight);
-
-var _guideline = __webpack_require__(581);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _guideline = __webpack_require__(585);
 
 var _guideline2 = _interopRequireDefault(_guideline);
 
 var _src = __webpack_require__(4);
 
-<<<<<<< HEAD
-__webpack_require__(587);
-=======
-__webpack_require__(582);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+__webpack_require__(586);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -79176,11 +62034,7 @@ var ManualColumnMove = function (_BasePlugin) {
 exports.default = ManualColumnMove;
 
 /***/ }),
-<<<<<<< HEAD
-/* 584 */
-=======
-/* 579 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 583 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -79190,11 +62044,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-<<<<<<< HEAD
-var _arrayMapper = __webpack_require__(94);
-=======
-var _arrayMapper = __webpack_require__(444);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _arrayMapper = __webpack_require__(93);
 
 var _arrayMapper2 = _interopRequireDefault(_arrayMapper);
 
@@ -79291,11 +62141,7 @@ var ColumnsMapper = function () {
 exports.default = ColumnsMapper;
 
 /***/ }),
-<<<<<<< HEAD
-/* 585 */
-=======
-/* 580 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 584 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -79307,11 +62153,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
 
-<<<<<<< HEAD
-var _base = __webpack_require__(446);
-=======
 var _base = __webpack_require__(445);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _base2 = _interopRequireDefault(_base);
 
@@ -79360,11 +62202,7 @@ var BacklightUI = function (_BaseUI) {
 exports.default = BacklightUI;
 
 /***/ }),
-<<<<<<< HEAD
-/* 586 */
-=======
-/* 581 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 585 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -79376,11 +62214,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
 
-<<<<<<< HEAD
-var _base = __webpack_require__(446);
-=======
 var _base = __webpack_require__(445);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _base2 = _interopRequireDefault(_base);
 
@@ -79429,21 +62263,13 @@ var GuidelineUI = function (_BaseUI) {
 exports.default = GuidelineUI;
 
 /***/ }),
-<<<<<<< HEAD
-/* 587 */
-=======
-/* 582 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 586 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-<<<<<<< HEAD
-/* 588 */
-=======
-/* 583 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 587 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -80105,11 +62931,7 @@ var ManualColumnResize = function (_BasePlugin) {
 exports.default = ManualColumnResize;
 
 /***/ }),
-<<<<<<< HEAD
-/* 589 */
-=======
-/* 584 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 588 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -80141,37 +62963,19 @@ var _eventManager2 = _interopRequireDefault(_eventManager);
 
 var _plugins = __webpack_require__(8);
 
-<<<<<<< HEAD
-var _rowsMapper = __webpack_require__(590);
+var _rowsMapper = __webpack_require__(589);
 
 var _rowsMapper2 = _interopRequireDefault(_rowsMapper);
 
-var _backlight = __webpack_require__(591);
+var _backlight = __webpack_require__(590);
 
 var _backlight2 = _interopRequireDefault(_backlight);
 
-var _guideline = __webpack_require__(592);
+var _guideline = __webpack_require__(591);
 
 var _guideline2 = _interopRequireDefault(_guideline);
 
-__webpack_require__(593);
-=======
-var _rowsMapper = __webpack_require__(585);
-
-var _rowsMapper2 = _interopRequireDefault(_rowsMapper);
-
-var _backlight = __webpack_require__(586);
-
-var _backlight2 = _interopRequireDefault(_backlight);
-
-var _guideline = __webpack_require__(587);
-
-var _guideline2 = _interopRequireDefault(_guideline);
-
-var _src = __webpack_require__(4);
-
-__webpack_require__(588);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+__webpack_require__(592);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -81052,11 +63856,7 @@ var ManualRowMove = function (_BasePlugin) {
 exports.default = ManualRowMove;
 
 /***/ }),
-<<<<<<< HEAD
-/* 590 */
-=======
-/* 585 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 589 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -81066,11 +63866,7 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-<<<<<<< HEAD
-var _arrayMapper = __webpack_require__(94);
-=======
-var _arrayMapper = __webpack_require__(444);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _arrayMapper = __webpack_require__(93);
 
 var _arrayMapper2 = _interopRequireDefault(_arrayMapper);
 
@@ -81167,11 +63963,7 @@ var RowsMapper = function () {
 exports.default = RowsMapper;
 
 /***/ }),
-<<<<<<< HEAD
-/* 591 */
-=======
-/* 586 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 590 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -81183,11 +63975,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
 
-<<<<<<< HEAD
-var _base = __webpack_require__(447);
-=======
 var _base = __webpack_require__(446);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _base2 = _interopRequireDefault(_base);
 
@@ -81236,11 +64024,7 @@ var BacklightUI = function (_BaseUI) {
 exports.default = BacklightUI;
 
 /***/ }),
-<<<<<<< HEAD
-/* 592 */
-=======
-/* 587 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 591 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -81252,11 +64036,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
 
-<<<<<<< HEAD
-var _base = __webpack_require__(447);
-=======
 var _base = __webpack_require__(446);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _base2 = _interopRequireDefault(_base);
 
@@ -81305,21 +64085,13 @@ var GuidelineUI = function (_BaseUI) {
 exports.default = GuidelineUI;
 
 /***/ }),
-<<<<<<< HEAD
-/* 593 */
-=======
-/* 588 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 592 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-<<<<<<< HEAD
-/* 594 */
-=======
-/* 589 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 593 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -81904,11 +64676,7 @@ var ManualRowResize = function (_BasePlugin) {
 exports.default = ManualRowResize;
 
 /***/ }),
-<<<<<<< HEAD
-/* 595 */
-=======
-/* 590 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 594 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -81936,39 +64704,23 @@ var _event = __webpack_require__(13);
 
 var _src = __webpack_require__(4);
 
-<<<<<<< HEAD
-var _cellsCollection = __webpack_require__(596);
-=======
-var _cellsCollection = __webpack_require__(591);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _cellsCollection = __webpack_require__(595);
 
 var _cellsCollection2 = _interopRequireDefault(_cellsCollection);
 
-var _cellCoords = __webpack_require__(97);
+var _cellCoords = __webpack_require__(96);
 
 var _cellCoords2 = _interopRequireDefault(_cellCoords);
 
-<<<<<<< HEAD
-var _autofill = __webpack_require__(597);
+var _autofill = __webpack_require__(596);
 
 var _autofill2 = _interopRequireDefault(_autofill);
 
-var _selection = __webpack_require__(598);
+var _selection = __webpack_require__(597);
 
 var _selection2 = _interopRequireDefault(_selection);
 
-var _toggleMerge = __webpack_require__(599);
-=======
-var _autofill = __webpack_require__(592);
-
-var _autofill2 = _interopRequireDefault(_autofill);
-
-var _selection = __webpack_require__(593);
-
-var _selection2 = _interopRequireDefault(_selection);
-
-var _toggleMerge = __webpack_require__(594);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _toggleMerge = __webpack_require__(598);
 
 var _toggleMerge2 = _interopRequireDefault(_toggleMerge);
 
@@ -81976,19 +64728,13 @@ var _array = __webpack_require__(1);
 
 var _object = __webpack_require__(2);
 
-var _console = __webpack_require__(57);
+var _console = __webpack_require__(56);
 
 var _number = __webpack_require__(5);
 
-<<<<<<< HEAD
-var _utils = __webpack_require__(448);
-
-__webpack_require__(600);
-=======
 var _utils = __webpack_require__(447);
 
-__webpack_require__(595);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+__webpack_require__(599);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -83163,11 +65909,7 @@ var MergeCells = function (_BasePlugin) {
 exports.default = MergeCells;
 
 /***/ }),
-<<<<<<< HEAD
-/* 596 */
-=======
-/* 591 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 595 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -83179,7 +65921,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 var _templateObject = _taggedTemplateLiteral(['The merged cell declared at [', ', ', '], overlaps with the other declared merged \n    cell. The overlapping merged cell was not added to the table, please fix your setup.'], ['The merged cell declared at [', ', ', '], overlaps with the other declared merged \n    cell. The overlapping merged cell was not added to the table, please fix your setup.']);
 
-var _cellCoords = __webpack_require__(97);
+var _cellCoords = __webpack_require__(96);
 
 var _cellCoords2 = _interopRequireDefault(_cellCoords);
 
@@ -83187,15 +65929,11 @@ var _index = __webpack_require__(4);
 
 var _number = __webpack_require__(5);
 
-var _console = __webpack_require__(57);
+var _console = __webpack_require__(56);
 
 var _array = __webpack_require__(1);
 
-<<<<<<< HEAD
-var _utils = __webpack_require__(448);
-=======
 var _utils = __webpack_require__(447);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _templateLiteralTag = __webpack_require__(41);
 
@@ -83556,11 +66294,7 @@ var MergedCellsCollection = function () {
 exports.default = MergedCellsCollection;
 
 /***/ }),
-<<<<<<< HEAD
-/* 597 */
-=======
-/* 592 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 596 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -84067,11 +66801,7 @@ var AutofillCalculations = function () {
 exports.default = AutofillCalculations;
 
 /***/ }),
-<<<<<<< HEAD
-/* 598 */
-=======
-/* 593 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 597 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -84304,11 +67034,7 @@ var SelectionCalculations = function () {
 exports.default = SelectionCalculations;
 
 /***/ }),
-<<<<<<< HEAD
-/* 599 */
-=======
-/* 594 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 598 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -84321,7 +67047,7 @@ var _constants = __webpack_require__(7);
 
 var C = _interopRequireWildcard(_constants);
 
-var _cellCoords = __webpack_require__(97);
+var _cellCoords = __webpack_require__(96);
 
 var _cellCoords2 = _interopRequireDefault(_cellCoords);
 
@@ -84370,21 +67096,13 @@ function toggleMergeItem(plugin) {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 600 */
-=======
-/* 595 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 599 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-<<<<<<< HEAD
-/* 601 */
-=======
-/* 596 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 600 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -84804,11 +67522,7 @@ var MultipleSelectionHandles = function (_BasePlugin) {
 exports.default = MultipleSelectionHandles;
 
 /***/ }),
-<<<<<<< HEAD
-/* 602 */
-=======
-/* 597 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 601 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -84824,19 +67538,11 @@ var _base = __webpack_require__(10);
 
 var _base2 = _interopRequireDefault(_base);
 
-<<<<<<< HEAD
-var _jsonPatchDuplex = __webpack_require__(449);
-
-var _jsonPatchDuplex2 = _interopRequireDefault(_jsonPatchDuplex);
-
-var _dataObserver = __webpack_require__(603);
-=======
 var _jsonPatchDuplex = __webpack_require__(448);
 
 var _jsonPatchDuplex2 = _interopRequireDefault(_jsonPatchDuplex);
 
-var _dataObserver = __webpack_require__(598);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _dataObserver = __webpack_require__(602);
 
 var _dataObserver2 = _interopRequireDefault(_dataObserver);
 
@@ -85105,11 +67811,7 @@ exports.default = ObserveChanges;
 (0, _plugins.registerPlugin)('observeChanges', ObserveChanges);
 
 /***/ }),
-<<<<<<< HEAD
-/* 603 */
-=======
-/* 598 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 602 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -85119,25 +67821,17 @@ exports.__esModule = true;
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-<<<<<<< HEAD
-var _jsonPatchDuplex = __webpack_require__(449);
-=======
 var _jsonPatchDuplex = __webpack_require__(448);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
 
 var _jsonPatchDuplex2 = _interopRequireDefault(_jsonPatchDuplex);
 
-var _localHooks = __webpack_require__(59);
+var _localHooks = __webpack_require__(58);
 
 var _localHooks2 = _interopRequireDefault(_localHooks);
 
 var _object = __webpack_require__(2);
 
-<<<<<<< HEAD
-var _utils = __webpack_require__(604);
-=======
-var _utils = __webpack_require__(599);
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+var _utils = __webpack_require__(603);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -85261,11 +67955,7 @@ var DataObserver = function () {
 exports.default = DataObserver;
 
 /***/ }),
-<<<<<<< HEAD
-/* 604 */
-=======
-/* 599 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 603 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -85357,11 +68047,7 @@ function parsePath(path) {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 605 */
-=======
-/* 600 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 604 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -85745,11 +68431,7 @@ var Search = function (_BasePlugin) {
 exports.default = Search;
 
 /***/ }),
-<<<<<<< HEAD
-/* 606 */
-=======
-/* 601 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 605 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -85771,7 +68453,7 @@ var _base2 = _interopRequireDefault(_base);
 
 var _plugins = __webpack_require__(8);
 
-var _feature = __webpack_require__(41);
+var _feature = __webpack_require__(40);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -86011,11 +68693,7 @@ var TouchScroll = function (_BasePlugin) {
 exports.default = TouchScroll;
 
 /***/ }),
-<<<<<<< HEAD
-/* 607 */
-=======
-/* 602 */
->>>>>>> aff0e39e... UPDATE: To HOT version 2.0
+/* 606 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
