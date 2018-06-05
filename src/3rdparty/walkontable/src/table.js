@@ -301,7 +301,7 @@ class Table {
   _doDraw() {
     const wtRenderer = new TableRenderer(this);
 
-    wtRenderer.render(rowsToDraw);
+    wtRenderer.render();
   }
 
   removeClassFromCells(className) {
