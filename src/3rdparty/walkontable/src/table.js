@@ -192,7 +192,7 @@ class Table {
    * @param {Boolean} fastDraw If TRUE, will try to avoid full redraw and only update the border positions. If FALSE or UNDEFINED, will perform a full redraw
    * @returns {Table}
    */
-  draw(fastDraw, rowsToDraw = null) {
+  draw(fastDraw) {
     const {wtOverlays, wtViewport} = this.wot;
     let totalRows = this.instance.getSetting('totalRows');
     let rowHeaders = this.wot.getSetting('rowHeaders').length;
@@ -259,7 +259,7 @@ class Table {
       this.columnFilter = new ColumnFilter(startColumn, this.wot.getSetting('totalColumns'), rowHeaders);
 
       this.alignOverlaysWithTrimmingContainer();
-      this._doDraw(rowsToDraw); // creates calculator after draw
+      this._doDraw(); // creates calculator after draw
     }
     this.refreshSelections(fastDraw);
 
@@ -298,7 +298,7 @@ class Table {
     wtRenderer.selectiveRender(rowsToDraw);
   }
 
-  _doDraw(rowsToDraw) {
+  _doDraw() {
     const wtRenderer = new TableRenderer(this);
 
     wtRenderer.render(rowsToDraw);
