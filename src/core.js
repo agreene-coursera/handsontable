@@ -3158,7 +3158,7 @@ export default function Core(rootElement, userSettings, rootInstanceSymbol = fal
    * @returns {Boolean} `true` if selection was successful, `false` otherwise.
    */
   this.selectCellByProp = function(row, prop, endRow, endProp, scrollToCell = true, changeListener = true) {
-    warn(toSingleLine`Deprecation warning: This method is going to be removed in the next release. 
+    warn(toSingleLine`Deprecation warning: This method is going to be removed in the next release.
       If you want to select a cell using props, please use the \`selectCell\` method.`);
 
     return this.selectCells([[row, prop, endRow, endProp]], scrollToCell, changeListener);
@@ -3529,8 +3529,16 @@ export default function Core(rootElement, userSettings, rootInstanceSymbol = fal
    * @param {Array} Array of visualRowIndexs that map to the changedRows
    */
   this._renderChangedRows = function(changedRows) {
+    /*
+     * Filtered rows get incorrecly translated indexes leading to null visual indexes
+     * which we should filter out before attempting to re-render.
+     * Underlying issue is possibly in the RecordTranslator logic.
+     * (https://github.com/handsontable/handsontable/issues/4442)
+     */
+    var validChangedRows = changedRows.filter((rowIndex) => rowIndex !== null);
+
     editorManager.destroyEditor(null);
-    instance.view.selectiveRender(changedRows);
+    instance.view.selectiveRender(validChangedRows);
 
     if (selection.isSelected()) {
       editorManager.prepareEditor();
