@@ -998,7 +998,7 @@ export default function Core(rootElement, userSettings, rootInstanceSymbol = fal
       datamap.set(changes[i][0], changes[i][1], changes[i][3]);
     }
 
-    const changedRows = arrayMap(changes, ([row]) => recordTranslator.toVisualRow(row));
+    const changedRows = arrayMap(changes, ([row]) => row);
 
     grid.adjustRowsAndCols();
     instance.runHooks('beforeChangeRender', changes, source);
